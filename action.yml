@@ -1,0 +1,32 @@
+name: 'Amazon App Mesh Virtual Service Action for GitHub Actions'
+description: 'Creates an Amazon App Mesh Virtual Service'
+branding:
+  icon: 'cloud'
+  color: 'orange'
+inputs:
+  action:
+    description: 'Whether to create or delete the resource. `create` is the default.'
+    required: false
+  name:
+    description: 'The name of the Virtual Service'
+    required: true
+  mesh-name:
+    description: 'The name of the App Mesh Mesh.'
+    required: true
+  spec:
+    description: 'The Virtual Service specification as a JSON string.'
+    required: false
+  mesh-owner:
+    description: 'The account ID of the App Mesh Mesh.'
+    required: false
+  tags:
+    description: 'An array of objects with the keywords "key" and "value", as a JSON string, ex: [{"key": "foo", "value": "bar"}]'
+    required: false
+outputs:
+  arn:
+    description: 'The ARN of the Virtual Service'
+  response:
+    description: 'The final response of the AWS API.'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
