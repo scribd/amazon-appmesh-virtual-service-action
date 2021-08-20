@@ -1,1 +1,8 @@
+# 1.0.0 (2021-08-20)
+
+
+### Features
+
+* init release ([0525c01](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/0525c010ba141931907d91c26f4fcd44abb78478))
+
 # Changelog
