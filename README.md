@@ -33,7 +33,7 @@ Creating the service requires the `name`, `mesh-name`, and the `spec` at a minim
 
 ```yaml
 - name: App Mesh Virtual Service
-  uses: scribd/amazon-appmesh-virtual-service@master
+  uses: scribd/amazon-appmesh-virtual-service-action@v1
   with:
     name: my-virtual-service
     mesh-name: my-mesh-name
@@ -63,7 +63,7 @@ Deleting the service requires `name`, `mesh-name`, and `action` to be specified 
 
 ```yaml
 - name: App Mesh Virtual Service
-  uses: scribd/amazon-appmesh-virtual-service@master
+  uses: scribd/amazon-appmesh-virtual-service-action@v1
   with:
     name: my-virtual-service
     mesh-name: my-mesh-name
