@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.4...v1.0.5) (2021-08-30)
+
+
+### Bug Fixes
+
+* **deps:** bump @aws-sdk/client-app-mesh from 3.27.0 to 3.28.0 ([ec2001d](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/ec2001d4639c635858ca74ff9ced9f49553d9ab0))
+
 ## [1.0.4](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.3...v1.0.4) (2021-08-26)
 
 
