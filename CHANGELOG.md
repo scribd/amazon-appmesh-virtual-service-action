@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.12...v1.0.13) (2021-09-20)
+
+
+### Bug Fixes
+
+* **deps:** yarn upgrade ([f56a599](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/f56a599b4493dc5def5a054489687a86c56b66ce))
+
 ## [1.0.12](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.11...v1.0.12) (2021-09-20)
 
 
