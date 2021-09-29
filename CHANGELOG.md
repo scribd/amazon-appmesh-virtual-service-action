@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.15...v1.0.16) (2021-09-29)
+
+
+### Bug Fixes
+
+* **deps:** bump @actions/core from 1.5.0 to 1.6.0 ([74dee41](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/74dee411940c8f05431c91ac461cd1ffaf4f06e8))
+
 ## [1.0.15](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.14...v1.0.15) (2021-09-27)
 
 
