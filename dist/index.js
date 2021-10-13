@@ -5,7 +5,7 @@
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.36.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/client-sts":"3.36.0","@aws-sdk/config-resolver":"3.36.0","@aws-sdk/credential-provider-node":"3.36.0","@aws-sdk/fetch-http-handler":"3.36.0","@aws-sdk/hash-node":"3.36.0","@aws-sdk/invalid-dependency":"3.36.0","@aws-sdk/middleware-content-length":"3.36.0","@aws-sdk/middleware-host-header":"3.36.0","@aws-sdk/middleware-logger":"3.36.0","@aws-sdk/middleware-retry":"3.36.0","@aws-sdk/middleware-serde":"3.36.0","@aws-sdk/middleware-signing":"3.36.0","@aws-sdk/middleware-stack":"3.36.0","@aws-sdk/middleware-user-agent":"3.36.0","@aws-sdk/node-config-provider":"3.36.0","@aws-sdk/node-http-handler":"3.36.0","@aws-sdk/protocol-http":"3.36.0","@aws-sdk/smithy-client":"3.36.0","@aws-sdk/types":"3.36.0","@aws-sdk/url-parser":"3.36.0","@aws-sdk/util-base64-browser":"3.36.0","@aws-sdk/util-base64-node":"3.36.0","@aws-sdk/util-body-length-browser":"3.36.0","@aws-sdk/util-body-length-node":"3.36.0","@aws-sdk/util-user-agent-browser":"3.36.0","@aws-sdk/util-user-agent-node":"3.36.0","@aws-sdk/util-utf8-browser":"3.36.0","@aws-sdk/util-utf8-node":"3.36.0","tslib":"^2.3.0","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/client-documentation-generator":"3.36.0","@types/node":"^12.7.5","@types/uuid":"^8.3.0","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.36.1","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/client-sts":"3.36.1","@aws-sdk/config-resolver":"3.36.0","@aws-sdk/credential-provider-node":"3.36.1","@aws-sdk/fetch-http-handler":"3.36.0","@aws-sdk/hash-node":"3.36.0","@aws-sdk/invalid-dependency":"3.36.0","@aws-sdk/middleware-content-length":"3.36.0","@aws-sdk/middleware-host-header":"3.36.0","@aws-sdk/middleware-logger":"3.36.0","@aws-sdk/middleware-retry":"3.36.0","@aws-sdk/middleware-serde":"3.36.0","@aws-sdk/middleware-signing":"3.36.0","@aws-sdk/middleware-stack":"3.36.0","@aws-sdk/middleware-user-agent":"3.36.0","@aws-sdk/node-config-provider":"3.36.0","@aws-sdk/node-http-handler":"3.36.0","@aws-sdk/protocol-http":"3.36.0","@aws-sdk/smithy-client":"3.36.0","@aws-sdk/types":"3.36.0","@aws-sdk/url-parser":"3.36.0","@aws-sdk/util-base64-browser":"3.36.0","@aws-sdk/util-base64-node":"3.36.0","@aws-sdk/util-body-length-browser":"3.36.0","@aws-sdk/util-body-length-node":"3.36.0","@aws-sdk/util-user-agent-browser":"3.36.0","@aws-sdk/util-user-agent-node":"3.36.0","@aws-sdk/util-utf8-browser":"3.36.0","@aws-sdk/util-utf8-node":"3.36.0","tslib":"^2.3.0","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/client-documentation-generator":"3.36.0","@types/node":"^12.7.5","@types/uuid":"^8.3.0","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
 
 /***/ }),
 
@@ -13,7 +13,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"A
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.36.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.36.0","@aws-sdk/fetch-http-handler":"3.36.0","@aws-sdk/hash-node":"3.36.0","@aws-sdk/invalid-dependency":"3.36.0","@aws-sdk/middleware-content-length":"3.36.0","@aws-sdk/middleware-host-header":"3.36.0","@aws-sdk/middleware-logger":"3.36.0","@aws-sdk/middleware-retry":"3.36.0","@aws-sdk/middleware-serde":"3.36.0","@aws-sdk/middleware-stack":"3.36.0","@aws-sdk/middleware-user-agent":"3.36.0","@aws-sdk/node-config-provider":"3.36.0","@aws-sdk/node-http-handler":"3.36.0","@aws-sdk/protocol-http":"3.36.0","@aws-sdk/smithy-client":"3.36.0","@aws-sdk/types":"3.36.0","@aws-sdk/url-parser":"3.36.0","@aws-sdk/util-base64-browser":"3.36.0","@aws-sdk/util-base64-node":"3.36.0","@aws-sdk/util-body-length-browser":"3.36.0","@aws-sdk/util-body-length-node":"3.36.0","@aws-sdk/util-user-agent-browser":"3.36.0","@aws-sdk/util-user-agent-node":"3.36.0","@aws-sdk/util-utf8-browser":"3.36.0","@aws-sdk/util-utf8-node":"3.36.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/client-documentation-generator":"3.36.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.36.1","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.36.0","@aws-sdk/fetch-http-handler":"3.36.0","@aws-sdk/hash-node":"3.36.0","@aws-sdk/invalid-dependency":"3.36.0","@aws-sdk/middleware-content-length":"3.36.0","@aws-sdk/middleware-host-header":"3.36.0","@aws-sdk/middleware-logger":"3.36.0","@aws-sdk/middleware-retry":"3.36.0","@aws-sdk/middleware-serde":"3.36.0","@aws-sdk/middleware-stack":"3.36.0","@aws-sdk/middleware-user-agent":"3.36.0","@aws-sdk/node-config-provider":"3.36.0","@aws-sdk/node-http-handler":"3.36.0","@aws-sdk/protocol-http":"3.36.0","@aws-sdk/smithy-client":"3.36.0","@aws-sdk/types":"3.36.0","@aws-sdk/url-parser":"3.36.0","@aws-sdk/util-base64-browser":"3.36.0","@aws-sdk/util-base64-node":"3.36.0","@aws-sdk/util-body-length-browser":"3.36.0","@aws-sdk/util-body-length-node":"3.36.0","@aws-sdk/util-user-agent-browser":"3.36.0","@aws-sdk/util-user-agent-node":"3.36.0","@aws-sdk/util-utf8-browser":"3.36.0","@aws-sdk/util-utf8-node":"3.36.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/client-documentation-generator":"3.36.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
 
 /***/ }),
 
@@ -21,7 +21,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SD
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.36.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.36.0","@aws-sdk/credential-provider-node":"3.36.0","@aws-sdk/fetch-http-handler":"3.36.0","@aws-sdk/hash-node":"3.36.0","@aws-sdk/invalid-dependency":"3.36.0","@aws-sdk/middleware-content-length":"3.36.0","@aws-sdk/middleware-host-header":"3.36.0","@aws-sdk/middleware-logger":"3.36.0","@aws-sdk/middleware-retry":"3.36.0","@aws-sdk/middleware-sdk-sts":"3.36.0","@aws-sdk/middleware-serde":"3.36.0","@aws-sdk/middleware-signing":"3.36.0","@aws-sdk/middleware-stack":"3.36.0","@aws-sdk/middleware-user-agent":"3.36.0","@aws-sdk/node-config-provider":"3.36.0","@aws-sdk/node-http-handler":"3.36.0","@aws-sdk/protocol-http":"3.36.0","@aws-sdk/smithy-client":"3.36.0","@aws-sdk/types":"3.36.0","@aws-sdk/url-parser":"3.36.0","@aws-sdk/util-base64-browser":"3.36.0","@aws-sdk/util-base64-node":"3.36.0","@aws-sdk/util-body-length-browser":"3.36.0","@aws-sdk/util-body-length-node":"3.36.0","@aws-sdk/util-user-agent-browser":"3.36.0","@aws-sdk/util-user-agent-node":"3.36.0","@aws-sdk/util-utf8-browser":"3.36.0","@aws-sdk/util-utf8-node":"3.36.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/client-documentation-generator":"3.36.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.36.1","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.36.0","@aws-sdk/credential-provider-node":"3.36.1","@aws-sdk/fetch-http-handler":"3.36.0","@aws-sdk/hash-node":"3.36.0","@aws-sdk/invalid-dependency":"3.36.0","@aws-sdk/middleware-content-length":"3.36.0","@aws-sdk/middleware-host-header":"3.36.0","@aws-sdk/middleware-logger":"3.36.0","@aws-sdk/middleware-retry":"3.36.0","@aws-sdk/middleware-sdk-sts":"3.36.0","@aws-sdk/middleware-serde":"3.36.0","@aws-sdk/middleware-signing":"3.36.0","@aws-sdk/middleware-stack":"3.36.0","@aws-sdk/middleware-user-agent":"3.36.0","@aws-sdk/node-config-provider":"3.36.0","@aws-sdk/node-http-handler":"3.36.0","@aws-sdk/protocol-http":"3.36.0","@aws-sdk/smithy-client":"3.36.0","@aws-sdk/types":"3.36.0","@aws-sdk/url-parser":"3.36.0","@aws-sdk/util-base64-browser":"3.36.0","@aws-sdk/util-base64-node":"3.36.0","@aws-sdk/util-body-length-browser":"3.36.0","@aws-sdk/util-body-length-node":"3.36.0","@aws-sdk/util-user-agent-browser":"3.36.0","@aws-sdk/util-user-agent-node":"3.36.0","@aws-sdk/util-utf8-browser":"3.36.0","@aws-sdk/util-utf8-node":"3.36.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/client-documentation-generator":"3.36.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
 
 /***/ }),
 
@@ -1713,21 +1713,6 @@ const UpdateVirtualGatewayCommand_1 = __nccwpck_require__(1536);
 const UpdateVirtualNodeCommand_1 = __nccwpck_require__(1324);
 const UpdateVirtualRouterCommand_1 = __nccwpck_require__(3379);
 const UpdateVirtualServiceCommand_1 = __nccwpck_require__(1115);
-/**
- * <p>App Mesh is a service mesh based on the Envoy proxy that makes it easy to monitor and
- *          control microservices. App Mesh standardizes how your microservices communicate, giving you
- *          end-to-end visibility and helping to ensure high availability for your applications.</p>
- *          <p>App Mesh gives you consistent visibility and network traffic controls for every
- *          microservice in an application. You can use App Mesh with Amazon Web Services Fargate, Amazon ECS, Amazon EKS,
- *          Kubernetes on Amazon Web Services, and Amazon EC2.</p>
- *          <note>
- *             <p>App Mesh supports microservice applications that use service discovery naming for their
- *             components. For more information about service discovery on Amazon ECS, see <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-discovery.html">Service Discovery</a> in the <i>Amazon Elastic Container Service Developer Guide</i>. Kubernetes
- *                <code>kube-dns</code> and <code>coredns</code> are supported. For more information,
- *             see <a href="https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/">DNS
- *                for Services and Pods</a> in the Kubernetes documentation.</p>
- *          </note>
- */
 class AppMesh extends AppMeshClient_1.AppMeshClient {
     createGatewayRoute(args, optionsOrCb, cb) {
         const command = new CreateGatewayRouteCommand_1.CreateGatewayRouteCommand(args);
@@ -2283,21 +2268,6 @@ const middleware_signing_1 = __nccwpck_require__(4935);
 const middleware_user_agent_1 = __nccwpck_require__(4688);
 const smithy_client_1 = __nccwpck_require__(4963);
 const runtimeConfig_1 = __nccwpck_require__(694);
-/**
- * <p>App Mesh is a service mesh based on the Envoy proxy that makes it easy to monitor and
- *          control microservices. App Mesh standardizes how your microservices communicate, giving you
- *          end-to-end visibility and helping to ensure high availability for your applications.</p>
- *          <p>App Mesh gives you consistent visibility and network traffic controls for every
- *          microservice in an application. You can use App Mesh with Amazon Web Services Fargate, Amazon ECS, Amazon EKS,
- *          Kubernetes on Amazon Web Services, and Amazon EC2.</p>
- *          <note>
- *             <p>App Mesh supports microservice applications that use service discovery naming for their
- *             components. For more information about service discovery on Amazon ECS, see <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-discovery.html">Service Discovery</a> in the <i>Amazon Elastic Container Service Developer Guide</i>. Kubernetes
- *                <code>kube-dns</code> and <code>coredns</code> are supported. For more information,
- *             see <a href="https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/">DNS
- *                for Services and Pods</a> in the Kubernetes documentation.</p>
- *          </note>
- */
 class AppMeshClient extends smithy_client_1.Client {
     constructor(configuration) {
         const _config_0 = runtimeConfig_1.getRuntimeConfig(configuration);
@@ -2316,11 +2286,6 @@ class AppMeshClient extends smithy_client_1.Client {
         this.middlewareStack.use(middleware_signing_1.getAwsAuthPlugin(this.config));
         this.middlewareStack.use(middleware_user_agent_1.getUserAgentPlugin(this.config));
     }
-    /**
-     * Destroy underlying resources, like sockets. It's usually not necessary to do this.
-     * However in Node.js, it's best to explicitly shut down the client's agent when it is no longer needed.
-     * Otherwise, sockets might stay open for quite a long time before the server terminates them.
-     */
     destroy() {
         super.destroy();
     }
@@ -2341,39 +2306,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Creates a gateway route.</p>
- *          <p>A gateway route is attached to a virtual gateway and routes traffic to an existing
- *          virtual service. If a route matches a request, it can distribute traffic to a target
- *          virtual service.</p>
- *          <p>For more information about gateway routes, see <a href="https://docs.aws.amazon.com/app-mesh/latest/userguide/gateway-routes.html">Gateway routes</a>.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, CreateGatewayRouteCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, CreateGatewayRouteCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new CreateGatewayRouteCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link CreateGatewayRouteCommandInput} for command's `input` shape.
- * @see {@link CreateGatewayRouteCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class CreateGatewayRouteCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -2413,40 +2350,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Creates a service mesh.</p>
- *          <p> A service mesh is a logical boundary for network traffic between services that are
- *          represented by resources within the mesh. After you create your service mesh, you can
- *          create virtual services, virtual nodes, virtual routers, and routes to distribute traffic
- *          between the applications in your mesh.</p>
- *          <p>For more information about service meshes, see <a href="https://docs.aws.amazon.com/app-mesh/latest/userguide/meshes.html">Service meshes</a>.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, CreateMeshCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, CreateMeshCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new CreateMeshCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link CreateMeshCommandInput} for command's `input` shape.
- * @see {@link CreateMeshCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class CreateMeshCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -2486,38 +2394,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Creates a route that is associated with a virtual router.</p>
- *          <p> You can route several different protocols and define a retry policy for a route.
- *          Traffic can be routed to one or more virtual nodes.</p>
- *          <p>For more information about routes, see <a href="https://docs.aws.amazon.com/app-mesh/latest/userguide/routes.html">Routes</a>.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, CreateRouteCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, CreateRouteCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new CreateRouteCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link CreateRouteCommandInput} for command's `input` shape.
- * @see {@link CreateRouteCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class CreateRouteCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -2557,41 +2438,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Creates a virtual gateway.</p>
- *          <p>A virtual gateway allows resources outside your mesh to communicate to resources that
- *          are inside your mesh. The virtual gateway represents an Envoy proxy running in an Amazon ECS
- *          task, in a Kubernetes service, or on an Amazon EC2 instance. Unlike a virtual node, which
- *          represents an Envoy running with an application, a virtual gateway represents Envoy
- *          deployed by itself.</p>
- *          <p>For more information about virtual gateways, see <a href="https://docs.aws.amazon.com/app-mesh/latest/userguide/virtual_gateways.html">Virtual gateways</a>. </p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, CreateVirtualGatewayCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, CreateVirtualGatewayCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new CreateVirtualGatewayCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link CreateVirtualGatewayCommandInput} for command's `input` shape.
- * @see {@link CreateVirtualGatewayCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class CreateVirtualGatewayCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -2631,57 +2482,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Creates a virtual node within a service mesh.</p>
- *          <p> A virtual node acts as a logical pointer to a particular task group, such as an Amazon ECS
- *          service or a Kubernetes deployment. When you create a virtual node, you can specify the
- *          service discovery information for your task group, and whether the proxy running in a task
- *          group will communicate with other proxies using Transport Layer Security (TLS).</p>
- *          <p>You define a <code>listener</code> for any inbound traffic that your virtual node
- *          expects. Any virtual service that your virtual node expects to communicate to is specified
- *          as a <code>backend</code>.</p>
- *          <p>The response metadata for your new virtual node contains the <code>arn</code> that is
- *          associated with the virtual node. Set this value to the full ARN; for example,
- *             <code>arn:aws:appmesh:us-west-2:123456789012:myMesh/default/virtualNode/myApp</code>)
- *          as the <code>APPMESH_RESOURCE_ARN</code> environment variable for your task group's Envoy
- *          proxy container in your task definition or pod spec. This is then mapped to the
- *             <code>node.id</code> and <code>node.cluster</code> Envoy parameters.</p>
- *          <note>
- *             <p>By default, App Mesh uses the name of the resource you specified in
- *                <code>APPMESH_RESOURCE_ARN</code> when Envoy is referring to itself in metrics and
- *             traces. You can override this behavior by setting the
- *                <code>APPMESH_RESOURCE_CLUSTER</code> environment variable with your own name.</p>
- *          </note>
- *          <p>For more information about virtual nodes, see <a href="https://docs.aws.amazon.com/app-mesh/latest/userguide/virtual_nodes.html">Virtual nodes</a>. You must be using <code>1.15.0</code> or later of the Envoy image when
- *          setting these variables. For more information aboutApp Mesh Envoy variables, see <a href="https://docs.aws.amazon.com/app-mesh/latest/userguide/envoy.html">Envoy image</a> in
- *          the AWS App Mesh User Guide.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, CreateVirtualNodeCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, CreateVirtualNodeCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new CreateVirtualNodeCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link CreateVirtualNodeCommandInput} for command's `input` shape.
- * @see {@link CreateVirtualNodeCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class CreateVirtualNodeCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -2721,41 +2526,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Creates a virtual router within a service mesh.</p>
- *          <p>Specify a <code>listener</code> for any inbound traffic that your virtual router
- *          receives. Create a virtual router for each protocol and port that you need to route.
- *          Virtual routers handle traffic for one or more virtual services within your mesh. After you
- *          create your virtual router, create and associate routes for your virtual router that direct
- *          incoming requests to different virtual nodes.</p>
- *          <p>For more information about virtual routers, see <a href="https://docs.aws.amazon.com/app-mesh/latest/userguide/virtual_routers.html">Virtual routers</a>.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, CreateVirtualRouterCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, CreateVirtualRouterCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new CreateVirtualRouterCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link CreateVirtualRouterCommandInput} for command's `input` shape.
- * @see {@link CreateVirtualRouterCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class CreateVirtualRouterCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -2795,41 +2570,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Creates a virtual service within a service mesh.</p>
- *          <p>A virtual service is an abstraction of a real service that is provided by a virtual node
- *          directly or indirectly by means of a virtual router. Dependent services call your virtual
- *          service by its <code>virtualServiceName</code>, and those requests are routed to the
- *          virtual node or virtual router that is specified as the provider for the virtual
- *          service.</p>
- *          <p>For more information about virtual services, see <a href="https://docs.aws.amazon.com/app-mesh/latest/userguide/virtual_services.html">Virtual services</a>.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, CreateVirtualServiceCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, CreateVirtualServiceCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new CreateVirtualServiceCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link CreateVirtualServiceCommandInput} for command's `input` shape.
- * @see {@link CreateVirtualServiceCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class CreateVirtualServiceCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -2869,35 +2614,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Deletes an existing gateway route.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DeleteGatewayRouteCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DeleteGatewayRouteCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DeleteGatewayRouteCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DeleteGatewayRouteCommandInput} for command's `input` shape.
- * @see {@link DeleteGatewayRouteCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DeleteGatewayRouteCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -2937,37 +2658,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Deletes an existing service mesh.</p>
- *          <p>You must delete all resources (virtual services, routes, virtual routers, and virtual
- *          nodes) in the service mesh before you can delete the mesh itself.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DeleteMeshCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DeleteMeshCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DeleteMeshCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DeleteMeshCommandInput} for command's `input` shape.
- * @see {@link DeleteMeshCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DeleteMeshCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3007,35 +2702,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Deletes an existing route.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DeleteRouteCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DeleteRouteCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DeleteRouteCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DeleteRouteCommandInput} for command's `input` shape.
- * @see {@link DeleteRouteCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DeleteRouteCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3075,36 +2746,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Deletes an existing virtual gateway. You cannot delete a virtual gateway if any gateway
- *          routes are associated to it.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DeleteVirtualGatewayCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DeleteVirtualGatewayCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DeleteVirtualGatewayCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DeleteVirtualGatewayCommandInput} for command's `input` shape.
- * @see {@link DeleteVirtualGatewayCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DeleteVirtualGatewayCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3144,37 +2790,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Deletes an existing virtual node.</p>
- *          <p>You must delete any virtual services that list a virtual node as a service provider
- *          before you can delete the virtual node itself.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DeleteVirtualNodeCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DeleteVirtualNodeCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DeleteVirtualNodeCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DeleteVirtualNodeCommandInput} for command's `input` shape.
- * @see {@link DeleteVirtualNodeCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DeleteVirtualNodeCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3214,37 +2834,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Deletes an existing virtual router.</p>
- *          <p>You must delete any routes associated with the virtual router before you can delete the
- *          router itself.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DeleteVirtualRouterCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DeleteVirtualRouterCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DeleteVirtualRouterCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DeleteVirtualRouterCommandInput} for command's `input` shape.
- * @see {@link DeleteVirtualRouterCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DeleteVirtualRouterCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3284,35 +2878,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Deletes an existing virtual service.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DeleteVirtualServiceCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DeleteVirtualServiceCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DeleteVirtualServiceCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DeleteVirtualServiceCommandInput} for command's `input` shape.
- * @see {@link DeleteVirtualServiceCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DeleteVirtualServiceCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3352,35 +2922,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Describes an existing gateway route.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DescribeGatewayRouteCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DescribeGatewayRouteCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DescribeGatewayRouteCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DescribeGatewayRouteCommandInput} for command's `input` shape.
- * @see {@link DescribeGatewayRouteCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DescribeGatewayRouteCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3420,35 +2966,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Describes an existing service mesh.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DescribeMeshCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DescribeMeshCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DescribeMeshCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DescribeMeshCommandInput} for command's `input` shape.
- * @see {@link DescribeMeshCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DescribeMeshCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3488,35 +3010,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Describes an existing route.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DescribeRouteCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DescribeRouteCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DescribeRouteCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DescribeRouteCommandInput} for command's `input` shape.
- * @see {@link DescribeRouteCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DescribeRouteCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3556,35 +3054,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Describes an existing virtual gateway.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DescribeVirtualGatewayCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DescribeVirtualGatewayCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DescribeVirtualGatewayCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DescribeVirtualGatewayCommandInput} for command's `input` shape.
- * @see {@link DescribeVirtualGatewayCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DescribeVirtualGatewayCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3624,35 +3098,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Describes an existing virtual node.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DescribeVirtualNodeCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DescribeVirtualNodeCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DescribeVirtualNodeCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DescribeVirtualNodeCommandInput} for command's `input` shape.
- * @see {@link DescribeVirtualNodeCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DescribeVirtualNodeCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3692,35 +3142,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Describes an existing virtual router.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DescribeVirtualRouterCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DescribeVirtualRouterCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DescribeVirtualRouterCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DescribeVirtualRouterCommandInput} for command's `input` shape.
- * @see {@link DescribeVirtualRouterCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DescribeVirtualRouterCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3760,35 +3186,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Describes an existing virtual service.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, DescribeVirtualServiceCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, DescribeVirtualServiceCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new DescribeVirtualServiceCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DescribeVirtualServiceCommandInput} for command's `input` shape.
- * @see {@link DescribeVirtualServiceCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DescribeVirtualServiceCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3828,36 +3230,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Returns a list of existing gateway routes that are associated to a virtual
- *          gateway.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, ListGatewayRoutesCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, ListGatewayRoutesCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new ListGatewayRoutesCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link ListGatewayRoutesCommandInput} for command's `input` shape.
- * @see {@link ListGatewayRoutesCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class ListGatewayRoutesCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3897,35 +3274,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Returns a list of existing service meshes.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, ListMeshesCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, ListMeshesCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new ListMeshesCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link ListMeshesCommandInput} for command's `input` shape.
- * @see {@link ListMeshesCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class ListMeshesCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -3965,35 +3318,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Returns a list of existing routes in a service mesh.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, ListRoutesCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, ListRoutesCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new ListRoutesCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link ListRoutesCommandInput} for command's `input` shape.
- * @see {@link ListRoutesCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class ListRoutesCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4033,35 +3362,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>List the tags for an App Mesh resource.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, ListTagsForResourceCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, ListTagsForResourceCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new ListTagsForResourceCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link ListTagsForResourceCommandInput} for command's `input` shape.
- * @see {@link ListTagsForResourceCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class ListTagsForResourceCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4101,35 +3406,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Returns a list of existing virtual gateways in a service mesh.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, ListVirtualGatewaysCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, ListVirtualGatewaysCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new ListVirtualGatewaysCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link ListVirtualGatewaysCommandInput} for command's `input` shape.
- * @see {@link ListVirtualGatewaysCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class ListVirtualGatewaysCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4169,35 +3450,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Returns a list of existing virtual nodes.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, ListVirtualNodesCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, ListVirtualNodesCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new ListVirtualNodesCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link ListVirtualNodesCommandInput} for command's `input` shape.
- * @see {@link ListVirtualNodesCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class ListVirtualNodesCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4237,35 +3494,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Returns a list of existing virtual routers in a service mesh.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, ListVirtualRoutersCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, ListVirtualRoutersCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new ListVirtualRoutersCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link ListVirtualRoutersCommandInput} for command's `input` shape.
- * @see {@link ListVirtualRoutersCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class ListVirtualRoutersCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4305,35 +3538,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Returns a list of existing virtual services in a service mesh.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, ListVirtualServicesCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, ListVirtualServicesCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new ListVirtualServicesCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link ListVirtualServicesCommandInput} for command's `input` shape.
- * @see {@link ListVirtualServicesCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class ListVirtualServicesCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4373,38 +3582,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Associates the specified tags to a resource with the specified <code>resourceArn</code>.
- *          If existing tags on a resource aren't specified in the request parameters, they aren't
- *          changed. When a resource is deleted, the tags associated with that resource are also
- *          deleted.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, TagResourceCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, TagResourceCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new TagResourceCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link TagResourceCommandInput} for command's `input` shape.
- * @see {@link TagResourceCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class TagResourceCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4444,35 +3626,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Deletes specified tags from a resource.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, UntagResourceCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, UntagResourceCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new UntagResourceCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link UntagResourceCommandInput} for command's `input` shape.
- * @see {@link UntagResourceCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class UntagResourceCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4512,36 +3670,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Updates an existing gateway route that is associated to a specified virtual gateway in a
- *          service mesh.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, UpdateGatewayRouteCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, UpdateGatewayRouteCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new UpdateGatewayRouteCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link UpdateGatewayRouteCommandInput} for command's `input` shape.
- * @see {@link UpdateGatewayRouteCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class UpdateGatewayRouteCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4581,35 +3714,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Updates an existing service mesh.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, UpdateMeshCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, UpdateMeshCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new UpdateMeshCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link UpdateMeshCommandInput} for command's `input` shape.
- * @see {@link UpdateMeshCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class UpdateMeshCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4649,35 +3758,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Updates an existing route for a specified service mesh and virtual router.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, UpdateRouteCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, UpdateRouteCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new UpdateRouteCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link UpdateRouteCommandInput} for command's `input` shape.
- * @see {@link UpdateRouteCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class UpdateRouteCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4717,35 +3802,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Updates an existing virtual gateway in a specified service mesh.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, UpdateVirtualGatewayCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, UpdateVirtualGatewayCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new UpdateVirtualGatewayCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link UpdateVirtualGatewayCommandInput} for command's `input` shape.
- * @see {@link UpdateVirtualGatewayCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class UpdateVirtualGatewayCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4785,35 +3846,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Updates an existing virtual node in a specified service mesh.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, UpdateVirtualNodeCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, UpdateVirtualNodeCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new UpdateVirtualNodeCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link UpdateVirtualNodeCommandInput} for command's `input` shape.
- * @see {@link UpdateVirtualNodeCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class UpdateVirtualNodeCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4853,35 +3890,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Updates an existing virtual router in a specified service mesh.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, UpdateVirtualRouterCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, UpdateVirtualRouterCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new UpdateVirtualRouterCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link UpdateVirtualRouterCommandInput} for command's `input` shape.
- * @see {@link UpdateVirtualRouterCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class UpdateVirtualRouterCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -4921,35 +3934,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1156);
 const Aws_restJson1_1 = __nccwpck_require__(6224);
-/**
- * <p>Updates an existing virtual service in a specified service mesh.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { AppMeshClient, UpdateVirtualServiceCommand } from "@aws-sdk/client-app-mesh"; // ES Modules import
- * // const { AppMeshClient, UpdateVirtualServiceCommand } = require("@aws-sdk/client-app-mesh"); // CommonJS import
- * const client = new AppMeshClient(config);
- * const command = new UpdateVirtualServiceCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link UpdateVirtualServiceCommandInput} for command's `input` shape.
- * @see {@link UpdateVirtualServiceCommandOutput} for command's `response` shape.
- * @see {@link AppMeshClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class UpdateVirtualServiceCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -5128,9 +4117,6 @@ exports.HttpRetryPolicy = exports.HttpRouteMatch = exports.HttpScheme = exports.
 exports.UntagResourceOutput = exports.UntagResourceInput = exports.TooManyTagsException = exports.TagResourceOutput = exports.TagResourceInput = exports.UpdateVirtualServiceOutput = exports.UpdateVirtualServiceInput = exports.ListVirtualServicesOutput = exports.VirtualServiceRef = exports.ListVirtualServicesInput = exports.DescribeVirtualServiceOutput = exports.DescribeVirtualServiceInput = exports.DeleteVirtualServiceOutput = exports.DeleteVirtualServiceInput = exports.CreateVirtualServiceOutput = exports.VirtualServiceData = exports.VirtualServiceStatus = exports.VirtualServiceStatusCode = exports.CreateVirtualServiceInput = exports.VirtualServiceSpec = exports.VirtualServiceProvider = exports.VirtualRouterServiceProvider = exports.VirtualNodeServiceProvider = exports.UpdateVirtualRouterOutput = exports.UpdateVirtualRouterInput = exports.UpdateRouteOutput = exports.UpdateRouteInput = exports.ListRoutesOutput = exports.RouteRef = exports.ListRoutesInput = exports.DescribeRouteOutput = exports.DescribeRouteInput = exports.DeleteRouteOutput = exports.DeleteRouteInput = exports.CreateRouteOutput = exports.RouteData = exports.RouteStatus = exports.RouteStatusCode = exports.CreateRouteInput = exports.RouteSpec = exports.TcpRoute = exports.TcpRouteAction = exports.HttpRoute = void 0;
 var FileAccessLog;
 (function (FileAccessLog) {
-    /**
-     * @internal
-     */
     FileAccessLog.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -5142,9 +4128,6 @@ var AccessLog;
             return visitor.file(value.file);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     AccessLog.filterSensitiveLog = (obj) => {
         if (obj.file !== undefined)
             return { file: FileAccessLog.filterSensitiveLog(obj.file) };
@@ -5154,90 +4137,60 @@ var AccessLog;
 })(AccessLog = exports.AccessLog || (exports.AccessLog = {}));
 var BadRequestException;
 (function (BadRequestException) {
-    /**
-     * @internal
-     */
     BadRequestException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(BadRequestException = exports.BadRequestException || (exports.BadRequestException = {}));
 var ForbiddenException;
 (function (ForbiddenException) {
-    /**
-     * @internal
-     */
     ForbiddenException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ForbiddenException = exports.ForbiddenException || (exports.ForbiddenException = {}));
 var InternalServerErrorException;
 (function (InternalServerErrorException) {
-    /**
-     * @internal
-     */
     InternalServerErrorException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(InternalServerErrorException = exports.InternalServerErrorException || (exports.InternalServerErrorException = {}));
 var ListTagsForResourceInput;
 (function (ListTagsForResourceInput) {
-    /**
-     * @internal
-     */
     ListTagsForResourceInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListTagsForResourceInput = exports.ListTagsForResourceInput || (exports.ListTagsForResourceInput = {}));
 var TagRef;
 (function (TagRef) {
-    /**
-     * @internal
-     */
     TagRef.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(TagRef = exports.TagRef || (exports.TagRef = {}));
 var ListTagsForResourceOutput;
 (function (ListTagsForResourceOutput) {
-    /**
-     * @internal
-     */
     ListTagsForResourceOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListTagsForResourceOutput = exports.ListTagsForResourceOutput || (exports.ListTagsForResourceOutput = {}));
 var NotFoundException;
 (function (NotFoundException) {
-    /**
-     * @internal
-     */
     NotFoundException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(NotFoundException = exports.NotFoundException || (exports.NotFoundException = {}));
 var ServiceUnavailableException;
 (function (ServiceUnavailableException) {
-    /**
-     * @internal
-     */
     ServiceUnavailableException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ServiceUnavailableException = exports.ServiceUnavailableException || (exports.ServiceUnavailableException = {}));
 var TooManyRequestsException;
 (function (TooManyRequestsException) {
-    /**
-     * @internal
-     */
     TooManyRequestsException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(TooManyRequestsException = exports.TooManyRequestsException || (exports.TooManyRequestsException = {}));
 var ConflictException;
 (function (ConflictException) {
-    /**
-     * @internal
-     */
     ConflictException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -5249,36 +4202,24 @@ var EgressFilterType;
 })(EgressFilterType = exports.EgressFilterType || (exports.EgressFilterType = {}));
 var EgressFilter;
 (function (EgressFilter) {
-    /**
-     * @internal
-     */
     EgressFilter.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(EgressFilter = exports.EgressFilter || (exports.EgressFilter = {}));
 var MeshSpec;
 (function (MeshSpec) {
-    /**
-     * @internal
-     */
     MeshSpec.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(MeshSpec = exports.MeshSpec || (exports.MeshSpec = {}));
 var CreateMeshInput;
 (function (CreateMeshInput) {
-    /**
-     * @internal
-     */
     CreateMeshInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(CreateMeshInput = exports.CreateMeshInput || (exports.CreateMeshInput = {}));
 var ResourceMetadata;
 (function (ResourceMetadata) {
-    /**
-     * @internal
-     */
     ResourceMetadata.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -5291,144 +4232,96 @@ var MeshStatusCode;
 })(MeshStatusCode = exports.MeshStatusCode || (exports.MeshStatusCode = {}));
 var MeshStatus;
 (function (MeshStatus) {
-    /**
-     * @internal
-     */
     MeshStatus.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(MeshStatus = exports.MeshStatus || (exports.MeshStatus = {}));
 var MeshData;
 (function (MeshData) {
-    /**
-     * @internal
-     */
     MeshData.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(MeshData = exports.MeshData || (exports.MeshData = {}));
 var CreateMeshOutput;
 (function (CreateMeshOutput) {
-    /**
-     * @internal
-     */
     CreateMeshOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(CreateMeshOutput = exports.CreateMeshOutput || (exports.CreateMeshOutput = {}));
 var LimitExceededException;
 (function (LimitExceededException) {
-    /**
-     * @internal
-     */
     LimitExceededException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(LimitExceededException = exports.LimitExceededException || (exports.LimitExceededException = {}));
 var DeleteMeshInput;
 (function (DeleteMeshInput) {
-    /**
-     * @internal
-     */
     DeleteMeshInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeleteMeshInput = exports.DeleteMeshInput || (exports.DeleteMeshInput = {}));
 var DeleteMeshOutput;
 (function (DeleteMeshOutput) {
-    /**
-     * @internal
-     */
     DeleteMeshOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeleteMeshOutput = exports.DeleteMeshOutput || (exports.DeleteMeshOutput = {}));
 var ResourceInUseException;
 (function (ResourceInUseException) {
-    /**
-     * @internal
-     */
     ResourceInUseException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ResourceInUseException = exports.ResourceInUseException || (exports.ResourceInUseException = {}));
 var DescribeMeshInput;
 (function (DescribeMeshInput) {
-    /**
-     * @internal
-     */
     DescribeMeshInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DescribeMeshInput = exports.DescribeMeshInput || (exports.DescribeMeshInput = {}));
 var DescribeMeshOutput;
 (function (DescribeMeshOutput) {
-    /**
-     * @internal
-     */
     DescribeMeshOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DescribeMeshOutput = exports.DescribeMeshOutput || (exports.DescribeMeshOutput = {}));
 var ListMeshesInput;
 (function (ListMeshesInput) {
-    /**
-     * @internal
-     */
     ListMeshesInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListMeshesInput = exports.ListMeshesInput || (exports.ListMeshesInput = {}));
 var MeshRef;
 (function (MeshRef) {
-    /**
-     * @internal
-     */
     MeshRef.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(MeshRef = exports.MeshRef || (exports.MeshRef = {}));
 var ListMeshesOutput;
 (function (ListMeshesOutput) {
-    /**
-     * @internal
-     */
     ListMeshesOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListMeshesOutput = exports.ListMeshesOutput || (exports.ListMeshesOutput = {}));
 var UpdateMeshInput;
 (function (UpdateMeshInput) {
-    /**
-     * @internal
-     */
     UpdateMeshInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(UpdateMeshInput = exports.UpdateMeshInput || (exports.UpdateMeshInput = {}));
 var UpdateMeshOutput;
 (function (UpdateMeshOutput) {
-    /**
-     * @internal
-     */
     UpdateMeshOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(UpdateMeshOutput = exports.UpdateMeshOutput || (exports.UpdateMeshOutput = {}));
 var VirtualGatewayListenerTlsFileCertificate;
 (function (VirtualGatewayListenerTlsFileCertificate) {
-    /**
-     * @internal
-     */
     VirtualGatewayListenerTlsFileCertificate.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualGatewayListenerTlsFileCertificate = exports.VirtualGatewayListenerTlsFileCertificate || (exports.VirtualGatewayListenerTlsFileCertificate = {}));
 var VirtualGatewayListenerTlsSdsCertificate;
 (function (VirtualGatewayListenerTlsSdsCertificate) {
-    /**
-     * @internal
-     */
     VirtualGatewayListenerTlsSdsCertificate.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -5442,9 +4335,6 @@ var VirtualGatewayClientTlsCertificate;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     VirtualGatewayClientTlsCertificate.filterSensitiveLog = (obj) => {
         if (obj.file !== undefined)
             return { file: VirtualGatewayListenerTlsFileCertificate.filterSensitiveLog(obj.file) };
@@ -5456,45 +4346,30 @@ var VirtualGatewayClientTlsCertificate;
 })(VirtualGatewayClientTlsCertificate = exports.VirtualGatewayClientTlsCertificate || (exports.VirtualGatewayClientTlsCertificate = {}));
 var SubjectAlternativeNameMatchers;
 (function (SubjectAlternativeNameMatchers) {
-    /**
-     * @internal
-     */
     SubjectAlternativeNameMatchers.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(SubjectAlternativeNameMatchers = exports.SubjectAlternativeNameMatchers || (exports.SubjectAlternativeNameMatchers = {}));
 var SubjectAlternativeNames;
 (function (SubjectAlternativeNames) {
-    /**
-     * @internal
-     */
     SubjectAlternativeNames.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(SubjectAlternativeNames = exports.SubjectAlternativeNames || (exports.SubjectAlternativeNames = {}));
 var VirtualGatewayTlsValidationContextAcmTrust;
 (function (VirtualGatewayTlsValidationContextAcmTrust) {
-    /**
-     * @internal
-     */
     VirtualGatewayTlsValidationContextAcmTrust.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualGatewayTlsValidationContextAcmTrust = exports.VirtualGatewayTlsValidationContextAcmTrust || (exports.VirtualGatewayTlsValidationContextAcmTrust = {}));
 var VirtualGatewayTlsValidationContextFileTrust;
 (function (VirtualGatewayTlsValidationContextFileTrust) {
-    /**
-     * @internal
-     */
     VirtualGatewayTlsValidationContextFileTrust.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualGatewayTlsValidationContextFileTrust = exports.VirtualGatewayTlsValidationContextFileTrust || (exports.VirtualGatewayTlsValidationContextFileTrust = {}));
 var VirtualGatewayTlsValidationContextSdsTrust;
 (function (VirtualGatewayTlsValidationContextSdsTrust) {
-    /**
-     * @internal
-     */
     VirtualGatewayTlsValidationContextSdsTrust.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -5510,9 +4385,6 @@ var VirtualGatewayTlsValidationContextTrust;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     VirtualGatewayTlsValidationContextTrust.filterSensitiveLog = (obj) => {
         if (obj.acm !== undefined)
             return { acm: VirtualGatewayTlsValidationContextAcmTrust.filterSensitiveLog(obj.acm) };
@@ -5526,9 +4398,6 @@ var VirtualGatewayTlsValidationContextTrust;
 })(VirtualGatewayTlsValidationContextTrust = exports.VirtualGatewayTlsValidationContextTrust || (exports.VirtualGatewayTlsValidationContextTrust = {}));
 var VirtualGatewayTlsValidationContext;
 (function (VirtualGatewayTlsValidationContext) {
-    /**
-     * @internal
-     */
     VirtualGatewayTlsValidationContext.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.trust && { trust: VirtualGatewayTlsValidationContextTrust.filterSensitiveLog(obj.trust) }),
@@ -5536,9 +4405,6 @@ var VirtualGatewayTlsValidationContext;
 })(VirtualGatewayTlsValidationContext = exports.VirtualGatewayTlsValidationContext || (exports.VirtualGatewayTlsValidationContext = {}));
 var VirtualGatewayClientPolicyTls;
 (function (VirtualGatewayClientPolicyTls) {
-    /**
-     * @internal
-     */
     VirtualGatewayClientPolicyTls.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.certificate && { certificate: VirtualGatewayClientTlsCertificate.filterSensitiveLog(obj.certificate) }),
@@ -5547,9 +4413,6 @@ var VirtualGatewayClientPolicyTls;
 })(VirtualGatewayClientPolicyTls = exports.VirtualGatewayClientPolicyTls || (exports.VirtualGatewayClientPolicyTls = {}));
 var VirtualGatewayClientPolicy;
 (function (VirtualGatewayClientPolicy) {
-    /**
-     * @internal
-     */
     VirtualGatewayClientPolicy.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.tls && { tls: VirtualGatewayClientPolicyTls.filterSensitiveLog(obj.tls) }),
@@ -5557,9 +4420,6 @@ var VirtualGatewayClientPolicy;
 })(VirtualGatewayClientPolicy = exports.VirtualGatewayClientPolicy || (exports.VirtualGatewayClientPolicy = {}));
 var VirtualGatewayBackendDefaults;
 (function (VirtualGatewayBackendDefaults) {
-    /**
-     * @internal
-     */
     VirtualGatewayBackendDefaults.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.clientPolicy && { clientPolicy: VirtualGatewayClientPolicy.filterSensitiveLog(obj.clientPolicy) }),
@@ -5567,27 +4427,18 @@ var VirtualGatewayBackendDefaults;
 })(VirtualGatewayBackendDefaults = exports.VirtualGatewayBackendDefaults || (exports.VirtualGatewayBackendDefaults = {}));
 var VirtualGatewayGrpcConnectionPool;
 (function (VirtualGatewayGrpcConnectionPool) {
-    /**
-     * @internal
-     */
     VirtualGatewayGrpcConnectionPool.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualGatewayGrpcConnectionPool = exports.VirtualGatewayGrpcConnectionPool || (exports.VirtualGatewayGrpcConnectionPool = {}));
 var VirtualGatewayHttpConnectionPool;
 (function (VirtualGatewayHttpConnectionPool) {
-    /**
-     * @internal
-     */
     VirtualGatewayHttpConnectionPool.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualGatewayHttpConnectionPool = exports.VirtualGatewayHttpConnectionPool || (exports.VirtualGatewayHttpConnectionPool = {}));
 var VirtualGatewayHttp2ConnectionPool;
 (function (VirtualGatewayHttp2ConnectionPool) {
-    /**
-     * @internal
-     */
     VirtualGatewayHttp2ConnectionPool.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -5603,9 +4454,6 @@ var VirtualGatewayConnectionPool;
             return visitor.grpc(value.grpc);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     VirtualGatewayConnectionPool.filterSensitiveLog = (obj) => {
         if (obj.http !== undefined)
             return { http: VirtualGatewayHttpConnectionPool.filterSensitiveLog(obj.http) };
@@ -5625,27 +4473,18 @@ var VirtualGatewayPortProtocol;
 })(VirtualGatewayPortProtocol = exports.VirtualGatewayPortProtocol || (exports.VirtualGatewayPortProtocol = {}));
 var VirtualGatewayHealthCheckPolicy;
 (function (VirtualGatewayHealthCheckPolicy) {
-    /**
-     * @internal
-     */
     VirtualGatewayHealthCheckPolicy.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualGatewayHealthCheckPolicy = exports.VirtualGatewayHealthCheckPolicy || (exports.VirtualGatewayHealthCheckPolicy = {}));
 var VirtualGatewayPortMapping;
 (function (VirtualGatewayPortMapping) {
-    /**
-     * @internal
-     */
     VirtualGatewayPortMapping.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualGatewayPortMapping = exports.VirtualGatewayPortMapping || (exports.VirtualGatewayPortMapping = {}));
 var VirtualGatewayListenerTlsAcmCertificate;
 (function (VirtualGatewayListenerTlsAcmCertificate) {
-    /**
-     * @internal
-     */
     VirtualGatewayListenerTlsAcmCertificate.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -5661,9 +4500,6 @@ var VirtualGatewayListenerTlsCertificate;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     VirtualGatewayListenerTlsCertificate.filterSensitiveLog = (obj) => {
         if (obj.acm !== undefined)
             return { acm: VirtualGatewayListenerTlsAcmCertificate.filterSensitiveLog(obj.acm) };
@@ -5690,9 +4526,6 @@ var VirtualGatewayListenerTlsValidationContextTrust;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     VirtualGatewayListenerTlsValidationContextTrust.filterSensitiveLog = (obj) => {
         if (obj.file !== undefined)
             return { file: VirtualGatewayTlsValidationContextFileTrust.filterSensitiveLog(obj.file) };
@@ -5704,9 +4537,6 @@ var VirtualGatewayListenerTlsValidationContextTrust;
 })(VirtualGatewayListenerTlsValidationContextTrust = exports.VirtualGatewayListenerTlsValidationContextTrust || (exports.VirtualGatewayListenerTlsValidationContextTrust = {}));
 var VirtualGatewayListenerTlsValidationContext;
 (function (VirtualGatewayListenerTlsValidationContext) {
-    /**
-     * @internal
-     */
     VirtualGatewayListenerTlsValidationContext.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.trust && { trust: VirtualGatewayListenerTlsValidationContextTrust.filterSensitiveLog(obj.trust) }),
@@ -5714,9 +4544,6 @@ var VirtualGatewayListenerTlsValidationContext;
 })(VirtualGatewayListenerTlsValidationContext = exports.VirtualGatewayListenerTlsValidationContext || (exports.VirtualGatewayListenerTlsValidationContext = {}));
 var VirtualGatewayListenerTls;
 (function (VirtualGatewayListenerTls) {
-    /**
-     * @internal
-     */
     VirtualGatewayListenerTls.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.validation && {
@@ -5727,9 +4554,6 @@ var VirtualGatewayListenerTls;
 })(VirtualGatewayListenerTls = exports.VirtualGatewayListenerTls || (exports.VirtualGatewayListenerTls = {}));
 var VirtualGatewayListener;
 (function (VirtualGatewayListener) {
-    /**
-     * @internal
-     */
     VirtualGatewayListener.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.tls && { tls: VirtualGatewayListenerTls.filterSensitiveLog(obj.tls) }),
@@ -5738,9 +4562,6 @@ var VirtualGatewayListener;
 })(VirtualGatewayListener = exports.VirtualGatewayListener || (exports.VirtualGatewayListener = {}));
 var VirtualGatewayFileAccessLog;
 (function (VirtualGatewayFileAccessLog) {
-    /**
-     * @internal
-     */
     VirtualGatewayFileAccessLog.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -5752,9 +4573,6 @@ var VirtualGatewayAccessLog;
             return visitor.file(value.file);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     VirtualGatewayAccessLog.filterSensitiveLog = (obj) => {
         if (obj.file !== undefined)
             return { file: VirtualGatewayFileAccessLog.filterSensitiveLog(obj.file) };
@@ -5764,9 +4582,6 @@ var VirtualGatewayAccessLog;
 })(VirtualGatewayAccessLog = exports.VirtualGatewayAccessLog || (exports.VirtualGatewayAccessLog = {}));
 var VirtualGatewayLogging;
 (function (VirtualGatewayLogging) {
-    /**
-     * @internal
-     */
     VirtualGatewayLogging.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.accessLog && { accessLog: VirtualGatewayAccessLog.filterSensitiveLog(obj.accessLog) }),
@@ -5774,9 +4589,6 @@ var VirtualGatewayLogging;
 })(VirtualGatewayLogging = exports.VirtualGatewayLogging || (exports.VirtualGatewayLogging = {}));
 var VirtualGatewaySpec;
 (function (VirtualGatewaySpec) {
-    /**
-     * @internal
-     */
     VirtualGatewaySpec.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.backendDefaults && {
@@ -5788,9 +4600,6 @@ var VirtualGatewaySpec;
 })(VirtualGatewaySpec = exports.VirtualGatewaySpec || (exports.VirtualGatewaySpec = {}));
 var CreateVirtualGatewayInput;
 (function (CreateVirtualGatewayInput) {
-    /**
-     * @internal
-     */
     CreateVirtualGatewayInput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.spec && { spec: VirtualGatewaySpec.filterSensitiveLog(obj.spec) }),
@@ -5804,18 +4613,12 @@ var VirtualGatewayStatusCode;
 })(VirtualGatewayStatusCode = exports.VirtualGatewayStatusCode || (exports.VirtualGatewayStatusCode = {}));
 var VirtualGatewayStatus;
 (function (VirtualGatewayStatus) {
-    /**
-     * @internal
-     */
     VirtualGatewayStatus.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualGatewayStatus = exports.VirtualGatewayStatus || (exports.VirtualGatewayStatus = {}));
 var VirtualGatewayData;
 (function (VirtualGatewayData) {
-    /**
-     * @internal
-     */
     VirtualGatewayData.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.spec && { spec: VirtualGatewaySpec.filterSensitiveLog(obj.spec) }),
@@ -5823,9 +4626,6 @@ var VirtualGatewayData;
 })(VirtualGatewayData = exports.VirtualGatewayData || (exports.VirtualGatewayData = {}));
 var CreateVirtualGatewayOutput;
 (function (CreateVirtualGatewayOutput) {
-    /**
-     * @internal
-     */
     CreateVirtualGatewayOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualGateway && { virtualGateway: VirtualGatewayData.filterSensitiveLog(obj.virtualGateway) }),
@@ -5833,18 +4633,12 @@ var CreateVirtualGatewayOutput;
 })(CreateVirtualGatewayOutput = exports.CreateVirtualGatewayOutput || (exports.CreateVirtualGatewayOutput = {}));
 var DeleteVirtualGatewayInput;
 (function (DeleteVirtualGatewayInput) {
-    /**
-     * @internal
-     */
     DeleteVirtualGatewayInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeleteVirtualGatewayInput = exports.DeleteVirtualGatewayInput || (exports.DeleteVirtualGatewayInput = {}));
 var DeleteVirtualGatewayOutput;
 (function (DeleteVirtualGatewayOutput) {
-    /**
-     * @internal
-     */
     DeleteVirtualGatewayOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualGateway && { virtualGateway: VirtualGatewayData.filterSensitiveLog(obj.virtualGateway) }),
@@ -5852,18 +4646,12 @@ var DeleteVirtualGatewayOutput;
 })(DeleteVirtualGatewayOutput = exports.DeleteVirtualGatewayOutput || (exports.DeleteVirtualGatewayOutput = {}));
 var DescribeVirtualGatewayInput;
 (function (DescribeVirtualGatewayInput) {
-    /**
-     * @internal
-     */
     DescribeVirtualGatewayInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DescribeVirtualGatewayInput = exports.DescribeVirtualGatewayInput || (exports.DescribeVirtualGatewayInput = {}));
 var DescribeVirtualGatewayOutput;
 (function (DescribeVirtualGatewayOutput) {
-    /**
-     * @internal
-     */
     DescribeVirtualGatewayOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualGateway && { virtualGateway: VirtualGatewayData.filterSensitiveLog(obj.virtualGateway) }),
@@ -5876,63 +4664,42 @@ var DefaultGatewayRouteRewrite;
 })(DefaultGatewayRouteRewrite = exports.DefaultGatewayRouteRewrite || (exports.DefaultGatewayRouteRewrite = {}));
 var GatewayRouteHostnameRewrite;
 (function (GatewayRouteHostnameRewrite) {
-    /**
-     * @internal
-     */
     GatewayRouteHostnameRewrite.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GatewayRouteHostnameRewrite = exports.GatewayRouteHostnameRewrite || (exports.GatewayRouteHostnameRewrite = {}));
 var GrpcGatewayRouteRewrite;
 (function (GrpcGatewayRouteRewrite) {
-    /**
-     * @internal
-     */
     GrpcGatewayRouteRewrite.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GrpcGatewayRouteRewrite = exports.GrpcGatewayRouteRewrite || (exports.GrpcGatewayRouteRewrite = {}));
 var GatewayRouteVirtualService;
 (function (GatewayRouteVirtualService) {
-    /**
-     * @internal
-     */
     GatewayRouteVirtualService.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GatewayRouteVirtualService = exports.GatewayRouteVirtualService || (exports.GatewayRouteVirtualService = {}));
 var GatewayRouteTarget;
 (function (GatewayRouteTarget) {
-    /**
-     * @internal
-     */
     GatewayRouteTarget.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GatewayRouteTarget = exports.GatewayRouteTarget || (exports.GatewayRouteTarget = {}));
 var GrpcGatewayRouteAction;
 (function (GrpcGatewayRouteAction) {
-    /**
-     * @internal
-     */
     GrpcGatewayRouteAction.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GrpcGatewayRouteAction = exports.GrpcGatewayRouteAction || (exports.GrpcGatewayRouteAction = {}));
 var GatewayRouteHostnameMatch;
 (function (GatewayRouteHostnameMatch) {
-    /**
-     * @internal
-     */
     GatewayRouteHostnameMatch.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GatewayRouteHostnameMatch = exports.GatewayRouteHostnameMatch || (exports.GatewayRouteHostnameMatch = {}));
 var MatchRange;
 (function (MatchRange) {
-    /**
-     * @internal
-     */
     MatchRange.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -5952,9 +4719,6 @@ var GrpcMetadataMatchMethod;
             return visitor.suffix(value.suffix);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     GrpcMetadataMatchMethod.filterSensitiveLog = (obj) => {
         if (obj.exact !== undefined)
             return { exact: obj.exact };
@@ -5972,9 +4736,6 @@ var GrpcMetadataMatchMethod;
 })(GrpcMetadataMatchMethod = exports.GrpcMetadataMatchMethod || (exports.GrpcMetadataMatchMethod = {}));
 var GrpcGatewayRouteMetadata;
 (function (GrpcGatewayRouteMetadata) {
-    /**
-     * @internal
-     */
     GrpcGatewayRouteMetadata.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.match && { match: GrpcMetadataMatchMethod.filterSensitiveLog(obj.match) }),
@@ -5982,9 +4743,6 @@ var GrpcGatewayRouteMetadata;
 })(GrpcGatewayRouteMetadata = exports.GrpcGatewayRouteMetadata || (exports.GrpcGatewayRouteMetadata = {}));
 var GrpcGatewayRouteMatch;
 (function (GrpcGatewayRouteMatch) {
-    /**
-     * @internal
-     */
     GrpcGatewayRouteMatch.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.metadata && { metadata: obj.metadata.map((item) => GrpcGatewayRouteMetadata.filterSensitiveLog(item)) }),
@@ -5992,45 +4750,30 @@ var GrpcGatewayRouteMatch;
 })(GrpcGatewayRouteMatch = exports.GrpcGatewayRouteMatch || (exports.GrpcGatewayRouteMatch = {}));
 var GrpcGatewayRoute;
 (function (GrpcGatewayRoute) {
-    /**
-     * @internal
-     */
     GrpcGatewayRoute.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GrpcGatewayRoute = exports.GrpcGatewayRoute || (exports.GrpcGatewayRoute = {}));
 var HttpGatewayRoutePathRewrite;
 (function (HttpGatewayRoutePathRewrite) {
-    /**
-     * @internal
-     */
     HttpGatewayRoutePathRewrite.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(HttpGatewayRoutePathRewrite = exports.HttpGatewayRoutePathRewrite || (exports.HttpGatewayRoutePathRewrite = {}));
 var HttpGatewayRoutePrefixRewrite;
 (function (HttpGatewayRoutePrefixRewrite) {
-    /**
-     * @internal
-     */
     HttpGatewayRoutePrefixRewrite.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(HttpGatewayRoutePrefixRewrite = exports.HttpGatewayRoutePrefixRewrite || (exports.HttpGatewayRoutePrefixRewrite = {}));
 var HttpGatewayRouteRewrite;
 (function (HttpGatewayRouteRewrite) {
-    /**
-     * @internal
-     */
     HttpGatewayRouteRewrite.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(HttpGatewayRouteRewrite = exports.HttpGatewayRouteRewrite || (exports.HttpGatewayRouteRewrite = {}));
 var HttpGatewayRouteAction;
 (function (HttpGatewayRouteAction) {
-    /**
-     * @internal
-     */
     HttpGatewayRouteAction.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -6050,9 +4793,6 @@ var HeaderMatchMethod;
             return visitor.suffix(value.suffix);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     HeaderMatchMethod.filterSensitiveLog = (obj) => {
         if (obj.exact !== undefined)
             return { exact: obj.exact };
@@ -6070,9 +4810,6 @@ var HeaderMatchMethod;
 })(HeaderMatchMethod = exports.HeaderMatchMethod || (exports.HeaderMatchMethod = {}));
 var HttpGatewayRouteHeader;
 (function (HttpGatewayRouteHeader) {
-    /**
-     * @internal
-     */
     HttpGatewayRouteHeader.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.match && { match: HeaderMatchMethod.filterSensitiveLog(obj.match) }),
@@ -6092,36 +4829,24 @@ var HttpMethod;
 })(HttpMethod = exports.HttpMethod || (exports.HttpMethod = {}));
 var HttpPathMatch;
 (function (HttpPathMatch) {
-    /**
-     * @internal
-     */
     HttpPathMatch.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(HttpPathMatch = exports.HttpPathMatch || (exports.HttpPathMatch = {}));
 var QueryParameterMatch;
 (function (QueryParameterMatch) {
-    /**
-     * @internal
-     */
     QueryParameterMatch.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(QueryParameterMatch = exports.QueryParameterMatch || (exports.QueryParameterMatch = {}));
 var HttpQueryParameter;
 (function (HttpQueryParameter) {
-    /**
-     * @internal
-     */
     HttpQueryParameter.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(HttpQueryParameter = exports.HttpQueryParameter || (exports.HttpQueryParameter = {}));
 var HttpGatewayRouteMatch;
 (function (HttpGatewayRouteMatch) {
-    /**
-     * @internal
-     */
     HttpGatewayRouteMatch.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.headers && { headers: obj.headers.map((item) => HttpGatewayRouteHeader.filterSensitiveLog(item)) }),
@@ -6129,27 +4854,18 @@ var HttpGatewayRouteMatch;
 })(HttpGatewayRouteMatch = exports.HttpGatewayRouteMatch || (exports.HttpGatewayRouteMatch = {}));
 var HttpGatewayRoute;
 (function (HttpGatewayRoute) {
-    /**
-     * @internal
-     */
     HttpGatewayRoute.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(HttpGatewayRoute = exports.HttpGatewayRoute || (exports.HttpGatewayRoute = {}));
 var GatewayRouteSpec;
 (function (GatewayRouteSpec) {
-    /**
-     * @internal
-     */
     GatewayRouteSpec.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GatewayRouteSpec = exports.GatewayRouteSpec || (exports.GatewayRouteSpec = {}));
 var CreateGatewayRouteInput;
 (function (CreateGatewayRouteInput) {
-    /**
-     * @internal
-     */
     CreateGatewayRouteInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -6162,144 +4878,96 @@ var GatewayRouteStatusCode;
 })(GatewayRouteStatusCode = exports.GatewayRouteStatusCode || (exports.GatewayRouteStatusCode = {}));
 var GatewayRouteStatus;
 (function (GatewayRouteStatus) {
-    /**
-     * @internal
-     */
     GatewayRouteStatus.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GatewayRouteStatus = exports.GatewayRouteStatus || (exports.GatewayRouteStatus = {}));
 var GatewayRouteData;
 (function (GatewayRouteData) {
-    /**
-     * @internal
-     */
     GatewayRouteData.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GatewayRouteData = exports.GatewayRouteData || (exports.GatewayRouteData = {}));
 var CreateGatewayRouteOutput;
 (function (CreateGatewayRouteOutput) {
-    /**
-     * @internal
-     */
     CreateGatewayRouteOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(CreateGatewayRouteOutput = exports.CreateGatewayRouteOutput || (exports.CreateGatewayRouteOutput = {}));
 var DeleteGatewayRouteInput;
 (function (DeleteGatewayRouteInput) {
-    /**
-     * @internal
-     */
     DeleteGatewayRouteInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeleteGatewayRouteInput = exports.DeleteGatewayRouteInput || (exports.DeleteGatewayRouteInput = {}));
 var DeleteGatewayRouteOutput;
 (function (DeleteGatewayRouteOutput) {
-    /**
-     * @internal
-     */
     DeleteGatewayRouteOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeleteGatewayRouteOutput = exports.DeleteGatewayRouteOutput || (exports.DeleteGatewayRouteOutput = {}));
 var DescribeGatewayRouteInput;
 (function (DescribeGatewayRouteInput) {
-    /**
-     * @internal
-     */
     DescribeGatewayRouteInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DescribeGatewayRouteInput = exports.DescribeGatewayRouteInput || (exports.DescribeGatewayRouteInput = {}));
 var DescribeGatewayRouteOutput;
 (function (DescribeGatewayRouteOutput) {
-    /**
-     * @internal
-     */
     DescribeGatewayRouteOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DescribeGatewayRouteOutput = exports.DescribeGatewayRouteOutput || (exports.DescribeGatewayRouteOutput = {}));
 var ListGatewayRoutesInput;
 (function (ListGatewayRoutesInput) {
-    /**
-     * @internal
-     */
     ListGatewayRoutesInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListGatewayRoutesInput = exports.ListGatewayRoutesInput || (exports.ListGatewayRoutesInput = {}));
 var GatewayRouteRef;
 (function (GatewayRouteRef) {
-    /**
-     * @internal
-     */
     GatewayRouteRef.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GatewayRouteRef = exports.GatewayRouteRef || (exports.GatewayRouteRef = {}));
 var ListGatewayRoutesOutput;
 (function (ListGatewayRoutesOutput) {
-    /**
-     * @internal
-     */
     ListGatewayRoutesOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListGatewayRoutesOutput = exports.ListGatewayRoutesOutput || (exports.ListGatewayRoutesOutput = {}));
 var UpdateGatewayRouteInput;
 (function (UpdateGatewayRouteInput) {
-    /**
-     * @internal
-     */
     UpdateGatewayRouteInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(UpdateGatewayRouteInput = exports.UpdateGatewayRouteInput || (exports.UpdateGatewayRouteInput = {}));
 var UpdateGatewayRouteOutput;
 (function (UpdateGatewayRouteOutput) {
-    /**
-     * @internal
-     */
     UpdateGatewayRouteOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(UpdateGatewayRouteOutput = exports.UpdateGatewayRouteOutput || (exports.UpdateGatewayRouteOutput = {}));
 var ListVirtualGatewaysInput;
 (function (ListVirtualGatewaysInput) {
-    /**
-     * @internal
-     */
     ListVirtualGatewaysInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListVirtualGatewaysInput = exports.ListVirtualGatewaysInput || (exports.ListVirtualGatewaysInput = {}));
 var VirtualGatewayRef;
 (function (VirtualGatewayRef) {
-    /**
-     * @internal
-     */
     VirtualGatewayRef.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualGatewayRef = exports.VirtualGatewayRef || (exports.VirtualGatewayRef = {}));
 var ListVirtualGatewaysOutput;
 (function (ListVirtualGatewaysOutput) {
-    /**
-     * @internal
-     */
     ListVirtualGatewaysOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListVirtualGatewaysOutput = exports.ListVirtualGatewaysOutput || (exports.ListVirtualGatewaysOutput = {}));
 var UpdateVirtualGatewayInput;
 (function (UpdateVirtualGatewayInput) {
-    /**
-     * @internal
-     */
     UpdateVirtualGatewayInput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.spec && { spec: VirtualGatewaySpec.filterSensitiveLog(obj.spec) }),
@@ -6307,9 +4975,6 @@ var UpdateVirtualGatewayInput;
 })(UpdateVirtualGatewayInput = exports.UpdateVirtualGatewayInput || (exports.UpdateVirtualGatewayInput = {}));
 var UpdateVirtualGatewayOutput;
 (function (UpdateVirtualGatewayOutput) {
-    /**
-     * @internal
-     */
     UpdateVirtualGatewayOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualGateway && { virtualGateway: VirtualGatewayData.filterSensitiveLog(obj.virtualGateway) }),
@@ -6317,18 +4982,12 @@ var UpdateVirtualGatewayOutput;
 })(UpdateVirtualGatewayOutput = exports.UpdateVirtualGatewayOutput || (exports.UpdateVirtualGatewayOutput = {}));
 var ListenerTlsFileCertificate;
 (function (ListenerTlsFileCertificate) {
-    /**
-     * @internal
-     */
     ListenerTlsFileCertificate.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListenerTlsFileCertificate = exports.ListenerTlsFileCertificate || (exports.ListenerTlsFileCertificate = {}));
 var ListenerTlsSdsCertificate;
 (function (ListenerTlsSdsCertificate) {
-    /**
-     * @internal
-     */
     ListenerTlsSdsCertificate.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -6342,9 +5001,6 @@ var ClientTlsCertificate;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     ClientTlsCertificate.filterSensitiveLog = (obj) => {
         if (obj.file !== undefined)
             return { file: ListenerTlsFileCertificate.filterSensitiveLog(obj.file) };
@@ -6356,27 +5012,18 @@ var ClientTlsCertificate;
 })(ClientTlsCertificate = exports.ClientTlsCertificate || (exports.ClientTlsCertificate = {}));
 var TlsValidationContextAcmTrust;
 (function (TlsValidationContextAcmTrust) {
-    /**
-     * @internal
-     */
     TlsValidationContextAcmTrust.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(TlsValidationContextAcmTrust = exports.TlsValidationContextAcmTrust || (exports.TlsValidationContextAcmTrust = {}));
 var TlsValidationContextFileTrust;
 (function (TlsValidationContextFileTrust) {
-    /**
-     * @internal
-     */
     TlsValidationContextFileTrust.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(TlsValidationContextFileTrust = exports.TlsValidationContextFileTrust || (exports.TlsValidationContextFileTrust = {}));
 var TlsValidationContextSdsTrust;
 (function (TlsValidationContextSdsTrust) {
-    /**
-     * @internal
-     */
     TlsValidationContextSdsTrust.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -6392,9 +5039,6 @@ var TlsValidationContextTrust;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     TlsValidationContextTrust.filterSensitiveLog = (obj) => {
         if (obj.acm !== undefined)
             return { acm: TlsValidationContextAcmTrust.filterSensitiveLog(obj.acm) };
@@ -6408,9 +5052,6 @@ var TlsValidationContextTrust;
 })(TlsValidationContextTrust = exports.TlsValidationContextTrust || (exports.TlsValidationContextTrust = {}));
 var TlsValidationContext;
 (function (TlsValidationContext) {
-    /**
-     * @internal
-     */
     TlsValidationContext.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.trust && { trust: TlsValidationContextTrust.filterSensitiveLog(obj.trust) }),
@@ -6418,9 +5059,6 @@ var TlsValidationContext;
 })(TlsValidationContext = exports.TlsValidationContext || (exports.TlsValidationContext = {}));
 var ClientPolicyTls;
 (function (ClientPolicyTls) {
-    /**
-     * @internal
-     */
     ClientPolicyTls.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.certificate && { certificate: ClientTlsCertificate.filterSensitiveLog(obj.certificate) }),
@@ -6429,9 +5067,6 @@ var ClientPolicyTls;
 })(ClientPolicyTls = exports.ClientPolicyTls || (exports.ClientPolicyTls = {}));
 var ClientPolicy;
 (function (ClientPolicy) {
-    /**
-     * @internal
-     */
     ClientPolicy.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.tls && { tls: ClientPolicyTls.filterSensitiveLog(obj.tls) }),
@@ -6439,9 +5074,6 @@ var ClientPolicy;
 })(ClientPolicy = exports.ClientPolicy || (exports.ClientPolicy = {}));
 var BackendDefaults;
 (function (BackendDefaults) {
-    /**
-     * @internal
-     */
     BackendDefaults.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.clientPolicy && { clientPolicy: ClientPolicy.filterSensitiveLog(obj.clientPolicy) }),
@@ -6449,9 +5081,6 @@ var BackendDefaults;
 })(BackendDefaults = exports.BackendDefaults || (exports.BackendDefaults = {}));
 var VirtualServiceBackend;
 (function (VirtualServiceBackend) {
-    /**
-     * @internal
-     */
     VirtualServiceBackend.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.clientPolicy && { clientPolicy: ClientPolicy.filterSensitiveLog(obj.clientPolicy) }),
@@ -6464,9 +5093,6 @@ var Backend;
             return visitor.virtualService(value.virtualService);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     Backend.filterSensitiveLog = (obj) => {
         if (obj.virtualService !== undefined)
             return { virtualService: VirtualServiceBackend.filterSensitiveLog(obj.virtualService) };
@@ -6476,36 +5102,24 @@ var Backend;
 })(Backend = exports.Backend || (exports.Backend = {}));
 var VirtualNodeGrpcConnectionPool;
 (function (VirtualNodeGrpcConnectionPool) {
-    /**
-     * @internal
-     */
     VirtualNodeGrpcConnectionPool.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualNodeGrpcConnectionPool = exports.VirtualNodeGrpcConnectionPool || (exports.VirtualNodeGrpcConnectionPool = {}));
 var VirtualNodeHttpConnectionPool;
 (function (VirtualNodeHttpConnectionPool) {
-    /**
-     * @internal
-     */
     VirtualNodeHttpConnectionPool.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualNodeHttpConnectionPool = exports.VirtualNodeHttpConnectionPool || (exports.VirtualNodeHttpConnectionPool = {}));
 var VirtualNodeHttp2ConnectionPool;
 (function (VirtualNodeHttp2ConnectionPool) {
-    /**
-     * @internal
-     */
     VirtualNodeHttp2ConnectionPool.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualNodeHttp2ConnectionPool = exports.VirtualNodeHttp2ConnectionPool || (exports.VirtualNodeHttp2ConnectionPool = {}));
 var VirtualNodeTcpConnectionPool;
 (function (VirtualNodeTcpConnectionPool) {
-    /**
-     * @internal
-     */
     VirtualNodeTcpConnectionPool.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -6523,9 +5137,6 @@ var VirtualNodeConnectionPool;
             return visitor.grpc(value.grpc);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     VirtualNodeConnectionPool.filterSensitiveLog = (obj) => {
         if (obj.tcp !== undefined)
             return { tcp: VirtualNodeTcpConnectionPool.filterSensitiveLog(obj.tcp) };
@@ -6548,9 +5159,6 @@ var PortProtocol;
 })(PortProtocol = exports.PortProtocol || (exports.PortProtocol = {}));
 var HealthCheckPolicy;
 (function (HealthCheckPolicy) {
-    /**
-     * @internal
-     */
     HealthCheckPolicy.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -6562,54 +5170,36 @@ var DurationUnit;
 })(DurationUnit = exports.DurationUnit || (exports.DurationUnit = {}));
 var Duration;
 (function (Duration) {
-    /**
-     * @internal
-     */
     Duration.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(Duration = exports.Duration || (exports.Duration = {}));
 var OutlierDetection;
 (function (OutlierDetection) {
-    /**
-     * @internal
-     */
     OutlierDetection.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(OutlierDetection = exports.OutlierDetection || (exports.OutlierDetection = {}));
 var PortMapping;
 (function (PortMapping) {
-    /**
-     * @internal
-     */
     PortMapping.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(PortMapping = exports.PortMapping || (exports.PortMapping = {}));
 var GrpcTimeout;
 (function (GrpcTimeout) {
-    /**
-     * @internal
-     */
     GrpcTimeout.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GrpcTimeout = exports.GrpcTimeout || (exports.GrpcTimeout = {}));
 var HttpTimeout;
 (function (HttpTimeout) {
-    /**
-     * @internal
-     */
     HttpTimeout.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(HttpTimeout = exports.HttpTimeout || (exports.HttpTimeout = {}));
 var TcpTimeout;
 (function (TcpTimeout) {
-    /**
-     * @internal
-     */
     TcpTimeout.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -6627,9 +5217,6 @@ var ListenerTimeout;
             return visitor.grpc(value.grpc);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     ListenerTimeout.filterSensitiveLog = (obj) => {
         if (obj.tcp !== undefined)
             return { tcp: TcpTimeout.filterSensitiveLog(obj.tcp) };
@@ -6645,9 +5232,6 @@ var ListenerTimeout;
 })(ListenerTimeout = exports.ListenerTimeout || (exports.ListenerTimeout = {}));
 var ListenerTlsAcmCertificate;
 (function (ListenerTlsAcmCertificate) {
-    /**
-     * @internal
-     */
     ListenerTlsAcmCertificate.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -6663,9 +5247,6 @@ var ListenerTlsCertificate;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     ListenerTlsCertificate.filterSensitiveLog = (obj) => {
         if (obj.acm !== undefined)
             return { acm: ListenerTlsAcmCertificate.filterSensitiveLog(obj.acm) };
@@ -6692,9 +5273,6 @@ var ListenerTlsValidationContextTrust;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     ListenerTlsValidationContextTrust.filterSensitiveLog = (obj) => {
         if (obj.file !== undefined)
             return { file: TlsValidationContextFileTrust.filterSensitiveLog(obj.file) };
@@ -6706,9 +5284,6 @@ var ListenerTlsValidationContextTrust;
 })(ListenerTlsValidationContextTrust = exports.ListenerTlsValidationContextTrust || (exports.ListenerTlsValidationContextTrust = {}));
 var ListenerTlsValidationContext;
 (function (ListenerTlsValidationContext) {
-    /**
-     * @internal
-     */
     ListenerTlsValidationContext.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.trust && { trust: ListenerTlsValidationContextTrust.filterSensitiveLog(obj.trust) }),
@@ -6716,9 +5291,6 @@ var ListenerTlsValidationContext;
 })(ListenerTlsValidationContext = exports.ListenerTlsValidationContext || (exports.ListenerTlsValidationContext = {}));
 var ListenerTls;
 (function (ListenerTls) {
-    /**
-     * @internal
-     */
     ListenerTls.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.certificate && { certificate: ListenerTlsCertificate.filterSensitiveLog(obj.certificate) }),
@@ -6727,9 +5299,6 @@ var ListenerTls;
 })(ListenerTls = exports.ListenerTls || (exports.ListenerTls = {}));
 var Listener;
 (function (Listener) {
-    /**
-     * @internal
-     */
     Listener.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.tls && { tls: ListenerTls.filterSensitiveLog(obj.tls) }),
@@ -6739,9 +5308,6 @@ var Listener;
 })(Listener = exports.Listener || (exports.Listener = {}));
 var Logging;
 (function (Logging) {
-    /**
-     * @internal
-     */
     Logging.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.accessLog && { accessLog: AccessLog.filterSensitiveLog(obj.accessLog) }),
@@ -6749,18 +5315,12 @@ var Logging;
 })(Logging = exports.Logging || (exports.Logging = {}));
 var AwsCloudMapInstanceAttribute;
 (function (AwsCloudMapInstanceAttribute) {
-    /**
-     * @internal
-     */
     AwsCloudMapInstanceAttribute.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(AwsCloudMapInstanceAttribute = exports.AwsCloudMapInstanceAttribute || (exports.AwsCloudMapInstanceAttribute = {}));
 var AwsCloudMapServiceDiscovery;
 (function (AwsCloudMapServiceDiscovery) {
-    /**
-     * @internal
-     */
     AwsCloudMapServiceDiscovery.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -6772,9 +5332,6 @@ var DnsResponseType;
 })(DnsResponseType = exports.DnsResponseType || (exports.DnsResponseType = {}));
 var DnsServiceDiscovery;
 (function (DnsServiceDiscovery) {
-    /**
-     * @internal
-     */
     DnsServiceDiscovery.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -6788,9 +5345,6 @@ var ServiceDiscovery;
             return visitor.awsCloudMap(value.awsCloudMap);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     ServiceDiscovery.filterSensitiveLog = (obj) => {
         if (obj.dns !== undefined)
             return { dns: DnsServiceDiscovery.filterSensitiveLog(obj.dns) };
@@ -6802,9 +5356,6 @@ var ServiceDiscovery;
 })(ServiceDiscovery = exports.ServiceDiscovery || (exports.ServiceDiscovery = {}));
 var VirtualNodeSpec;
 (function (VirtualNodeSpec) {
-    /**
-     * @internal
-     */
     VirtualNodeSpec.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.serviceDiscovery && { serviceDiscovery: ServiceDiscovery.filterSensitiveLog(obj.serviceDiscovery) }),
@@ -6816,9 +5367,6 @@ var VirtualNodeSpec;
 })(VirtualNodeSpec = exports.VirtualNodeSpec || (exports.VirtualNodeSpec = {}));
 var CreateVirtualNodeInput;
 (function (CreateVirtualNodeInput) {
-    /**
-     * @internal
-     */
     CreateVirtualNodeInput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.spec && { spec: VirtualNodeSpec.filterSensitiveLog(obj.spec) }),
@@ -6832,18 +5380,12 @@ var VirtualNodeStatusCode;
 })(VirtualNodeStatusCode = exports.VirtualNodeStatusCode || (exports.VirtualNodeStatusCode = {}));
 var VirtualNodeStatus;
 (function (VirtualNodeStatus) {
-    /**
-     * @internal
-     */
     VirtualNodeStatus.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualNodeStatus = exports.VirtualNodeStatus || (exports.VirtualNodeStatus = {}));
 var VirtualNodeData;
 (function (VirtualNodeData) {
-    /**
-     * @internal
-     */
     VirtualNodeData.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.spec && { spec: VirtualNodeSpec.filterSensitiveLog(obj.spec) }),
@@ -6851,9 +5393,6 @@ var VirtualNodeData;
 })(VirtualNodeData = exports.VirtualNodeData || (exports.VirtualNodeData = {}));
 var CreateVirtualNodeOutput;
 (function (CreateVirtualNodeOutput) {
-    /**
-     * @internal
-     */
     CreateVirtualNodeOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualNode && { virtualNode: VirtualNodeData.filterSensitiveLog(obj.virtualNode) }),
@@ -6861,18 +5400,12 @@ var CreateVirtualNodeOutput;
 })(CreateVirtualNodeOutput = exports.CreateVirtualNodeOutput || (exports.CreateVirtualNodeOutput = {}));
 var DeleteVirtualNodeInput;
 (function (DeleteVirtualNodeInput) {
-    /**
-     * @internal
-     */
     DeleteVirtualNodeInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeleteVirtualNodeInput = exports.DeleteVirtualNodeInput || (exports.DeleteVirtualNodeInput = {}));
 var DeleteVirtualNodeOutput;
 (function (DeleteVirtualNodeOutput) {
-    /**
-     * @internal
-     */
     DeleteVirtualNodeOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualNode && { virtualNode: VirtualNodeData.filterSensitiveLog(obj.virtualNode) }),
@@ -6880,18 +5413,12 @@ var DeleteVirtualNodeOutput;
 })(DeleteVirtualNodeOutput = exports.DeleteVirtualNodeOutput || (exports.DeleteVirtualNodeOutput = {}));
 var DescribeVirtualNodeInput;
 (function (DescribeVirtualNodeInput) {
-    /**
-     * @internal
-     */
     DescribeVirtualNodeInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DescribeVirtualNodeInput = exports.DescribeVirtualNodeInput || (exports.DescribeVirtualNodeInput = {}));
 var DescribeVirtualNodeOutput;
 (function (DescribeVirtualNodeOutput) {
-    /**
-     * @internal
-     */
     DescribeVirtualNodeOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualNode && { virtualNode: VirtualNodeData.filterSensitiveLog(obj.virtualNode) }),
@@ -6899,36 +5426,24 @@ var DescribeVirtualNodeOutput;
 })(DescribeVirtualNodeOutput = exports.DescribeVirtualNodeOutput || (exports.DescribeVirtualNodeOutput = {}));
 var ListVirtualNodesInput;
 (function (ListVirtualNodesInput) {
-    /**
-     * @internal
-     */
     ListVirtualNodesInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListVirtualNodesInput = exports.ListVirtualNodesInput || (exports.ListVirtualNodesInput = {}));
 var VirtualNodeRef;
 (function (VirtualNodeRef) {
-    /**
-     * @internal
-     */
     VirtualNodeRef.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualNodeRef = exports.VirtualNodeRef || (exports.VirtualNodeRef = {}));
 var ListVirtualNodesOutput;
 (function (ListVirtualNodesOutput) {
-    /**
-     * @internal
-     */
     ListVirtualNodesOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListVirtualNodesOutput = exports.ListVirtualNodesOutput || (exports.ListVirtualNodesOutput = {}));
 var UpdateVirtualNodeInput;
 (function (UpdateVirtualNodeInput) {
-    /**
-     * @internal
-     */
     UpdateVirtualNodeInput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.spec && { spec: VirtualNodeSpec.filterSensitiveLog(obj.spec) }),
@@ -6936,9 +5451,6 @@ var UpdateVirtualNodeInput;
 })(UpdateVirtualNodeInput = exports.UpdateVirtualNodeInput || (exports.UpdateVirtualNodeInput = {}));
 var UpdateVirtualNodeOutput;
 (function (UpdateVirtualNodeOutput) {
-    /**
-     * @internal
-     */
     UpdateVirtualNodeOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualNode && { virtualNode: VirtualNodeData.filterSensitiveLog(obj.virtualNode) }),
@@ -6946,27 +5458,18 @@ var UpdateVirtualNodeOutput;
 })(UpdateVirtualNodeOutput = exports.UpdateVirtualNodeOutput || (exports.UpdateVirtualNodeOutput = {}));
 var VirtualRouterListener;
 (function (VirtualRouterListener) {
-    /**
-     * @internal
-     */
     VirtualRouterListener.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualRouterListener = exports.VirtualRouterListener || (exports.VirtualRouterListener = {}));
 var VirtualRouterSpec;
 (function (VirtualRouterSpec) {
-    /**
-     * @internal
-     */
     VirtualRouterSpec.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualRouterSpec = exports.VirtualRouterSpec || (exports.VirtualRouterSpec = {}));
 var CreateVirtualRouterInput;
 (function (CreateVirtualRouterInput) {
-    /**
-     * @internal
-     */
     CreateVirtualRouterInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -6979,108 +5482,72 @@ var VirtualRouterStatusCode;
 })(VirtualRouterStatusCode = exports.VirtualRouterStatusCode || (exports.VirtualRouterStatusCode = {}));
 var VirtualRouterStatus;
 (function (VirtualRouterStatus) {
-    /**
-     * @internal
-     */
     VirtualRouterStatus.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualRouterStatus = exports.VirtualRouterStatus || (exports.VirtualRouterStatus = {}));
 var VirtualRouterData;
 (function (VirtualRouterData) {
-    /**
-     * @internal
-     */
     VirtualRouterData.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualRouterData = exports.VirtualRouterData || (exports.VirtualRouterData = {}));
 var CreateVirtualRouterOutput;
 (function (CreateVirtualRouterOutput) {
-    /**
-     * @internal
-     */
     CreateVirtualRouterOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(CreateVirtualRouterOutput = exports.CreateVirtualRouterOutput || (exports.CreateVirtualRouterOutput = {}));
 var DeleteVirtualRouterInput;
 (function (DeleteVirtualRouterInput) {
-    /**
-     * @internal
-     */
     DeleteVirtualRouterInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeleteVirtualRouterInput = exports.DeleteVirtualRouterInput || (exports.DeleteVirtualRouterInput = {}));
 var DeleteVirtualRouterOutput;
 (function (DeleteVirtualRouterOutput) {
-    /**
-     * @internal
-     */
     DeleteVirtualRouterOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeleteVirtualRouterOutput = exports.DeleteVirtualRouterOutput || (exports.DeleteVirtualRouterOutput = {}));
 var DescribeVirtualRouterInput;
 (function (DescribeVirtualRouterInput) {
-    /**
-     * @internal
-     */
     DescribeVirtualRouterInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DescribeVirtualRouterInput = exports.DescribeVirtualRouterInput || (exports.DescribeVirtualRouterInput = {}));
 var DescribeVirtualRouterOutput;
 (function (DescribeVirtualRouterOutput) {
-    /**
-     * @internal
-     */
     DescribeVirtualRouterOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DescribeVirtualRouterOutput = exports.DescribeVirtualRouterOutput || (exports.DescribeVirtualRouterOutput = {}));
 var ListVirtualRoutersInput;
 (function (ListVirtualRoutersInput) {
-    /**
-     * @internal
-     */
     ListVirtualRoutersInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListVirtualRoutersInput = exports.ListVirtualRoutersInput || (exports.ListVirtualRoutersInput = {}));
 var VirtualRouterRef;
 (function (VirtualRouterRef) {
-    /**
-     * @internal
-     */
     VirtualRouterRef.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualRouterRef = exports.VirtualRouterRef || (exports.VirtualRouterRef = {}));
 var ListVirtualRoutersOutput;
 (function (ListVirtualRoutersOutput) {
-    /**
-     * @internal
-     */
     ListVirtualRoutersOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListVirtualRoutersOutput = exports.ListVirtualRoutersOutput || (exports.ListVirtualRoutersOutput = {}));
 var WeightedTarget;
 (function (WeightedTarget) {
-    /**
-     * @internal
-     */
     WeightedTarget.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(WeightedTarget = exports.WeightedTarget || (exports.WeightedTarget = {}));
 var GrpcRouteAction;
 (function (GrpcRouteAction) {
-    /**
-     * @internal
-     */
     GrpcRouteAction.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -7100,9 +5567,6 @@ var GrpcRouteMetadataMatchMethod;
             return visitor.suffix(value.suffix);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     GrpcRouteMetadataMatchMethod.filterSensitiveLog = (obj) => {
         if (obj.exact !== undefined)
             return { exact: obj.exact };
@@ -7120,9 +5584,6 @@ var GrpcRouteMetadataMatchMethod;
 })(GrpcRouteMetadataMatchMethod = exports.GrpcRouteMetadataMatchMethod || (exports.GrpcRouteMetadataMatchMethod = {}));
 var GrpcRouteMetadata;
 (function (GrpcRouteMetadata) {
-    /**
-     * @internal
-     */
     GrpcRouteMetadata.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.match && { match: GrpcRouteMetadataMatchMethod.filterSensitiveLog(obj.match) }),
@@ -7130,9 +5591,6 @@ var GrpcRouteMetadata;
 })(GrpcRouteMetadata = exports.GrpcRouteMetadata || (exports.GrpcRouteMetadata = {}));
 var GrpcRouteMatch;
 (function (GrpcRouteMatch) {
-    /**
-     * @internal
-     */
     GrpcRouteMatch.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.metadata && { metadata: obj.metadata.map((item) => GrpcRouteMetadata.filterSensitiveLog(item)) }),
@@ -7152,36 +5610,24 @@ var TcpRetryPolicyEvent;
 })(TcpRetryPolicyEvent = exports.TcpRetryPolicyEvent || (exports.TcpRetryPolicyEvent = {}));
 var GrpcRetryPolicy;
 (function (GrpcRetryPolicy) {
-    /**
-     * @internal
-     */
     GrpcRetryPolicy.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GrpcRetryPolicy = exports.GrpcRetryPolicy || (exports.GrpcRetryPolicy = {}));
 var GrpcRoute;
 (function (GrpcRoute) {
-    /**
-     * @internal
-     */
     GrpcRoute.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GrpcRoute = exports.GrpcRoute || (exports.GrpcRoute = {}));
 var HttpRouteAction;
 (function (HttpRouteAction) {
-    /**
-     * @internal
-     */
     HttpRouteAction.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(HttpRouteAction = exports.HttpRouteAction || (exports.HttpRouteAction = {}));
 var HttpRouteHeader;
 (function (HttpRouteHeader) {
-    /**
-     * @internal
-     */
     HttpRouteHeader.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.match && { match: HeaderMatchMethod.filterSensitiveLog(obj.match) }),
@@ -7194,9 +5640,6 @@ var HttpScheme;
 })(HttpScheme = exports.HttpScheme || (exports.HttpScheme = {}));
 var HttpRouteMatch;
 (function (HttpRouteMatch) {
-    /**
-     * @internal
-     */
     HttpRouteMatch.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.headers && { headers: obj.headers.map((item) => HttpRouteHeader.filterSensitiveLog(item)) }),
@@ -7204,54 +5647,36 @@ var HttpRouteMatch;
 })(HttpRouteMatch = exports.HttpRouteMatch || (exports.HttpRouteMatch = {}));
 var HttpRetryPolicy;
 (function (HttpRetryPolicy) {
-    /**
-     * @internal
-     */
     HttpRetryPolicy.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(HttpRetryPolicy = exports.HttpRetryPolicy || (exports.HttpRetryPolicy = {}));
 var HttpRoute;
 (function (HttpRoute) {
-    /**
-     * @internal
-     */
     HttpRoute.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(HttpRoute = exports.HttpRoute || (exports.HttpRoute = {}));
 var TcpRouteAction;
 (function (TcpRouteAction) {
-    /**
-     * @internal
-     */
     TcpRouteAction.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(TcpRouteAction = exports.TcpRouteAction || (exports.TcpRouteAction = {}));
 var TcpRoute;
 (function (TcpRoute) {
-    /**
-     * @internal
-     */
     TcpRoute.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(TcpRoute = exports.TcpRoute || (exports.TcpRoute = {}));
 var RouteSpec;
 (function (RouteSpec) {
-    /**
-     * @internal
-     */
     RouteSpec.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(RouteSpec = exports.RouteSpec || (exports.RouteSpec = {}));
 var CreateRouteInput;
 (function (CreateRouteInput) {
-    /**
-     * @internal
-     */
     CreateRouteInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -7264,144 +5689,96 @@ var RouteStatusCode;
 })(RouteStatusCode = exports.RouteStatusCode || (exports.RouteStatusCode = {}));
 var RouteStatus;
 (function (RouteStatus) {
-    /**
-     * @internal
-     */
     RouteStatus.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(RouteStatus = exports.RouteStatus || (exports.RouteStatus = {}));
 var RouteData;
 (function (RouteData) {
-    /**
-     * @internal
-     */
     RouteData.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(RouteData = exports.RouteData || (exports.RouteData = {}));
 var CreateRouteOutput;
 (function (CreateRouteOutput) {
-    /**
-     * @internal
-     */
     CreateRouteOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(CreateRouteOutput = exports.CreateRouteOutput || (exports.CreateRouteOutput = {}));
 var DeleteRouteInput;
 (function (DeleteRouteInput) {
-    /**
-     * @internal
-     */
     DeleteRouteInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeleteRouteInput = exports.DeleteRouteInput || (exports.DeleteRouteInput = {}));
 var DeleteRouteOutput;
 (function (DeleteRouteOutput) {
-    /**
-     * @internal
-     */
     DeleteRouteOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeleteRouteOutput = exports.DeleteRouteOutput || (exports.DeleteRouteOutput = {}));
 var DescribeRouteInput;
 (function (DescribeRouteInput) {
-    /**
-     * @internal
-     */
     DescribeRouteInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DescribeRouteInput = exports.DescribeRouteInput || (exports.DescribeRouteInput = {}));
 var DescribeRouteOutput;
 (function (DescribeRouteOutput) {
-    /**
-     * @internal
-     */
     DescribeRouteOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DescribeRouteOutput = exports.DescribeRouteOutput || (exports.DescribeRouteOutput = {}));
 var ListRoutesInput;
 (function (ListRoutesInput) {
-    /**
-     * @internal
-     */
     ListRoutesInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListRoutesInput = exports.ListRoutesInput || (exports.ListRoutesInput = {}));
 var RouteRef;
 (function (RouteRef) {
-    /**
-     * @internal
-     */
     RouteRef.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(RouteRef = exports.RouteRef || (exports.RouteRef = {}));
 var ListRoutesOutput;
 (function (ListRoutesOutput) {
-    /**
-     * @internal
-     */
     ListRoutesOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListRoutesOutput = exports.ListRoutesOutput || (exports.ListRoutesOutput = {}));
 var UpdateRouteInput;
 (function (UpdateRouteInput) {
-    /**
-     * @internal
-     */
     UpdateRouteInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(UpdateRouteInput = exports.UpdateRouteInput || (exports.UpdateRouteInput = {}));
 var UpdateRouteOutput;
 (function (UpdateRouteOutput) {
-    /**
-     * @internal
-     */
     UpdateRouteOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(UpdateRouteOutput = exports.UpdateRouteOutput || (exports.UpdateRouteOutput = {}));
 var UpdateVirtualRouterInput;
 (function (UpdateVirtualRouterInput) {
-    /**
-     * @internal
-     */
     UpdateVirtualRouterInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(UpdateVirtualRouterInput = exports.UpdateVirtualRouterInput || (exports.UpdateVirtualRouterInput = {}));
 var UpdateVirtualRouterOutput;
 (function (UpdateVirtualRouterOutput) {
-    /**
-     * @internal
-     */
     UpdateVirtualRouterOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(UpdateVirtualRouterOutput = exports.UpdateVirtualRouterOutput || (exports.UpdateVirtualRouterOutput = {}));
 var VirtualNodeServiceProvider;
 (function (VirtualNodeServiceProvider) {
-    /**
-     * @internal
-     */
     VirtualNodeServiceProvider.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualNodeServiceProvider = exports.VirtualNodeServiceProvider || (exports.VirtualNodeServiceProvider = {}));
 var VirtualRouterServiceProvider;
 (function (VirtualRouterServiceProvider) {
-    /**
-     * @internal
-     */
     VirtualRouterServiceProvider.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -7415,9 +5792,6 @@ var VirtualServiceProvider;
             return visitor.virtualRouter(value.virtualRouter);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    /**
-     * @internal
-     */
     VirtualServiceProvider.filterSensitiveLog = (obj) => {
         if (obj.virtualNode !== undefined)
             return { virtualNode: VirtualNodeServiceProvider.filterSensitiveLog(obj.virtualNode) };
@@ -7429,9 +5803,6 @@ var VirtualServiceProvider;
 })(VirtualServiceProvider = exports.VirtualServiceProvider || (exports.VirtualServiceProvider = {}));
 var VirtualServiceSpec;
 (function (VirtualServiceSpec) {
-    /**
-     * @internal
-     */
     VirtualServiceSpec.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.provider && { provider: VirtualServiceProvider.filterSensitiveLog(obj.provider) }),
@@ -7439,9 +5810,6 @@ var VirtualServiceSpec;
 })(VirtualServiceSpec = exports.VirtualServiceSpec || (exports.VirtualServiceSpec = {}));
 var CreateVirtualServiceInput;
 (function (CreateVirtualServiceInput) {
-    /**
-     * @internal
-     */
     CreateVirtualServiceInput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.spec && { spec: VirtualServiceSpec.filterSensitiveLog(obj.spec) }),
@@ -7455,18 +5823,12 @@ var VirtualServiceStatusCode;
 })(VirtualServiceStatusCode = exports.VirtualServiceStatusCode || (exports.VirtualServiceStatusCode = {}));
 var VirtualServiceStatus;
 (function (VirtualServiceStatus) {
-    /**
-     * @internal
-     */
     VirtualServiceStatus.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualServiceStatus = exports.VirtualServiceStatus || (exports.VirtualServiceStatus = {}));
 var VirtualServiceData;
 (function (VirtualServiceData) {
-    /**
-     * @internal
-     */
     VirtualServiceData.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.spec && { spec: VirtualServiceSpec.filterSensitiveLog(obj.spec) }),
@@ -7474,9 +5836,6 @@ var VirtualServiceData;
 })(VirtualServiceData = exports.VirtualServiceData || (exports.VirtualServiceData = {}));
 var CreateVirtualServiceOutput;
 (function (CreateVirtualServiceOutput) {
-    /**
-     * @internal
-     */
     CreateVirtualServiceOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualService && { virtualService: VirtualServiceData.filterSensitiveLog(obj.virtualService) }),
@@ -7484,18 +5843,12 @@ var CreateVirtualServiceOutput;
 })(CreateVirtualServiceOutput = exports.CreateVirtualServiceOutput || (exports.CreateVirtualServiceOutput = {}));
 var DeleteVirtualServiceInput;
 (function (DeleteVirtualServiceInput) {
-    /**
-     * @internal
-     */
     DeleteVirtualServiceInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeleteVirtualServiceInput = exports.DeleteVirtualServiceInput || (exports.DeleteVirtualServiceInput = {}));
 var DeleteVirtualServiceOutput;
 (function (DeleteVirtualServiceOutput) {
-    /**
-     * @internal
-     */
     DeleteVirtualServiceOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualService && { virtualService: VirtualServiceData.filterSensitiveLog(obj.virtualService) }),
@@ -7503,18 +5856,12 @@ var DeleteVirtualServiceOutput;
 })(DeleteVirtualServiceOutput = exports.DeleteVirtualServiceOutput || (exports.DeleteVirtualServiceOutput = {}));
 var DescribeVirtualServiceInput;
 (function (DescribeVirtualServiceInput) {
-    /**
-     * @internal
-     */
     DescribeVirtualServiceInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DescribeVirtualServiceInput = exports.DescribeVirtualServiceInput || (exports.DescribeVirtualServiceInput = {}));
 var DescribeVirtualServiceOutput;
 (function (DescribeVirtualServiceOutput) {
-    /**
-     * @internal
-     */
     DescribeVirtualServiceOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualService && { virtualService: VirtualServiceData.filterSensitiveLog(obj.virtualService) }),
@@ -7522,36 +5869,24 @@ var DescribeVirtualServiceOutput;
 })(DescribeVirtualServiceOutput = exports.DescribeVirtualServiceOutput || (exports.DescribeVirtualServiceOutput = {}));
 var ListVirtualServicesInput;
 (function (ListVirtualServicesInput) {
-    /**
-     * @internal
-     */
     ListVirtualServicesInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListVirtualServicesInput = exports.ListVirtualServicesInput || (exports.ListVirtualServicesInput = {}));
 var VirtualServiceRef;
 (function (VirtualServiceRef) {
-    /**
-     * @internal
-     */
     VirtualServiceRef.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(VirtualServiceRef = exports.VirtualServiceRef || (exports.VirtualServiceRef = {}));
 var ListVirtualServicesOutput;
 (function (ListVirtualServicesOutput) {
-    /**
-     * @internal
-     */
     ListVirtualServicesOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListVirtualServicesOutput = exports.ListVirtualServicesOutput || (exports.ListVirtualServicesOutput = {}));
 var UpdateVirtualServiceInput;
 (function (UpdateVirtualServiceInput) {
-    /**
-     * @internal
-     */
     UpdateVirtualServiceInput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.spec && { spec: VirtualServiceSpec.filterSensitiveLog(obj.spec) }),
@@ -7559,9 +5894,6 @@ var UpdateVirtualServiceInput;
 })(UpdateVirtualServiceInput = exports.UpdateVirtualServiceInput || (exports.UpdateVirtualServiceInput = {}));
 var UpdateVirtualServiceOutput;
 (function (UpdateVirtualServiceOutput) {
-    /**
-     * @internal
-     */
     UpdateVirtualServiceOutput.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.virtualService && { virtualService: VirtualServiceData.filterSensitiveLog(obj.virtualService) }),
@@ -7569,45 +5901,30 @@ var UpdateVirtualServiceOutput;
 })(UpdateVirtualServiceOutput = exports.UpdateVirtualServiceOutput || (exports.UpdateVirtualServiceOutput = {}));
 var TagResourceInput;
 (function (TagResourceInput) {
-    /**
-     * @internal
-     */
     TagResourceInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(TagResourceInput = exports.TagResourceInput || (exports.TagResourceInput = {}));
 var TagResourceOutput;
 (function (TagResourceOutput) {
-    /**
-     * @internal
-     */
     TagResourceOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(TagResourceOutput = exports.TagResourceOutput || (exports.TagResourceOutput = {}));
 var TooManyTagsException;
 (function (TooManyTagsException) {
-    /**
-     * @internal
-     */
     TooManyTagsException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(TooManyTagsException = exports.TooManyTagsException || (exports.TooManyTagsException = {}));
 var UntagResourceInput;
 (function (UntagResourceInput) {
-    /**
-     * @internal
-     */
     UntagResourceInput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(UntagResourceInput = exports.UntagResourceInput || (exports.UntagResourceInput = {}));
 var UntagResourceOutput;
 (function (UntagResourceOutput) {
-    /**
-     * @internal
-     */
     UntagResourceOutput.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -7636,22 +5953,13 @@ exports.paginateListGatewayRoutes = void 0;
 const AppMesh_1 = __nccwpck_require__(3493);
 const AppMeshClient_1 = __nccwpck_require__(613);
 const ListGatewayRoutesCommand_1 = __nccwpck_require__(7489);
-/**
- * @private
- */
 const makePagedClientRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.send(new ListGatewayRoutesCommand_1.ListGatewayRoutesCommand(input), ...args);
 };
-/**
- * @private
- */
 const makePagedRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.listGatewayRoutes(input, ...args);
 };
 async function* paginateListGatewayRoutes(config, input, ...additionalArguments) {
-    // ToDo: replace with actual type instead of typeof input.nextToken
     let token = config.startingToken || undefined;
     let hasNext = true;
     let page;
@@ -7671,7 +5979,6 @@ async function* paginateListGatewayRoutes(config, input, ...additionalArguments)
         token = page.nextToken;
         hasNext = !!token;
     }
-    // @ts-ignore
     return undefined;
 }
 exports.paginateListGatewayRoutes = paginateListGatewayRoutes;
@@ -7689,22 +5996,13 @@ exports.paginateListMeshes = void 0;
 const AppMesh_1 = __nccwpck_require__(3493);
 const AppMeshClient_1 = __nccwpck_require__(613);
 const ListMeshesCommand_1 = __nccwpck_require__(5963);
-/**
- * @private
- */
 const makePagedClientRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.send(new ListMeshesCommand_1.ListMeshesCommand(input), ...args);
 };
-/**
- * @private
- */
 const makePagedRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.listMeshes(input, ...args);
 };
 async function* paginateListMeshes(config, input, ...additionalArguments) {
-    // ToDo: replace with actual type instead of typeof input.nextToken
     let token = config.startingToken || undefined;
     let hasNext = true;
     let page;
@@ -7724,7 +6022,6 @@ async function* paginateListMeshes(config, input, ...additionalArguments) {
         token = page.nextToken;
         hasNext = !!token;
     }
-    // @ts-ignore
     return undefined;
 }
 exports.paginateListMeshes = paginateListMeshes;
@@ -7742,22 +6039,13 @@ exports.paginateListRoutes = void 0;
 const AppMesh_1 = __nccwpck_require__(3493);
 const AppMeshClient_1 = __nccwpck_require__(613);
 const ListRoutesCommand_1 = __nccwpck_require__(3510);
-/**
- * @private
- */
 const makePagedClientRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.send(new ListRoutesCommand_1.ListRoutesCommand(input), ...args);
 };
-/**
- * @private
- */
 const makePagedRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.listRoutes(input, ...args);
 };
 async function* paginateListRoutes(config, input, ...additionalArguments) {
-    // ToDo: replace with actual type instead of typeof input.nextToken
     let token = config.startingToken || undefined;
     let hasNext = true;
     let page;
@@ -7777,7 +6065,6 @@ async function* paginateListRoutes(config, input, ...additionalArguments) {
         token = page.nextToken;
         hasNext = !!token;
     }
-    // @ts-ignore
     return undefined;
 }
 exports.paginateListRoutes = paginateListRoutes;
@@ -7795,22 +6082,13 @@ exports.paginateListTagsForResource = void 0;
 const AppMesh_1 = __nccwpck_require__(3493);
 const AppMeshClient_1 = __nccwpck_require__(613);
 const ListTagsForResourceCommand_1 = __nccwpck_require__(3057);
-/**
- * @private
- */
 const makePagedClientRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.send(new ListTagsForResourceCommand_1.ListTagsForResourceCommand(input), ...args);
 };
-/**
- * @private
- */
 const makePagedRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.listTagsForResource(input, ...args);
 };
 async function* paginateListTagsForResource(config, input, ...additionalArguments) {
-    // ToDo: replace with actual type instead of typeof input.nextToken
     let token = config.startingToken || undefined;
     let hasNext = true;
     let page;
@@ -7830,7 +6108,6 @@ async function* paginateListTagsForResource(config, input, ...additionalArgument
         token = page.nextToken;
         hasNext = !!token;
     }
-    // @ts-ignore
     return undefined;
 }
 exports.paginateListTagsForResource = paginateListTagsForResource;
@@ -7848,22 +6125,13 @@ exports.paginateListVirtualGateways = void 0;
 const AppMesh_1 = __nccwpck_require__(3493);
 const AppMeshClient_1 = __nccwpck_require__(613);
 const ListVirtualGatewaysCommand_1 = __nccwpck_require__(3006);
-/**
- * @private
- */
 const makePagedClientRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.send(new ListVirtualGatewaysCommand_1.ListVirtualGatewaysCommand(input), ...args);
 };
-/**
- * @private
- */
 const makePagedRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.listVirtualGateways(input, ...args);
 };
 async function* paginateListVirtualGateways(config, input, ...additionalArguments) {
-    // ToDo: replace with actual type instead of typeof input.nextToken
     let token = config.startingToken || undefined;
     let hasNext = true;
     let page;
@@ -7883,7 +6151,6 @@ async function* paginateListVirtualGateways(config, input, ...additionalArgument
         token = page.nextToken;
         hasNext = !!token;
     }
-    // @ts-ignore
     return undefined;
 }
 exports.paginateListVirtualGateways = paginateListVirtualGateways;
@@ -7901,22 +6168,13 @@ exports.paginateListVirtualNodes = void 0;
 const AppMesh_1 = __nccwpck_require__(3493);
 const AppMeshClient_1 = __nccwpck_require__(613);
 const ListVirtualNodesCommand_1 = __nccwpck_require__(2034);
-/**
- * @private
- */
 const makePagedClientRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.send(new ListVirtualNodesCommand_1.ListVirtualNodesCommand(input), ...args);
 };
-/**
- * @private
- */
 const makePagedRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.listVirtualNodes(input, ...args);
 };
 async function* paginateListVirtualNodes(config, input, ...additionalArguments) {
-    // ToDo: replace with actual type instead of typeof input.nextToken
     let token = config.startingToken || undefined;
     let hasNext = true;
     let page;
@@ -7936,7 +6194,6 @@ async function* paginateListVirtualNodes(config, input, ...additionalArguments) 
         token = page.nextToken;
         hasNext = !!token;
     }
-    // @ts-ignore
     return undefined;
 }
 exports.paginateListVirtualNodes = paginateListVirtualNodes;
@@ -7954,22 +6211,13 @@ exports.paginateListVirtualRouters = void 0;
 const AppMesh_1 = __nccwpck_require__(3493);
 const AppMeshClient_1 = __nccwpck_require__(613);
 const ListVirtualRoutersCommand_1 = __nccwpck_require__(4536);
-/**
- * @private
- */
 const makePagedClientRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.send(new ListVirtualRoutersCommand_1.ListVirtualRoutersCommand(input), ...args);
 };
-/**
- * @private
- */
 const makePagedRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.listVirtualRouters(input, ...args);
 };
 async function* paginateListVirtualRouters(config, input, ...additionalArguments) {
-    // ToDo: replace with actual type instead of typeof input.nextToken
     let token = config.startingToken || undefined;
     let hasNext = true;
     let page;
@@ -7989,7 +6237,6 @@ async function* paginateListVirtualRouters(config, input, ...additionalArguments
         token = page.nextToken;
         hasNext = !!token;
     }
-    // @ts-ignore
     return undefined;
 }
 exports.paginateListVirtualRouters = paginateListVirtualRouters;
@@ -8007,22 +6254,13 @@ exports.paginateListVirtualServices = void 0;
 const AppMesh_1 = __nccwpck_require__(3493);
 const AppMeshClient_1 = __nccwpck_require__(613);
 const ListVirtualServicesCommand_1 = __nccwpck_require__(2302);
-/**
- * @private
- */
 const makePagedClientRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.send(new ListVirtualServicesCommand_1.ListVirtualServicesCommand(input), ...args);
 };
-/**
- * @private
- */
 const makePagedRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.listVirtualServices(input, ...args);
 };
 async function* paginateListVirtualServices(config, input, ...additionalArguments) {
-    // ToDo: replace with actual type instead of typeof input.nextToken
     let token = config.startingToken || undefined;
     let hasNext = true;
     let page;
@@ -8042,7 +6280,6 @@ async function* paginateListVirtualServices(config, input, ...additionalArgument
         token = page.nextToken;
         hasNext = !!token;
     }
-    // @ts-ignore
     return undefined;
 }
 exports.paginateListVirtualServices = paginateListVirtualServices;
@@ -16192,14 +14429,12 @@ const deserializeMetadata = (output) => {
         cfId: output.headers["x-amz-cf-id"],
     });
 };
-// Collect low-level response body stream to Uint8Array.
 const collectBody = (streamBody = new Uint8Array(), context) => {
     if (streamBody instanceof Uint8Array) {
         return Promise.resolve(streamBody);
     }
     return context.streamCollector(streamBody) || Promise.resolve(new Uint8Array());
 };
-// Encode Uint8Array data into string with utf-8.
 const collectBodyString = (streamBody, context) => collectBody(streamBody, context).then((body) => context.utf8Encoder(body));
 const isSerializableHeaderValue = (value) => value !== undefined &&
     value !== null &&
@@ -16212,9 +14447,6 @@ const parseBody = (streamBody, context) => collectBodyString(streamBody, context
     }
     return {};
 });
-/**
- * Load an error code for the aws.rest-json-1.1 protocol.
- */
 const loadRestJsonErrorCode = (output, data) => {
     const findKey = (object, key) => Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
     const sanitizeErrorCode = (rawValue) => {
@@ -16251,8 +14483,7 @@ const loadRestJsonErrorCode = (output, data) => {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRuntimeConfig = void 0;
 const tslib_1 = __nccwpck_require__(4351);
-// @ts-ignore: package.json will be imported from dist folders
-const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(4788)); // eslint-disable-line
+const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(4788));
 const client_sts_1 = __nccwpck_require__(2209);
 const config_resolver_1 = __nccwpck_require__(6153);
 const credential_provider_node_1 = __nccwpck_require__(5531);
@@ -16266,9 +14497,6 @@ const util_user_agent_node_1 = __nccwpck_require__(8095);
 const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(7972);
 const smithy_client_1 = __nccwpck_require__(4963);
-/**
- * @internal
- */
 const getRuntimeConfig = (config) => {
     var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
     smithy_client_1.emitWarningIfUnsupportedVersion(process.version);
@@ -16306,9 +14534,6 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRuntimeConfig = void 0;
 const url_parser_1 = __nccwpck_require__(2992);
 const endpoints_1 = __nccwpck_require__(1021);
-/**
- * @internal
- */
 const getRuntimeConfig = (config) => {
     var _a, _b, _c, _d, _e;
     return ({
@@ -16337,24 +14562,6 @@ const ListAccountRolesCommand_1 = __nccwpck_require__(1513);
 const ListAccountsCommand_1 = __nccwpck_require__(4296);
 const LogoutCommand_1 = __nccwpck_require__(2586);
 const SSOClient_1 = __nccwpck_require__(1057);
-/**
- * <p>AWS Single Sign-On Portal is a web service that makes it easy for you to assign user
- *       access to AWS SSO resources such as the user portal. Users can get AWS account applications
- *       and roles assigned to them and get federated into the application.</p>
- *
- *          <p>For general information about AWS SSO, see <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html">What is AWS
- *         Single Sign-On?</a> in the <i>AWS SSO User Guide</i>.</p>
- *
- *          <p>This API reference guide describes the AWS SSO Portal operations that you can call
- *       programatically and includes detailed information on data types and errors.</p>
- *
- *          <note>
- *             <p>AWS provides SDKs that consist of libraries and sample code for various programming
- *         languages and platforms, such as Java, Ruby, .Net, iOS, or Android. The SDKs provide a
- *         convenient way to create programmatic access to AWS SSO and other AWS services. For more
- *         information about the AWS SDKs, including how to download and install them, see <a href="http://aws.amazon.com/tools/">Tools for Amazon Web Services</a>.</p>
- *          </note>
- */
 class SSO extends SSOClient_1.SSOClient {
     getRoleCredentials(args, optionsOrCb, cb) {
         const command = new GetRoleCredentialsCommand_1.GetRoleCredentialsCommand(args);
@@ -16433,24 +14640,6 @@ const middleware_retry_1 = __nccwpck_require__(6064);
 const middleware_user_agent_1 = __nccwpck_require__(4688);
 const smithy_client_1 = __nccwpck_require__(4963);
 const runtimeConfig_1 = __nccwpck_require__(9756);
-/**
- * <p>AWS Single Sign-On Portal is a web service that makes it easy for you to assign user
- *       access to AWS SSO resources such as the user portal. Users can get AWS account applications
- *       and roles assigned to them and get federated into the application.</p>
- *
- *          <p>For general information about AWS SSO, see <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html">What is AWS
- *         Single Sign-On?</a> in the <i>AWS SSO User Guide</i>.</p>
- *
- *          <p>This API reference guide describes the AWS SSO Portal operations that you can call
- *       programatically and includes detailed information on data types and errors.</p>
- *
- *          <note>
- *             <p>AWS provides SDKs that consist of libraries and sample code for various programming
- *         languages and platforms, such as Java, Ruby, .Net, iOS, or Android. The SDKs provide a
- *         convenient way to create programmatic access to AWS SSO and other AWS services. For more
- *         information about the AWS SDKs, including how to download and install them, see <a href="http://aws.amazon.com/tools/">Tools for Amazon Web Services</a>.</p>
- *          </note>
- */
 class SSOClient extends smithy_client_1.Client {
     constructor(configuration) {
         const _config_0 = runtimeConfig_1.getRuntimeConfig(configuration);
@@ -16467,11 +14656,6 @@ class SSOClient extends smithy_client_1.Client {
         this.middlewareStack.use(middleware_logger_1.getLoggerPlugin(this.config));
         this.middlewareStack.use(middleware_user_agent_1.getUserAgentPlugin(this.config));
     }
-    /**
-     * Destroy underlying resources, like sockets. It's usually not necessary to do this.
-     * However in Node.js, it's best to explicitly shut down the client's agent when it is no longer needed.
-     * Otherwise, sockets might stay open for quite a long time before the server terminates them.
-     */
     destroy() {
         super.destroy();
     }
@@ -16492,36 +14676,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(6390);
 const Aws_restJson1_1 = __nccwpck_require__(8507);
-/**
- * <p>Returns the STS short-term credentials for a given role name that is assigned to the
- *       user.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { SSOClient, GetRoleCredentialsCommand } from "@aws-sdk/client-sso"; // ES Modules import
- * // const { SSOClient, GetRoleCredentialsCommand } = require("@aws-sdk/client-sso"); // CommonJS import
- * const client = new SSOClient(config);
- * const command = new GetRoleCredentialsCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link GetRoleCredentialsCommandInput} for command's `input` shape.
- * @see {@link GetRoleCredentialsCommandOutput} for command's `response` shape.
- * @see {@link SSOClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class GetRoleCredentialsCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -16561,35 +14720,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(6390);
 const Aws_restJson1_1 = __nccwpck_require__(8507);
-/**
- * <p>Lists all roles that are assigned to the user for a given AWS account.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { SSOClient, ListAccountRolesCommand } from "@aws-sdk/client-sso"; // ES Modules import
- * // const { SSOClient, ListAccountRolesCommand } = require("@aws-sdk/client-sso"); // CommonJS import
- * const client = new SSOClient(config);
- * const command = new ListAccountRolesCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link ListAccountRolesCommandInput} for command's `input` shape.
- * @see {@link ListAccountRolesCommandOutput} for command's `response` shape.
- * @see {@link SSOClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class ListAccountRolesCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -16629,37 +14764,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(6390);
 const Aws_restJson1_1 = __nccwpck_require__(8507);
-/**
- * <p>Lists all AWS accounts assigned to the user. These AWS accounts are assigned by the
- *       administrator of the account. For more information, see <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/useraccess.html#assignusers">Assign User Access</a> in the <i>AWS SSO User Guide</i>. This operation
- *       returns a paginated response.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { SSOClient, ListAccountsCommand } from "@aws-sdk/client-sso"; // ES Modules import
- * // const { SSOClient, ListAccountsCommand } = require("@aws-sdk/client-sso"); // CommonJS import
- * const client = new SSOClient(config);
- * const command = new ListAccountsCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link ListAccountsCommandInput} for command's `input` shape.
- * @see {@link ListAccountsCommandOutput} for command's `response` shape.
- * @see {@link SSOClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class ListAccountsCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -16699,35 +14808,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(6390);
 const Aws_restJson1_1 = __nccwpck_require__(8507);
-/**
- * <p>Removes the client- and server-side session that is associated with the user.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { SSOClient, LogoutCommand } from "@aws-sdk/client-sso"; // ES Modules import
- * // const { SSOClient, LogoutCommand } = require("@aws-sdk/client-sso"); // CommonJS import
- * const client = new SSOClient(config);
- * const command = new LogoutCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link LogoutCommandInput} for command's `input` shape.
- * @see {@link LogoutCommandOutput} for command's `response` shape.
- * @see {@link SSOClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class LogoutCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -16900,18 +14985,12 @@ exports.LogoutRequest = exports.ListAccountsResponse = exports.ListAccountsReque
 const smithy_client_1 = __nccwpck_require__(4963);
 var AccountInfo;
 (function (AccountInfo) {
-    /**
-     * @internal
-     */
     AccountInfo.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(AccountInfo = exports.AccountInfo || (exports.AccountInfo = {}));
 var GetRoleCredentialsRequest;
 (function (GetRoleCredentialsRequest) {
-    /**
-     * @internal
-     */
     GetRoleCredentialsRequest.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
@@ -16919,9 +14998,6 @@ var GetRoleCredentialsRequest;
 })(GetRoleCredentialsRequest = exports.GetRoleCredentialsRequest || (exports.GetRoleCredentialsRequest = {}));
 var RoleCredentials;
 (function (RoleCredentials) {
-    /**
-     * @internal
-     */
     RoleCredentials.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.secretAccessKey && { secretAccessKey: smithy_client_1.SENSITIVE_STRING }),
@@ -16930,9 +15006,6 @@ var RoleCredentials;
 })(RoleCredentials = exports.RoleCredentials || (exports.RoleCredentials = {}));
 var GetRoleCredentialsResponse;
 (function (GetRoleCredentialsResponse) {
-    /**
-     * @internal
-     */
     GetRoleCredentialsResponse.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.roleCredentials && { roleCredentials: RoleCredentials.filterSensitiveLog(obj.roleCredentials) }),
@@ -16940,45 +15013,30 @@ var GetRoleCredentialsResponse;
 })(GetRoleCredentialsResponse = exports.GetRoleCredentialsResponse || (exports.GetRoleCredentialsResponse = {}));
 var InvalidRequestException;
 (function (InvalidRequestException) {
-    /**
-     * @internal
-     */
     InvalidRequestException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(InvalidRequestException = exports.InvalidRequestException || (exports.InvalidRequestException = {}));
 var ResourceNotFoundException;
 (function (ResourceNotFoundException) {
-    /**
-     * @internal
-     */
     ResourceNotFoundException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ResourceNotFoundException = exports.ResourceNotFoundException || (exports.ResourceNotFoundException = {}));
 var TooManyRequestsException;
 (function (TooManyRequestsException) {
-    /**
-     * @internal
-     */
     TooManyRequestsException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(TooManyRequestsException = exports.TooManyRequestsException || (exports.TooManyRequestsException = {}));
 var UnauthorizedException;
 (function (UnauthorizedException) {
-    /**
-     * @internal
-     */
     UnauthorizedException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(UnauthorizedException = exports.UnauthorizedException || (exports.UnauthorizedException = {}));
 var ListAccountRolesRequest;
 (function (ListAccountRolesRequest) {
-    /**
-     * @internal
-     */
     ListAccountRolesRequest.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
@@ -16986,27 +15044,18 @@ var ListAccountRolesRequest;
 })(ListAccountRolesRequest = exports.ListAccountRolesRequest || (exports.ListAccountRolesRequest = {}));
 var RoleInfo;
 (function (RoleInfo) {
-    /**
-     * @internal
-     */
     RoleInfo.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(RoleInfo = exports.RoleInfo || (exports.RoleInfo = {}));
 var ListAccountRolesResponse;
 (function (ListAccountRolesResponse) {
-    /**
-     * @internal
-     */
     ListAccountRolesResponse.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListAccountRolesResponse = exports.ListAccountRolesResponse || (exports.ListAccountRolesResponse = {}));
 var ListAccountsRequest;
 (function (ListAccountsRequest) {
-    /**
-     * @internal
-     */
     ListAccountsRequest.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
@@ -17014,18 +15063,12 @@ var ListAccountsRequest;
 })(ListAccountsRequest = exports.ListAccountsRequest || (exports.ListAccountsRequest = {}));
 var ListAccountsResponse;
 (function (ListAccountsResponse) {
-    /**
-     * @internal
-     */
     ListAccountsResponse.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ListAccountsResponse = exports.ListAccountsResponse || (exports.ListAccountsResponse = {}));
 var LogoutRequest;
 (function (LogoutRequest) {
-    /**
-     * @internal
-     */
     LogoutRequest.filterSensitiveLog = (obj) => ({
         ...obj,
         ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
@@ -17055,22 +15098,13 @@ exports.paginateListAccountRoles = void 0;
 const ListAccountRolesCommand_1 = __nccwpck_require__(1513);
 const SSO_1 = __nccwpck_require__(9838);
 const SSOClient_1 = __nccwpck_require__(1057);
-/**
- * @private
- */
 const makePagedClientRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.send(new ListAccountRolesCommand_1.ListAccountRolesCommand(input), ...args);
 };
-/**
- * @private
- */
 const makePagedRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.listAccountRoles(input, ...args);
 };
 async function* paginateListAccountRoles(config, input, ...additionalArguments) {
-    // ToDo: replace with actual type instead of typeof input.nextToken
     let token = config.startingToken || undefined;
     let hasNext = true;
     let page;
@@ -17090,7 +15124,6 @@ async function* paginateListAccountRoles(config, input, ...additionalArguments) 
         token = page.nextToken;
         hasNext = !!token;
     }
-    // @ts-ignore
     return undefined;
 }
 exports.paginateListAccountRoles = paginateListAccountRoles;
@@ -17108,22 +15141,13 @@ exports.paginateListAccounts = void 0;
 const ListAccountsCommand_1 = __nccwpck_require__(4296);
 const SSO_1 = __nccwpck_require__(9838);
 const SSOClient_1 = __nccwpck_require__(1057);
-/**
- * @private
- */
 const makePagedClientRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.send(new ListAccountsCommand_1.ListAccountsCommand(input), ...args);
 };
-/**
- * @private
- */
 const makePagedRequest = async (client, input, ...args) => {
-    // @ts-ignore
     return await client.listAccounts(input, ...args);
 };
 async function* paginateListAccounts(config, input, ...additionalArguments) {
-    // ToDo: replace with actual type instead of typeof input.nextToken
     let token = config.startingToken || undefined;
     let hasNext = true;
     let page;
@@ -17143,7 +15167,6 @@ async function* paginateListAccounts(config, input, ...additionalArguments) {
         token = page.nextToken;
         hasNext = !!token;
     }
-    // @ts-ignore
     return undefined;
 }
 exports.paginateListAccounts = paginateListAccounts;
@@ -17634,14 +15657,12 @@ const deserializeMetadata = (output) => {
         cfId: output.headers["x-amz-cf-id"],
     });
 };
-// Collect low-level response body stream to Uint8Array.
 const collectBody = (streamBody = new Uint8Array(), context) => {
     if (streamBody instanceof Uint8Array) {
         return Promise.resolve(streamBody);
     }
     return context.streamCollector(streamBody) || Promise.resolve(new Uint8Array());
 };
-// Encode Uint8Array data into string with utf-8.
 const collectBodyString = (streamBody, context) => collectBody(streamBody, context).then((body) => context.utf8Encoder(body));
 const isSerializableHeaderValue = (value) => value !== undefined &&
     value !== null &&
@@ -17654,9 +15675,6 @@ const parseBody = (streamBody, context) => collectBodyString(streamBody, context
     }
     return {};
 });
-/**
- * Load an error code for the aws.rest-json-1.1 protocol.
- */
 const loadRestJsonErrorCode = (output, data) => {
     const findKey = (object, key) => Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
     const sanitizeErrorCode = (rawValue) => {
@@ -17693,8 +15711,7 @@ const loadRestJsonErrorCode = (output, data) => {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRuntimeConfig = void 0;
 const tslib_1 = __nccwpck_require__(4351);
-// @ts-ignore: package.json will be imported from dist folders
-const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(3966)); // eslint-disable-line
+const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(3966));
 const config_resolver_1 = __nccwpck_require__(6153);
 const hash_node_1 = __nccwpck_require__(7442);
 const middleware_retry_1 = __nccwpck_require__(6064);
@@ -17706,9 +15723,6 @@ const util_user_agent_node_1 = __nccwpck_require__(8095);
 const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(4355);
 const smithy_client_1 = __nccwpck_require__(4963);
-/**
- * @internal
- */
 const getRuntimeConfig = (config) => {
     var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
     smithy_client_1.emitWarningIfUnsupportedVersion(process.version);
@@ -17745,9 +15759,6 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRuntimeConfig = void 0;
 const url_parser_1 = __nccwpck_require__(2992);
 const endpoints_1 = __nccwpck_require__(3546);
-/**
- * @internal
- */
 const getRuntimeConfig = (config) => {
     var _a, _b, _c, _d, _e;
     return ({
@@ -17780,13 +15791,6 @@ const GetCallerIdentityCommand_1 = __nccwpck_require__(4278);
 const GetFederationTokenCommand_1 = __nccwpck_require__(7552);
 const GetSessionTokenCommand_1 = __nccwpck_require__(3285);
 const STSClient_1 = __nccwpck_require__(4195);
-/**
- * <fullname>Security Token Service</fullname>
- *          <p>Security Token Service (STS) enables you to request temporary, limited-privilege
- *       credentials for Identity and Access Management (IAM) users or for users that you
- *       authenticate (federated users). This guide provides descriptions of the STS API. For
- *       more information about using this service, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html">Temporary Security Credentials</a>.</p>
- */
 class STS extends STSClient_1.STSClient {
     assumeRole(args, optionsOrCb, cb) {
         const command = new AssumeRoleCommand_1.AssumeRoleCommand(args);
@@ -17922,13 +15926,6 @@ const middleware_sdk_sts_1 = __nccwpck_require__(5959);
 const middleware_user_agent_1 = __nccwpck_require__(4688);
 const smithy_client_1 = __nccwpck_require__(4963);
 const runtimeConfig_1 = __nccwpck_require__(3405);
-/**
- * <fullname>Security Token Service</fullname>
- *          <p>Security Token Service (STS) enables you to request temporary, limited-privilege
- *       credentials for Identity and Access Management (IAM) users or for users that you
- *       authenticate (federated users). This guide provides descriptions of the STS API. For
- *       more information about using this service, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html">Temporary Security Credentials</a>.</p>
- */
 class STSClient extends smithy_client_1.Client {
     constructor(configuration) {
         const _config_0 = runtimeConfig_1.getRuntimeConfig(configuration);
@@ -17946,11 +15943,6 @@ class STSClient extends smithy_client_1.Client {
         this.middlewareStack.use(middleware_logger_1.getLoggerPlugin(this.config));
         this.middlewareStack.use(middleware_user_agent_1.getUserAgentPlugin(this.config));
     }
-    /**
-     * Destroy underlying resources, like sockets. It's usually not necessary to do this.
-     * However in Node.js, it's best to explicitly shut down the client's agent when it is no longer needed.
-     * Otherwise, sockets might stay open for quite a long time before the server terminates them.
-     */
     destroy() {
         super.destroy();
     }
@@ -17972,118 +15964,11 @@ const middleware_signing_1 = __nccwpck_require__(4935);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1780);
 const Aws_query_1 = __nccwpck_require__(740);
-/**
- * <p>Returns a set of temporary security credentials that you can use to access Amazon Web Services
- *             resources that you might not normally have access to. These temporary credentials
- *             consist of an access key ID, a secret access key, and a security token. Typically, you
- *             use <code>AssumeRole</code> within your account or for cross-account access. For a
- *             comparison of <code>AssumeRole</code> with other API operations that produce temporary
- *             credentials, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html">Requesting Temporary Security
- *                 Credentials</a> and <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison">Comparing
- *                 the STS API operations</a> in the
- *             <i>IAM User Guide</i>.</p>
- *          <p>
- *             <b>Permissions</b>
- *          </p>
- *          <p>The temporary security credentials created by <code>AssumeRole</code> can be used to
- *          make API calls to any Amazon Web Services service with the following exception: You cannot call the
- *          STS <code>GetFederationToken</code> or <code>GetSessionToken</code> API
- *          operations.</p>
- *          <p>(Optional) You can pass inline or managed <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#policies_session">session policies</a> to
- *          this operation. You can pass a single JSON policy document to use as an inline session
- *          policy. You can also specify up to 10 managed policies to use as managed session policies.
- *          The plaintext that you use for both inline and managed session policies can't exceed 2,048
- *          characters. Passing policies to this operation returns new
- *          temporary credentials. The resulting session's permissions are the intersection of the
- *          role's identity-based policy and the session policies. You can use the role's temporary
- *          credentials in subsequent Amazon Web Services API calls to access resources in the account that owns
- *          the role. You cannot use session policies to grant more permissions than those allowed
- *          by the identity-based policy of the role that is being assumed. For more information, see
- *             <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#policies_session">Session
- *             Policies</a> in the <i>IAM User Guide</i>.</p>
- *          <p>To assume a role from a different account, your account must be trusted by the
- *          role. The trust relationship is defined in the role's trust policy when the role is
- *          created. That trust policy states which accounts are allowed to delegate that access to
- *          users in the account. </p>
- *          <p>A user who wants to access a role in a different account must also have permissions that
- *          are delegated from the user account administrator. The administrator must attach a policy
- *          that allows the user to call <code>AssumeRole</code> for the ARN of the role in the other
- *          account. If the user is in the same account as the role, then you can do either of the
- *          following:</p>
- *          <ul>
- *             <li>
- *                <p>Attach a policy to the user (identical to the previous user in a different
- *                account).</p>
- *             </li>
- *             <li>
- *                <p>Add the user as a principal directly in the role's trust policy.</p>
- *             </li>
- *          </ul>
- *          <p>In this case, the trust policy acts as an IAM resource-based policy. Users in the same
- *          account as the role do not need explicit permission to assume the role. For more
- *          information about trust policies and resource-based policies, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html">IAM Policies</a> in
- *          the <i>IAM User Guide</i>.</p>
- *          <p>
- *             <b>Tags</b>
- *          </p>
- *          <p>(Optional) You can pass tag key-value pairs to your session. These tags are called
- *          session tags. For more information about session tags, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html">Passing Session Tags in STS</a> in the
- *             <i>IAM User Guide</i>.</p>
- *          <p>An administrator must grant you the permissions necessary to pass session tags. The
- *          administrator can also create granular permissions to allow you to pass only specific
- *          session tags. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_attribute-based-access-control.html">Tutorial: Using Tags
- *             for Attribute-Based Access Control</a> in the
- *          <i>IAM User Guide</i>.</p>
- *          <p>You can set the session tags as transitive. Transitive tags persist during role
- *          chaining. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html#id_session-tags_role-chaining">Chaining Roles
- *             with Session Tags</a> in the <i>IAM User Guide</i>.</p>
- *          <p>
- *             <b>Using MFA with AssumeRole</b>
- *          </p>
- *          <p>(Optional) You can include multi-factor authentication (MFA) information when you call
- *             <code>AssumeRole</code>. This is useful for cross-account scenarios to ensure that the
- *          user that assumes the role has been authenticated with an Amazon Web Services MFA device. In that
- *          scenario, the trust policy of the role being assumed includes a condition that tests for
- *          MFA authentication. If the caller does not include valid MFA information, the request to
- *          assume the role is denied. The condition in a trust policy that tests for MFA
- *          authentication might look like the following example.</p>
- *          <p>
- *             <code>"Condition": {"Bool": {"aws:MultiFactorAuthPresent": true}}</code>
- *          </p>
- *          <p>For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/MFAProtectedAPI.html">Configuring MFA-Protected API Access</a>
- *          in the <i>IAM User Guide</i> guide.</p>
- *          <p>To use MFA with <code>AssumeRole</code>, you pass values for the
- *             <code>SerialNumber</code> and <code>TokenCode</code> parameters. The
- *             <code>SerialNumber</code> value identifies the user's hardware or virtual MFA device.
- *          The <code>TokenCode</code> is the time-based one-time password (TOTP) that the MFA device
- *          produces. </p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { STSClient, AssumeRoleCommand } from "@aws-sdk/client-sts"; // ES Modules import
- * // const { STSClient, AssumeRoleCommand } = require("@aws-sdk/client-sts"); // CommonJS import
- * const client = new STSClient(config);
- * const command = new AssumeRoleCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link AssumeRoleCommandInput} for command's `input` shape.
- * @see {@link AssumeRoleCommandOutput} for command's `response` shape.
- * @see {@link STSClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class AssumeRoleCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         this.middlewareStack.use(middleware_signing_1.getAwsAuthPlugin(configuration));
@@ -18124,166 +16009,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1780);
 const Aws_query_1 = __nccwpck_require__(740);
-/**
- * <p>Returns a set of temporary security credentials for users who have been authenticated
- *          via a SAML authentication response. This operation provides a mechanism for tying an
- *          enterprise identity store or directory to role-based Amazon Web Services access without user-specific
- *          credentials or configuration. For a comparison of <code>AssumeRoleWithSAML</code> with the
- *          other API operations that produce temporary credentials, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html">Requesting Temporary Security
- *             Credentials</a> and <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison">Comparing the
- *             STS API operations</a> in the <i>IAM User Guide</i>.</p>
- *          <p>The temporary security credentials returned by this operation consist of an access key
- *          ID, a secret access key, and a security token. Applications can use these temporary
- *          security credentials to sign calls to Amazon Web Services services.</p>
- *          <p>
- *             <b>Session Duration</b>
- *          </p>
- *          <p>By default, the temporary security credentials created by
- *             <code>AssumeRoleWithSAML</code> last for one hour. However, you can use the optional
- *             <code>DurationSeconds</code> parameter to specify the duration of your session. Your
- *          role session lasts for the duration that you specify, or until the time specified in the
- *          SAML authentication response's <code>SessionNotOnOrAfter</code> value, whichever is
- *          shorter. You can provide a <code>DurationSeconds</code> value from 900 seconds (15 minutes)
- *          up to the maximum session duration setting for the role. This setting can have a value from
- *          1 hour to 12 hours. To learn how to view the maximum value for your role, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html#id_roles_use_view-role-max-session">View the
- *             Maximum Session Duration Setting for a Role</a> in the
- *             <i>IAM User Guide</i>. The maximum session duration limit applies when
- *          you use the <code>AssumeRole*</code> API operations or the <code>assume-role*</code> CLI
- *          commands. However the limit does not apply when you use those operations to create a
- *          console URL. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html">Using IAM Roles</a> in the
- *             <i>IAM User Guide</i>.</p>
- *          <note>
- *            <p>
- *                <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-role-chaining">Role chaining</a> limits your CLI or Amazon Web Services API
- *                role session to a maximum of one hour. When you use the <code>AssumeRole</code> API
- *                operation to assume a role, you can specify the duration of your role session with
- *                the <code>DurationSeconds</code> parameter. You can specify a parameter value of up
- *                to 43200 seconds (12 hours), depending on the maximum session duration setting for
- *                your role. However, if you assume a role using role chaining and provide a
- *                <code>DurationSeconds</code> parameter value greater than one hour, the
- *                operation fails.</p>
- *          </note>
- *          <p>
- *             <b>Permissions</b>
- *          </p>
- *          <p>The temporary security credentials created by <code>AssumeRoleWithSAML</code> can be
- *          used to make API calls to any Amazon Web Services service with the following exception: you cannot call
- *          the STS <code>GetFederationToken</code> or <code>GetSessionToken</code> API
- *          operations.</p>
- *          <p>(Optional) You can pass inline or managed <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#policies_session">session policies</a> to
- *          this operation. You can pass a single JSON policy document to use as an inline session
- *          policy. You can also specify up to 10 managed policies to use as managed session policies.
- *          The plaintext that you use for both inline and managed session policies can't exceed 2,048
- *          characters. Passing policies to this operation returns new
- *          temporary credentials. The resulting session's permissions are the intersection of the
- *          role's identity-based policy and the session policies. You can use the role's temporary
- *          credentials in subsequent Amazon Web Services API calls to access resources in the account that owns
- *          the role. You cannot use session policies to grant more permissions than those allowed
- *          by the identity-based policy of the role that is being assumed. For more information, see
- *             <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#policies_session">Session
- *             Policies</a> in the <i>IAM User Guide</i>.</p>
- *          <p>Calling <code>AssumeRoleWithSAML</code> does not require the use of Amazon Web Services security
- *          credentials. The identity of the caller is validated by using keys in the metadata document
- *          that is uploaded for the SAML provider entity for your identity provider. </p>
- *          <important>
- *             <p>Calling <code>AssumeRoleWithSAML</code> can result in an entry in your CloudTrail logs.
- *             The entry includes the value in the <code>NameID</code> element of the SAML assertion.
- *             We recommend that you use a <code>NameIDType</code> that is not associated with any
- *             personally identifiable information (PII). For example, you could instead use the
- *             persistent identifier
- *             (<code>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</code>).</p>
- *          </important>
- *          <p>
- *             <b>Tags</b>
- *          </p>
- *          <p>(Optional) You can configure your IdP to pass attributes into your SAML assertion as
- *          session tags. Each session tag consists of a key name and an associated value. For more
- *          information about session tags, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html">Passing Session Tags in STS</a> in the
- *             <i>IAM User Guide</i>.</p>
- *          <p>You can pass up to 50 session tags. The plaintext session tag keys can’t exceed 128
- *          characters and the values can’t exceed 256 characters. For these and additional limits, see
- *             <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-limits.html#reference_iam-limits-entity-length">IAM
- *             and STS Character Limits</a> in the <i>IAM User Guide</i>.</p>
- *
- *          <note>
- *             <p>An Amazon Web Services conversion compresses the passed session policies and session tags into a
- *             packed binary format that has a separate limit. Your request can fail for this limit
- *             even if your plaintext meets the other requirements. The <code>PackedPolicySize</code>
- *             response element indicates by percentage how close the policies and tags for your
- *             request are to the upper size limit.
- *             </p>
- *          </note>
- *          <p>You can pass a session tag with the same key as a tag that is
- *          attached to the role. When you do, session tags override the role's tags with the same
- *          key.</p>
- *          <p>An administrator must grant you the permissions necessary to pass session tags. The
- *          administrator can also create granular permissions to allow you to pass only specific
- *          session tags. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_attribute-based-access-control.html">Tutorial: Using Tags
- *             for Attribute-Based Access Control</a> in the
- *          <i>IAM User Guide</i>.</p>
- *          <p>You can set the session tags as transitive. Transitive tags persist during role
- *          chaining. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html#id_session-tags_role-chaining">Chaining Roles
- *             with Session Tags</a> in the <i>IAM User Guide</i>.</p>
- *          <p>
- *             <b>SAML Configuration</b>
- *          </p>
- *          <p>Before your application can call <code>AssumeRoleWithSAML</code>, you must configure
- *          your SAML identity provider (IdP) to issue the claims required by Amazon Web Services. Additionally, you
- *          must use Identity and Access Management (IAM) to create a SAML provider entity in your Amazon Web Services account that
- *          represents your identity provider. You must also create an IAM role that specifies this
- *          SAML provider in its trust policy. </p>
- *          <p>For more information, see the following resources:</p>
- *          <ul>
- *             <li>
- *                <p>
- *                   <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_saml.html">About
- *                   SAML 2.0-based Federation</a> in the <i>IAM User Guide</i>.
- *             </p>
- *             </li>
- *             <li>
- *                <p>
- *                   <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml.html">Creating SAML Identity Providers</a> in the
- *                   <i>IAM User Guide</i>. </p>
- *             </li>
- *             <li>
- *                <p>
- *                   <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml_relying-party.html">Configuring
- *                   a Relying Party and Claims</a> in the <i>IAM User Guide</i>.
- *             </p>
- *             </li>
- *             <li>
- *                <p>
- *                   <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_saml.html">Creating a Role for SAML 2.0 Federation</a> in the
- *                   <i>IAM User Guide</i>. </p>
- *             </li>
- *          </ul>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { STSClient, AssumeRoleWithSAMLCommand } from "@aws-sdk/client-sts"; // ES Modules import
- * // const { STSClient, AssumeRoleWithSAMLCommand } = require("@aws-sdk/client-sts"); // CommonJS import
- * const client = new STSClient(config);
- * const command = new AssumeRoleWithSAMLCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link AssumeRoleWithSAMLCommandInput} for command's `input` shape.
- * @see {@link AssumeRoleWithSAMLCommandOutput} for command's `response` shape.
- * @see {@link STSClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class AssumeRoleWithSAMLCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -18323,170 +16053,11 @@ const middleware_serde_1 = __nccwpck_require__(3631);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1780);
 const Aws_query_1 = __nccwpck_require__(740);
-/**
- * <p>Returns a set of temporary security credentials for users who have been authenticated in
- *          a mobile or web application with a web identity provider. Example providers include Amazon Cognito,
- *          Login with Amazon, Facebook, Google, or any OpenID Connect-compatible identity
- *          provider.</p>
- *          <note>
- *             <p>For mobile applications, we recommend that you use Amazon Cognito. You can use Amazon Cognito with the
- *                <a href="http://aws.amazon.com/sdkforios/">Amazon Web Services SDK for iOS Developer Guide</a> and the <a href="http://aws.amazon.com/sdkforandroid/">Amazon Web Services SDK for Android Developer Guide</a> to uniquely
- *             identify a user. You can also supply the user with a consistent identity throughout the
- *             lifetime of an application.</p>
- *             <p>To learn more about Amazon Cognito, see <a href="https://docs.aws.amazon.com/mobile/sdkforandroid/developerguide/cognito-auth.html#d0e840">Amazon Cognito Overview</a> in
- *                <i>Amazon Web Services SDK for Android Developer Guide</i> and <a href="https://docs.aws.amazon.com/mobile/sdkforios/developerguide/cognito-auth.html#d0e664">Amazon Cognito Overview</a> in the
- *                <i>Amazon Web Services SDK for iOS Developer Guide</i>.</p>
- *          </note>
- *          <p>Calling <code>AssumeRoleWithWebIdentity</code> does not require the use of Amazon Web Services
- *          security credentials. Therefore, you can distribute an application (for example, on mobile
- *          devices) that requests temporary security credentials without including long-term Amazon Web Services
- *          credentials in the application. You also don't need to deploy server-based proxy services
- *          that use long-term Amazon Web Services credentials. Instead, the identity of the caller is validated by
- *          using a token from the web identity provider. For a comparison of
- *             <code>AssumeRoleWithWebIdentity</code> with the other API operations that produce
- *          temporary credentials, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html">Requesting Temporary Security
- *             Credentials</a> and <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison">Comparing the
- *             STS API operations</a> in the <i>IAM User Guide</i>.</p>
- *          <p>The temporary security credentials returned by this API consist of an access key ID, a
- *          secret access key, and a security token. Applications can use these temporary security
- *          credentials to sign calls to Amazon Web Services service API operations.</p>
- *          <p>
- *             <b>Session Duration</b>
- *          </p>
- *          <p>By default, the temporary security credentials created by
- *             <code>AssumeRoleWithWebIdentity</code> last for one hour. However, you can use the
- *          optional <code>DurationSeconds</code> parameter to specify the duration of your session.
- *          You can provide a value from 900 seconds (15 minutes) up to the maximum session duration
- *          setting for the role. This setting can have a value from 1 hour to 12 hours. To learn how
- *          to view the maximum value for your role, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html#id_roles_use_view-role-max-session">View the
- *             Maximum Session Duration Setting for a Role</a> in the
- *             <i>IAM User Guide</i>. The maximum session duration limit applies when
- *          you use the <code>AssumeRole*</code> API operations or the <code>assume-role*</code> CLI
- *          commands. However the limit does not apply when you use those operations to create a
- *          console URL. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html">Using IAM Roles</a> in the
- *             <i>IAM User Guide</i>. </p>
- *          <p>
- *             <b>Permissions</b>
- *          </p>
- *          <p>The temporary security credentials created by <code>AssumeRoleWithWebIdentity</code> can
- *          be used to make API calls to any Amazon Web Services service with the following exception: you cannot
- *          call the STS <code>GetFederationToken</code> or <code>GetSessionToken</code> API
- *          operations.</p>
- *          <p>(Optional) You can pass inline or managed <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#policies_session">session policies</a> to
- *          this operation. You can pass a single JSON policy document to use as an inline session
- *          policy. You can also specify up to 10 managed policies to use as managed session policies.
- *          The plaintext that you use for both inline and managed session policies can't exceed 2,048
- *          characters. Passing policies to this operation returns new
- *          temporary credentials. The resulting session's permissions are the intersection of the
- *          role's identity-based policy and the session policies. You can use the role's temporary
- *          credentials in subsequent Amazon Web Services API calls to access resources in the account that owns
- *          the role. You cannot use session policies to grant more permissions than those allowed
- *          by the identity-based policy of the role that is being assumed. For more information, see
- *             <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#policies_session">Session
- *             Policies</a> in the <i>IAM User Guide</i>.</p>
- *          <p>
- *             <b>Tags</b>
- *          </p>
- *          <p>(Optional) You can configure your IdP to pass attributes into your web identity token as
- *          session tags. Each session tag consists of a key name and an associated value. For more
- *          information about session tags, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html">Passing Session Tags in STS</a> in the
- *             <i>IAM User Guide</i>.</p>
- *          <p>You can pass up to 50 session tags. The plaintext session tag keys can’t exceed 128
- *          characters and the values can’t exceed 256 characters. For these and additional limits, see
- *             <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-limits.html#reference_iam-limits-entity-length">IAM
- *             and STS Character Limits</a> in the <i>IAM User Guide</i>.</p>
- *
- *          <note>
- *             <p>An Amazon Web Services conversion compresses the passed session policies and session tags into a
- *             packed binary format that has a separate limit. Your request can fail for this limit
- *             even if your plaintext meets the other requirements. The <code>PackedPolicySize</code>
- *             response element indicates by percentage how close the policies and tags for your
- *             request are to the upper size limit.
- *             </p>
- *          </note>
- *          <p>You can pass a session tag with the same key as a tag that is
- *          attached to the role. When you do, the session tag overrides the role tag with the same
- *          key.</p>
- *          <p>An administrator must grant you the permissions necessary to pass session tags. The
- *          administrator can also create granular permissions to allow you to pass only specific
- *          session tags. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_attribute-based-access-control.html">Tutorial: Using Tags
- *             for Attribute-Based Access Control</a> in the
- *          <i>IAM User Guide</i>.</p>
- *          <p>You can set the session tags as transitive. Transitive tags persist during role
- *          chaining. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html#id_session-tags_role-chaining">Chaining Roles
- *             with Session Tags</a> in the <i>IAM User Guide</i>.</p>
- *          <p>
- *             <b>Identities</b>
- *          </p>
- *          <p>Before your application can call <code>AssumeRoleWithWebIdentity</code>, you must have
- *          an identity token from a supported identity provider and create a role that the application
- *          can assume. The role that your application assumes must trust the identity provider that is
- *          associated with the identity token. In other words, the identity provider must be specified
- *          in the role's trust policy. </p>
- *          <important>
- *             <p>Calling <code>AssumeRoleWithWebIdentity</code> can result in an entry in your
- *             CloudTrail logs. The entry includes the <a href="http://openid.net/specs/openid-connect-core-1_0.html#Claims">Subject</a> of
- *             the provided web identity token. We recommend that you avoid using any personally
- *             identifiable information (PII) in this field. For example, you could instead use a GUID
- *             or a pairwise identifier, as <a href="http://openid.net/specs/openid-connect-core-1_0.html#SubjectIDTypes">suggested
- *                in the OIDC specification</a>.</p>
- *          </important>
- *          <p>For more information about how to use web identity federation and the
- *             <code>AssumeRoleWithWebIdentity</code> API, see the following resources: </p>
- *          <ul>
- *             <li>
- *                <p>
- *                   <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc_manual.html">Using Web Identity Federation API Operations for Mobile Apps</a> and <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#api_assumerolewithwebidentity">Federation Through a Web-based Identity Provider</a>. </p>
- *             </li>
- *             <li>
- *                <p>
- *                   <a href="https://aws.amazon.com/blogs/aws/the-aws-web-identity-federation-playground/"> Web Identity Federation Playground</a>. Walk through the process of
- *                authenticating through Login with Amazon, Facebook, or Google, getting temporary
- *                security credentials, and then using those credentials to make a request to Amazon Web Services.
- *             </p>
- *             </li>
- *             <li>
- *                <p>
- *                   <a href="http://aws.amazon.com/sdkforios/">Amazon Web Services SDK for iOS Developer Guide</a> and <a href="http://aws.amazon.com/sdkforandroid/">Amazon Web Services SDK for Android Developer Guide</a>. These toolkits
- *                contain sample apps that show how to invoke the identity providers. The toolkits then
- *                show how to use the information from these providers to get and use temporary
- *                security credentials. </p>
- *             </li>
- *             <li>
- *                <p>
- *                   <a href="http://aws.amazon.com/articles/web-identity-federation-with-mobile-applications">Web Identity
- *                   Federation with Mobile Applications</a>. This article discusses web identity
- *                federation and shows an example of how to use web identity federation to get access
- *                to content in Amazon S3. </p>
- *             </li>
- *          </ul>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { STSClient, AssumeRoleWithWebIdentityCommand } from "@aws-sdk/client-sts"; // ES Modules import
- * // const { STSClient, AssumeRoleWithWebIdentityCommand } = require("@aws-sdk/client-sts"); // CommonJS import
- * const client = new STSClient(config);
- * const command = new AssumeRoleWithWebIdentityCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link AssumeRoleWithWebIdentityCommandInput} for command's `input` shape.
- * @see {@link AssumeRoleWithWebIdentityCommandOutput} for command's `response` shape.
- * @see {@link STSClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class AssumeRoleWithWebIdentityCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         const stack = clientStack.concat(this.middlewareStack);
@@ -18527,70 +16098,11 @@ const middleware_signing_1 = __nccwpck_require__(4935);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1780);
 const Aws_query_1 = __nccwpck_require__(740);
-/**
- * <p>Decodes additional information about the authorization status of a request from an
- *          encoded message returned in response to an Amazon Web Services request.</p>
- *          <p>For example, if a user is not authorized to perform an operation that he or she has
- *          requested, the request returns a <code>Client.UnauthorizedOperation</code> response (an
- *          HTTP 403 response). Some Amazon Web Services operations additionally return an encoded message that can
- *          provide details about this authorization failure. </p>
- *          <note>
- *             <p>Only certain Amazon Web Services operations return an encoded authorization message. The
- *             documentation for an individual operation indicates whether that operation returns an
- *             encoded message in addition to returning an HTTP code.</p>
- *          </note>
- *          <p>The message is encoded because the details of the authorization status can constitute
- *          privileged information that the user who requested the operation should not see. To decode
- *          an authorization status message, a user must be granted permissions via an IAM policy to
- *          request the <code>DecodeAuthorizationMessage</code>
- *             (<code>sts:DecodeAuthorizationMessage</code>) action. </p>
- *          <p>The decoded message includes the following type of information:</p>
- *          <ul>
- *             <li>
- *                <p>Whether the request was denied due to an explicit deny or due to the absence of an
- *                explicit allow. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html#policy-eval-denyallow">Determining Whether a Request is Allowed or Denied</a> in the
- *                   <i>IAM User Guide</i>. </p>
- *             </li>
- *             <li>
- *                <p>The principal who made the request.</p>
- *             </li>
- *             <li>
- *                <p>The requested action.</p>
- *             </li>
- *             <li>
- *                <p>The requested resource.</p>
- *             </li>
- *             <li>
- *                <p>The values of condition keys in the context of the user's request.</p>
- *             </li>
- *          </ul>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { STSClient, DecodeAuthorizationMessageCommand } from "@aws-sdk/client-sts"; // ES Modules import
- * // const { STSClient, DecodeAuthorizationMessageCommand } = require("@aws-sdk/client-sts"); // CommonJS import
- * const client = new STSClient(config);
- * const command = new DecodeAuthorizationMessageCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link DecodeAuthorizationMessageCommandInput} for command's `input` shape.
- * @see {@link DecodeAuthorizationMessageCommandOutput} for command's `response` shape.
- * @see {@link STSClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class DecodeAuthorizationMessageCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         this.middlewareStack.use(middleware_signing_1.getAwsAuthPlugin(configuration));
@@ -18632,52 +16144,11 @@ const middleware_signing_1 = __nccwpck_require__(4935);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1780);
 const Aws_query_1 = __nccwpck_require__(740);
-/**
- * <p>Returns the account identifier for the specified access key ID.</p>
- *         <p>Access keys consist of two parts: an access key ID (for example,
- *                 <code>AKIAIOSFODNN7EXAMPLE</code>) and a secret access key (for example,
- *                 <code>wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY</code>). For more information about
- *             access keys, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html">Managing Access Keys for IAM
- *                 Users</a> in the <i>IAM User Guide</i>.</p>
- *         <p>When you pass an access key ID to this operation, it returns the ID of the Amazon Web Services
- *             account to which the keys belong. Access key IDs beginning with <code>AKIA</code> are
- *             long-term credentials for an IAM user or the Amazon Web Services account root user. Access key IDs
- *             beginning with <code>ASIA</code> are temporary credentials that are created using STS
- *             operations. If the account in the response belongs to you, you can sign in as the root
- *             user and review your root user access keys. Then, you can pull a <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_getting-report.html">credentials report</a> to learn which IAM user owns the keys. To learn who
- *             requested the temporary credentials for an <code>ASIA</code> access key, view the STS
- *             events in your <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/cloudtrail-integration.html">CloudTrail logs</a> in the
- *                 <i>IAM User Guide</i>.</p>
- *         <p>This operation does not indicate the state of the access key. The key might be active,
- *             inactive, or deleted. Active keys might not have permissions to perform an operation.
- *             Providing a deleted access key might return an error that the key doesn't exist.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { STSClient, GetAccessKeyInfoCommand } from "@aws-sdk/client-sts"; // ES Modules import
- * // const { STSClient, GetAccessKeyInfoCommand } = require("@aws-sdk/client-sts"); // CommonJS import
- * const client = new STSClient(config);
- * const command = new GetAccessKeyInfoCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link GetAccessKeyInfoCommandInput} for command's `input` shape.
- * @see {@link GetAccessKeyInfoCommandOutput} for command's `response` shape.
- * @see {@link STSClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class GetAccessKeyInfoCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         this.middlewareStack.use(middleware_signing_1.getAwsAuthPlugin(configuration));
@@ -18719,44 +16190,11 @@ const middleware_signing_1 = __nccwpck_require__(4935);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1780);
 const Aws_query_1 = __nccwpck_require__(740);
-/**
- * <p>Returns details about the IAM user or role whose credentials are used to call the
- *             operation.</p>
- *         <note>
- *             <p>No permissions are required to perform this operation. If an administrator adds a
- *                 policy to your IAM user or role that explicitly denies access to the
- *                     <code>sts:GetCallerIdentity</code> action, you can still perform this operation.
- *                 Permissions are not required because the same information is returned when an IAM
- *                 user or role is denied access. To view an example response, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/troubleshoot_general.html#troubleshoot_general_access-denied-delete-mfa">I Am Not Authorized to Perform: iam:DeleteVirtualMFADevice</a> in the
- *                     <i>IAM User Guide</i>.</p>
- *         </note>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { STSClient, GetCallerIdentityCommand } from "@aws-sdk/client-sts"; // ES Modules import
- * // const { STSClient, GetCallerIdentityCommand } = require("@aws-sdk/client-sts"); // CommonJS import
- * const client = new STSClient(config);
- * const command = new GetCallerIdentityCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link GetCallerIdentityCommandInput} for command's `input` shape.
- * @see {@link GetCallerIdentityCommandOutput} for command's `response` shape.
- * @see {@link STSClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class GetCallerIdentityCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         this.middlewareStack.use(middleware_signing_1.getAwsAuthPlugin(configuration));
@@ -18798,173 +16236,11 @@ const middleware_signing_1 = __nccwpck_require__(4935);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1780);
 const Aws_query_1 = __nccwpck_require__(740);
-/**
- * <p>Returns a set of temporary security credentials (consisting of an access key ID, a
- *          secret access key, and a security token) for a federated user. A typical use is in a proxy
- *          application that gets temporary security credentials on behalf of distributed applications
- *          inside a corporate network. You must call the <code>GetFederationToken</code> operation
- *          using the long-term security credentials of an IAM user. As a result, this call is
- *          appropriate in contexts where those credentials can be safely stored, usually in a
- *          server-based application. For a comparison of <code>GetFederationToken</code> with the
- *          other API operations that produce temporary credentials, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html">Requesting Temporary Security
- *             Credentials</a> and <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison">Comparing the
- *             STS API operations</a> in the <i>IAM User Guide</i>.</p>
- *          <note>
- *             <p>You can create a mobile-based or browser-based app that can authenticate users using
- *             a web identity provider like Login with Amazon, Facebook, Google, or an OpenID
- *             Connect-compatible identity provider. In this case, we recommend that you use <a href="http://aws.amazon.com/cognito/">Amazon Cognito</a> or
- *                <code>AssumeRoleWithWebIdentity</code>. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#api_assumerolewithwebidentity">Federation Through a Web-based Identity Provider</a> in the
- *                <i>IAM User Guide</i>.</p>
- *          </note>
- *          <p>You can also call <code>GetFederationToken</code> using the security credentials of an
- *          Amazon Web Services account root user, but we do not recommend it. Instead, we recommend that you create
- *          an IAM user for the purpose of the proxy application. Then attach a policy to the IAM
- *          user that limits federated users to only the actions and resources that they need to
- *          access. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html">IAM Best Practices</a> in the
- *             <i>IAM User Guide</i>. </p>
- *          <p>
- *             <b>Session duration</b>
- *          </p>
- *          <p>The temporary credentials are valid for the specified duration, from 900 seconds (15
- *          minutes) up to a maximum of 129,600 seconds (36 hours). The default session duration is
- *          43,200 seconds (12 hours). Temporary credentials that are obtained by using Amazon Web Services account
- *          root user credentials have a maximum duration of 3,600 seconds (1 hour).</p>
- *          <p>
- *             <b>Permissions</b>
- *          </p>
- *          <p>You can use the temporary credentials created by <code>GetFederationToken</code> in any
- *          Amazon Web Services service except the following:</p>
- *          <ul>
- *             <li>
- *                <p>You cannot call any IAM operations using the CLI or the Amazon Web Services API. </p>
- *             </li>
- *             <li>
- *                <p>You cannot call any STS operations except <code>GetCallerIdentity</code>.</p>
- *             </li>
- *          </ul>
- *          <p>You must pass an inline or managed <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#policies_session">session policy</a> to
- *          this operation. You can pass a single JSON policy document to use as an inline session
- *          policy. You can also specify up to 10 managed policies to use as managed session policies.
- *          The plaintext that you use for both inline and managed session policies can't exceed 2,048
- *          characters.</p>
- *          <p>Though the session policy parameters are optional, if you do not pass a policy, then the
- *          resulting federated user session has no permissions. When you pass session policies, the
- *          session permissions are the intersection of the IAM user policies and the session
- *          policies that you pass. This gives you a way to further restrict the permissions for a
- *          federated user. You cannot use session policies to grant more permissions than those that
- *          are defined in the permissions policy of the IAM user. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#policies_session">Session
- *             Policies</a> in the <i>IAM User Guide</i>. For information about
- *          using <code>GetFederationToken</code> to create temporary security credentials, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#api_getfederationtoken">GetFederationToken—Federation Through a Custom Identity Broker</a>. </p>
- *          <p>You can use the credentials to access a resource that has a resource-based policy. If
- *          that policy specifically references the federated user session in the
- *             <code>Principal</code> element of the policy, the session has the permissions allowed by
- *          the policy. These permissions are granted in addition to the permissions granted by the
- *          session policies.</p>
- *          <p>
- *             <b>Tags</b>
- *          </p>
- *          <p>(Optional) You can pass tag key-value pairs to your session. These are called session
- *          tags. For more information about session tags, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html">Passing Session Tags in STS</a> in the
- *             <i>IAM User Guide</i>.</p>
- *         <note>
- *             <p>You can create a mobile-based or browser-based app that can authenticate users
- *                 using a web identity provider like Login with Amazon, Facebook, Google, or an OpenID
- *                 Connect-compatible identity provider. In this case, we recommend that you use <a href="http://aws.amazon.com/cognito/">Amazon Cognito</a> or
- *                     <code>AssumeRoleWithWebIdentity</code>. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#api_assumerolewithwebidentity">Federation Through a Web-based Identity Provider</a> in the
- *                     <i>IAM User Guide</i>.</p>
- *         </note>
- *         <p>You can also call <code>GetFederationToken</code> using the security credentials of an
- *             Amazon Web Services account root user, but we do not recommend it. Instead, we recommend that you
- *             create an IAM user for the purpose of the proxy application. Then attach a policy to
- *             the IAM user that limits federated users to only the actions and resources that they
- *             need to access. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html">IAM Best Practices</a> in the
- *                 <i>IAM User Guide</i>. </p>
- *         <p>
- *             <b>Session duration</b>
- *          </p>
- *         <p>The temporary credentials are valid for the specified duration, from 900 seconds (15
- *             minutes) up to a maximum of 129,600 seconds (36 hours). The default session duration is
- *             43,200 seconds (12 hours). Temporary credentials that are obtained by using Amazon Web Services
- *             account root user credentials have a maximum duration of 3,600 seconds (1 hour).</p>
- *         <p>
- *             <b>Permissions</b>
- *         </p>
- *         <p>You can use the temporary credentials created by <code>GetFederationToken</code> in
- *             any Amazon Web Services service except the following:</p>
- *         <ul>
- *             <li>
- *                 <p>You cannot call any IAM operations using the CLI or the Amazon Web Services API.
- *                 </p>
- *             </li>
- *             <li>
- *                 <p>You cannot call any STS operations except
- *                     <code>GetCallerIdentity</code>.</p>
- *             </li>
- *          </ul>
- *         <p>You must pass an inline or managed <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#policies_session">session policy</a> to
- *             this operation. You can pass a single JSON policy document to use as an inline session
- *             policy. You can also specify up to 10 managed policies to use as managed session
- *             policies. The plain text that you use for both inline and managed session policies can't
- *             exceed 2,048 characters.</p>
- *         <p>Though the session policy parameters are optional, if you do not pass a policy, then
- *             the resulting federated user session has no permissions. When you pass session policies,
- *             the session permissions are the intersection of the IAM user policies and the session
- *             policies that you pass. This gives you a way to further restrict the permissions for a
- *             federated user. You cannot use session policies to grant more permissions than those
- *             that are defined in the permissions policy of the IAM user. For more information, see
- *                 <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#policies_session">Session Policies</a>
- *             in the <i>IAM User Guide</i>. For information about using
- *                 <code>GetFederationToken</code> to create temporary security credentials, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#api_getfederationtoken">GetFederationToken—Federation Through a Custom Identity Broker</a>. </p>
- *         <p>You can use the credentials to access a resource that has a resource-based policy. If
- *             that policy specifically references the federated user session in the
- *                 <code>Principal</code> element of the policy, the session has the permissions
- *             allowed by the policy. These permissions are granted in addition to the permissions
- *             granted by the session policies.</p>
- *         <p>
- *             <b>Tags</b>
- *          </p>
- *         <p>(Optional) You can pass tag key-value pairs to your session. These are called session
- *             tags. For more information about session tags, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html">Passing Session Tags in STS</a> in
- *             the <i>IAM User Guide</i>.</p>
- *         <p>An administrator must grant you the permissions necessary to pass session tags. The
- *             administrator can also create granular permissions to allow you to pass only specific
- *             session tags. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_attribute-based-access-control.html">Tutorial: Using
- *                 Tags for Attribute-Based Access Control</a> in the
- *                 <i>IAM User Guide</i>.</p>
- *         <p>Tag key–value pairs are not case sensitive, but case is preserved. This means that you
- *             cannot have separate <code>Department</code> and <code>department</code> tag keys.
- *             Assume that the user that you are federating has the
- *                 <code>Department</code>=<code>Marketing</code> tag and you pass the
- *                 <code>department</code>=<code>engineering</code> session tag.
- *                 <code>Department</code> and <code>department</code> are not saved as separate tags,
- *             and the session tag passed in the request takes precedence over the user tag.</p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { STSClient, GetFederationTokenCommand } from "@aws-sdk/client-sts"; // ES Modules import
- * // const { STSClient, GetFederationTokenCommand } = require("@aws-sdk/client-sts"); // CommonJS import
- * const client = new STSClient(config);
- * const command = new GetFederationTokenCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link GetFederationTokenCommandInput} for command's `input` shape.
- * @see {@link GetFederationTokenCommandOutput} for command's `response` shape.
- * @see {@link STSClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class GetFederationTokenCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         this.middlewareStack.use(middleware_signing_1.getAwsAuthPlugin(configuration));
@@ -19006,86 +16282,11 @@ const middleware_signing_1 = __nccwpck_require__(4935);
 const smithy_client_1 = __nccwpck_require__(4963);
 const models_0_1 = __nccwpck_require__(1780);
 const Aws_query_1 = __nccwpck_require__(740);
-/**
- * <p>Returns a set of temporary credentials for an Amazon Web Services account or IAM user. The
- *          credentials consist of an access key ID, a secret access key, and a security token.
- *          Typically, you use <code>GetSessionToken</code> if you want to use MFA to protect
- *          programmatic calls to specific Amazon Web Services API operations like Amazon EC2 <code>StopInstances</code>.
- *          MFA-enabled IAM users would need to call <code>GetSessionToken</code> and submit an MFA
- *          code that is associated with their MFA device. Using the temporary security credentials
- *          that are returned from the call, IAM users can then make programmatic calls to API
- *          operations that require MFA authentication. If you do not supply a correct MFA code, then
- *          the API returns an access denied error. For a comparison of <code>GetSessionToken</code>
- *          with the other API operations that produce temporary credentials, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html">Requesting
- *             Temporary Security Credentials</a> and <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison">Comparing the
- *             STS API operations</a> in the <i>IAM User Guide</i>.</p>
- *          <p>
- *             <b>Session Duration</b>
- *          </p>
- *          <p>The <code>GetSessionToken</code> operation must be called by using the long-term Amazon Web Services
- *          security credentials of the Amazon Web Services account root user or an IAM user. Credentials that are
- *          created by IAM users are valid for the duration that you specify. This duration can range
- *          from 900 seconds (15 minutes) up to a maximum of 129,600 seconds (36 hours), with a default
- *          of 43,200 seconds (12 hours). Credentials based on account credentials can range from 900
- *          seconds (15 minutes) up to 3,600 seconds (1 hour), with a default of 1 hour. </p>
- *          <p>
- *             <b>Permissions</b>
- *          </p>
- *          <p>The temporary security credentials created by <code>GetSessionToken</code> can be used
- *          to make API calls to any Amazon Web Services service with the following exceptions:</p>
- *          <ul>
- *             <li>
- *                <p>You cannot call any IAM API operations unless MFA authentication information is
- *                included in the request.</p>
- *             </li>
- *             <li>
- *                <p>You cannot call any STS API <i>except</i>
- *                   <code>AssumeRole</code> or <code>GetCallerIdentity</code>.</p>
- *             </li>
- *          </ul>
- *          <note>
- *             <p>We recommend that you do not call <code>GetSessionToken</code> with Amazon Web Services account
- *             root user credentials. Instead, follow our <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#create-iam-users">best practices</a> by
- *             creating one or more IAM users, giving them the necessary permissions, and using IAM
- *             users for everyday interaction with Amazon Web Services. </p>
- *          </note>
- *          <p>The credentials that are returned by <code>GetSessionToken</code> are based on
- *          permissions associated with the user whose credentials were used to call the operation. If
- *             <code>GetSessionToken</code> is called using Amazon Web Services account root user credentials, the
- *          temporary credentials have root user permissions. Similarly, if
- *             <code>GetSessionToken</code> is called using the credentials of an IAM user, the
- *          temporary credentials have the same permissions as the IAM user. </p>
- *          <p>For more information about using <code>GetSessionToken</code> to create temporary
- *          credentials, go to <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#api_getsessiontoken">Temporary
- *             Credentials for Users in Untrusted Environments</a> in the
- *             <i>IAM User Guide</i>. </p>
- * @example
- * Use a bare-bones client and the command you need to make an API call.
- * ```javascript
- * import { STSClient, GetSessionTokenCommand } from "@aws-sdk/client-sts"; // ES Modules import
- * // const { STSClient, GetSessionTokenCommand } = require("@aws-sdk/client-sts"); // CommonJS import
- * const client = new STSClient(config);
- * const command = new GetSessionTokenCommand(input);
- * const response = await client.send(command);
- * ```
- *
- * @see {@link GetSessionTokenCommandInput} for command's `input` shape.
- * @see {@link GetSessionTokenCommandOutput} for command's `response` shape.
- * @see {@link STSClientResolvedConfig | config} for command's `input` shape.
- *
- */
 class GetSessionTokenCommand extends smithy_client_1.Command {
-    // Start section: command_properties
-    // End section: command_properties
     constructor(input) {
-        // Start section: command_constructor
         super();
         this.input = input;
-        // End section: command_constructor
     }
-    /**
-     * @internal
-     */
     resolveMiddleware(clientStack, configuration, options) {
         this.middlewareStack.use(middleware_serde_1.getSerdePlugin(configuration, this.serialize, this.deserialize));
         this.middlewareStack.use(middleware_signing_1.getAwsAuthPlugin(configuration));
@@ -19122,28 +16323,12 @@ exports.GetSessionTokenCommand = GetSessionTokenCommand;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.decorateDefaultCredentialProvider = exports.getDefaultRoleAssumerWithWebIdentity = exports.getDefaultRoleAssumer = void 0;
-// Please do not touch this file. It's generated from template in:
-// https://github.com/aws/aws-sdk-js-v3/blob/main/codegen/smithy-aws-typescript-codegen/src/main/resources/software/amazon/smithy/aws/typescript/codegen/sts-client-defaultRoleAssumers.ts
 const defaultStsRoleAssumers_1 = __nccwpck_require__(48);
 const STSClient_1 = __nccwpck_require__(4195);
-/**
- * The default role assumer that used by credential providers when sts:AssumeRole API is needed.
- */
 const getDefaultRoleAssumer = (stsOptions = {}) => defaultStsRoleAssumers_1.getDefaultRoleAssumer(stsOptions, STSClient_1.STSClient);
 exports.getDefaultRoleAssumer = getDefaultRoleAssumer;
-/**
- * The default role assumer that used by credential providers when sts:AssumeRoleWithWebIdentity API is needed.
- */
 const getDefaultRoleAssumerWithWebIdentity = (stsOptions = {}) => defaultStsRoleAssumers_1.getDefaultRoleAssumerWithWebIdentity(stsOptions, STSClient_1.STSClient);
 exports.getDefaultRoleAssumerWithWebIdentity = getDefaultRoleAssumerWithWebIdentity;
-/**
- * The default credential providers depend STS client to assume role with desired API: sts:assumeRole,
- * sts:assumeRoleWithWebIdentity, etc. This function decorates the default credential provider with role assumers which
- * encapsulates the process of calling STS commands. This can only be imported by AWS client packages to avoid circular
- * dependencies.
- *
- * @internal
- */
 const decorateDefaultCredentialProvider = (provider) => (input) => provider({
     roleAssumer: exports.getDefaultRoleAssumer(input),
     roleAssumerWithWebIdentity: exports.getDefaultRoleAssumerWithWebIdentity(input),
@@ -19164,9 +16349,6 @@ exports.decorateDefaultCredentialProvider = exports.getDefaultRoleAssumerWithWeb
 const AssumeRoleCommand_1 = __nccwpck_require__(9802);
 const AssumeRoleWithWebIdentityCommand_1 = __nccwpck_require__(7451);
 const ASSUME_ROLE_DEFAULT_REGION = "us-east-1";
-/**
- * Inject the fallback STS region of us-east-1.
- */
 const decorateDefaultRegion = (region) => {
     if (typeof region !== "function") {
         return region === undefined ? ASSUME_ROLE_DEFAULT_REGION : region;
@@ -19180,10 +16362,6 @@ const decorateDefaultRegion = (region) => {
         }
     };
 };
-/**
- * The default role assumer that used by credential providers when sts:AssumeRole API is needed.
- * @internal
- */
 const getDefaultRoleAssumer = (stsOptions, stsClientCtor) => {
     let stsClient;
     let closureSourceCreds;
@@ -19193,7 +16371,6 @@ const getDefaultRoleAssumer = (stsOptions, stsClientCtor) => {
             const { logger, region, requestHandler } = stsOptions;
             stsClient = new stsClientCtor({
                 logger,
-                // A hack to make sts client uses the credential in current closure.
                 credentialDefaultProvider: () => async () => closureSourceCreds,
                 region: decorateDefaultRegion(region || stsOptions.region),
                 ...(requestHandler ? { requestHandler } : {}),
@@ -19212,10 +16389,6 @@ const getDefaultRoleAssumer = (stsOptions, stsClientCtor) => {
     };
 };
 exports.getDefaultRoleAssumer = getDefaultRoleAssumer;
-/**
- * The default role assumer that used by credential providers when sts:AssumeRoleWithWebIdentity API is needed.
- * @internal
- */
 const getDefaultRoleAssumerWithWebIdentity = (stsOptions, stsClientCtor) => {
     let stsClient;
     return async (params) => {
@@ -19240,14 +16413,6 @@ const getDefaultRoleAssumerWithWebIdentity = (stsOptions, stsClientCtor) => {
     };
 };
 exports.getDefaultRoleAssumerWithWebIdentity = getDefaultRoleAssumerWithWebIdentity;
-/**
- * The default credential providers depend STS client to assume role with desired API: sts:assumeRole,
- * sts:assumeRoleWithWebIdentity, etc. This function decorates the default credential provider with role assumers which
- * encapsulates the process of calling STS commands. This can only be imported by AWS client packages to avoid circular
- * dependencies.
- *
- * @internal
- */
 const decorateDefaultCredentialProvider = (provider) => (input) => provider({
     roleAssumer: exports.getDefaultRoleAssumer(input, input.stsClientCtor),
     roleAssumerWithWebIdentity: exports.getDefaultRoleAssumerWithWebIdentity(input, input.stsClientCtor),
@@ -19400,261 +16565,174 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.GetSessionTokenResponse = exports.GetSessionTokenRequest = exports.GetFederationTokenResponse = exports.FederatedUser = exports.GetFederationTokenRequest = exports.GetCallerIdentityResponse = exports.GetCallerIdentityRequest = exports.GetAccessKeyInfoResponse = exports.GetAccessKeyInfoRequest = exports.InvalidAuthorizationMessageException = exports.DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageRequest = exports.IDPCommunicationErrorException = exports.AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityRequest = exports.InvalidIdentityTokenException = exports.IDPRejectedClaimException = exports.AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLRequest = exports.RegionDisabledException = exports.PackedPolicyTooLargeException = exports.MalformedPolicyDocumentException = exports.ExpiredTokenException = exports.AssumeRoleResponse = exports.Credentials = exports.AssumeRoleRequest = exports.Tag = exports.PolicyDescriptorType = exports.AssumedRoleUser = void 0;
 var AssumedRoleUser;
 (function (AssumedRoleUser) {
-    /**
-     * @internal
-     */
     AssumedRoleUser.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(AssumedRoleUser = exports.AssumedRoleUser || (exports.AssumedRoleUser = {}));
 var PolicyDescriptorType;
 (function (PolicyDescriptorType) {
-    /**
-     * @internal
-     */
     PolicyDescriptorType.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(PolicyDescriptorType = exports.PolicyDescriptorType || (exports.PolicyDescriptorType = {}));
 var Tag;
 (function (Tag) {
-    /**
-     * @internal
-     */
     Tag.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(Tag = exports.Tag || (exports.Tag = {}));
 var AssumeRoleRequest;
 (function (AssumeRoleRequest) {
-    /**
-     * @internal
-     */
     AssumeRoleRequest.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(AssumeRoleRequest = exports.AssumeRoleRequest || (exports.AssumeRoleRequest = {}));
 var Credentials;
 (function (Credentials) {
-    /**
-     * @internal
-     */
     Credentials.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(Credentials = exports.Credentials || (exports.Credentials = {}));
 var AssumeRoleResponse;
 (function (AssumeRoleResponse) {
-    /**
-     * @internal
-     */
     AssumeRoleResponse.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(AssumeRoleResponse = exports.AssumeRoleResponse || (exports.AssumeRoleResponse = {}));
 var ExpiredTokenException;
 (function (ExpiredTokenException) {
-    /**
-     * @internal
-     */
     ExpiredTokenException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(ExpiredTokenException = exports.ExpiredTokenException || (exports.ExpiredTokenException = {}));
 var MalformedPolicyDocumentException;
 (function (MalformedPolicyDocumentException) {
-    /**
-     * @internal
-     */
     MalformedPolicyDocumentException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(MalformedPolicyDocumentException = exports.MalformedPolicyDocumentException || (exports.MalformedPolicyDocumentException = {}));
 var PackedPolicyTooLargeException;
 (function (PackedPolicyTooLargeException) {
-    /**
-     * @internal
-     */
     PackedPolicyTooLargeException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(PackedPolicyTooLargeException = exports.PackedPolicyTooLargeException || (exports.PackedPolicyTooLargeException = {}));
 var RegionDisabledException;
 (function (RegionDisabledException) {
-    /**
-     * @internal
-     */
     RegionDisabledException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(RegionDisabledException = exports.RegionDisabledException || (exports.RegionDisabledException = {}));
 var AssumeRoleWithSAMLRequest;
 (function (AssumeRoleWithSAMLRequest) {
-    /**
-     * @internal
-     */
     AssumeRoleWithSAMLRequest.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(AssumeRoleWithSAMLRequest = exports.AssumeRoleWithSAMLRequest || (exports.AssumeRoleWithSAMLRequest = {}));
 var AssumeRoleWithSAMLResponse;
 (function (AssumeRoleWithSAMLResponse) {
-    /**
-     * @internal
-     */
     AssumeRoleWithSAMLResponse.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLResponse || (exports.AssumeRoleWithSAMLResponse = {}));
 var IDPRejectedClaimException;
 (function (IDPRejectedClaimException) {
-    /**
-     * @internal
-     */
     IDPRejectedClaimException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(IDPRejectedClaimException = exports.IDPRejectedClaimException || (exports.IDPRejectedClaimException = {}));
 var InvalidIdentityTokenException;
 (function (InvalidIdentityTokenException) {
-    /**
-     * @internal
-     */
     InvalidIdentityTokenException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(InvalidIdentityTokenException = exports.InvalidIdentityTokenException || (exports.InvalidIdentityTokenException = {}));
 var AssumeRoleWithWebIdentityRequest;
 (function (AssumeRoleWithWebIdentityRequest) {
-    /**
-     * @internal
-     */
     AssumeRoleWithWebIdentityRequest.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(AssumeRoleWithWebIdentityRequest = exports.AssumeRoleWithWebIdentityRequest || (exports.AssumeRoleWithWebIdentityRequest = {}));
 var AssumeRoleWithWebIdentityResponse;
 (function (AssumeRoleWithWebIdentityResponse) {
-    /**
-     * @internal
-     */
     AssumeRoleWithWebIdentityResponse.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityResponse || (exports.AssumeRoleWithWebIdentityResponse = {}));
 var IDPCommunicationErrorException;
 (function (IDPCommunicationErrorException) {
-    /**
-     * @internal
-     */
     IDPCommunicationErrorException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(IDPCommunicationErrorException = exports.IDPCommunicationErrorException || (exports.IDPCommunicationErrorException = {}));
 var DecodeAuthorizationMessageRequest;
 (function (DecodeAuthorizationMessageRequest) {
-    /**
-     * @internal
-     */
     DecodeAuthorizationMessageRequest.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DecodeAuthorizationMessageRequest = exports.DecodeAuthorizationMessageRequest || (exports.DecodeAuthorizationMessageRequest = {}));
 var DecodeAuthorizationMessageResponse;
 (function (DecodeAuthorizationMessageResponse) {
-    /**
-     * @internal
-     */
     DecodeAuthorizationMessageResponse.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageResponse || (exports.DecodeAuthorizationMessageResponse = {}));
 var InvalidAuthorizationMessageException;
 (function (InvalidAuthorizationMessageException) {
-    /**
-     * @internal
-     */
     InvalidAuthorizationMessageException.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(InvalidAuthorizationMessageException = exports.InvalidAuthorizationMessageException || (exports.InvalidAuthorizationMessageException = {}));
 var GetAccessKeyInfoRequest;
 (function (GetAccessKeyInfoRequest) {
-    /**
-     * @internal
-     */
     GetAccessKeyInfoRequest.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GetAccessKeyInfoRequest = exports.GetAccessKeyInfoRequest || (exports.GetAccessKeyInfoRequest = {}));
 var GetAccessKeyInfoResponse;
 (function (GetAccessKeyInfoResponse) {
-    /**
-     * @internal
-     */
     GetAccessKeyInfoResponse.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GetAccessKeyInfoResponse = exports.GetAccessKeyInfoResponse || (exports.GetAccessKeyInfoResponse = {}));
 var GetCallerIdentityRequest;
 (function (GetCallerIdentityRequest) {
-    /**
-     * @internal
-     */
     GetCallerIdentityRequest.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GetCallerIdentityRequest = exports.GetCallerIdentityRequest || (exports.GetCallerIdentityRequest = {}));
 var GetCallerIdentityResponse;
 (function (GetCallerIdentityResponse) {
-    /**
-     * @internal
-     */
     GetCallerIdentityResponse.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GetCallerIdentityResponse = exports.GetCallerIdentityResponse || (exports.GetCallerIdentityResponse = {}));
 var GetFederationTokenRequest;
 (function (GetFederationTokenRequest) {
-    /**
-     * @internal
-     */
     GetFederationTokenRequest.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GetFederationTokenRequest = exports.GetFederationTokenRequest || (exports.GetFederationTokenRequest = {}));
 var FederatedUser;
 (function (FederatedUser) {
-    /**
-     * @internal
-     */
     FederatedUser.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(FederatedUser = exports.FederatedUser || (exports.FederatedUser = {}));
 var GetFederationTokenResponse;
 (function (GetFederationTokenResponse) {
-    /**
-     * @internal
-     */
     GetFederationTokenResponse.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GetFederationTokenResponse = exports.GetFederationTokenResponse || (exports.GetFederationTokenResponse = {}));
 var GetSessionTokenRequest;
 (function (GetSessionTokenRequest) {
-    /**
-     * @internal
-     */
     GetSessionTokenRequest.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(GetSessionTokenRequest = exports.GetSessionTokenRequest || (exports.GetSessionTokenRequest = {}));
 var GetSessionTokenResponse;
 (function (GetSessionTokenResponse) {
-    /**
-     * @internal
-     */
     GetSessionTokenResponse.filterSensitiveLog = (obj) => ({
         ...obj,
     });
@@ -20859,14 +17937,12 @@ const deserializeMetadata = (output) => {
         cfId: output.headers["x-amz-cf-id"],
     });
 };
-// Collect low-level response body stream to Uint8Array.
 const collectBody = (streamBody = new Uint8Array(), context) => {
     if (streamBody instanceof Uint8Array) {
         return Promise.resolve(streamBody);
     }
     return context.streamCollector(streamBody) || Promise.resolve(new Uint8Array());
 };
-// Encode Uint8Array data into string with utf-8.
 const collectBodyString = (streamBody, context) => collectBody(streamBody, context).then((body) => context.utf8Encoder(body));
 const buildHttpRpcRequest = async (context, headers, path, resolvedHostname, body) => {
     const { hostname, protocol = "https", port, path: basePath } = await context.endpoint();
@@ -20930,8 +18006,7 @@ const loadQueryErrorCode = (output, data) => {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRuntimeConfig = void 0;
 const tslib_1 = __nccwpck_require__(4351);
-// @ts-ignore: package.json will be imported from dist folders
-const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(1121)); // eslint-disable-line
+const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(1121));
 const defaultStsRoleAssumers_1 = __nccwpck_require__(48);
 const config_resolver_1 = __nccwpck_require__(6153);
 const credential_provider_node_1 = __nccwpck_require__(5531);
@@ -20945,9 +18020,6 @@ const util_user_agent_node_1 = __nccwpck_require__(8095);
 const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(2642);
 const smithy_client_1 = __nccwpck_require__(4963);
-/**
- * @internal
- */
 const getRuntimeConfig = (config) => {
     var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
     smithy_client_1.emitWarningIfUnsupportedVersion(process.version);
@@ -20985,9 +18057,6 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRuntimeConfig = void 0;
 const url_parser_1 = __nccwpck_require__(2992);
 const endpoints_1 = __nccwpck_require__(3571);
-/**
- * @internal
- */
 const getRuntimeConfig = (config) => {
     var _a, _b, _c, _d, _e;
     return ({
