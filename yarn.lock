@@ -69,6 +69,14 @@
     "@aws-sdk/types" "3.36.0"
     tslib "^2.3.0"
 
+"@aws-sdk/abort-controller@3.37.0":
+  version "3.37.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/abort-controller/-/abort-controller-3.37.0.tgz#8c7625e47ee78ce68063189a3b9571f303f40a58"
+  integrity sha512-Zq2PejlunZhV6MYeq2kXz5n8XbE5jsbeuKANwCqoD138zopsEmBGN71g/K+Ha8TtqLnMhZkt/cSYA4eaCdNaWg==
+  dependencies:
+    "@aws-sdk/types" "3.37.0"
+    tslib "^2.3.0"
+
 "@aws-sdk/client-app-mesh@^3.36.1":
   version "3.36.1"
   resolved "https://registry.yarnpkg.com/@aws-sdk/client-app-mesh/-/client-app-mesh-3.36.1.tgz#2a05abe59b0ef76e442368d60d3a8daa2a551ee9"
@@ -478,10 +486,15 @@
     "@aws-sdk/types" "3.36.0"
     tslib "^2.3.0"
 
-"@aws-sdk/types@3.36.0", "@aws-sdk/types@^3.1.0":
+"@aws-sdk/types@3.36.0":
   version "3.36.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.36.0.tgz#6d561df1070f039f29b2259affdd1201f3d06472"
   integrity sha512-OeaTDZqo4OfGahgsZF2viOWxSSNColEUf8RbKAWNlke3nkMu3JW8kkft1Qte6jvoQxZ3jOQWi33Z4LUxix/V7A==
+
+"@aws-sdk/types@3.37.0", "@aws-sdk/types@^3.1.0":
+  version "3.37.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.37.0.tgz#c137e7193c165e0395e5a802eaf49298fae7c692"
+  integrity sha512-KwHB06E1uxof5ijfcQXYidyihoCRMnHEFvWCy/VlL+1S54FTlMZ27JOZzQhLiw8NqeNfO33aqpMkxR60TwUZzg==
 
 "@aws-sdk/url-parser@3.36.0":
   version "3.36.0"
@@ -591,13 +604,13 @@
     "@aws-sdk/util-buffer-from" "3.36.0"
     tslib "^2.3.0"
 
-"@aws-sdk/util-waiter@^3.34.0":
-  version "3.36.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/util-waiter/-/util-waiter-3.36.0.tgz#8b1437b45c153635803867b569051e072bbbc308"
-  integrity sha512-lHBBg6n29yphB3J+UQkZb93FjOFxVSEs1jqtk77lCYp3Ugz0LwiSDHgQePMomwSP3HMR6Iqb3pAlkTivTW45sg==
+"@aws-sdk/util-waiter@^3.37.0":
+  version "3.37.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/util-waiter/-/util-waiter-3.37.0.tgz#7f3476496fba84a5a04887d68fd6dadf307644a2"
+  integrity sha512-toH5SolyKdTYH4aYME1MIofp5/v1kdfd9u0vugRGL2/ET2dNgx4VpdwIeyY8mIVsNhGw1PhWcc9CMq3fjedI+g==
   dependencies:
-    "@aws-sdk/abort-controller" "3.36.0"
-    "@aws-sdk/types" "3.36.0"
+    "@aws-sdk/abort-controller" "3.37.0"
+    "@aws-sdk/types" "3.37.0"
     tslib "^2.3.0"
 
 "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.14.5", "@babel/code-frame@^7.15.8":
