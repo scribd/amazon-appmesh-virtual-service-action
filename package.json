@@ -27,7 +27,7 @@
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@aws-sdk/client-app-mesh": "^3.36.1",
-    "@aws-sdk/util-waiter": "^3.34.0",
+    "@aws-sdk/util-waiter": "^3.38.0",
     "lodash": "^4.17.21",
     "yaml": "^1.10.2"
   },
