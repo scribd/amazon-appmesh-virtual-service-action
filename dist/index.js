@@ -5,7 +5,7 @@
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.38.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/client-sts":"3.38.0","@aws-sdk/config-resolver":"3.38.0","@aws-sdk/credential-provider-node":"3.38.0","@aws-sdk/fetch-http-handler":"3.38.0","@aws-sdk/hash-node":"3.38.0","@aws-sdk/invalid-dependency":"3.38.0","@aws-sdk/middleware-content-length":"3.38.0","@aws-sdk/middleware-host-header":"3.38.0","@aws-sdk/middleware-logger":"3.38.0","@aws-sdk/middleware-retry":"3.38.0","@aws-sdk/middleware-serde":"3.38.0","@aws-sdk/middleware-signing":"3.38.0","@aws-sdk/middleware-stack":"3.38.0","@aws-sdk/middleware-user-agent":"3.38.0","@aws-sdk/node-config-provider":"3.38.0","@aws-sdk/node-http-handler":"3.38.0","@aws-sdk/protocol-http":"3.38.0","@aws-sdk/smithy-client":"3.38.0","@aws-sdk/types":"3.38.0","@aws-sdk/url-parser":"3.38.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.38.0","@aws-sdk/util-user-agent-node":"3.38.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","tslib":"^2.3.0","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.38.0","@types/node":"^12.7.5","@types/uuid":"^8.3.0","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.40.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/client-sts":"3.40.0","@aws-sdk/config-resolver":"3.40.0","@aws-sdk/credential-provider-node":"3.40.0","@aws-sdk/fetch-http-handler":"3.40.0","@aws-sdk/hash-node":"3.40.0","@aws-sdk/invalid-dependency":"3.40.0","@aws-sdk/middleware-content-length":"3.40.0","@aws-sdk/middleware-host-header":"3.40.0","@aws-sdk/middleware-logger":"3.40.0","@aws-sdk/middleware-retry":"3.40.0","@aws-sdk/middleware-serde":"3.40.0","@aws-sdk/middleware-signing":"3.40.0","@aws-sdk/middleware-stack":"3.40.0","@aws-sdk/middleware-user-agent":"3.40.0","@aws-sdk/node-config-provider":"3.40.0","@aws-sdk/node-http-handler":"3.40.0","@aws-sdk/protocol-http":"3.40.0","@aws-sdk/smithy-client":"3.40.0","@aws-sdk/types":"3.40.0","@aws-sdk/url-parser":"3.40.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.40.0","@aws-sdk/util-user-agent-node":"3.40.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","tslib":"^2.3.0","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.38.0","@types/node":"^12.7.5","@types/uuid":"^8.3.0","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
 
 /***/ }),
 
@@ -13,7 +13,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"A
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.38.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.38.0","@aws-sdk/fetch-http-handler":"3.38.0","@aws-sdk/hash-node":"3.38.0","@aws-sdk/invalid-dependency":"3.38.0","@aws-sdk/middleware-content-length":"3.38.0","@aws-sdk/middleware-host-header":"3.38.0","@aws-sdk/middleware-logger":"3.38.0","@aws-sdk/middleware-retry":"3.38.0","@aws-sdk/middleware-serde":"3.38.0","@aws-sdk/middleware-stack":"3.38.0","@aws-sdk/middleware-user-agent":"3.38.0","@aws-sdk/node-config-provider":"3.38.0","@aws-sdk/node-http-handler":"3.38.0","@aws-sdk/protocol-http":"3.38.0","@aws-sdk/smithy-client":"3.38.0","@aws-sdk/types":"3.38.0","@aws-sdk/url-parser":"3.38.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.38.0","@aws-sdk/util-user-agent-node":"3.38.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.38.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.40.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.40.0","@aws-sdk/fetch-http-handler":"3.40.0","@aws-sdk/hash-node":"3.40.0","@aws-sdk/invalid-dependency":"3.40.0","@aws-sdk/middleware-content-length":"3.40.0","@aws-sdk/middleware-host-header":"3.40.0","@aws-sdk/middleware-logger":"3.40.0","@aws-sdk/middleware-retry":"3.40.0","@aws-sdk/middleware-serde":"3.40.0","@aws-sdk/middleware-stack":"3.40.0","@aws-sdk/middleware-user-agent":"3.40.0","@aws-sdk/node-config-provider":"3.40.0","@aws-sdk/node-http-handler":"3.40.0","@aws-sdk/protocol-http":"3.40.0","@aws-sdk/smithy-client":"3.40.0","@aws-sdk/types":"3.40.0","@aws-sdk/url-parser":"3.40.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.40.0","@aws-sdk/util-user-agent-node":"3.40.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.38.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
 
 /***/ }),
 
@@ -21,7 +21,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SD
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.38.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.38.0","@aws-sdk/credential-provider-node":"3.38.0","@aws-sdk/fetch-http-handler":"3.38.0","@aws-sdk/hash-node":"3.38.0","@aws-sdk/invalid-dependency":"3.38.0","@aws-sdk/middleware-content-length":"3.38.0","@aws-sdk/middleware-host-header":"3.38.0","@aws-sdk/middleware-logger":"3.38.0","@aws-sdk/middleware-retry":"3.38.0","@aws-sdk/middleware-sdk-sts":"3.38.0","@aws-sdk/middleware-serde":"3.38.0","@aws-sdk/middleware-signing":"3.38.0","@aws-sdk/middleware-stack":"3.38.0","@aws-sdk/middleware-user-agent":"3.38.0","@aws-sdk/node-config-provider":"3.38.0","@aws-sdk/node-http-handler":"3.38.0","@aws-sdk/protocol-http":"3.38.0","@aws-sdk/smithy-client":"3.38.0","@aws-sdk/types":"3.38.0","@aws-sdk/url-parser":"3.38.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.38.0","@aws-sdk/util-user-agent-node":"3.38.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.38.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.40.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.40.0","@aws-sdk/credential-provider-node":"3.40.0","@aws-sdk/fetch-http-handler":"3.40.0","@aws-sdk/hash-node":"3.40.0","@aws-sdk/invalid-dependency":"3.40.0","@aws-sdk/middleware-content-length":"3.40.0","@aws-sdk/middleware-host-header":"3.40.0","@aws-sdk/middleware-logger":"3.40.0","@aws-sdk/middleware-retry":"3.40.0","@aws-sdk/middleware-sdk-sts":"3.40.0","@aws-sdk/middleware-serde":"3.40.0","@aws-sdk/middleware-signing":"3.40.0","@aws-sdk/middleware-stack":"3.40.0","@aws-sdk/middleware-user-agent":"3.40.0","@aws-sdk/node-config-provider":"3.40.0","@aws-sdk/node-http-handler":"3.40.0","@aws-sdk/protocol-http":"3.40.0","@aws-sdk/smithy-client":"3.40.0","@aws-sdk/types":"3.40.0","@aws-sdk/url-parser":"3.40.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.40.0","@aws-sdk/util-user-agent-node":"3.40.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.38.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
 
 /***/ }),
 
@@ -4050,23 +4050,89 @@ const partitionHash = {
             "us-west-1",
             "us-west-2",
         ],
-        hostname: "appmesh.{region}.amazonaws.com",
+        regionRegex: "^(us|eu|ap|sa|ca|me|af)\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "appmesh.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "appmesh-fips.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+            {
+                hostname: "appmesh-fips.{region}.api.aws",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "appmesh.{region}.api.aws",
+                tags: ["dualstack"],
+            },
+        ],
     },
     "aws-cn": {
         regions: ["cn-north-1", "cn-northwest-1"],
-        hostname: "appmesh.{region}.amazonaws.com.cn",
+        regionRegex: "^cn\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "appmesh.{region}.amazonaws.com.cn",
+                tags: [],
+            },
+            {
+                hostname: "appmesh-fips.{region}.amazonaws.com.cn",
+                tags: ["fips"],
+            },
+            {
+                hostname: "appmesh-fips.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "appmesh.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack"],
+            },
+        ],
     },
     "aws-iso": {
         regions: ["us-iso-east-1", "us-iso-west-1"],
-        hostname: "appmesh.{region}.c2s.ic.gov",
+        regionRegex: "^us\\-iso\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "appmesh.{region}.c2s.ic.gov",
+                tags: [],
+            },
+        ],
     },
     "aws-iso-b": {
         regions: ["us-isob-east-1"],
-        hostname: "appmesh.{region}.sc2s.sgov.gov",
+        regionRegex: "^us\\-isob\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "appmesh.{region}.sc2s.sgov.gov",
+                tags: [],
+            },
+        ],
     },
     "aws-us-gov": {
         regions: ["us-gov-east-1", "us-gov-west-1"],
-        hostname: "appmesh.{region}.amazonaws.com",
+        regionRegex: "^us\\-gov\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "appmesh.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "appmesh-fips.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+            {
+                hostname: "appmesh-fips.{region}.api.aws",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "appmesh.{region}.api.aws",
+                tags: ["dualstack"],
+            },
+        ],
     },
 };
 const defaultRegionInfoProvider = async (region, options) => config_resolver_1.getRegionInfo(region, {
@@ -14522,7 +14588,7 @@ const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(7972);
 const smithy_client_1 = __nccwpck_require__(4963);
 const getRuntimeConfig = (config) => {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
     smithy_client_1.emitWarningIfUnsupportedVersion(process.version);
     const clientSharedValues = runtimeConfig_shared_1.getRuntimeConfig(config);
     return {
@@ -14540,8 +14606,10 @@ const getRuntimeConfig = (config) => {
         retryMode: (_j = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _j !== void 0 ? _j : node_config_provider_1.loadConfig(middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS),
         sha256: (_k = config === null || config === void 0 ? void 0 : config.sha256) !== null && _k !== void 0 ? _k : hash_node_1.Hash.bind(null, "sha256"),
         streamCollector: (_l = config === null || config === void 0 ? void 0 : config.streamCollector) !== null && _l !== void 0 ? _l : node_http_handler_1.streamCollector,
-        utf8Decoder: (_m = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _m !== void 0 ? _m : util_utf8_node_1.fromUtf8,
-        utf8Encoder: (_o = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _o !== void 0 ? _o : util_utf8_node_1.toUtf8,
+        useDualstackEndpoint: (_m = config === null || config === void 0 ? void 0 : config.useDualstackEndpoint) !== null && _m !== void 0 ? _m : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS),
+        useFipsEndpoint: (_o = config === null || config === void 0 ? void 0 : config.useFipsEndpoint) !== null && _o !== void 0 ? _o : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_FIPS_ENDPOINT_CONFIG_OPTIONS),
+        utf8Decoder: (_p = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _p !== void 0 ? _p : util_utf8_node_1.fromUtf8,
+        utf8Encoder: (_q = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _q !== void 0 ? _q : util_utf8_node_1.toUtf8,
     };
 };
 exports.getRuntimeConfig = getRuntimeConfig;
@@ -14889,40 +14957,148 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.defaultRegionInfoProvider = void 0;
 const config_resolver_1 = __nccwpck_require__(6153);
 const regionHash = {
+    "ap-northeast-1": {
+        variants: [
+            {
+                hostname: "portal.sso.ap-northeast-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "ap-northeast-1",
+    },
+    "ap-northeast-2": {
+        variants: [
+            {
+                hostname: "portal.sso.ap-northeast-2.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "ap-northeast-2",
+    },
+    "ap-south-1": {
+        variants: [
+            {
+                hostname: "portal.sso.ap-south-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "ap-south-1",
+    },
     "ap-southeast-1": {
-        hostname: "portal.sso.ap-southeast-1.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.ap-southeast-1.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "ap-southeast-1",
     },
     "ap-southeast-2": {
-        hostname: "portal.sso.ap-southeast-2.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.ap-southeast-2.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "ap-southeast-2",
     },
     "ca-central-1": {
-        hostname: "portal.sso.ca-central-1.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.ca-central-1.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "ca-central-1",
     },
     "eu-central-1": {
-        hostname: "portal.sso.eu-central-1.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.eu-central-1.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "eu-central-1",
     },
+    "eu-north-1": {
+        variants: [
+            {
+                hostname: "portal.sso.eu-north-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "eu-north-1",
+    },
     "eu-west-1": {
-        hostname: "portal.sso.eu-west-1.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.eu-west-1.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "eu-west-1",
     },
     "eu-west-2": {
-        hostname: "portal.sso.eu-west-2.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.eu-west-2.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "eu-west-2",
     },
+    "eu-west-3": {
+        variants: [
+            {
+                hostname: "portal.sso.eu-west-3.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "eu-west-3",
+    },
+    "sa-east-1": {
+        variants: [
+            {
+                hostname: "portal.sso.sa-east-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "sa-east-1",
+    },
     "us-east-1": {
-        hostname: "portal.sso.us-east-1.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.us-east-1.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "us-east-1",
     },
     "us-east-2": {
-        hostname: "portal.sso.us-east-2.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.us-east-2.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "us-east-2",
     },
+    "us-gov-west-1": {
+        variants: [
+            {
+                hostname: "portal.sso.us-gov-west-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "us-gov-west-1",
+    },
     "us-west-2": {
-        hostname: "portal.sso.us-west-2.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.us-west-2.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "us-west-2",
     },
 };
@@ -14951,23 +15127,89 @@ const partitionHash = {
             "us-west-1",
             "us-west-2",
         ],
-        hostname: "portal.sso.{region}.amazonaws.com",
+        regionRegex: "^(us|eu|ap|sa|ca|me|af)\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "portal.sso.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.api.aws",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "portal.sso.{region}.api.aws",
+                tags: ["dualstack"],
+            },
+        ],
     },
     "aws-cn": {
         regions: ["cn-north-1", "cn-northwest-1"],
-        hostname: "portal.sso.{region}.amazonaws.com.cn",
+        regionRegex: "^cn\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "portal.sso.{region}.amazonaws.com.cn",
+                tags: [],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.amazonaws.com.cn",
+                tags: ["fips"],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "portal.sso.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack"],
+            },
+        ],
     },
     "aws-iso": {
         regions: ["us-iso-east-1", "us-iso-west-1"],
-        hostname: "portal.sso.{region}.c2s.ic.gov",
+        regionRegex: "^us\\-iso\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "portal.sso.{region}.c2s.ic.gov",
+                tags: [],
+            },
+        ],
     },
     "aws-iso-b": {
         regions: ["us-isob-east-1"],
-        hostname: "portal.sso.{region}.sc2s.sgov.gov",
+        regionRegex: "^us\\-isob\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "portal.sso.{region}.sc2s.sgov.gov",
+                tags: [],
+            },
+        ],
     },
     "aws-us-gov": {
         regions: ["us-gov-east-1", "us-gov-west-1"],
-        hostname: "portal.sso.{region}.amazonaws.com",
+        regionRegex: "^us\\-gov\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "portal.sso.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.api.aws",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "portal.sso.{region}.api.aws",
+                tags: ["dualstack"],
+            },
+        ],
     },
 };
 const defaultRegionInfoProvider = async (region, options) => config_resolver_1.getRegionInfo(region, {
@@ -15772,7 +16014,7 @@ const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(4355);
 const smithy_client_1 = __nccwpck_require__(4963);
 const getRuntimeConfig = (config) => {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p;
     smithy_client_1.emitWarningIfUnsupportedVersion(process.version);
     const clientSharedValues = runtimeConfig_shared_1.getRuntimeConfig(config);
     return {
@@ -15789,8 +16031,10 @@ const getRuntimeConfig = (config) => {
         retryMode: (_h = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _h !== void 0 ? _h : node_config_provider_1.loadConfig(middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS),
         sha256: (_j = config === null || config === void 0 ? void 0 : config.sha256) !== null && _j !== void 0 ? _j : hash_node_1.Hash.bind(null, "sha256"),
         streamCollector: (_k = config === null || config === void 0 ? void 0 : config.streamCollector) !== null && _k !== void 0 ? _k : node_http_handler_1.streamCollector,
-        utf8Decoder: (_l = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _l !== void 0 ? _l : util_utf8_node_1.fromUtf8,
-        utf8Encoder: (_m = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _m !== void 0 ? _m : util_utf8_node_1.toUtf8,
+        useDualstackEndpoint: (_l = config === null || config === void 0 ? void 0 : config.useDualstackEndpoint) !== null && _l !== void 0 ? _l : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS),
+        useFipsEndpoint: (_m = config === null || config === void 0 ? void 0 : config.useFipsEndpoint) !== null && _m !== void 0 ? _m : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_FIPS_ENDPOINT_CONFIG_OPTIONS),
+        utf8Decoder: (_o = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _o !== void 0 ? _o : util_utf8_node_1.fromUtf8,
+        utf8Encoder: (_p = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _p !== void 0 ? _p : util_utf8_node_1.toUtf8,
     };
 };
 exports.getRuntimeConfig = getRuntimeConfig;
@@ -16500,32 +16744,85 @@ exports.defaultRegionInfoProvider = void 0;
 const config_resolver_1 = __nccwpck_require__(6153);
 const regionHash = {
     "aws-global": {
-        hostname: "sts.amazonaws.com",
+        variants: [
+            {
+                hostname: "sts.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "us-east-1",
     },
-    "us-east-1-fips": {
-        hostname: "sts-fips.us-east-1.amazonaws.com",
-        signingRegion: "us-east-1",
+    "us-east-1": {
+        variants: [
+            {
+                hostname: "sts.us-east-1.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "sts-fips.us-east-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
-    "us-east-2-fips": {
-        hostname: "sts-fips.us-east-2.amazonaws.com",
-        signingRegion: "us-east-2",
+    "us-east-2": {
+        variants: [
+            {
+                hostname: "sts.us-east-2.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "sts-fips.us-east-2.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
-    "us-gov-east-1-fips": {
-        hostname: "sts.us-gov-east-1.amazonaws.com",
-        signingRegion: "us-gov-east-1",
+    "us-gov-east-1": {
+        variants: [
+            {
+                hostname: "sts.us-gov-east-1.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "sts.us-gov-east-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
-    "us-gov-west-1-fips": {
-        hostname: "sts.us-gov-west-1.amazonaws.com",
-        signingRegion: "us-gov-west-1",
+    "us-gov-west-1": {
+        variants: [
+            {
+                hostname: "sts.us-gov-west-1.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "sts.us-gov-west-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
-    "us-west-1-fips": {
-        hostname: "sts-fips.us-west-1.amazonaws.com",
-        signingRegion: "us-west-1",
+    "us-west-1": {
+        variants: [
+            {
+                hostname: "sts.us-west-1.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "sts-fips.us-west-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
-    "us-west-2-fips": {
-        hostname: "sts-fips.us-west-2.amazonaws.com",
-        signingRegion: "us-west-2",
+    "us-west-2": {
+        variants: [
+            {
+                hostname: "sts.us-west-2.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "sts-fips.us-west-2.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
 };
 const partitionHash = {
@@ -16558,23 +16855,81 @@ const partitionHash = {
             "us-west-2",
             "us-west-2-fips",
         ],
-        hostname: "sts.{region}.amazonaws.com",
+        regionRegex: "^(us|eu|ap|sa|ca|me|af)\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "sts.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "sts-fips.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+            {
+                hostname: "sts-fips.{region}.api.aws",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "sts.{region}.api.aws",
+                tags: ["dualstack"],
+            },
+        ],
     },
     "aws-cn": {
         regions: ["cn-north-1", "cn-northwest-1"],
-        hostname: "sts.{region}.amazonaws.com.cn",
+        regionRegex: "^cn\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "sts.{region}.amazonaws.com.cn",
+                tags: [],
+            },
+            {
+                hostname: "sts-fips.{region}.amazonaws.com.cn",
+                tags: ["fips"],
+            },
+            {
+                hostname: "sts-fips.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "sts.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack"],
+            },
+        ],
     },
     "aws-iso": {
         regions: ["us-iso-east-1", "us-iso-west-1"],
-        hostname: "sts.{region}.c2s.ic.gov",
+        regionRegex: "^us\\-iso\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "sts.{region}.c2s.ic.gov",
+                tags: [],
+            },
+        ],
     },
     "aws-iso-b": {
         regions: ["us-isob-east-1"],
-        hostname: "sts.{region}.sc2s.sgov.gov",
+        regionRegex: "^us\\-isob\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "sts.{region}.sc2s.sgov.gov",
+                tags: [],
+            },
+        ],
     },
     "aws-us-gov": {
         regions: ["us-gov-east-1", "us-gov-east-1-fips", "us-gov-west-1", "us-gov-west-1-fips"],
-        hostname: "sts.{region}.amazonaws.com",
+        regionRegex: "^us\\-gov\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "sts.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "sts.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
 };
 const defaultRegionInfoProvider = async (region, options) => config_resolver_1.getRegionInfo(region, {
@@ -18081,7 +18436,7 @@ const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(2642);
 const smithy_client_1 = __nccwpck_require__(4963);
 const getRuntimeConfig = (config) => {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
     smithy_client_1.emitWarningIfUnsupportedVersion(process.version);
     const clientSharedValues = runtimeConfig_shared_1.getRuntimeConfig(config);
     return {
@@ -18099,8 +18454,10 @@ const getRuntimeConfig = (config) => {
         retryMode: (_j = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _j !== void 0 ? _j : node_config_provider_1.loadConfig(middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS),
         sha256: (_k = config === null || config === void 0 ? void 0 : config.sha256) !== null && _k !== void 0 ? _k : hash_node_1.Hash.bind(null, "sha256"),
         streamCollector: (_l = config === null || config === void 0 ? void 0 : config.streamCollector) !== null && _l !== void 0 ? _l : node_http_handler_1.streamCollector,
-        utf8Decoder: (_m = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _m !== void 0 ? _m : util_utf8_node_1.fromUtf8,
-        utf8Encoder: (_o = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _o !== void 0 ? _o : util_utf8_node_1.toUtf8,
+        useDualstackEndpoint: (_m = config === null || config === void 0 ? void 0 : config.useDualstackEndpoint) !== null && _m !== void 0 ? _m : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS),
+        useFipsEndpoint: (_o = config === null || config === void 0 ? void 0 : config.useFipsEndpoint) !== null && _o !== void 0 ? _o : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_FIPS_ENDPOINT_CONFIG_OPTIONS),
+        utf8Decoder: (_p = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _p !== void 0 ? _p : util_utf8_node_1.fromUtf8,
+        utf8Encoder: (_q = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _q !== void 0 ? _q : util_utf8_node_1.toUtf8,
     };
 };
 exports.getRuntimeConfig = getRuntimeConfig;
@@ -18133,6 +18490,46 @@ exports.getRuntimeConfig = getRuntimeConfig;
 
 /***/ }),
 
+/***/ 4723:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS = exports.DEFAULT_USE_DUALSTACK_ENDPOINT = exports.CONFIG_USE_DUALSTACK_ENDPOINT = exports.ENV_USE_DUALSTACK_ENDPOINT = void 0;
+const util_config_provider_1 = __nccwpck_require__(6168);
+exports.ENV_USE_DUALSTACK_ENDPOINT = "AWS_USE_DUALSTACK_ENDPOINT";
+exports.CONFIG_USE_DUALSTACK_ENDPOINT = "use_dualstack_endpoint";
+exports.DEFAULT_USE_DUALSTACK_ENDPOINT = false;
+exports.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS = {
+    environmentVariableSelector: (env) => util_config_provider_1.booleanSelector(env, exports.ENV_USE_DUALSTACK_ENDPOINT, util_config_provider_1.SelectorType.ENV),
+    configFileSelector: (profile) => util_config_provider_1.booleanSelector(profile, exports.CONFIG_USE_DUALSTACK_ENDPOINT, util_config_provider_1.SelectorType.CONFIG),
+    default: false,
+};
+
+
+/***/ }),
+
+/***/ 2478:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.NODE_USE_FIPS_ENDPOINT_CONFIG_OPTIONS = exports.DEFAULT_USE_FIPS_ENDPOINT = exports.CONFIG_USE_FIPS_ENDPOINT = exports.ENV_USE_FIPS_ENDPOINT = void 0;
+const util_config_provider_1 = __nccwpck_require__(6168);
+exports.ENV_USE_FIPS_ENDPOINT = "AWS_USE_FIPS_ENDPOINT";
+exports.CONFIG_USE_FIPS_ENDPOINT = "use_fips_endpoint";
+exports.DEFAULT_USE_FIPS_ENDPOINT = false;
+exports.NODE_USE_FIPS_ENDPOINT_CONFIG_OPTIONS = {
+    environmentVariableSelector: (env) => util_config_provider_1.booleanSelector(env, exports.ENV_USE_FIPS_ENDPOINT, util_config_provider_1.SelectorType.ENV),
+    configFileSelector: (profile) => util_config_provider_1.booleanSelector(profile, exports.CONFIG_USE_FIPS_ENDPOINT, util_config_provider_1.SelectorType.CONFIG),
+    default: false,
+};
+
+
+/***/ }),
+
 /***/ 7392:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -18140,6 +18537,8 @@ exports.getRuntimeConfig = getRuntimeConfig;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(4723), exports);
+tslib_1.__exportStar(__nccwpck_require__(2478), exports);
 tslib_1.__exportStar(__nccwpck_require__(2108), exports);
 tslib_1.__exportStar(__nccwpck_require__(2327), exports);
 
@@ -18153,6 +18552,7 @@ tslib_1.__exportStar(__nccwpck_require__(2327), exports);
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.resolveCustomEndpointsConfig = void 0;
+const normalizeBoolean_1 = __nccwpck_require__(2164);
 const normalizeEndpoint_1 = __nccwpck_require__(9815);
 const resolveCustomEndpointsConfig = (input) => {
     var _a;
@@ -18161,6 +18561,7 @@ const resolveCustomEndpointsConfig = (input) => {
         tls: (_a = input.tls) !== null && _a !== void 0 ? _a : true,
         endpoint: normalizeEndpoint_1.normalizeEndpoint(input),
         isCustomEndpoint: true,
+        useDualstackEndpoint: normalizeBoolean_1.normalizeBoolean(input.useDualstackEndpoint),
     });
 };
 exports.resolveCustomEndpointsConfig = resolveCustomEndpointsConfig;
@@ -18176,17 +18577,21 @@ exports.resolveCustomEndpointsConfig = resolveCustomEndpointsConfig;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.resolveEndpointsConfig = void 0;
 const getEndpointFromRegion_1 = __nccwpck_require__(4159);
+const normalizeBoolean_1 = __nccwpck_require__(2164);
 const normalizeEndpoint_1 = __nccwpck_require__(9815);
 const resolveEndpointsConfig = (input) => {
     var _a;
-    return ({
+    const useDualstackEndpoint = normalizeBoolean_1.normalizeBoolean(input.useDualstackEndpoint);
+    const { endpoint, useFipsEndpoint } = input;
+    return {
         ...input,
         tls: (_a = input.tls) !== null && _a !== void 0 ? _a : true,
-        endpoint: input.endpoint
-            ? normalizeEndpoint_1.normalizeEndpoint({ ...input, endpoint: input.endpoint })
-            : () => getEndpointFromRegion_1.getEndpointFromRegion(input),
-        isCustomEndpoint: input.endpoint ? true : false,
-    });
+        endpoint: endpoint
+            ? normalizeEndpoint_1.normalizeEndpoint({ ...input, endpoint })
+            : () => getEndpointFromRegion_1.getEndpointFromRegion({ ...input, useDualstackEndpoint, useFipsEndpoint }),
+        isCustomEndpoint: endpoint ? true : false,
+        useDualstackEndpoint,
+    };
 };
 exports.resolveEndpointsConfig = resolveEndpointsConfig;
 
@@ -18208,13 +18613,34 @@ const getEndpointFromRegion = async (input) => {
     if (!dnsHostRegex.test(region)) {
         throw new Error("Invalid region in client config");
     }
-    const { hostname } = (_a = (await input.regionInfoProvider(region))) !== null && _a !== void 0 ? _a : {};
+    const useDualstackEndpoint = await input.useDualstackEndpoint();
+    const useFipsEndpoint = await input.useFipsEndpoint();
+    const { hostname } = (_a = (await input.regionInfoProvider(region, { useDualstackEndpoint, useFipsEndpoint }))) !== null && _a !== void 0 ? _a : {};
     if (!hostname) {
         throw new Error("Cannot resolve hostname from client config");
     }
     return input.urlParser(`${tls ? "https:" : "http:"}//${hostname}`);
 };
 exports.getEndpointFromRegion = getEndpointFromRegion;
+
+
+/***/ }),
+
+/***/ 2164:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.normalizeBoolean = void 0;
+const normalizeBoolean = (value) => {
+    if (typeof value === "boolean") {
+        const promisified = Promise.resolve(value);
+        return () => promisified;
+    }
+    return value;
+};
+exports.normalizeBoolean = normalizeBoolean;
 
 
 /***/ }),
@@ -18279,6 +18705,24 @@ exports.NODE_REGION_CONFIG_FILE_OPTIONS = {
 
 /***/ }),
 
+/***/ 2844:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getRealRegion = void 0;
+const isFipsRegion_1 = __nccwpck_require__(2440);
+const getRealRegion = (region) => isFipsRegion_1.isFipsRegion(region)
+    ? ["fips-aws-global", "aws-fips"].includes(region)
+        ? "us-east-1"
+        : region.replace(/fips-(dkr-|prod-)?|-fips/, "")
+    : region;
+exports.getRealRegion = getRealRegion;
+
+
+/***/ }),
+
 /***/ 5441:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -18292,21 +18736,15 @@ tslib_1.__exportStar(__nccwpck_require__(1595), exports);
 
 /***/ }),
 
-/***/ 3857:
+/***/ 2440:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.normalizeRegion = void 0;
-const normalizeRegion = (region) => {
-    if (typeof region === "string") {
-        const promisified = Promise.resolve(region);
-        return () => promisified;
-    }
-    return region;
-};
-exports.normalizeRegion = normalizeRegion;
+exports.isFipsRegion = void 0;
+const isFipsRegion = (region) => typeof region === "string" && (region.startsWith("fips-") || region.endsWith("-fips"));
+exports.isFipsRegion = isFipsRegion;
 
 
 /***/ }),
@@ -18318,14 +18756,29 @@ exports.normalizeRegion = normalizeRegion;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.resolveRegionConfig = void 0;
-const normalizeRegion_1 = __nccwpck_require__(3857);
+const getRealRegion_1 = __nccwpck_require__(2844);
+const isFipsRegion_1 = __nccwpck_require__(2440);
 const resolveRegionConfig = (input) => {
-    if (!input.region) {
+    const { region, useFipsEndpoint } = input;
+    if (!region) {
         throw new Error("Region is missing");
     }
     return {
         ...input,
-        region: normalizeRegion_1.normalizeRegion(input.region),
+        region: async () => {
+            if (typeof region === "string") {
+                return getRealRegion_1.getRealRegion(region);
+            }
+            const providedRegion = await region();
+            return getRealRegion_1.getRealRegion(providedRegion);
+        },
+        useFipsEndpoint: async () => {
+            const providedRegion = typeof region === "string" ? region : await region();
+            if (isFipsRegion_1.isFipsRegion(providedRegion)) {
+                return true;
+            }
+            return typeof useFipsEndpoint === "boolean" ? Promise.resolve(useFipsEndpoint) : useFipsEndpoint();
+        },
     };
 };
 exports.resolveRegionConfig = resolveRegionConfig;
@@ -18333,20 +18786,38 @@ exports.resolveRegionConfig = resolveRegionConfig;
 
 /***/ }),
 
-/***/ 241:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+/***/ 3566:
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.getHostnameTemplate = void 0;
-const getResolvedPartition_1 = __nccwpck_require__(7642);
-const AWS_TEMPLATE = "{signingService}.{region}.amazonaws.com";
-const getHostnameTemplate = (region, { signingService, partitionHash }) => {
-    var _a, _b;
-    return (_b = (_a = partitionHash[getResolvedPartition_1.getResolvedPartition(region, { partitionHash })]) === null || _a === void 0 ? void 0 : _a.hostname) !== null && _b !== void 0 ? _b : AWS_TEMPLATE.replace("{signingService}", signingService);
+
+
+/***/ }),
+
+/***/ 6057:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+
+
+/***/ }),
+
+/***/ 5280:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getHostnameFromVariants = void 0;
+const getHostnameFromVariants = (variants = [], { useFipsEndpoint, useDualstackEndpoint }) => {
+    var _a;
+    return (_a = variants.find(({ tags }) => useFipsEndpoint === tags.includes("fips") && useDualstackEndpoint === tags.includes("dualstack"))) === null || _a === void 0 ? void 0 : _a.hostname;
 };
-exports.getHostnameTemplate = getHostnameTemplate;
+exports.getHostnameFromVariants = getHostnameFromVariants;
 
 
 /***/ }),
@@ -18358,20 +18829,32 @@ exports.getHostnameTemplate = getHostnameTemplate;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRegionInfo = void 0;
+const getHostnameFromVariants_1 = __nccwpck_require__(5280);
 const getResolvedHostname_1 = __nccwpck_require__(3877);
 const getResolvedPartition_1 = __nccwpck_require__(7642);
-const getRegionInfo = (region, { signingService, regionHash, partitionHash }) => {
-    var _a, _b, _c, _d;
+const getResolvedSigningRegion_1 = __nccwpck_require__(3517);
+const getRegionInfo = (region, { useFipsEndpoint = false, useDualstackEndpoint = false, signingService, regionHash, partitionHash, }) => {
+    var _a, _b, _c, _d, _e, _f;
     const partition = getResolvedPartition_1.getResolvedPartition(region, { partitionHash });
-    const resolvedRegion = (_b = (_a = partitionHash[partition]) === null || _a === void 0 ? void 0 : _a.endpoint) !== null && _b !== void 0 ? _b : region;
+    const resolvedRegion = region in regionHash ? region : (_b = (_a = partitionHash[partition]) === null || _a === void 0 ? void 0 : _a.endpoint) !== null && _b !== void 0 ? _b : region;
+    const hostnameOptions = { useFipsEndpoint, useDualstackEndpoint };
+    const regionHostname = getHostnameFromVariants_1.getHostnameFromVariants((_c = regionHash[resolvedRegion]) === null || _c === void 0 ? void 0 : _c.variants, hostnameOptions);
+    const partitionHostname = getHostnameFromVariants_1.getHostnameFromVariants((_d = partitionHash[partition]) === null || _d === void 0 ? void 0 : _d.variants, hostnameOptions);
+    const hostname = getResolvedHostname_1.getResolvedHostname(resolvedRegion, { regionHostname, partitionHostname });
+    if (hostname === undefined) {
+        throw new Error(`Endpoint resolution failed for: ${{ resolvedRegion, useFipsEndpoint, useDualstackEndpoint }}`);
+    }
+    const signingRegion = getResolvedSigningRegion_1.getResolvedSigningRegion(hostname, {
+        signingRegion: (_e = regionHash[resolvedRegion]) === null || _e === void 0 ? void 0 : _e.signingRegion,
+        regionRegex: partitionHash[partition].regionRegex,
+        useFipsEndpoint,
+    });
     return {
         partition,
         signingService,
-        hostname: getResolvedHostname_1.getResolvedHostname(resolvedRegion, { signingService, regionHash, partitionHash }),
-        ...(((_c = regionHash[resolvedRegion]) === null || _c === void 0 ? void 0 : _c.signingRegion) && {
-            signingRegion: regionHash[resolvedRegion].signingRegion,
-        }),
-        ...(((_d = regionHash[resolvedRegion]) === null || _d === void 0 ? void 0 : _d.signingService) && {
+        hostname,
+        ...(signingRegion && { signingRegion }),
+        ...(((_f = regionHash[resolvedRegion]) === null || _f === void 0 ? void 0 : _f.signingService) && {
             signingService: regionHash[resolvedRegion].signingService,
         }),
     };
@@ -18382,17 +18865,17 @@ exports.getRegionInfo = getRegionInfo;
 /***/ }),
 
 /***/ 3877:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getResolvedHostname = void 0;
-const getHostnameTemplate_1 = __nccwpck_require__(241);
-const getResolvedHostname = (region, { signingService, regionHash, partitionHash }) => {
-    var _a, _b;
-    return (_b = (_a = regionHash[region]) === null || _a === void 0 ? void 0 : _a.hostname) !== null && _b !== void 0 ? _b : getHostnameTemplate_1.getHostnameTemplate(region, { signingService, partitionHash }).replace("{region}", region);
-};
+const getResolvedHostname = (resolvedRegion, { regionHostname, partitionHostname }) => regionHostname
+    ? regionHostname
+    : partitionHostname
+        ? partitionHostname.replace("{region}", resolvedRegion)
+        : undefined;
 exports.getResolvedHostname = getResolvedHostname;
 
 
@@ -18411,6 +18894,30 @@ exports.getResolvedPartition = getResolvedPartition;
 
 /***/ }),
 
+/***/ 3517:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getResolvedSigningRegion = void 0;
+const getResolvedSigningRegion = (hostname, { signingRegion, regionRegex, useFipsEndpoint }) => {
+    if (signingRegion) {
+        return signingRegion;
+    }
+    else if (useFipsEndpoint) {
+        const regionRegexJs = regionRegex.replace("\\\\", "\\").replace(/^\^/g, "\\.").replace(/\$$/g, "\\.");
+        const regionRegexmatchArray = hostname.match(regionRegexJs);
+        if (regionRegexmatchArray) {
+            return regionRegexmatchArray[0].slice(1, -1);
+        }
+    }
+};
+exports.getResolvedSigningRegion = getResolvedSigningRegion;
+
+
+/***/ }),
+
 /***/ 6258:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -18418,6 +18925,8 @@ exports.getResolvedPartition = getResolvedPartition;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(3566), exports);
+tslib_1.__exportStar(__nccwpck_require__(6057), exports);
 tslib_1.__exportStar(__nccwpck_require__(6167), exports);
 
 
@@ -20124,7 +20633,13 @@ const resolveAwsAuthConfig = (input) => {
     }
     else {
         signer = () => normalizeProvider(input.region)()
-            .then(async (region) => [(await input.regionInfoProvider(region)) || {}, region])
+            .then(async (region) => [
+            (await input.regionInfoProvider(region, {
+                useFipsEndpoint: await input.useFipsEndpoint(),
+                useDualstackEndpoint: await input.useDualstackEndpoint(),
+            })) || {},
+            region,
+        ])
             .then(([regionInfo, region]) => {
             const { signingRegion, signingService } = regionInfo;
             input.signingRegion = input.signingRegion || signingRegion || region;
@@ -22992,6 +23507,44 @@ const fromString = (input, encoding) => {
     return encoding ? buffer_1.Buffer.from(input, encoding) : buffer_1.Buffer.from(input);
 };
 exports.fromString = fromString;
+
+
+/***/ }),
+
+/***/ 9509:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.booleanSelector = exports.SelectorType = void 0;
+var SelectorType;
+(function (SelectorType) {
+    SelectorType["ENV"] = "env";
+    SelectorType["CONFIG"] = "shared config entry";
+})(SelectorType = exports.SelectorType || (exports.SelectorType = {}));
+const booleanSelector = (obj, key, type) => {
+    if (!(key in obj))
+        return undefined;
+    if (obj[key] === "true")
+        return true;
+    if (obj[key] === "false")
+        return false;
+    throw new Error(`Cannot load ${type} "${key}". Expected "true" or "false", got ${obj[key]}.`);
+};
+exports.booleanSelector = booleanSelector;
+
+
+/***/ }),
+
+/***/ 6168:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(9509), exports);
 
 
 /***/ }),
