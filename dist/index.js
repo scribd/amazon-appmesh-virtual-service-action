@@ -5,7 +5,7 @@
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.37.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/client-sts":"3.37.0","@aws-sdk/config-resolver":"3.37.0","@aws-sdk/credential-provider-node":"3.37.0","@aws-sdk/fetch-http-handler":"3.37.0","@aws-sdk/hash-node":"3.37.0","@aws-sdk/invalid-dependency":"3.37.0","@aws-sdk/middleware-content-length":"3.37.0","@aws-sdk/middleware-host-header":"3.37.0","@aws-sdk/middleware-logger":"3.37.0","@aws-sdk/middleware-retry":"3.37.0","@aws-sdk/middleware-serde":"3.37.0","@aws-sdk/middleware-signing":"3.37.0","@aws-sdk/middleware-stack":"3.37.0","@aws-sdk/middleware-user-agent":"3.37.0","@aws-sdk/node-config-provider":"3.37.0","@aws-sdk/node-http-handler":"3.37.0","@aws-sdk/protocol-http":"3.37.0","@aws-sdk/smithy-client":"3.37.0","@aws-sdk/types":"3.37.0","@aws-sdk/url-parser":"3.37.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.37.0","@aws-sdk/util-user-agent-node":"3.37.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","tslib":"^2.3.0","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/client-documentation-generator":"3.37.0","@types/node":"^12.7.5","@types/uuid":"^8.3.0","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.38.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/client-sts":"3.38.0","@aws-sdk/config-resolver":"3.38.0","@aws-sdk/credential-provider-node":"3.38.0","@aws-sdk/fetch-http-handler":"3.38.0","@aws-sdk/hash-node":"3.38.0","@aws-sdk/invalid-dependency":"3.38.0","@aws-sdk/middleware-content-length":"3.38.0","@aws-sdk/middleware-host-header":"3.38.0","@aws-sdk/middleware-logger":"3.38.0","@aws-sdk/middleware-retry":"3.38.0","@aws-sdk/middleware-serde":"3.38.0","@aws-sdk/middleware-signing":"3.38.0","@aws-sdk/middleware-stack":"3.38.0","@aws-sdk/middleware-user-agent":"3.38.0","@aws-sdk/node-config-provider":"3.38.0","@aws-sdk/node-http-handler":"3.38.0","@aws-sdk/protocol-http":"3.38.0","@aws-sdk/smithy-client":"3.38.0","@aws-sdk/types":"3.38.0","@aws-sdk/url-parser":"3.38.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.38.0","@aws-sdk/util-user-agent-node":"3.38.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","tslib":"^2.3.0","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.38.0","@types/node":"^12.7.5","@types/uuid":"^8.3.0","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
 
 /***/ }),
 
@@ -13,7 +13,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"A
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.37.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.37.0","@aws-sdk/fetch-http-handler":"3.37.0","@aws-sdk/hash-node":"3.37.0","@aws-sdk/invalid-dependency":"3.37.0","@aws-sdk/middleware-content-length":"3.37.0","@aws-sdk/middleware-host-header":"3.37.0","@aws-sdk/middleware-logger":"3.37.0","@aws-sdk/middleware-retry":"3.37.0","@aws-sdk/middleware-serde":"3.37.0","@aws-sdk/middleware-stack":"3.37.0","@aws-sdk/middleware-user-agent":"3.37.0","@aws-sdk/node-config-provider":"3.37.0","@aws-sdk/node-http-handler":"3.37.0","@aws-sdk/protocol-http":"3.37.0","@aws-sdk/smithy-client":"3.37.0","@aws-sdk/types":"3.37.0","@aws-sdk/url-parser":"3.37.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.37.0","@aws-sdk/util-user-agent-node":"3.37.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/client-documentation-generator":"3.37.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.38.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.38.0","@aws-sdk/fetch-http-handler":"3.38.0","@aws-sdk/hash-node":"3.38.0","@aws-sdk/invalid-dependency":"3.38.0","@aws-sdk/middleware-content-length":"3.38.0","@aws-sdk/middleware-host-header":"3.38.0","@aws-sdk/middleware-logger":"3.38.0","@aws-sdk/middleware-retry":"3.38.0","@aws-sdk/middleware-serde":"3.38.0","@aws-sdk/middleware-stack":"3.38.0","@aws-sdk/middleware-user-agent":"3.38.0","@aws-sdk/node-config-provider":"3.38.0","@aws-sdk/node-http-handler":"3.38.0","@aws-sdk/protocol-http":"3.38.0","@aws-sdk/smithy-client":"3.38.0","@aws-sdk/types":"3.38.0","@aws-sdk/url-parser":"3.38.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.38.0","@aws-sdk/util-user-agent-node":"3.38.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.38.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
 
 /***/ }),
 
@@ -21,7 +21,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SD
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.37.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.37.0","@aws-sdk/credential-provider-node":"3.37.0","@aws-sdk/fetch-http-handler":"3.37.0","@aws-sdk/hash-node":"3.37.0","@aws-sdk/invalid-dependency":"3.37.0","@aws-sdk/middleware-content-length":"3.37.0","@aws-sdk/middleware-host-header":"3.37.0","@aws-sdk/middleware-logger":"3.37.0","@aws-sdk/middleware-retry":"3.37.0","@aws-sdk/middleware-sdk-sts":"3.37.0","@aws-sdk/middleware-serde":"3.37.0","@aws-sdk/middleware-signing":"3.37.0","@aws-sdk/middleware-stack":"3.37.0","@aws-sdk/middleware-user-agent":"3.37.0","@aws-sdk/node-config-provider":"3.37.0","@aws-sdk/node-http-handler":"3.37.0","@aws-sdk/protocol-http":"3.37.0","@aws-sdk/smithy-client":"3.37.0","@aws-sdk/types":"3.37.0","@aws-sdk/url-parser":"3.37.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.37.0","@aws-sdk/util-user-agent-node":"3.37.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/client-documentation-generator":"3.37.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.38.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.38.0","@aws-sdk/credential-provider-node":"3.38.0","@aws-sdk/fetch-http-handler":"3.38.0","@aws-sdk/hash-node":"3.38.0","@aws-sdk/invalid-dependency":"3.38.0","@aws-sdk/middleware-content-length":"3.38.0","@aws-sdk/middleware-host-header":"3.38.0","@aws-sdk/middleware-logger":"3.38.0","@aws-sdk/middleware-retry":"3.38.0","@aws-sdk/middleware-sdk-sts":"3.38.0","@aws-sdk/middleware-serde":"3.38.0","@aws-sdk/middleware-signing":"3.38.0","@aws-sdk/middleware-stack":"3.38.0","@aws-sdk/middleware-user-agent":"3.38.0","@aws-sdk/node-config-provider":"3.38.0","@aws-sdk/node-http-handler":"3.38.0","@aws-sdk/protocol-http":"3.38.0","@aws-sdk/smithy-client":"3.38.0","@aws-sdk/types":"3.38.0","@aws-sdk/url-parser":"3.38.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.38.0","@aws-sdk/util-user-agent-node":"3.38.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.38.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
 
 /***/ }),
 
@@ -3967,6 +3967,55 @@ exports.UpdateVirtualServiceCommand = UpdateVirtualServiceCommand;
 
 /***/ }),
 
+/***/ 4902:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(3391), exports);
+tslib_1.__exportStar(__nccwpck_require__(7404), exports);
+tslib_1.__exportStar(__nccwpck_require__(6156), exports);
+tslib_1.__exportStar(__nccwpck_require__(4314), exports);
+tslib_1.__exportStar(__nccwpck_require__(7091), exports);
+tslib_1.__exportStar(__nccwpck_require__(7911), exports);
+tslib_1.__exportStar(__nccwpck_require__(8152), exports);
+tslib_1.__exportStar(__nccwpck_require__(4750), exports);
+tslib_1.__exportStar(__nccwpck_require__(7024), exports);
+tslib_1.__exportStar(__nccwpck_require__(7899), exports);
+tslib_1.__exportStar(__nccwpck_require__(2680), exports);
+tslib_1.__exportStar(__nccwpck_require__(8220), exports);
+tslib_1.__exportStar(__nccwpck_require__(260), exports);
+tslib_1.__exportStar(__nccwpck_require__(4493), exports);
+tslib_1.__exportStar(__nccwpck_require__(4548), exports);
+tslib_1.__exportStar(__nccwpck_require__(5080), exports);
+tslib_1.__exportStar(__nccwpck_require__(3433), exports);
+tslib_1.__exportStar(__nccwpck_require__(7276), exports);
+tslib_1.__exportStar(__nccwpck_require__(1008), exports);
+tslib_1.__exportStar(__nccwpck_require__(9305), exports);
+tslib_1.__exportStar(__nccwpck_require__(1339), exports);
+tslib_1.__exportStar(__nccwpck_require__(7489), exports);
+tslib_1.__exportStar(__nccwpck_require__(5963), exports);
+tslib_1.__exportStar(__nccwpck_require__(3510), exports);
+tslib_1.__exportStar(__nccwpck_require__(3057), exports);
+tslib_1.__exportStar(__nccwpck_require__(3006), exports);
+tslib_1.__exportStar(__nccwpck_require__(2034), exports);
+tslib_1.__exportStar(__nccwpck_require__(4536), exports);
+tslib_1.__exportStar(__nccwpck_require__(2302), exports);
+tslib_1.__exportStar(__nccwpck_require__(447), exports);
+tslib_1.__exportStar(__nccwpck_require__(8956), exports);
+tslib_1.__exportStar(__nccwpck_require__(9767), exports);
+tslib_1.__exportStar(__nccwpck_require__(7721), exports);
+tslib_1.__exportStar(__nccwpck_require__(9265), exports);
+tslib_1.__exportStar(__nccwpck_require__(1536), exports);
+tslib_1.__exportStar(__nccwpck_require__(1324), exports);
+tslib_1.__exportStar(__nccwpck_require__(3379), exports);
+tslib_1.__exportStar(__nccwpck_require__(1115), exports);
+
+
+/***/ }),
+
 /***/ 1021:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -4038,56 +4087,11 @@ exports.defaultRegionInfoProvider = defaultRegionInfoProvider;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(613), exports);
 tslib_1.__exportStar(__nccwpck_require__(3493), exports);
-tslib_1.__exportStar(__nccwpck_require__(3391), exports);
-tslib_1.__exportStar(__nccwpck_require__(7404), exports);
-tslib_1.__exportStar(__nccwpck_require__(6156), exports);
-tslib_1.__exportStar(__nccwpck_require__(4314), exports);
-tslib_1.__exportStar(__nccwpck_require__(7091), exports);
-tslib_1.__exportStar(__nccwpck_require__(7911), exports);
-tslib_1.__exportStar(__nccwpck_require__(8152), exports);
-tslib_1.__exportStar(__nccwpck_require__(4750), exports);
-tslib_1.__exportStar(__nccwpck_require__(7024), exports);
-tslib_1.__exportStar(__nccwpck_require__(7899), exports);
-tslib_1.__exportStar(__nccwpck_require__(2680), exports);
-tslib_1.__exportStar(__nccwpck_require__(8220), exports);
-tslib_1.__exportStar(__nccwpck_require__(260), exports);
-tslib_1.__exportStar(__nccwpck_require__(4493), exports);
-tslib_1.__exportStar(__nccwpck_require__(4548), exports);
-tslib_1.__exportStar(__nccwpck_require__(5080), exports);
-tslib_1.__exportStar(__nccwpck_require__(3433), exports);
-tslib_1.__exportStar(__nccwpck_require__(7276), exports);
-tslib_1.__exportStar(__nccwpck_require__(1008), exports);
-tslib_1.__exportStar(__nccwpck_require__(9305), exports);
-tslib_1.__exportStar(__nccwpck_require__(1339), exports);
-tslib_1.__exportStar(__nccwpck_require__(7489), exports);
-tslib_1.__exportStar(__nccwpck_require__(5518), exports);
-tslib_1.__exportStar(__nccwpck_require__(5963), exports);
-tslib_1.__exportStar(__nccwpck_require__(2574), exports);
-tslib_1.__exportStar(__nccwpck_require__(3510), exports);
-tslib_1.__exportStar(__nccwpck_require__(7058), exports);
-tslib_1.__exportStar(__nccwpck_require__(3057), exports);
-tslib_1.__exportStar(__nccwpck_require__(332), exports);
-tslib_1.__exportStar(__nccwpck_require__(3006), exports);
-tslib_1.__exportStar(__nccwpck_require__(9580), exports);
-tslib_1.__exportStar(__nccwpck_require__(2034), exports);
-tslib_1.__exportStar(__nccwpck_require__(6066), exports);
-tslib_1.__exportStar(__nccwpck_require__(4536), exports);
-tslib_1.__exportStar(__nccwpck_require__(2456), exports);
-tslib_1.__exportStar(__nccwpck_require__(2302), exports);
-tslib_1.__exportStar(__nccwpck_require__(3775), exports);
-tslib_1.__exportStar(__nccwpck_require__(447), exports);
-tslib_1.__exportStar(__nccwpck_require__(8956), exports);
-tslib_1.__exportStar(__nccwpck_require__(9767), exports);
-tslib_1.__exportStar(__nccwpck_require__(7721), exports);
-tslib_1.__exportStar(__nccwpck_require__(9265), exports);
-tslib_1.__exportStar(__nccwpck_require__(1536), exports);
-tslib_1.__exportStar(__nccwpck_require__(1324), exports);
-tslib_1.__exportStar(__nccwpck_require__(3379), exports);
-tslib_1.__exportStar(__nccwpck_require__(1115), exports);
-tslib_1.__exportStar(__nccwpck_require__(6272), exports);
+tslib_1.__exportStar(__nccwpck_require__(613), exports);
+tslib_1.__exportStar(__nccwpck_require__(4902), exports);
 tslib_1.__exportStar(__nccwpck_require__(6868), exports);
+tslib_1.__exportStar(__nccwpck_require__(2896), exports);
 
 
 /***/ }),
@@ -6283,6 +6287,26 @@ async function* paginateListVirtualServices(config, input, ...additionalArgument
     return undefined;
 }
 exports.paginateListVirtualServices = paginateListVirtualServices;
+
+
+/***/ }),
+
+/***/ 2896:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(6272), exports);
+tslib_1.__exportStar(__nccwpck_require__(5518), exports);
+tslib_1.__exportStar(__nccwpck_require__(2574), exports);
+tslib_1.__exportStar(__nccwpck_require__(7058), exports);
+tslib_1.__exportStar(__nccwpck_require__(332), exports);
+tslib_1.__exportStar(__nccwpck_require__(9580), exports);
+tslib_1.__exportStar(__nccwpck_require__(6066), exports);
+tslib_1.__exportStar(__nccwpck_require__(2456), exports);
+tslib_1.__exportStar(__nccwpck_require__(3775), exports);
 
 
 /***/ }),
@@ -14841,6 +14865,21 @@ exports.LogoutCommand = LogoutCommand;
 
 /***/ }),
 
+/***/ 5706:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(8972), exports);
+tslib_1.__exportStar(__nccwpck_require__(1513), exports);
+tslib_1.__exportStar(__nccwpck_require__(4296), exports);
+tslib_1.__exportStar(__nccwpck_require__(2586), exports);
+
+
+/***/ }),
+
 /***/ 3546:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -14949,16 +14988,11 @@ exports.defaultRegionInfoProvider = defaultRegionInfoProvider;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(1057), exports);
 tslib_1.__exportStar(__nccwpck_require__(9838), exports);
-tslib_1.__exportStar(__nccwpck_require__(8972), exports);
-tslib_1.__exportStar(__nccwpck_require__(1513), exports);
-tslib_1.__exportStar(__nccwpck_require__(8460), exports);
-tslib_1.__exportStar(__nccwpck_require__(4296), exports);
-tslib_1.__exportStar(__nccwpck_require__(938), exports);
-tslib_1.__exportStar(__nccwpck_require__(2586), exports);
-tslib_1.__exportStar(__nccwpck_require__(849), exports);
+tslib_1.__exportStar(__nccwpck_require__(1057), exports);
+tslib_1.__exportStar(__nccwpck_require__(5706), exports);
 tslib_1.__exportStar(__nccwpck_require__(4952), exports);
+tslib_1.__exportStar(__nccwpck_require__(6773), exports);
 
 
 /***/ }),
@@ -15170,6 +15204,20 @@ async function* paginateListAccounts(config, input, ...additionalArguments) {
     return undefined;
 }
 exports.paginateListAccounts = paginateListAccounts;
+
+
+/***/ }),
+
+/***/ 6773:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(849), exports);
+tslib_1.__exportStar(__nccwpck_require__(8460), exports);
+tslib_1.__exportStar(__nccwpck_require__(938), exports);
 
 
 /***/ }),
@@ -16316,6 +16364,25 @@ exports.GetSessionTokenCommand = GetSessionTokenCommand;
 
 /***/ }),
 
+/***/ 5716:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(9802), exports);
+tslib_1.__exportStar(__nccwpck_require__(2865), exports);
+tslib_1.__exportStar(__nccwpck_require__(7451), exports);
+tslib_1.__exportStar(__nccwpck_require__(4150), exports);
+tslib_1.__exportStar(__nccwpck_require__(9804), exports);
+tslib_1.__exportStar(__nccwpck_require__(4278), exports);
+tslib_1.__exportStar(__nccwpck_require__(7552), exports);
+tslib_1.__exportStar(__nccwpck_require__(3285), exports);
+
+
+/***/ }),
+
 /***/ 8028:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -16528,16 +16595,9 @@ exports.defaultRegionInfoProvider = defaultRegionInfoProvider;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(4195), exports);
 tslib_1.__exportStar(__nccwpck_require__(2605), exports);
-tslib_1.__exportStar(__nccwpck_require__(9802), exports);
-tslib_1.__exportStar(__nccwpck_require__(2865), exports);
-tslib_1.__exportStar(__nccwpck_require__(7451), exports);
-tslib_1.__exportStar(__nccwpck_require__(4150), exports);
-tslib_1.__exportStar(__nccwpck_require__(9804), exports);
-tslib_1.__exportStar(__nccwpck_require__(4278), exports);
-tslib_1.__exportStar(__nccwpck_require__(7552), exports);
-tslib_1.__exportStar(__nccwpck_require__(3285), exports);
+tslib_1.__exportStar(__nccwpck_require__(4195), exports);
+tslib_1.__exportStar(__nccwpck_require__(5716), exports);
 tslib_1.__exportStar(__nccwpck_require__(8028), exports);
 tslib_1.__exportStar(__nccwpck_require__(106), exports);
 
@@ -19830,15 +19890,15 @@ exports.defaultDelayDecider = defaultDelayDecider;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(1806), exports);
-tslib_1.__exportStar(__nccwpck_require__(3521), exports);
-tslib_1.__exportStar(__nccwpck_require__(533), exports);
 tslib_1.__exportStar(__nccwpck_require__(7328), exports);
+tslib_1.__exportStar(__nccwpck_require__(6402), exports);
+tslib_1.__exportStar(__nccwpck_require__(533), exports);
 tslib_1.__exportStar(__nccwpck_require__(5192), exports);
 tslib_1.__exportStar(__nccwpck_require__(6160), exports);
 tslib_1.__exportStar(__nccwpck_require__(5940), exports);
-tslib_1.__exportStar(__nccwpck_require__(6402), exports);
+tslib_1.__exportStar(__nccwpck_require__(3521), exports);
 tslib_1.__exportStar(__nccwpck_require__(9572), exports);
+tslib_1.__exportStar(__nccwpck_require__(1806), exports);
 tslib_1.__exportStar(__nccwpck_require__(8580), exports);
 
 
@@ -19984,8 +20044,8 @@ exports.deserializerMiddleware = deserializerMiddleware;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
 tslib_1.__exportStar(__nccwpck_require__(5648), exports);
-tslib_1.__exportStar(__nccwpck_require__(9511), exports);
 tslib_1.__exportStar(__nccwpck_require__(9328), exports);
+tslib_1.__exportStar(__nccwpck_require__(9511), exports);
 
 
 /***/ }),
@@ -21195,10 +21255,10 @@ exports.fromStatic = fromStatic;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(1786), exports);
 tslib_1.__exportStar(__nccwpck_require__(1444), exports);
 tslib_1.__exportStar(__nccwpck_require__(529), exports);
 tslib_1.__exportStar(__nccwpck_require__(714), exports);
-tslib_1.__exportStar(__nccwpck_require__(1786), exports);
 
 
 /***/ }),
@@ -21358,9 +21418,9 @@ exports.HttpResponse = HttpResponse;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(2348), exports);
-tslib_1.__exportStar(__nccwpck_require__(2872), exports);
 tslib_1.__exportStar(__nccwpck_require__(6779), exports);
+tslib_1.__exportStar(__nccwpck_require__(2872), exports);
+tslib_1.__exportStar(__nccwpck_require__(2348), exports);
 tslib_1.__exportStar(__nccwpck_require__(5694), exports);
 
 
@@ -22038,7 +22098,7 @@ exports.deleteHeader = deleteHeader;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.normalizeRegionProvider = exports.normalizeCredentialsProvider = exports.prepareRequest = exports.moveHeadersToQuery = exports.getPayloadHash = exports.getCanonicalQuery = exports.getCanonicalHeaders = void 0;
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(1424), exports);
+tslib_1.__exportStar(__nccwpck_require__(5086), exports);
 var getCanonicalHeaders_1 = __nccwpck_require__(3590);
 Object.defineProperty(exports, "getCanonicalHeaders", ({ enumerable: true, get: function () { return getCanonicalHeaders_1.getCanonicalHeaders; } }));
 var getCanonicalQuery_1 = __nccwpck_require__(2019);
@@ -22052,7 +22112,7 @@ Object.defineProperty(exports, "prepareRequest", ({ enumerable: true, get: funct
 var normalizeProvider_1 = __nccwpck_require__(7027);
 Object.defineProperty(exports, "normalizeCredentialsProvider", ({ enumerable: true, get: function () { return normalizeProvider_1.normalizeCredentialsProvider; } }));
 Object.defineProperty(exports, "normalizeRegionProvider", ({ enumerable: true, get: function () { return normalizeProvider_1.normalizeRegionProvider; } }));
-tslib_1.__exportStar(__nccwpck_require__(5086), exports);
+tslib_1.__exportStar(__nccwpck_require__(1424), exports);
 
 
 /***/ }),
@@ -22486,6 +22546,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
 tslib_1.__exportStar(__nccwpck_require__(6034), exports);
 tslib_1.__exportStar(__nccwpck_require__(4014), exports);
+tslib_1.__exportStar(__nccwpck_require__(8392), exports);
+tslib_1.__exportStar(__nccwpck_require__(4695), exports);
 tslib_1.__exportStar(__nccwpck_require__(2363), exports);
 tslib_1.__exportStar(__nccwpck_require__(1927), exports);
 tslib_1.__exportStar(__nccwpck_require__(6457), exports);
@@ -22493,9 +22555,7 @@ tslib_1.__exportStar(__nccwpck_require__(5830), exports);
 tslib_1.__exportStar(__nccwpck_require__(3613), exports);
 tslib_1.__exportStar(__nccwpck_require__(4809), exports);
 tslib_1.__exportStar(__nccwpck_require__(8000), exports);
-tslib_1.__exportStar(__nccwpck_require__(4695), exports);
 tslib_1.__exportStar(__nccwpck_require__(8730), exports);
-tslib_1.__exportStar(__nccwpck_require__(8392), exports);
 
 
 /***/ }),
