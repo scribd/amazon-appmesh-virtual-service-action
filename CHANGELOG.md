@@ -1,3 +1,10 @@
+## [1.0.27-alpha.1](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.26...v1.0.27-alpha.1) (2022-01-28)
+
+
+### Bug Fixes
+
+* if cannot parse err, just print ([de4a8ae](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/de4a8ae56dbcb105982950671789bd7cb5ac218f))
+
 ## [1.0.26](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.25...v1.0.26) (2022-01-28)
 
 
