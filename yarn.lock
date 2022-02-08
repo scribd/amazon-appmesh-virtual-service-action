@@ -71,14 +71,6 @@
     "@aws-sdk/util-utf8-browser" "^3.0.0"
     tslib "^1.11.1"
 
-"@aws-sdk/abort-controller@3.46.0":
-  version "3.46.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/abort-controller/-/abort-controller-3.46.0.tgz#7b1297afeb3e2256af99d2f7c8aa4efb09046135"
-  integrity sha512-XrCocRwajh3jkI/Y2PCZjYUZcJfmCa4DYM5nnW2+w4o7ez7vXEQ1j5FCI+/ogJIqfccnmEIlLZGlfzmc6vVbJw==
-  dependencies:
-    "@aws-sdk/types" "3.46.0"
-    tslib "^2.3.0"
-
 "@aws-sdk/abort-controller@3.49.0":
   version "3.49.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/abort-controller/-/abort-controller-3.49.0.tgz#c5fbff76b8ad3782f52bef9ad6fd7a917846a753"
@@ -503,11 +495,6 @@
     "@aws-sdk/types" "3.49.0"
     tslib "^2.3.0"
 
-"@aws-sdk/types@3.46.0":
-  version "3.46.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.46.0.tgz#4f64871a6e32547403e5b3229b66d318909619b3"
-  integrity sha512-yhrkVVyv4RUt3KqDDyEayjBM5dRBtuS486THeqtSghUYNV7M/cW18TA3gdMC0pRGgUqfKrOysdBZjCyPrYNvuA==
-
 "@aws-sdk/types@3.49.0", "@aws-sdk/types@^3.1.0":
   version "3.49.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.49.0.tgz#d9fb882f7d0e70c301a9b512136e0502680f96fe"
@@ -650,13 +637,13 @@
     "@aws-sdk/util-buffer-from" "3.49.0"
     tslib "^2.3.0"
 
-"@aws-sdk/util-waiter@^3.34.0":
-  version "3.46.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/util-waiter/-/util-waiter-3.46.0.tgz#83e73b6568ff01af2a6259ecc4d6b4955b68fa20"
-  integrity sha512-rn1bf9whuHfarNTFSRnFIupRlfN+L28hRZL8PClgyxa0WqpzG0goN6M+opuYnbKrTazyqktxpUTg/fHHoQiveA==
+"@aws-sdk/util-waiter@^3.49.0":
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/util-waiter/-/util-waiter-3.49.0.tgz#328075567b246a2b584dcfefe3a135344e3e475f"
+  integrity sha512-eKrKOLcIhjA/MyjIfwgLL6ZUfGYf6VxBXryuRf8CmJKAo71ZO6ipAsy1X3uYrfwQQBMKV4VZu48BJx5PUBM7GA==
   dependencies:
-    "@aws-sdk/abort-controller" "3.46.0"
-    "@aws-sdk/types" "3.46.0"
+    "@aws-sdk/abort-controller" "3.49.0"
+    "@aws-sdk/types" "3.49.0"
     tslib "^2.3.0"
 
 "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.7":
