@@ -1,3 +1,10 @@
+## [1.0.28](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.27...v1.0.28) (2022-02-08)
+
+
+### Bug Fixes
+
+* **deps:** bump @aws-sdk/util-waiter from 3.46.0 to 3.49.0 ([0093032](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/00930322e8541ab31542b7fc5c16693a35faa788))
+
 ## [1.0.27](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.26...v1.0.27) (2022-02-08)
 
 
