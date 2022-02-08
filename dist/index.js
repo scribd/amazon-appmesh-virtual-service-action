@@ -4165,11 +4165,11 @@ tslib_1.__exportStar(__nccwpck_require__(1156), exports);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.VirtualGatewayPortProtocol = exports.VirtualGatewayConnectionPool = exports.VirtualGatewayHttp2ConnectionPool = exports.VirtualGatewayHttpConnectionPool = exports.VirtualGatewayGrpcConnectionPool = exports.VirtualGatewayBackendDefaults = exports.VirtualGatewayClientPolicy = exports.VirtualGatewayClientPolicyTls = exports.VirtualGatewayTlsValidationContext = exports.VirtualGatewayTlsValidationContextTrust = exports.VirtualGatewayTlsValidationContextSdsTrust = exports.VirtualGatewayTlsValidationContextFileTrust = exports.VirtualGatewayTlsValidationContextAcmTrust = exports.SubjectAlternativeNames = exports.SubjectAlternativeNameMatchers = exports.VirtualGatewayClientTlsCertificate = exports.VirtualGatewayListenerTlsSdsCertificate = exports.VirtualGatewayListenerTlsFileCertificate = exports.UpdateMeshOutput = exports.UpdateMeshInput = exports.ListMeshesOutput = exports.MeshRef = exports.ListMeshesInput = exports.DescribeMeshOutput = exports.DescribeMeshInput = exports.ResourceInUseException = exports.DeleteMeshOutput = exports.DeleteMeshInput = exports.LimitExceededException = exports.CreateMeshOutput = exports.MeshData = exports.MeshStatus = exports.MeshStatusCode = exports.ResourceMetadata = exports.CreateMeshInput = exports.MeshSpec = exports.EgressFilter = exports.EgressFilterType = exports.ConflictException = exports.TooManyRequestsException = exports.ServiceUnavailableException = exports.NotFoundException = exports.ListTagsForResourceOutput = exports.TagRef = exports.ListTagsForResourceInput = exports.InternalServerErrorException = exports.ForbiddenException = exports.BadRequestException = exports.AccessLog = exports.FileAccessLog = void 0;
-exports.GatewayRouteStatus = exports.GatewayRouteStatusCode = exports.CreateGatewayRouteInput = exports.GatewayRouteSpec = exports.HttpGatewayRoute = exports.HttpGatewayRouteMatch = exports.HttpQueryParameter = exports.QueryParameterMatch = exports.HttpPathMatch = exports.HttpMethod = exports.HttpGatewayRouteHeader = exports.HeaderMatchMethod = exports.HttpGatewayRouteAction = exports.HttpGatewayRouteRewrite = exports.HttpGatewayRoutePrefixRewrite = exports.HttpGatewayRoutePathRewrite = exports.GrpcGatewayRoute = exports.GrpcGatewayRouteMatch = exports.GrpcGatewayRouteMetadata = exports.GrpcMetadataMatchMethod = exports.MatchRange = exports.GatewayRouteHostnameMatch = exports.GrpcGatewayRouteAction = exports.GatewayRouteTarget = exports.GatewayRouteVirtualService = exports.GrpcGatewayRouteRewrite = exports.GatewayRouteHostnameRewrite = exports.DefaultGatewayRouteRewrite = exports.DescribeVirtualGatewayOutput = exports.DescribeVirtualGatewayInput = exports.DeleteVirtualGatewayOutput = exports.DeleteVirtualGatewayInput = exports.CreateVirtualGatewayOutput = exports.VirtualGatewayData = exports.VirtualGatewayStatus = exports.VirtualGatewayStatusCode = exports.CreateVirtualGatewayInput = exports.VirtualGatewaySpec = exports.VirtualGatewayLogging = exports.VirtualGatewayAccessLog = exports.VirtualGatewayFileAccessLog = exports.VirtualGatewayListener = exports.VirtualGatewayListenerTls = exports.VirtualGatewayListenerTlsValidationContext = exports.VirtualGatewayListenerTlsValidationContextTrust = exports.VirtualGatewayListenerTlsMode = exports.VirtualGatewayListenerTlsCertificate = exports.VirtualGatewayListenerTlsAcmCertificate = exports.VirtualGatewayPortMapping = exports.VirtualGatewayHealthCheckPolicy = void 0;
-exports.ListenerTls = exports.ListenerTlsValidationContext = exports.ListenerTlsValidationContextTrust = exports.ListenerTlsMode = exports.ListenerTlsCertificate = exports.ListenerTlsAcmCertificate = exports.ListenerTimeout = exports.TcpTimeout = exports.HttpTimeout = exports.GrpcTimeout = exports.PortMapping = exports.OutlierDetection = exports.Duration = exports.DurationUnit = exports.HealthCheckPolicy = exports.PortProtocol = exports.VirtualNodeConnectionPool = exports.VirtualNodeTcpConnectionPool = exports.VirtualNodeHttp2ConnectionPool = exports.VirtualNodeHttpConnectionPool = exports.VirtualNodeGrpcConnectionPool = exports.Backend = exports.VirtualServiceBackend = exports.BackendDefaults = exports.ClientPolicy = exports.ClientPolicyTls = exports.TlsValidationContext = exports.TlsValidationContextTrust = exports.TlsValidationContextSdsTrust = exports.TlsValidationContextFileTrust = exports.TlsValidationContextAcmTrust = exports.ClientTlsCertificate = exports.ListenerTlsSdsCertificate = exports.ListenerTlsFileCertificate = exports.UpdateVirtualGatewayOutput = exports.UpdateVirtualGatewayInput = exports.ListVirtualGatewaysOutput = exports.VirtualGatewayRef = exports.ListVirtualGatewaysInput = exports.UpdateGatewayRouteOutput = exports.UpdateGatewayRouteInput = exports.ListGatewayRoutesOutput = exports.GatewayRouteRef = exports.ListGatewayRoutesInput = exports.DescribeGatewayRouteOutput = exports.DescribeGatewayRouteInput = exports.DeleteGatewayRouteOutput = exports.DeleteGatewayRouteInput = exports.CreateGatewayRouteOutput = exports.GatewayRouteData = void 0;
-exports.HttpRetryPolicy = exports.HttpRouteMatch = exports.HttpScheme = exports.HttpRouteHeader = exports.HttpRouteAction = exports.GrpcRoute = exports.GrpcRetryPolicy = exports.TcpRetryPolicyEvent = exports.GrpcRetryPolicyEvent = exports.GrpcRouteMatch = exports.GrpcRouteMetadata = exports.GrpcRouteMetadataMatchMethod = exports.GrpcRouteAction = exports.WeightedTarget = exports.ListVirtualRoutersOutput = exports.VirtualRouterRef = exports.ListVirtualRoutersInput = exports.DescribeVirtualRouterOutput = exports.DescribeVirtualRouterInput = exports.DeleteVirtualRouterOutput = exports.DeleteVirtualRouterInput = exports.CreateVirtualRouterOutput = exports.VirtualRouterData = exports.VirtualRouterStatus = exports.VirtualRouterStatusCode = exports.CreateVirtualRouterInput = exports.VirtualRouterSpec = exports.VirtualRouterListener = exports.UpdateVirtualNodeOutput = exports.UpdateVirtualNodeInput = exports.ListVirtualNodesOutput = exports.VirtualNodeRef = exports.ListVirtualNodesInput = exports.DescribeVirtualNodeOutput = exports.DescribeVirtualNodeInput = exports.DeleteVirtualNodeOutput = exports.DeleteVirtualNodeInput = exports.CreateVirtualNodeOutput = exports.VirtualNodeData = exports.VirtualNodeStatus = exports.VirtualNodeStatusCode = exports.CreateVirtualNodeInput = exports.VirtualNodeSpec = exports.ServiceDiscovery = exports.DnsServiceDiscovery = exports.DnsResponseType = exports.AwsCloudMapServiceDiscovery = exports.AwsCloudMapInstanceAttribute = exports.Logging = exports.Listener = void 0;
-exports.UntagResourceOutput = exports.UntagResourceInput = exports.TooManyTagsException = exports.TagResourceOutput = exports.TagResourceInput = exports.UpdateVirtualServiceOutput = exports.UpdateVirtualServiceInput = exports.ListVirtualServicesOutput = exports.VirtualServiceRef = exports.ListVirtualServicesInput = exports.DescribeVirtualServiceOutput = exports.DescribeVirtualServiceInput = exports.DeleteVirtualServiceOutput = exports.DeleteVirtualServiceInput = exports.CreateVirtualServiceOutput = exports.VirtualServiceData = exports.VirtualServiceStatus = exports.VirtualServiceStatusCode = exports.CreateVirtualServiceInput = exports.VirtualServiceSpec = exports.VirtualServiceProvider = exports.VirtualRouterServiceProvider = exports.VirtualNodeServiceProvider = exports.UpdateVirtualRouterOutput = exports.UpdateVirtualRouterInput = exports.UpdateRouteOutput = exports.UpdateRouteInput = exports.ListRoutesOutput = exports.RouteRef = exports.ListRoutesInput = exports.DescribeRouteOutput = exports.DescribeRouteInput = exports.DeleteRouteOutput = exports.DeleteRouteInput = exports.CreateRouteOutput = exports.RouteData = exports.RouteStatus = exports.RouteStatusCode = exports.CreateRouteInput = exports.RouteSpec = exports.TcpRoute = exports.TcpRouteAction = exports.HttpRoute = void 0;
+exports.VirtualGatewayListener = exports.VirtualGatewayListenerTls = exports.VirtualGatewayListenerTlsValidationContext = exports.VirtualGatewayListenerTlsValidationContextTrust = exports.VirtualGatewayListenerTlsMode = exports.VirtualGatewayListenerTlsCertificate = exports.VirtualGatewayListenerTlsAcmCertificate = exports.VirtualGatewayPortMapping = exports.VirtualGatewayHealthCheckPolicy = exports.VirtualGatewayPortProtocol = exports.VirtualGatewayConnectionPool = exports.VirtualGatewayHttp2ConnectionPool = exports.VirtualGatewayHttpConnectionPool = exports.VirtualGatewayGrpcConnectionPool = exports.VirtualGatewayBackendDefaults = exports.VirtualGatewayClientPolicy = exports.VirtualGatewayClientPolicyTls = exports.VirtualGatewayTlsValidationContext = exports.VirtualGatewayTlsValidationContextTrust = exports.VirtualGatewayTlsValidationContextSdsTrust = exports.VirtualGatewayTlsValidationContextFileTrust = exports.VirtualGatewayTlsValidationContextAcmTrust = exports.SubjectAlternativeNames = exports.SubjectAlternativeNameMatchers = exports.VirtualGatewayClientTlsCertificate = exports.VirtualGatewayListenerTlsSdsCertificate = exports.VirtualGatewayListenerTlsFileCertificate = exports.UpdateMeshOutput = exports.UpdateMeshInput = exports.ListMeshesOutput = exports.MeshRef = exports.ListMeshesInput = exports.DescribeMeshOutput = exports.DescribeMeshInput = exports.DeleteMeshOutput = exports.DeleteMeshInput = exports.CreateMeshOutput = exports.MeshData = exports.MeshStatus = exports.MeshStatusCode = exports.ResourceMetadata = exports.CreateMeshInput = exports.MeshSpec = exports.EgressFilter = exports.EgressFilterType = exports.ListTagsForResourceOutput = exports.TagRef = exports.ListTagsForResourceInput = exports.AccessLog = exports.FileAccessLog = void 0;
+exports.ListGatewayRoutesOutput = exports.GatewayRouteRef = exports.ListGatewayRoutesInput = exports.DescribeGatewayRouteOutput = exports.DescribeGatewayRouteInput = exports.DeleteGatewayRouteOutput = exports.DeleteGatewayRouteInput = exports.CreateGatewayRouteOutput = exports.GatewayRouteData = exports.GatewayRouteStatus = exports.GatewayRouteStatusCode = exports.CreateGatewayRouteInput = exports.GatewayRouteSpec = exports.HttpGatewayRoute = exports.HttpGatewayRouteMatch = exports.HttpQueryParameter = exports.QueryParameterMatch = exports.HttpPathMatch = exports.HttpMethod = exports.HttpGatewayRouteHeader = exports.HeaderMatchMethod = exports.HttpGatewayRouteAction = exports.HttpGatewayRouteRewrite = exports.HttpGatewayRoutePrefixRewrite = exports.HttpGatewayRoutePathRewrite = exports.GrpcGatewayRoute = exports.GrpcGatewayRouteMatch = exports.GrpcGatewayRouteMetadata = exports.GrpcMetadataMatchMethod = exports.MatchRange = exports.GatewayRouteHostnameMatch = exports.GrpcGatewayRouteAction = exports.GatewayRouteTarget = exports.GatewayRouteVirtualService = exports.GrpcGatewayRouteRewrite = exports.GatewayRouteHostnameRewrite = exports.DefaultGatewayRouteRewrite = exports.DescribeVirtualGatewayOutput = exports.DescribeVirtualGatewayInput = exports.DeleteVirtualGatewayOutput = exports.DeleteVirtualGatewayInput = exports.CreateVirtualGatewayOutput = exports.VirtualGatewayData = exports.VirtualGatewayStatus = exports.VirtualGatewayStatusCode = exports.CreateVirtualGatewayInput = exports.VirtualGatewaySpec = exports.VirtualGatewayLogging = exports.VirtualGatewayAccessLog = exports.VirtualGatewayFileAccessLog = void 0;
+exports.CreateVirtualNodeInput = exports.VirtualNodeSpec = exports.ServiceDiscovery = exports.DnsServiceDiscovery = exports.DnsResponseType = exports.AwsCloudMapServiceDiscovery = exports.AwsCloudMapInstanceAttribute = exports.Logging = exports.Listener = exports.ListenerTls = exports.ListenerTlsValidationContext = exports.ListenerTlsValidationContextTrust = exports.ListenerTlsMode = exports.ListenerTlsCertificate = exports.ListenerTlsAcmCertificate = exports.ListenerTimeout = exports.TcpTimeout = exports.HttpTimeout = exports.GrpcTimeout = exports.PortMapping = exports.OutlierDetection = exports.Duration = exports.DurationUnit = exports.HealthCheckPolicy = exports.PortProtocol = exports.VirtualNodeConnectionPool = exports.VirtualNodeTcpConnectionPool = exports.VirtualNodeHttp2ConnectionPool = exports.VirtualNodeHttpConnectionPool = exports.VirtualNodeGrpcConnectionPool = exports.Backend = exports.VirtualServiceBackend = exports.BackendDefaults = exports.ClientPolicy = exports.ClientPolicyTls = exports.TlsValidationContext = exports.TlsValidationContextTrust = exports.TlsValidationContextSdsTrust = exports.TlsValidationContextFileTrust = exports.TlsValidationContextAcmTrust = exports.ClientTlsCertificate = exports.ListenerTlsSdsCertificate = exports.ListenerTlsFileCertificate = exports.UpdateVirtualGatewayOutput = exports.UpdateVirtualGatewayInput = exports.ListVirtualGatewaysOutput = exports.VirtualGatewayRef = exports.ListVirtualGatewaysInput = exports.UpdateGatewayRouteOutput = exports.UpdateGatewayRouteInput = void 0;
+exports.CreateRouteOutput = exports.RouteData = exports.RouteStatus = exports.RouteStatusCode = exports.CreateRouteInput = exports.RouteSpec = exports.TcpRoute = exports.TcpRouteAction = exports.HttpRoute = exports.HttpRetryPolicy = exports.HttpRouteMatch = exports.HttpScheme = exports.HttpRouteHeader = exports.HttpRouteAction = exports.GrpcRoute = exports.GrpcRetryPolicy = exports.TcpRetryPolicyEvent = exports.GrpcRetryPolicyEvent = exports.GrpcRouteMatch = exports.GrpcRouteMetadata = exports.GrpcRouteMetadataMatchMethod = exports.GrpcRouteAction = exports.WeightedTarget = exports.ListVirtualRoutersOutput = exports.VirtualRouterRef = exports.ListVirtualRoutersInput = exports.DescribeVirtualRouterOutput = exports.DescribeVirtualRouterInput = exports.DeleteVirtualRouterOutput = exports.DeleteVirtualRouterInput = exports.CreateVirtualRouterOutput = exports.VirtualRouterData = exports.VirtualRouterStatus = exports.VirtualRouterStatusCode = exports.CreateVirtualRouterInput = exports.VirtualRouterSpec = exports.VirtualRouterListener = exports.UpdateVirtualNodeOutput = exports.UpdateVirtualNodeInput = exports.ListVirtualNodesOutput = exports.VirtualNodeRef = exports.ListVirtualNodesInput = exports.DescribeVirtualNodeOutput = exports.DescribeVirtualNodeInput = exports.DeleteVirtualNodeOutput = exports.DeleteVirtualNodeInput = exports.CreateVirtualNodeOutput = exports.VirtualNodeData = exports.VirtualNodeStatus = exports.VirtualNodeStatusCode = void 0;
+exports.UntagResourceOutput = exports.UntagResourceInput = exports.TagResourceOutput = exports.TagResourceInput = exports.UpdateVirtualServiceOutput = exports.UpdateVirtualServiceInput = exports.ListVirtualServicesOutput = exports.VirtualServiceRef = exports.ListVirtualServicesInput = exports.DescribeVirtualServiceOutput = exports.DescribeVirtualServiceInput = exports.DeleteVirtualServiceOutput = exports.DeleteVirtualServiceInput = exports.CreateVirtualServiceOutput = exports.VirtualServiceData = exports.VirtualServiceStatus = exports.VirtualServiceStatusCode = exports.CreateVirtualServiceInput = exports.VirtualServiceSpec = exports.VirtualServiceProvider = exports.VirtualRouterServiceProvider = exports.VirtualNodeServiceProvider = exports.UpdateVirtualRouterOutput = exports.UpdateVirtualRouterInput = exports.UpdateRouteOutput = exports.UpdateRouteInput = exports.ListRoutesOutput = exports.RouteRef = exports.ListRoutesInput = exports.DescribeRouteOutput = exports.DescribeRouteInput = exports.DeleteRouteOutput = exports.DeleteRouteInput = void 0;
 var FileAccessLog;
 (function (FileAccessLog) {
     FileAccessLog.filterSensitiveLog = (obj) => ({
@@ -4190,24 +4190,6 @@ var AccessLog;
             return { [obj.$unknown[0]]: "UNKNOWN" };
     };
 })(AccessLog = exports.AccessLog || (exports.AccessLog = {}));
-var BadRequestException;
-(function (BadRequestException) {
-    BadRequestException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(BadRequestException = exports.BadRequestException || (exports.BadRequestException = {}));
-var ForbiddenException;
-(function (ForbiddenException) {
-    ForbiddenException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ForbiddenException = exports.ForbiddenException || (exports.ForbiddenException = {}));
-var InternalServerErrorException;
-(function (InternalServerErrorException) {
-    InternalServerErrorException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(InternalServerErrorException = exports.InternalServerErrorException || (exports.InternalServerErrorException = {}));
 var ListTagsForResourceInput;
 (function (ListTagsForResourceInput) {
     ListTagsForResourceInput.filterSensitiveLog = (obj) => ({
@@ -4226,30 +4208,6 @@ var ListTagsForResourceOutput;
         ...obj,
     });
 })(ListTagsForResourceOutput = exports.ListTagsForResourceOutput || (exports.ListTagsForResourceOutput = {}));
-var NotFoundException;
-(function (NotFoundException) {
-    NotFoundException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(NotFoundException = exports.NotFoundException || (exports.NotFoundException = {}));
-var ServiceUnavailableException;
-(function (ServiceUnavailableException) {
-    ServiceUnavailableException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ServiceUnavailableException = exports.ServiceUnavailableException || (exports.ServiceUnavailableException = {}));
-var TooManyRequestsException;
-(function (TooManyRequestsException) {
-    TooManyRequestsException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TooManyRequestsException = exports.TooManyRequestsException || (exports.TooManyRequestsException = {}));
-var ConflictException;
-(function (ConflictException) {
-    ConflictException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ConflictException = exports.ConflictException || (exports.ConflictException = {}));
 var EgressFilterType;
 (function (EgressFilterType) {
     EgressFilterType["ALLOW_ALL"] = "ALLOW_ALL";
@@ -4303,12 +4261,6 @@ var CreateMeshOutput;
         ...obj,
     });
 })(CreateMeshOutput = exports.CreateMeshOutput || (exports.CreateMeshOutput = {}));
-var LimitExceededException;
-(function (LimitExceededException) {
-    LimitExceededException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(LimitExceededException = exports.LimitExceededException || (exports.LimitExceededException = {}));
 var DeleteMeshInput;
 (function (DeleteMeshInput) {
     DeleteMeshInput.filterSensitiveLog = (obj) => ({
@@ -4321,12 +4273,6 @@ var DeleteMeshOutput;
         ...obj,
     });
 })(DeleteMeshOutput = exports.DeleteMeshOutput || (exports.DeleteMeshOutput = {}));
-var ResourceInUseException;
-(function (ResourceInUseException) {
-    ResourceInUseException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ResourceInUseException = exports.ResourceInUseException || (exports.ResourceInUseException = {}));
 var DescribeMeshInput;
 (function (DescribeMeshInput) {
     DescribeMeshInput.filterSensitiveLog = (obj) => ({
@@ -5966,12 +5912,6 @@ var TagResourceOutput;
         ...obj,
     });
 })(TagResourceOutput = exports.TagResourceOutput || (exports.TagResourceOutput = {}));
-var TooManyTagsException;
-(function (TooManyTagsException) {
-    TooManyTagsException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TooManyTagsException = exports.TooManyTagsException || (exports.TooManyTagsException = {}));
 var UntagResourceInput;
 (function (UntagResourceInput) {
     UntagResourceInput.filterSensitiveLog = (obj) => ({
@@ -14571,13 +14511,18 @@ const util_body_length_node_1 = __nccwpck_require__(4147);
 const util_user_agent_node_1 = __nccwpck_require__(8095);
 const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(7972);
+const smithy_client_1 = __nccwpck_require__(4963);
+const util_defaults_mode_node_1 = __nccwpck_require__(4243);
 const getRuntimeConfig = (config) => {
     var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
+    const defaultsMode = util_defaults_mode_node_1.resolveDefaultsModeConfig(config);
+    const defaultConfigProvider = () => defaultsMode().then(smithy_client_1.loadConfigsForDefaultMode);
     const clientSharedValues = runtimeConfig_shared_1.getRuntimeConfig(config);
     return {
         ...clientSharedValues,
         ...config,
         runtime: "node",
+        defaultsMode,
         base64Decoder: (_a = config === null || config === void 0 ? void 0 : config.base64Decoder) !== null && _a !== void 0 ? _a : util_base64_node_1.fromBase64,
         base64Encoder: (_b = config === null || config === void 0 ? void 0 : config.base64Encoder) !== null && _b !== void 0 ? _b : util_base64_node_1.toBase64,
         bodyLengthChecker: (_c = config === null || config === void 0 ? void 0 : config.bodyLengthChecker) !== null && _c !== void 0 ? _c : util_body_length_node_1.calculateBodyLength,
@@ -14585,8 +14530,11 @@ const getRuntimeConfig = (config) => {
         defaultUserAgentProvider: (_e = config === null || config === void 0 ? void 0 : config.defaultUserAgentProvider) !== null && _e !== void 0 ? _e : util_user_agent_node_1.defaultUserAgent({ serviceId: clientSharedValues.serviceId, clientVersion: package_json_1.default.version }),
         maxAttempts: (_f = config === null || config === void 0 ? void 0 : config.maxAttempts) !== null && _f !== void 0 ? _f : node_config_provider_1.loadConfig(middleware_retry_1.NODE_MAX_ATTEMPT_CONFIG_OPTIONS),
         region: (_g = config === null || config === void 0 ? void 0 : config.region) !== null && _g !== void 0 ? _g : node_config_provider_1.loadConfig(config_resolver_1.NODE_REGION_CONFIG_OPTIONS, config_resolver_1.NODE_REGION_CONFIG_FILE_OPTIONS),
-        requestHandler: (_h = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _h !== void 0 ? _h : new node_http_handler_1.NodeHttpHandler(),
-        retryMode: (_j = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _j !== void 0 ? _j : node_config_provider_1.loadConfig(middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS),
+        requestHandler: (_h = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _h !== void 0 ? _h : new node_http_handler_1.NodeHttpHandler(defaultConfigProvider),
+        retryMode: (_j = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _j !== void 0 ? _j : node_config_provider_1.loadConfig({
+            ...middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS,
+            default: async () => (await defaultConfigProvider()).retryMode || middleware_retry_1.DEFAULT_RETRY_MODE,
+        }),
         sha256: (_k = config === null || config === void 0 ? void 0 : config.sha256) !== null && _k !== void 0 ? _k : hash_node_1.Hash.bind(null, "sha256"),
         streamCollector: (_l = config === null || config === void 0 ? void 0 : config.streamCollector) !== null && _l !== void 0 ? _l : node_http_handler_1.streamCollector,
         useDualstackEndpoint: (_m = config === null || config === void 0 ? void 0 : config.useDualstackEndpoint) !== null && _m !== void 0 ? _m : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS),
@@ -15066,6 +15014,15 @@ const regionHash = {
         ],
         signingRegion: "us-east-2",
     },
+    "us-gov-east-1": {
+        variants: [
+            {
+                hostname: "portal.sso.us-gov-east-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "us-gov-east-1",
+    },
     "us-gov-west-1": {
         variants: [
             {
@@ -15249,7 +15206,7 @@ tslib_1.__exportStar(__nccwpck_require__(6390), exports);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.LogoutRequest = exports.ListAccountsResponse = exports.ListAccountsRequest = exports.ListAccountRolesResponse = exports.RoleInfo = exports.ListAccountRolesRequest = exports.UnauthorizedException = exports.TooManyRequestsException = exports.ResourceNotFoundException = exports.InvalidRequestException = exports.GetRoleCredentialsResponse = exports.RoleCredentials = exports.GetRoleCredentialsRequest = exports.AccountInfo = void 0;
+exports.LogoutRequest = exports.ListAccountsResponse = exports.ListAccountsRequest = exports.ListAccountRolesResponse = exports.RoleInfo = exports.ListAccountRolesRequest = exports.GetRoleCredentialsResponse = exports.RoleCredentials = exports.GetRoleCredentialsRequest = exports.AccountInfo = void 0;
 const smithy_client_1 = __nccwpck_require__(4963);
 var AccountInfo;
 (function (AccountInfo) {
@@ -15279,30 +15236,6 @@ var GetRoleCredentialsResponse;
         ...(obj.roleCredentials && { roleCredentials: RoleCredentials.filterSensitiveLog(obj.roleCredentials) }),
     });
 })(GetRoleCredentialsResponse = exports.GetRoleCredentialsResponse || (exports.GetRoleCredentialsResponse = {}));
-var InvalidRequestException;
-(function (InvalidRequestException) {
-    InvalidRequestException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(InvalidRequestException = exports.InvalidRequestException || (exports.InvalidRequestException = {}));
-var ResourceNotFoundException;
-(function (ResourceNotFoundException) {
-    ResourceNotFoundException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ResourceNotFoundException = exports.ResourceNotFoundException || (exports.ResourceNotFoundException = {}));
-var TooManyRequestsException;
-(function (TooManyRequestsException) {
-    TooManyRequestsException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TooManyRequestsException = exports.TooManyRequestsException || (exports.TooManyRequestsException = {}));
-var UnauthorizedException;
-(function (UnauthorizedException) {
-    UnauthorizedException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UnauthorizedException = exports.UnauthorizedException || (exports.UnauthorizedException = {}));
 var ListAccountRolesRequest;
 (function (ListAccountRolesRequest) {
     ListAccountRolesRequest.filterSensitiveLog = (obj) => ({
@@ -16004,21 +15937,29 @@ const util_body_length_node_1 = __nccwpck_require__(4147);
 const util_user_agent_node_1 = __nccwpck_require__(8095);
 const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(4355);
+const smithy_client_1 = __nccwpck_require__(4963);
+const util_defaults_mode_node_1 = __nccwpck_require__(4243);
 const getRuntimeConfig = (config) => {
     var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p;
+    const defaultsMode = util_defaults_mode_node_1.resolveDefaultsModeConfig(config);
+    const defaultConfigProvider = () => defaultsMode().then(smithy_client_1.loadConfigsForDefaultMode);
     const clientSharedValues = runtimeConfig_shared_1.getRuntimeConfig(config);
     return {
         ...clientSharedValues,
         ...config,
         runtime: "node",
+        defaultsMode,
         base64Decoder: (_a = config === null || config === void 0 ? void 0 : config.base64Decoder) !== null && _a !== void 0 ? _a : util_base64_node_1.fromBase64,
         base64Encoder: (_b = config === null || config === void 0 ? void 0 : config.base64Encoder) !== null && _b !== void 0 ? _b : util_base64_node_1.toBase64,
         bodyLengthChecker: (_c = config === null || config === void 0 ? void 0 : config.bodyLengthChecker) !== null && _c !== void 0 ? _c : util_body_length_node_1.calculateBodyLength,
         defaultUserAgentProvider: (_d = config === null || config === void 0 ? void 0 : config.defaultUserAgentProvider) !== null && _d !== void 0 ? _d : util_user_agent_node_1.defaultUserAgent({ serviceId: clientSharedValues.serviceId, clientVersion: package_json_1.default.version }),
         maxAttempts: (_e = config === null || config === void 0 ? void 0 : config.maxAttempts) !== null && _e !== void 0 ? _e : node_config_provider_1.loadConfig(middleware_retry_1.NODE_MAX_ATTEMPT_CONFIG_OPTIONS),
         region: (_f = config === null || config === void 0 ? void 0 : config.region) !== null && _f !== void 0 ? _f : node_config_provider_1.loadConfig(config_resolver_1.NODE_REGION_CONFIG_OPTIONS, config_resolver_1.NODE_REGION_CONFIG_FILE_OPTIONS),
-        requestHandler: (_g = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _g !== void 0 ? _g : new node_http_handler_1.NodeHttpHandler(),
-        retryMode: (_h = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _h !== void 0 ? _h : node_config_provider_1.loadConfig(middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS),
+        requestHandler: (_g = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _g !== void 0 ? _g : new node_http_handler_1.NodeHttpHandler(defaultConfigProvider),
+        retryMode: (_h = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _h !== void 0 ? _h : node_config_provider_1.loadConfig({
+            ...middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS,
+            default: async () => (await defaultConfigProvider()).retryMode || middleware_retry_1.DEFAULT_RETRY_MODE,
+        }),
         sha256: (_j = config === null || config === void 0 ? void 0 : config.sha256) !== null && _j !== void 0 ? _j : hash_node_1.Hash.bind(null, "sha256"),
         streamCollector: (_k = config === null || config === void 0 ? void 0 : config.streamCollector) !== null && _k !== void 0 ? _k : node_http_handler_1.streamCollector,
         useDualstackEndpoint: (_l = config === null || config === void 0 ? void 0 : config.useDualstackEndpoint) !== null && _l !== void 0 ? _l : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS),
@@ -16745,10 +16686,6 @@ const regionHash = {
     "us-east-1": {
         variants: [
             {
-                hostname: "sts.us-east-1.amazonaws.com",
-                tags: [],
-            },
-            {
                 hostname: "sts-fips.us-east-1.amazonaws.com",
                 tags: ["fips"],
             },
@@ -16756,10 +16693,6 @@ const regionHash = {
     },
     "us-east-2": {
         variants: [
-            {
-                hostname: "sts.us-east-2.amazonaws.com",
-                tags: [],
-            },
             {
                 hostname: "sts-fips.us-east-2.amazonaws.com",
                 tags: ["fips"],
@@ -16770,20 +16703,12 @@ const regionHash = {
         variants: [
             {
                 hostname: "sts.us-gov-east-1.amazonaws.com",
-                tags: [],
-            },
-            {
-                hostname: "sts.us-gov-east-1.amazonaws.com",
                 tags: ["fips"],
             },
         ],
     },
     "us-gov-west-1": {
         variants: [
-            {
-                hostname: "sts.us-gov-west-1.amazonaws.com",
-                tags: [],
-            },
             {
                 hostname: "sts.us-gov-west-1.amazonaws.com",
                 tags: ["fips"],
@@ -16793,10 +16718,6 @@ const regionHash = {
     "us-west-1": {
         variants: [
             {
-                hostname: "sts.us-west-1.amazonaws.com",
-                tags: [],
-            },
-            {
                 hostname: "sts-fips.us-west-1.amazonaws.com",
                 tags: ["fips"],
             },
@@ -16804,10 +16725,6 @@ const regionHash = {
     },
     "us-west-2": {
         variants: [
-            {
-                hostname: "sts.us-west-2.amazonaws.com",
-                tags: [],
-            },
             {
                 hostname: "sts-fips.us-west-2.amazonaws.com",
                 tags: ["fips"],
@@ -16984,7 +16901,7 @@ tslib_1.__exportStar(__nccwpck_require__(1780), exports);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.GetSessionTokenResponse = exports.GetSessionTokenRequest = exports.GetFederationTokenResponse = exports.FederatedUser = exports.GetFederationTokenRequest = exports.GetCallerIdentityResponse = exports.GetCallerIdentityRequest = exports.GetAccessKeyInfoResponse = exports.GetAccessKeyInfoRequest = exports.InvalidAuthorizationMessageException = exports.DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageRequest = exports.IDPCommunicationErrorException = exports.AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityRequest = exports.InvalidIdentityTokenException = exports.IDPRejectedClaimException = exports.AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLRequest = exports.RegionDisabledException = exports.PackedPolicyTooLargeException = exports.MalformedPolicyDocumentException = exports.ExpiredTokenException = exports.AssumeRoleResponse = exports.Credentials = exports.AssumeRoleRequest = exports.Tag = exports.PolicyDescriptorType = exports.AssumedRoleUser = void 0;
+exports.GetSessionTokenResponse = exports.GetSessionTokenRequest = exports.GetFederationTokenResponse = exports.FederatedUser = exports.GetFederationTokenRequest = exports.GetCallerIdentityResponse = exports.GetCallerIdentityRequest = exports.GetAccessKeyInfoResponse = exports.GetAccessKeyInfoRequest = exports.DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageRequest = exports.AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityRequest = exports.AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLRequest = exports.AssumeRoleResponse = exports.Credentials = exports.AssumeRoleRequest = exports.Tag = exports.PolicyDescriptorType = exports.AssumedRoleUser = void 0;
 var AssumedRoleUser;
 (function (AssumedRoleUser) {
     AssumedRoleUser.filterSensitiveLog = (obj) => ({
@@ -17021,30 +16938,6 @@ var AssumeRoleResponse;
         ...obj,
     });
 })(AssumeRoleResponse = exports.AssumeRoleResponse || (exports.AssumeRoleResponse = {}));
-var ExpiredTokenException;
-(function (ExpiredTokenException) {
-    ExpiredTokenException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ExpiredTokenException = exports.ExpiredTokenException || (exports.ExpiredTokenException = {}));
-var MalformedPolicyDocumentException;
-(function (MalformedPolicyDocumentException) {
-    MalformedPolicyDocumentException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(MalformedPolicyDocumentException = exports.MalformedPolicyDocumentException || (exports.MalformedPolicyDocumentException = {}));
-var PackedPolicyTooLargeException;
-(function (PackedPolicyTooLargeException) {
-    PackedPolicyTooLargeException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(PackedPolicyTooLargeException = exports.PackedPolicyTooLargeException || (exports.PackedPolicyTooLargeException = {}));
-var RegionDisabledException;
-(function (RegionDisabledException) {
-    RegionDisabledException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(RegionDisabledException = exports.RegionDisabledException || (exports.RegionDisabledException = {}));
 var AssumeRoleWithSAMLRequest;
 (function (AssumeRoleWithSAMLRequest) {
     AssumeRoleWithSAMLRequest.filterSensitiveLog = (obj) => ({
@@ -17057,18 +16950,6 @@ var AssumeRoleWithSAMLResponse;
         ...obj,
     });
 })(AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLResponse || (exports.AssumeRoleWithSAMLResponse = {}));
-var IDPRejectedClaimException;
-(function (IDPRejectedClaimException) {
-    IDPRejectedClaimException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(IDPRejectedClaimException = exports.IDPRejectedClaimException || (exports.IDPRejectedClaimException = {}));
-var InvalidIdentityTokenException;
-(function (InvalidIdentityTokenException) {
-    InvalidIdentityTokenException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(InvalidIdentityTokenException = exports.InvalidIdentityTokenException || (exports.InvalidIdentityTokenException = {}));
 var AssumeRoleWithWebIdentityRequest;
 (function (AssumeRoleWithWebIdentityRequest) {
     AssumeRoleWithWebIdentityRequest.filterSensitiveLog = (obj) => ({
@@ -17081,12 +16962,6 @@ var AssumeRoleWithWebIdentityResponse;
         ...obj,
     });
 })(AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityResponse || (exports.AssumeRoleWithWebIdentityResponse = {}));
-var IDPCommunicationErrorException;
-(function (IDPCommunicationErrorException) {
-    IDPCommunicationErrorException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(IDPCommunicationErrorException = exports.IDPCommunicationErrorException || (exports.IDPCommunicationErrorException = {}));
 var DecodeAuthorizationMessageRequest;
 (function (DecodeAuthorizationMessageRequest) {
     DecodeAuthorizationMessageRequest.filterSensitiveLog = (obj) => ({
@@ -17099,12 +16974,6 @@ var DecodeAuthorizationMessageResponse;
         ...obj,
     });
 })(DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageResponse || (exports.DecodeAuthorizationMessageResponse = {}));
-var InvalidAuthorizationMessageException;
-(function (InvalidAuthorizationMessageException) {
-    InvalidAuthorizationMessageException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(InvalidAuthorizationMessageException = exports.InvalidAuthorizationMessageException || (exports.InvalidAuthorizationMessageException = {}));
 var GetAccessKeyInfoRequest;
 (function (GetAccessKeyInfoRequest) {
     GetAccessKeyInfoRequest.filterSensitiveLog = (obj) => ({
@@ -18441,13 +18310,18 @@ const util_body_length_node_1 = __nccwpck_require__(4147);
 const util_user_agent_node_1 = __nccwpck_require__(8095);
 const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(2642);
+const smithy_client_1 = __nccwpck_require__(4963);
+const util_defaults_mode_node_1 = __nccwpck_require__(4243);
 const getRuntimeConfig = (config) => {
     var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
+    const defaultsMode = util_defaults_mode_node_1.resolveDefaultsModeConfig(config);
+    const defaultConfigProvider = () => defaultsMode().then(smithy_client_1.loadConfigsForDefaultMode);
     const clientSharedValues = runtimeConfig_shared_1.getRuntimeConfig(config);
     return {
         ...clientSharedValues,
         ...config,
         runtime: "node",
+        defaultsMode,
         base64Decoder: (_a = config === null || config === void 0 ? void 0 : config.base64Decoder) !== null && _a !== void 0 ? _a : util_base64_node_1.fromBase64,
         base64Encoder: (_b = config === null || config === void 0 ? void 0 : config.base64Encoder) !== null && _b !== void 0 ? _b : util_base64_node_1.toBase64,
         bodyLengthChecker: (_c = config === null || config === void 0 ? void 0 : config.bodyLengthChecker) !== null && _c !== void 0 ? _c : util_body_length_node_1.calculateBodyLength,
@@ -18455,8 +18329,11 @@ const getRuntimeConfig = (config) => {
         defaultUserAgentProvider: (_e = config === null || config === void 0 ? void 0 : config.defaultUserAgentProvider) !== null && _e !== void 0 ? _e : util_user_agent_node_1.defaultUserAgent({ serviceId: clientSharedValues.serviceId, clientVersion: package_json_1.default.version }),
         maxAttempts: (_f = config === null || config === void 0 ? void 0 : config.maxAttempts) !== null && _f !== void 0 ? _f : node_config_provider_1.loadConfig(middleware_retry_1.NODE_MAX_ATTEMPT_CONFIG_OPTIONS),
         region: (_g = config === null || config === void 0 ? void 0 : config.region) !== null && _g !== void 0 ? _g : node_config_provider_1.loadConfig(config_resolver_1.NODE_REGION_CONFIG_OPTIONS, config_resolver_1.NODE_REGION_CONFIG_FILE_OPTIONS),
-        requestHandler: (_h = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _h !== void 0 ? _h : new node_http_handler_1.NodeHttpHandler(),
-        retryMode: (_j = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _j !== void 0 ? _j : node_config_provider_1.loadConfig(middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS),
+        requestHandler: (_h = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _h !== void 0 ? _h : new node_http_handler_1.NodeHttpHandler(defaultConfigProvider),
+        retryMode: (_j = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _j !== void 0 ? _j : node_config_provider_1.loadConfig({
+            ...middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS,
+            default: async () => (await defaultConfigProvider()).retryMode || middleware_retry_1.DEFAULT_RETRY_MODE,
+        }),
         sha256: (_k = config === null || config === void 0 ? void 0 : config.sha256) !== null && _k !== void 0 ? _k : hash_node_1.Hash.bind(null, "sha256"),
         streamCollector: (_l = config === null || config === void 0 ? void 0 : config.streamCollector) !== null && _l !== void 0 ? _l : node_http_handler_1.streamCollector,
         useDualstackEndpoint: (_m = config === null || config === void 0 ? void 0 : config.useDualstackEndpoint) !== null && _m !== void 0 ? _m : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS),
@@ -19224,10 +19101,15 @@ const getCredentialsFromProfile = async (profile, options) => {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getInstanceMetadataEndpoint = exports.httpRequest = void 0;
 const tslib_1 = __nccwpck_require__(4351);
 tslib_1.__exportStar(__nccwpck_require__(5232), exports);
 tslib_1.__exportStar(__nccwpck_require__(5813), exports);
 tslib_1.__exportStar(__nccwpck_require__(2314), exports);
+var httpRequest_1 = __nccwpck_require__(1303);
+Object.defineProperty(exports, "httpRequest", ({ enumerable: true, get: function () { return httpRequest_1.httpRequest; } }));
+var getInstanceMetadataEndpoint_1 = __nccwpck_require__(1206);
+Object.defineProperty(exports, "getInstanceMetadataEndpoint", ({ enumerable: true, get: function () { return getInstanceMetadataEndpoint_1.getInstanceMetadataEndpoint; } }));
 
 
 /***/ }),
@@ -21272,7 +21154,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.fromStatic = void 0;
 const property_provider_1 = __nccwpck_require__(4462);
 const isFunction = (func) => typeof func === "function";
-const fromStatic = (defaultValue) => isFunction(defaultValue) ? async () => defaultValue() : property_provider_1.fromStatic(defaultValue);
+const fromStatic = (defaultValue) => isFunction(defaultValue) ? async () => await defaultValue() : property_provider_1.fromStatic(defaultValue);
 exports.fromStatic = fromStatic;
 
 
@@ -21353,21 +21235,41 @@ const set_connection_timeout_1 = __nccwpck_require__(3598);
 const set_socket_timeout_1 = __nccwpck_require__(4751);
 const write_request_body_1 = __nccwpck_require__(5248);
 class NodeHttpHandler {
-    constructor({ connectionTimeout, socketTimeout, httpAgent, httpsAgent } = {}) {
+    constructor(options) {
         this.metadata = { handlerProtocol: "http/1.1" };
-        this.connectionTimeout = connectionTimeout;
-        this.socketTimeout = socketTimeout;
+        if (typeof options === "function") {
+            this.configProvider = async () => {
+                return this.resolveDefaultConfig(await options());
+            };
+        }
+        else {
+            this.config = this.resolveDefaultConfig(options);
+        }
+    }
+    resolveDefaultConfig(options) {
+        const { connectionTimeout, socketTimeout, httpAgent, httpsAgent } = options || {};
         const keepAlive = true;
         const maxSockets = 50;
-        this.httpAgent = httpAgent || new http_1.Agent({ keepAlive, maxSockets });
-        this.httpsAgent = httpsAgent || new https_1.Agent({ keepAlive, maxSockets });
+        return {
+            connectionTimeout,
+            socketTimeout,
+            httpAgent: httpAgent || new http_1.Agent({ keepAlive, maxSockets }),
+            httpsAgent: httpsAgent || new https_1.Agent({ keepAlive, maxSockets }),
+        };
     }
     destroy() {
-        this.httpAgent.destroy();
-        this.httpsAgent.destroy();
+        var _a, _b, _c, _d;
+        (_b = (_a = this.config) === null || _a === void 0 ? void 0 : _a.httpAgent) === null || _b === void 0 ? void 0 : _b.destroy();
+        (_d = (_c = this.config) === null || _c === void 0 ? void 0 : _c.httpsAgent) === null || _d === void 0 ? void 0 : _d.destroy();
     }
-    handle(request, { abortSignal } = {}) {
+    async handle(request, { abortSignal } = {}) {
+        if (!this.config && this.configProvider) {
+            this.config = await this.configProvider();
+        }
         return new Promise((resolve, reject) => {
+            if (!this.config) {
+                throw new Error("Node HTTP request handler config is not resolved");
+            }
             if (abortSignal === null || abortSignal === void 0 ? void 0 : abortSignal.aborted) {
                 const abortError = new Error("Request aborted");
                 abortError.name = "AbortError";
@@ -21382,7 +21284,7 @@ class NodeHttpHandler {
                 method: request.method,
                 path: queryString ? `${request.path}?${queryString}` : request.path,
                 port: request.port,
-                agent: isSSL ? this.httpsAgent : this.httpAgent,
+                agent: isSSL ? this.config.httpsAgent : this.config.httpAgent,
             };
             const requestFunc = isSSL ? https_1.request : http_1.request;
             const req = requestFunc(nodeHttpsOptions, (res) => {
@@ -21401,8 +21303,8 @@ class NodeHttpHandler {
                     reject(err);
                 }
             });
-            set_connection_timeout_1.setConnectionTimeout(req, reject, this.connectionTimeout);
-            set_socket_timeout_1.setSocketTimeout(req, reject, this.socketTimeout);
+            set_connection_timeout_1.setConnectionTimeout(req, reject, this.config.connectionTimeout);
+            set_socket_timeout_1.setSocketTimeout(req, reject, this.config.socketTimeout);
             if (abortSignal) {
                 abortSignal.onabort = () => {
                     req.abort();
@@ -22985,6 +22887,44 @@ const stripLeadingZeroes = (value) => {
 
 /***/ }),
 
+/***/ 3088:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.loadConfigsForDefaultMode = void 0;
+const loadConfigsForDefaultMode = (mode) => {
+    switch (mode) {
+        case "standard":
+            return {
+                retryMode: "standard",
+                connectionTimeout: 3100,
+            };
+        case "in-region":
+            return {
+                retryMode: "standard",
+                connectionTimeout: 1100,
+            };
+        case "cross-region":
+            return {
+                retryMode: "standard",
+                connectionTimeout: 3100,
+            };
+        case "mobile":
+            return {
+                retryMode: "standard",
+                connectionTimeout: 30000,
+            };
+        default:
+            return {};
+    }
+};
+exports.loadConfigsForDefaultMode = loadConfigsForDefaultMode;
+
+
+/***/ }),
+
 /***/ 2363:
 /***/ ((__unused_webpack_module, exports) => {
 
@@ -23073,6 +23013,7 @@ tslib_1.__exportStar(__nccwpck_require__(6034), exports);
 tslib_1.__exportStar(__nccwpck_require__(4014), exports);
 tslib_1.__exportStar(__nccwpck_require__(8392), exports);
 tslib_1.__exportStar(__nccwpck_require__(4695), exports);
+tslib_1.__exportStar(__nccwpck_require__(3088), exports);
 tslib_1.__exportStar(__nccwpck_require__(2363), exports);
 tslib_1.__exportStar(__nccwpck_require__(1927), exports);
 tslib_1.__exportStar(__nccwpck_require__(6457), exports);
@@ -23580,6 +23521,122 @@ const parseKnownFiles = async (init) => {
 exports.parseKnownFiles = parseKnownFiles;
 const getMasterProfileName = (init) => init.profile || process.env[exports.ENV_PROFILE] || exports.DEFAULT_PROFILE;
 exports.getMasterProfileName = getMasterProfileName;
+
+
+/***/ }),
+
+/***/ 6488:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.IMDS_REGION_PATH = exports.DEFAULTS_MODE_OPTIONS = exports.ENV_IMDS_DISABLED = exports.AWS_DEFAULT_REGION_ENV = exports.AWS_REGION_ENV = exports.AWS_EXECUTION_ENV = void 0;
+exports.AWS_EXECUTION_ENV = "AWS_EXECUTION_ENV";
+exports.AWS_REGION_ENV = "AWS_REGION";
+exports.AWS_DEFAULT_REGION_ENV = "AWS_DEFAULT_REGION";
+exports.ENV_IMDS_DISABLED = "AWS_EC2_METADATA_DISABLED";
+exports.DEFAULTS_MODE_OPTIONS = ["in-region", "cross-region", "mobile", "standard", "legacy"];
+exports.IMDS_REGION_PATH = "/latest/meta-data/placement/region";
+
+
+/***/ }),
+
+/***/ 8450:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.NODE_DEFAULTS_MODE_CONFIG_OPTIONS = void 0;
+const AWS_DEFAULTS_MODE_ENV = "AWS_DEFAULTS_MODE";
+const AWS_DEFAULTS_MODE_CONFIG = "defaults_mode";
+exports.NODE_DEFAULTS_MODE_CONFIG_OPTIONS = {
+    environmentVariableSelector: (env) => {
+        return env[AWS_DEFAULTS_MODE_ENV];
+    },
+    configFileSelector: (profile) => {
+        return profile[AWS_DEFAULTS_MODE_CONFIG];
+    },
+    default: "legacy",
+};
+
+
+/***/ }),
+
+/***/ 4243:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(8238), exports);
+
+
+/***/ }),
+
+/***/ 8238:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.resolveDefaultsModeConfig = void 0;
+const config_resolver_1 = __nccwpck_require__(6153);
+const credential_provider_imds_1 = __nccwpck_require__(5898);
+const node_config_provider_1 = __nccwpck_require__(7684);
+const property_provider_1 = __nccwpck_require__(4462);
+const constants_1 = __nccwpck_require__(6488);
+const defaultsModeConfig_1 = __nccwpck_require__(8450);
+const resolveDefaultsModeConfig = ({ region = node_config_provider_1.loadConfig(config_resolver_1.NODE_REGION_CONFIG_OPTIONS), defaultsMode = node_config_provider_1.loadConfig(defaultsModeConfig_1.NODE_DEFAULTS_MODE_CONFIG_OPTIONS), } = {}) => property_provider_1.memoize(async () => {
+    const mode = typeof defaultsMode === "function" ? await defaultsMode() : defaultsMode;
+    switch (mode === null || mode === void 0 ? void 0 : mode.toLowerCase()) {
+        case "auto":
+            return resolveNodeDefaultsModeAuto(region);
+        case "in-region":
+        case "cross-region":
+        case "mobile":
+        case "standard":
+        case "legacy":
+            return Promise.resolve(mode === null || mode === void 0 ? void 0 : mode.toLocaleLowerCase());
+        case undefined:
+            return Promise.resolve("legacy");
+        default:
+            throw new Error(`Invalid parameter for "defaultsMode", expect ${constants_1.DEFAULTS_MODE_OPTIONS.join(", ")}, got ${mode}`);
+    }
+});
+exports.resolveDefaultsModeConfig = resolveDefaultsModeConfig;
+const resolveNodeDefaultsModeAuto = async (clientRegion) => {
+    if (clientRegion) {
+        const resolvedRegion = typeof clientRegion === "function" ? await clientRegion() : clientRegion;
+        const inferredRegion = await inferPhysicalRegion();
+        if (!inferredRegion) {
+            return "standard";
+        }
+        if (resolvedRegion === inferredRegion) {
+            return "in-region";
+        }
+        else {
+            return "cross-region";
+        }
+    }
+    return "standard";
+};
+const inferPhysicalRegion = async () => {
+    var _a;
+    if (process.env[constants_1.AWS_EXECUTION_ENV] && (process.env[constants_1.AWS_REGION_ENV] || process.env[constants_1.AWS_DEFAULT_REGION_ENV])) {
+        return (_a = process.env[constants_1.AWS_REGION_ENV]) !== null && _a !== void 0 ? _a : process.env[constants_1.AWS_DEFAULT_REGION_ENV];
+    }
+    if (!process.env[constants_1.ENV_IMDS_DISABLED]) {
+        try {
+            const endpoint = await credential_provider_imds_1.getInstanceMetadataEndpoint();
+            return (await credential_provider_imds_1.httpRequest({ ...endpoint, path: constants_1.IMDS_REGION_PATH })).toString();
+        }
+        catch (e) {
+        }
+    }
+};
 
 
 /***/ }),
@@ -44394,7 +44451,7 @@ module.exports = require("util");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.46.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist-*","clean:docs":"rimraf ./docs"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/client-sts":"3.46.0","@aws-sdk/config-resolver":"3.46.0","@aws-sdk/credential-provider-node":"3.46.0","@aws-sdk/fetch-http-handler":"3.46.0","@aws-sdk/hash-node":"3.46.0","@aws-sdk/invalid-dependency":"3.46.0","@aws-sdk/middleware-content-length":"3.46.0","@aws-sdk/middleware-host-header":"3.46.0","@aws-sdk/middleware-logger":"3.46.0","@aws-sdk/middleware-retry":"3.46.0","@aws-sdk/middleware-serde":"3.46.0","@aws-sdk/middleware-signing":"3.46.0","@aws-sdk/middleware-stack":"3.46.0","@aws-sdk/middleware-user-agent":"3.46.0","@aws-sdk/node-config-provider":"3.46.0","@aws-sdk/node-http-handler":"3.46.0","@aws-sdk/protocol-http":"3.46.0","@aws-sdk/smithy-client":"3.46.0","@aws-sdk/types":"3.46.0","@aws-sdk/url-parser":"3.46.0","@aws-sdk/util-base64-browser":"3.46.0","@aws-sdk/util-base64-node":"3.46.0","@aws-sdk/util-body-length-browser":"3.46.0","@aws-sdk/util-body-length-node":"3.46.0","@aws-sdk/util-user-agent-browser":"3.46.0","@aws-sdk/util-user-agent-node":"3.46.0","@aws-sdk/util-utf8-browser":"3.46.0","@aws-sdk/util-utf8-node":"3.46.0","tslib":"^2.3.0","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.46.0","@types/node":"^12.7.5","@types/uuid":"^8.3.0"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.49.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-*"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/client-sts":"3.49.0","@aws-sdk/config-resolver":"3.49.0","@aws-sdk/credential-provider-node":"3.49.0","@aws-sdk/fetch-http-handler":"3.49.0","@aws-sdk/hash-node":"3.49.0","@aws-sdk/invalid-dependency":"3.49.0","@aws-sdk/middleware-content-length":"3.49.0","@aws-sdk/middleware-host-header":"3.49.0","@aws-sdk/middleware-logger":"3.49.0","@aws-sdk/middleware-retry":"3.49.0","@aws-sdk/middleware-serde":"3.49.0","@aws-sdk/middleware-signing":"3.49.0","@aws-sdk/middleware-stack":"3.49.0","@aws-sdk/middleware-user-agent":"3.49.0","@aws-sdk/node-config-provider":"3.49.0","@aws-sdk/node-http-handler":"3.49.0","@aws-sdk/protocol-http":"3.49.0","@aws-sdk/smithy-client":"3.49.0","@aws-sdk/types":"3.49.0","@aws-sdk/url-parser":"3.49.0","@aws-sdk/util-base64-browser":"3.49.0","@aws-sdk/util-base64-node":"3.49.0","@aws-sdk/util-body-length-browser":"3.49.0","@aws-sdk/util-body-length-node":"3.49.0","@aws-sdk/util-defaults-mode-browser":"3.49.0","@aws-sdk/util-defaults-mode-node":"3.49.0","@aws-sdk/util-user-agent-browser":"3.49.0","@aws-sdk/util-user-agent-node":"3.49.0","@aws-sdk/util-utf8-browser":"3.49.0","@aws-sdk/util-utf8-node":"3.49.0","tslib":"^2.3.0","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.49.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","@types/uuid":"^8.3.0","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
 
 /***/ }),
 
@@ -44402,7 +44459,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"A
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.46.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist-*","clean:docs":"rimraf ./docs"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.46.0","@aws-sdk/fetch-http-handler":"3.46.0","@aws-sdk/hash-node":"3.46.0","@aws-sdk/invalid-dependency":"3.46.0","@aws-sdk/middleware-content-length":"3.46.0","@aws-sdk/middleware-host-header":"3.46.0","@aws-sdk/middleware-logger":"3.46.0","@aws-sdk/middleware-retry":"3.46.0","@aws-sdk/middleware-serde":"3.46.0","@aws-sdk/middleware-stack":"3.46.0","@aws-sdk/middleware-user-agent":"3.46.0","@aws-sdk/node-config-provider":"3.46.0","@aws-sdk/node-http-handler":"3.46.0","@aws-sdk/protocol-http":"3.46.0","@aws-sdk/smithy-client":"3.46.0","@aws-sdk/types":"3.46.0","@aws-sdk/url-parser":"3.46.0","@aws-sdk/util-base64-browser":"3.46.0","@aws-sdk/util-base64-node":"3.46.0","@aws-sdk/util-body-length-browser":"3.46.0","@aws-sdk/util-body-length-node":"3.46.0","@aws-sdk/util-user-agent-browser":"3.46.0","@aws-sdk/util-user-agent-node":"3.46.0","@aws-sdk/util-utf8-browser":"3.46.0","@aws-sdk/util-utf8-node":"3.46.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.46.0","@types/node":"^12.7.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.49.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-*"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.49.0","@aws-sdk/fetch-http-handler":"3.49.0","@aws-sdk/hash-node":"3.49.0","@aws-sdk/invalid-dependency":"3.49.0","@aws-sdk/middleware-content-length":"3.49.0","@aws-sdk/middleware-host-header":"3.49.0","@aws-sdk/middleware-logger":"3.49.0","@aws-sdk/middleware-retry":"3.49.0","@aws-sdk/middleware-serde":"3.49.0","@aws-sdk/middleware-stack":"3.49.0","@aws-sdk/middleware-user-agent":"3.49.0","@aws-sdk/node-config-provider":"3.49.0","@aws-sdk/node-http-handler":"3.49.0","@aws-sdk/protocol-http":"3.49.0","@aws-sdk/smithy-client":"3.49.0","@aws-sdk/types":"3.49.0","@aws-sdk/url-parser":"3.49.0","@aws-sdk/util-base64-browser":"3.49.0","@aws-sdk/util-base64-node":"3.49.0","@aws-sdk/util-body-length-browser":"3.49.0","@aws-sdk/util-body-length-node":"3.49.0","@aws-sdk/util-defaults-mode-browser":"3.49.0","@aws-sdk/util-defaults-mode-node":"3.49.0","@aws-sdk/util-user-agent-browser":"3.49.0","@aws-sdk/util-user-agent-node":"3.49.0","@aws-sdk/util-utf8-browser":"3.49.0","@aws-sdk/util-utf8-node":"3.49.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.49.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
 
 /***/ }),
 
@@ -44410,7 +44467,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SD
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.46.0","scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist-*","clean:docs":"rimraf ./docs"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.46.0","@aws-sdk/credential-provider-node":"3.46.0","@aws-sdk/fetch-http-handler":"3.46.0","@aws-sdk/hash-node":"3.46.0","@aws-sdk/invalid-dependency":"3.46.0","@aws-sdk/middleware-content-length":"3.46.0","@aws-sdk/middleware-host-header":"3.46.0","@aws-sdk/middleware-logger":"3.46.0","@aws-sdk/middleware-retry":"3.46.0","@aws-sdk/middleware-sdk-sts":"3.46.0","@aws-sdk/middleware-serde":"3.46.0","@aws-sdk/middleware-signing":"3.46.0","@aws-sdk/middleware-stack":"3.46.0","@aws-sdk/middleware-user-agent":"3.46.0","@aws-sdk/node-config-provider":"3.46.0","@aws-sdk/node-http-handler":"3.46.0","@aws-sdk/protocol-http":"3.46.0","@aws-sdk/smithy-client":"3.46.0","@aws-sdk/types":"3.46.0","@aws-sdk/url-parser":"3.46.0","@aws-sdk/util-base64-browser":"3.46.0","@aws-sdk/util-base64-node":"3.46.0","@aws-sdk/util-body-length-browser":"3.46.0","@aws-sdk/util-body-length-node":"3.46.0","@aws-sdk/util-user-agent-browser":"3.46.0","@aws-sdk/util-user-agent-node":"3.46.0","@aws-sdk/util-utf8-browser":"3.46.0","@aws-sdk/util-utf8-node":"3.46.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.46.0","@types/node":"^12.7.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.49.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-*"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.49.0","@aws-sdk/credential-provider-node":"3.49.0","@aws-sdk/fetch-http-handler":"3.49.0","@aws-sdk/hash-node":"3.49.0","@aws-sdk/invalid-dependency":"3.49.0","@aws-sdk/middleware-content-length":"3.49.0","@aws-sdk/middleware-host-header":"3.49.0","@aws-sdk/middleware-logger":"3.49.0","@aws-sdk/middleware-retry":"3.49.0","@aws-sdk/middleware-sdk-sts":"3.49.0","@aws-sdk/middleware-serde":"3.49.0","@aws-sdk/middleware-signing":"3.49.0","@aws-sdk/middleware-stack":"3.49.0","@aws-sdk/middleware-user-agent":"3.49.0","@aws-sdk/node-config-provider":"3.49.0","@aws-sdk/node-http-handler":"3.49.0","@aws-sdk/protocol-http":"3.49.0","@aws-sdk/smithy-client":"3.49.0","@aws-sdk/types":"3.49.0","@aws-sdk/url-parser":"3.49.0","@aws-sdk/util-base64-browser":"3.49.0","@aws-sdk/util-base64-node":"3.49.0","@aws-sdk/util-body-length-browser":"3.49.0","@aws-sdk/util-body-length-node":"3.49.0","@aws-sdk/util-defaults-mode-browser":"3.49.0","@aws-sdk/util-defaults-mode-node":"3.49.0","@aws-sdk/util-user-agent-browser":"3.49.0","@aws-sdk/util-user-agent-node":"3.49.0","@aws-sdk/util-utf8-browser":"3.49.0","@aws-sdk/util-utf8-node":"3.49.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.49.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
 
 /***/ }),
 
