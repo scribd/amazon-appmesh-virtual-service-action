@@ -4137,12 +4137,34 @@ exports.defaultRegionInfoProvider = defaultRegionInfoProvider;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.AppMeshServiceException = void 0;
 const tslib_1 = __nccwpck_require__(4351);
 tslib_1.__exportStar(__nccwpck_require__(3493), exports);
 tslib_1.__exportStar(__nccwpck_require__(613), exports);
 tslib_1.__exportStar(__nccwpck_require__(4902), exports);
 tslib_1.__exportStar(__nccwpck_require__(6868), exports);
 tslib_1.__exportStar(__nccwpck_require__(2896), exports);
+var AppMeshServiceException_1 = __nccwpck_require__(5222);
+Object.defineProperty(exports, "AppMeshServiceException", ({ enumerable: true, get: function () { return AppMeshServiceException_1.AppMeshServiceException; } }));
+
+
+/***/ }),
+
+/***/ 5222:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.AppMeshServiceException = void 0;
+const smithy_client_1 = __nccwpck_require__(4963);
+class AppMeshServiceException extends smithy_client_1.ServiceException {
+    constructor(options) {
+        super(options);
+        Object.setPrototypeOf(this, AppMeshServiceException.prototype);
+    }
+}
+exports.AppMeshServiceException = AppMeshServiceException;
 
 
 /***/ }),
@@ -4160,16 +4182,17 @@ tslib_1.__exportStar(__nccwpck_require__(1156), exports);
 /***/ }),
 
 /***/ 1156:
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.VirtualGatewayListener = exports.VirtualGatewayListenerTls = exports.VirtualGatewayListenerTlsValidationContext = exports.VirtualGatewayListenerTlsValidationContextTrust = exports.VirtualGatewayListenerTlsMode = exports.VirtualGatewayListenerTlsCertificate = exports.VirtualGatewayListenerTlsAcmCertificate = exports.VirtualGatewayPortMapping = exports.VirtualGatewayHealthCheckPolicy = exports.VirtualGatewayPortProtocol = exports.VirtualGatewayConnectionPool = exports.VirtualGatewayHttp2ConnectionPool = exports.VirtualGatewayHttpConnectionPool = exports.VirtualGatewayGrpcConnectionPool = exports.VirtualGatewayBackendDefaults = exports.VirtualGatewayClientPolicy = exports.VirtualGatewayClientPolicyTls = exports.VirtualGatewayTlsValidationContext = exports.VirtualGatewayTlsValidationContextTrust = exports.VirtualGatewayTlsValidationContextSdsTrust = exports.VirtualGatewayTlsValidationContextFileTrust = exports.VirtualGatewayTlsValidationContextAcmTrust = exports.SubjectAlternativeNames = exports.SubjectAlternativeNameMatchers = exports.VirtualGatewayClientTlsCertificate = exports.VirtualGatewayListenerTlsSdsCertificate = exports.VirtualGatewayListenerTlsFileCertificate = exports.UpdateMeshOutput = exports.UpdateMeshInput = exports.ListMeshesOutput = exports.MeshRef = exports.ListMeshesInput = exports.DescribeMeshOutput = exports.DescribeMeshInput = exports.DeleteMeshOutput = exports.DeleteMeshInput = exports.CreateMeshOutput = exports.MeshData = exports.MeshStatus = exports.MeshStatusCode = exports.ResourceMetadata = exports.CreateMeshInput = exports.MeshSpec = exports.EgressFilter = exports.EgressFilterType = exports.ListTagsForResourceOutput = exports.TagRef = exports.ListTagsForResourceInput = exports.AccessLog = exports.FileAccessLog = void 0;
-exports.ListGatewayRoutesOutput = exports.GatewayRouteRef = exports.ListGatewayRoutesInput = exports.DescribeGatewayRouteOutput = exports.DescribeGatewayRouteInput = exports.DeleteGatewayRouteOutput = exports.DeleteGatewayRouteInput = exports.CreateGatewayRouteOutput = exports.GatewayRouteData = exports.GatewayRouteStatus = exports.GatewayRouteStatusCode = exports.CreateGatewayRouteInput = exports.GatewayRouteSpec = exports.HttpGatewayRoute = exports.HttpGatewayRouteMatch = exports.HttpQueryParameter = exports.QueryParameterMatch = exports.HttpPathMatch = exports.HttpMethod = exports.HttpGatewayRouteHeader = exports.HeaderMatchMethod = exports.HttpGatewayRouteAction = exports.HttpGatewayRouteRewrite = exports.HttpGatewayRoutePrefixRewrite = exports.HttpGatewayRoutePathRewrite = exports.GrpcGatewayRoute = exports.GrpcGatewayRouteMatch = exports.GrpcGatewayRouteMetadata = exports.GrpcMetadataMatchMethod = exports.MatchRange = exports.GatewayRouteHostnameMatch = exports.GrpcGatewayRouteAction = exports.GatewayRouteTarget = exports.GatewayRouteVirtualService = exports.GrpcGatewayRouteRewrite = exports.GatewayRouteHostnameRewrite = exports.DefaultGatewayRouteRewrite = exports.DescribeVirtualGatewayOutput = exports.DescribeVirtualGatewayInput = exports.DeleteVirtualGatewayOutput = exports.DeleteVirtualGatewayInput = exports.CreateVirtualGatewayOutput = exports.VirtualGatewayData = exports.VirtualGatewayStatus = exports.VirtualGatewayStatusCode = exports.CreateVirtualGatewayInput = exports.VirtualGatewaySpec = exports.VirtualGatewayLogging = exports.VirtualGatewayAccessLog = exports.VirtualGatewayFileAccessLog = void 0;
-exports.CreateVirtualNodeInput = exports.VirtualNodeSpec = exports.ServiceDiscovery = exports.DnsServiceDiscovery = exports.DnsResponseType = exports.AwsCloudMapServiceDiscovery = exports.AwsCloudMapInstanceAttribute = exports.Logging = exports.Listener = exports.ListenerTls = exports.ListenerTlsValidationContext = exports.ListenerTlsValidationContextTrust = exports.ListenerTlsMode = exports.ListenerTlsCertificate = exports.ListenerTlsAcmCertificate = exports.ListenerTimeout = exports.TcpTimeout = exports.HttpTimeout = exports.GrpcTimeout = exports.PortMapping = exports.OutlierDetection = exports.Duration = exports.DurationUnit = exports.HealthCheckPolicy = exports.PortProtocol = exports.VirtualNodeConnectionPool = exports.VirtualNodeTcpConnectionPool = exports.VirtualNodeHttp2ConnectionPool = exports.VirtualNodeHttpConnectionPool = exports.VirtualNodeGrpcConnectionPool = exports.Backend = exports.VirtualServiceBackend = exports.BackendDefaults = exports.ClientPolicy = exports.ClientPolicyTls = exports.TlsValidationContext = exports.TlsValidationContextTrust = exports.TlsValidationContextSdsTrust = exports.TlsValidationContextFileTrust = exports.TlsValidationContextAcmTrust = exports.ClientTlsCertificate = exports.ListenerTlsSdsCertificate = exports.ListenerTlsFileCertificate = exports.UpdateVirtualGatewayOutput = exports.UpdateVirtualGatewayInput = exports.ListVirtualGatewaysOutput = exports.VirtualGatewayRef = exports.ListVirtualGatewaysInput = exports.UpdateGatewayRouteOutput = exports.UpdateGatewayRouteInput = void 0;
-exports.CreateRouteOutput = exports.RouteData = exports.RouteStatus = exports.RouteStatusCode = exports.CreateRouteInput = exports.RouteSpec = exports.TcpRoute = exports.TcpRouteAction = exports.HttpRoute = exports.HttpRetryPolicy = exports.HttpRouteMatch = exports.HttpScheme = exports.HttpRouteHeader = exports.HttpRouteAction = exports.GrpcRoute = exports.GrpcRetryPolicy = exports.TcpRetryPolicyEvent = exports.GrpcRetryPolicyEvent = exports.GrpcRouteMatch = exports.GrpcRouteMetadata = exports.GrpcRouteMetadataMatchMethod = exports.GrpcRouteAction = exports.WeightedTarget = exports.ListVirtualRoutersOutput = exports.VirtualRouterRef = exports.ListVirtualRoutersInput = exports.DescribeVirtualRouterOutput = exports.DescribeVirtualRouterInput = exports.DeleteVirtualRouterOutput = exports.DeleteVirtualRouterInput = exports.CreateVirtualRouterOutput = exports.VirtualRouterData = exports.VirtualRouterStatus = exports.VirtualRouterStatusCode = exports.CreateVirtualRouterInput = exports.VirtualRouterSpec = exports.VirtualRouterListener = exports.UpdateVirtualNodeOutput = exports.UpdateVirtualNodeInput = exports.ListVirtualNodesOutput = exports.VirtualNodeRef = exports.ListVirtualNodesInput = exports.DescribeVirtualNodeOutput = exports.DescribeVirtualNodeInput = exports.DeleteVirtualNodeOutput = exports.DeleteVirtualNodeInput = exports.CreateVirtualNodeOutput = exports.VirtualNodeData = exports.VirtualNodeStatus = exports.VirtualNodeStatusCode = void 0;
-exports.UntagResourceOutput = exports.UntagResourceInput = exports.TagResourceOutput = exports.TagResourceInput = exports.UpdateVirtualServiceOutput = exports.UpdateVirtualServiceInput = exports.ListVirtualServicesOutput = exports.VirtualServiceRef = exports.ListVirtualServicesInput = exports.DescribeVirtualServiceOutput = exports.DescribeVirtualServiceInput = exports.DeleteVirtualServiceOutput = exports.DeleteVirtualServiceInput = exports.CreateVirtualServiceOutput = exports.VirtualServiceData = exports.VirtualServiceStatus = exports.VirtualServiceStatusCode = exports.CreateVirtualServiceInput = exports.VirtualServiceSpec = exports.VirtualServiceProvider = exports.VirtualRouterServiceProvider = exports.VirtualNodeServiceProvider = exports.UpdateVirtualRouterOutput = exports.UpdateVirtualRouterInput = exports.UpdateRouteOutput = exports.UpdateRouteInput = exports.ListRoutesOutput = exports.RouteRef = exports.ListRoutesInput = exports.DescribeRouteOutput = exports.DescribeRouteInput = exports.DeleteRouteOutput = exports.DeleteRouteInput = void 0;
+exports.VirtualGatewayPortProtocol = exports.VirtualGatewayConnectionPool = exports.VirtualGatewayHttp2ConnectionPool = exports.VirtualGatewayHttpConnectionPool = exports.VirtualGatewayGrpcConnectionPool = exports.VirtualGatewayBackendDefaults = exports.VirtualGatewayClientPolicy = exports.VirtualGatewayClientPolicyTls = exports.VirtualGatewayTlsValidationContext = exports.VirtualGatewayTlsValidationContextTrust = exports.VirtualGatewayTlsValidationContextSdsTrust = exports.VirtualGatewayTlsValidationContextFileTrust = exports.VirtualGatewayTlsValidationContextAcmTrust = exports.SubjectAlternativeNames = exports.SubjectAlternativeNameMatchers = exports.VirtualGatewayClientTlsCertificate = exports.VirtualGatewayListenerTlsSdsCertificate = exports.VirtualGatewayListenerTlsFileCertificate = exports.UpdateMeshOutput = exports.UpdateMeshInput = exports.ListMeshesOutput = exports.MeshRef = exports.ListMeshesInput = exports.DescribeMeshOutput = exports.DescribeMeshInput = exports.ResourceInUseException = exports.DeleteMeshOutput = exports.DeleteMeshInput = exports.LimitExceededException = exports.CreateMeshOutput = exports.MeshData = exports.MeshStatus = exports.MeshStatusCode = exports.ResourceMetadata = exports.CreateMeshInput = exports.MeshSpec = exports.EgressFilter = exports.EgressFilterType = exports.ConflictException = exports.TooManyRequestsException = exports.ServiceUnavailableException = exports.NotFoundException = exports.ListTagsForResourceOutput = exports.TagRef = exports.ListTagsForResourceInput = exports.InternalServerErrorException = exports.ForbiddenException = exports.BadRequestException = exports.AccessLog = exports.FileAccessLog = void 0;
+exports.GatewayRouteStatus = exports.GatewayRouteStatusCode = exports.CreateGatewayRouteInput = exports.GatewayRouteSpec = exports.HttpGatewayRoute = exports.HttpGatewayRouteMatch = exports.HttpQueryParameter = exports.QueryParameterMatch = exports.HttpPathMatch = exports.HttpMethod = exports.HttpGatewayRouteHeader = exports.HeaderMatchMethod = exports.HttpGatewayRouteAction = exports.HttpGatewayRouteRewrite = exports.HttpGatewayRoutePrefixRewrite = exports.HttpGatewayRoutePathRewrite = exports.GrpcGatewayRoute = exports.GrpcGatewayRouteMatch = exports.GrpcGatewayRouteMetadata = exports.GrpcMetadataMatchMethod = exports.MatchRange = exports.GatewayRouteHostnameMatch = exports.GrpcGatewayRouteAction = exports.GatewayRouteTarget = exports.GatewayRouteVirtualService = exports.GrpcGatewayRouteRewrite = exports.GatewayRouteHostnameRewrite = exports.DefaultGatewayRouteRewrite = exports.DescribeVirtualGatewayOutput = exports.DescribeVirtualGatewayInput = exports.DeleteVirtualGatewayOutput = exports.DeleteVirtualGatewayInput = exports.CreateVirtualGatewayOutput = exports.VirtualGatewayData = exports.VirtualGatewayStatus = exports.VirtualGatewayStatusCode = exports.CreateVirtualGatewayInput = exports.VirtualGatewaySpec = exports.VirtualGatewayLogging = exports.VirtualGatewayAccessLog = exports.VirtualGatewayFileAccessLog = exports.VirtualGatewayListener = exports.VirtualGatewayListenerTls = exports.VirtualGatewayListenerTlsValidationContext = exports.VirtualGatewayListenerTlsValidationContextTrust = exports.VirtualGatewayListenerTlsMode = exports.VirtualGatewayListenerTlsCertificate = exports.VirtualGatewayListenerTlsAcmCertificate = exports.VirtualGatewayPortMapping = exports.VirtualGatewayHealthCheckPolicy = void 0;
+exports.ListenerTls = exports.ListenerTlsValidationContext = exports.ListenerTlsValidationContextTrust = exports.ListenerTlsMode = exports.ListenerTlsCertificate = exports.ListenerTlsAcmCertificate = exports.ListenerTimeout = exports.TcpTimeout = exports.HttpTimeout = exports.GrpcTimeout = exports.PortMapping = exports.OutlierDetection = exports.Duration = exports.DurationUnit = exports.HealthCheckPolicy = exports.PortProtocol = exports.VirtualNodeConnectionPool = exports.VirtualNodeTcpConnectionPool = exports.VirtualNodeHttp2ConnectionPool = exports.VirtualNodeHttpConnectionPool = exports.VirtualNodeGrpcConnectionPool = exports.Backend = exports.VirtualServiceBackend = exports.BackendDefaults = exports.ClientPolicy = exports.ClientPolicyTls = exports.TlsValidationContext = exports.TlsValidationContextTrust = exports.TlsValidationContextSdsTrust = exports.TlsValidationContextFileTrust = exports.TlsValidationContextAcmTrust = exports.ClientTlsCertificate = exports.ListenerTlsSdsCertificate = exports.ListenerTlsFileCertificate = exports.UpdateVirtualGatewayOutput = exports.UpdateVirtualGatewayInput = exports.ListVirtualGatewaysOutput = exports.VirtualGatewayRef = exports.ListVirtualGatewaysInput = exports.UpdateGatewayRouteOutput = exports.UpdateGatewayRouteInput = exports.ListGatewayRoutesOutput = exports.GatewayRouteRef = exports.ListGatewayRoutesInput = exports.DescribeGatewayRouteOutput = exports.DescribeGatewayRouteInput = exports.DeleteGatewayRouteOutput = exports.DeleteGatewayRouteInput = exports.CreateGatewayRouteOutput = exports.GatewayRouteData = void 0;
+exports.HttpRetryPolicy = exports.HttpRouteMatch = exports.HttpScheme = exports.HttpRouteHeader = exports.HttpRouteAction = exports.GrpcRoute = exports.GrpcRetryPolicy = exports.TcpRetryPolicyEvent = exports.GrpcRetryPolicyEvent = exports.GrpcRouteMatch = exports.GrpcRouteMetadata = exports.GrpcRouteMetadataMatchMethod = exports.GrpcRouteAction = exports.WeightedTarget = exports.ListVirtualRoutersOutput = exports.VirtualRouterRef = exports.ListVirtualRoutersInput = exports.DescribeVirtualRouterOutput = exports.DescribeVirtualRouterInput = exports.DeleteVirtualRouterOutput = exports.DeleteVirtualRouterInput = exports.CreateVirtualRouterOutput = exports.VirtualRouterData = exports.VirtualRouterStatus = exports.VirtualRouterStatusCode = exports.CreateVirtualRouterInput = exports.VirtualRouterSpec = exports.VirtualRouterListener = exports.UpdateVirtualNodeOutput = exports.UpdateVirtualNodeInput = exports.ListVirtualNodesOutput = exports.VirtualNodeRef = exports.ListVirtualNodesInput = exports.DescribeVirtualNodeOutput = exports.DescribeVirtualNodeInput = exports.DeleteVirtualNodeOutput = exports.DeleteVirtualNodeInput = exports.CreateVirtualNodeOutput = exports.VirtualNodeData = exports.VirtualNodeStatus = exports.VirtualNodeStatusCode = exports.CreateVirtualNodeInput = exports.VirtualNodeSpec = exports.ServiceDiscovery = exports.DnsServiceDiscovery = exports.DnsResponseType = exports.AwsCloudMapServiceDiscovery = exports.AwsCloudMapInstanceAttribute = exports.Logging = exports.Listener = void 0;
+exports.UntagResourceOutput = exports.UntagResourceInput = exports.TooManyTagsException = exports.TagResourceOutput = exports.TagResourceInput = exports.UpdateVirtualServiceOutput = exports.UpdateVirtualServiceInput = exports.ListVirtualServicesOutput = exports.VirtualServiceRef = exports.ListVirtualServicesInput = exports.DescribeVirtualServiceOutput = exports.DescribeVirtualServiceInput = exports.DeleteVirtualServiceOutput = exports.DeleteVirtualServiceInput = exports.CreateVirtualServiceOutput = exports.VirtualServiceData = exports.VirtualServiceStatus = exports.VirtualServiceStatusCode = exports.CreateVirtualServiceInput = exports.VirtualServiceSpec = exports.VirtualServiceProvider = exports.VirtualRouterServiceProvider = exports.VirtualNodeServiceProvider = exports.UpdateVirtualRouterOutput = exports.UpdateVirtualRouterInput = exports.UpdateRouteOutput = exports.UpdateRouteInput = exports.ListRoutesOutput = exports.RouteRef = exports.ListRoutesInput = exports.DescribeRouteOutput = exports.DescribeRouteInput = exports.DeleteRouteOutput = exports.DeleteRouteInput = exports.CreateRouteOutput = exports.RouteData = exports.RouteStatus = exports.RouteStatusCode = exports.CreateRouteInput = exports.RouteSpec = exports.TcpRoute = exports.TcpRouteAction = exports.HttpRoute = void 0;
+const AppMeshServiceException_1 = __nccwpck_require__(5222);
 var FileAccessLog;
 (function (FileAccessLog) {
     FileAccessLog.filterSensitiveLog = (obj) => ({
@@ -4190,6 +4213,46 @@ var AccessLog;
             return { [obj.$unknown[0]]: "UNKNOWN" };
     };
 })(AccessLog = exports.AccessLog || (exports.AccessLog = {}));
+class BadRequestException extends AppMeshServiceException_1.AppMeshServiceException {
+    constructor(opts) {
+        super({
+            name: "BadRequestException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "BadRequestException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, BadRequestException.prototype);
+    }
+}
+exports.BadRequestException = BadRequestException;
+class ForbiddenException extends AppMeshServiceException_1.AppMeshServiceException {
+    constructor(opts) {
+        super({
+            name: "ForbiddenException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "ForbiddenException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, ForbiddenException.prototype);
+    }
+}
+exports.ForbiddenException = ForbiddenException;
+class InternalServerErrorException extends AppMeshServiceException_1.AppMeshServiceException {
+    constructor(opts) {
+        super({
+            name: "InternalServerErrorException",
+            $fault: "server",
+            ...opts,
+        });
+        this.name = "InternalServerErrorException";
+        this.$fault = "server";
+        this.$retryable = {};
+        Object.setPrototypeOf(this, InternalServerErrorException.prototype);
+    }
+}
+exports.InternalServerErrorException = InternalServerErrorException;
 var ListTagsForResourceInput;
 (function (ListTagsForResourceInput) {
     ListTagsForResourceInput.filterSensitiveLog = (obj) => ({
@@ -4208,6 +4271,62 @@ var ListTagsForResourceOutput;
         ...obj,
     });
 })(ListTagsForResourceOutput = exports.ListTagsForResourceOutput || (exports.ListTagsForResourceOutput = {}));
+class NotFoundException extends AppMeshServiceException_1.AppMeshServiceException {
+    constructor(opts) {
+        super({
+            name: "NotFoundException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "NotFoundException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, NotFoundException.prototype);
+    }
+}
+exports.NotFoundException = NotFoundException;
+class ServiceUnavailableException extends AppMeshServiceException_1.AppMeshServiceException {
+    constructor(opts) {
+        super({
+            name: "ServiceUnavailableException",
+            $fault: "server",
+            ...opts,
+        });
+        this.name = "ServiceUnavailableException";
+        this.$fault = "server";
+        this.$retryable = {};
+        Object.setPrototypeOf(this, ServiceUnavailableException.prototype);
+    }
+}
+exports.ServiceUnavailableException = ServiceUnavailableException;
+class TooManyRequestsException extends AppMeshServiceException_1.AppMeshServiceException {
+    constructor(opts) {
+        super({
+            name: "TooManyRequestsException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "TooManyRequestsException";
+        this.$fault = "client";
+        this.$retryable = {
+            throttling: true,
+        };
+        Object.setPrototypeOf(this, TooManyRequestsException.prototype);
+    }
+}
+exports.TooManyRequestsException = TooManyRequestsException;
+class ConflictException extends AppMeshServiceException_1.AppMeshServiceException {
+    constructor(opts) {
+        super({
+            name: "ConflictException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "ConflictException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, ConflictException.prototype);
+    }
+}
+exports.ConflictException = ConflictException;
 var EgressFilterType;
 (function (EgressFilterType) {
     EgressFilterType["ALLOW_ALL"] = "ALLOW_ALL";
@@ -4261,6 +4380,19 @@ var CreateMeshOutput;
         ...obj,
     });
 })(CreateMeshOutput = exports.CreateMeshOutput || (exports.CreateMeshOutput = {}));
+class LimitExceededException extends AppMeshServiceException_1.AppMeshServiceException {
+    constructor(opts) {
+        super({
+            name: "LimitExceededException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "LimitExceededException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, LimitExceededException.prototype);
+    }
+}
+exports.LimitExceededException = LimitExceededException;
 var DeleteMeshInput;
 (function (DeleteMeshInput) {
     DeleteMeshInput.filterSensitiveLog = (obj) => ({
@@ -4273,6 +4405,19 @@ var DeleteMeshOutput;
         ...obj,
     });
 })(DeleteMeshOutput = exports.DeleteMeshOutput || (exports.DeleteMeshOutput = {}));
+class ResourceInUseException extends AppMeshServiceException_1.AppMeshServiceException {
+    constructor(opts) {
+        super({
+            name: "ResourceInUseException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "ResourceInUseException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, ResourceInUseException.prototype);
+    }
+}
+exports.ResourceInUseException = ResourceInUseException;
 var DescribeMeshInput;
 (function (DescribeMeshInput) {
     DescribeMeshInput.filterSensitiveLog = (obj) => ({
@@ -5912,6 +6057,19 @@ var TagResourceOutput;
         ...obj,
     });
 })(TagResourceOutput = exports.TagResourceOutput || (exports.TagResourceOutput = {}));
+class TooManyTagsException extends AppMeshServiceException_1.AppMeshServiceException {
+    constructor(opts) {
+        super({
+            name: "TooManyTagsException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "TooManyTagsException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, TooManyTagsException.prototype);
+    }
+}
+exports.TooManyTagsException = TooManyTagsException;
 var UntagResourceInput;
 (function (UntagResourceInput) {
     UntagResourceInput.filterSensitiveLog = (obj) => ({
@@ -6313,6 +6471,7 @@ exports.deserializeAws_restJson1UpdateVirtualServiceCommand = exports.deserializ
 const protocol_http_1 = __nccwpck_require__(223);
 const smithy_client_1 = __nccwpck_require__(4963);
 const uuid_1 = __nccwpck_require__(5840);
+const AppMeshServiceException_1 = __nccwpck_require__(5222);
 const models_0_1 = __nccwpck_require__(1156);
 const serializeAws_restJson1CreateGatewayRouteCommand = async (input, context) => {
     var _a;
@@ -7889,83 +8048,37 @@ const deserializeAws_restJson1CreateGatewayRouteCommandError = async (output, co
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1CreateMeshCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -7991,83 +8104,37 @@ const deserializeAws_restJson1CreateMeshCommandError = async (output, context) =
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1CreateRouteCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -8093,83 +8160,37 @@ const deserializeAws_restJson1CreateRouteCommandError = async (output, context) 
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1CreateVirtualGatewayCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -8195,83 +8216,37 @@ const deserializeAws_restJson1CreateVirtualGatewayCommandError = async (output, 
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1CreateVirtualNodeCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -8297,83 +8272,37 @@ const deserializeAws_restJson1CreateVirtualNodeCommandError = async (output, con
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1CreateVirtualRouterCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -8399,83 +8328,37 @@ const deserializeAws_restJson1CreateVirtualRouterCommandError = async (output, c
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1CreateVirtualServiceCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -8501,83 +8384,37 @@ const deserializeAws_restJson1CreateVirtualServiceCommandError = async (output, 
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DeleteGatewayRouteCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -8603,75 +8440,34 @@ const deserializeAws_restJson1DeleteGatewayRouteCommandError = async (output, co
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ResourceInUseException":
         case "com.amazonaws.appmesh#ResourceInUseException":
-            response = {
-                ...(await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DeleteMeshCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -8697,75 +8493,34 @@ const deserializeAws_restJson1DeleteMeshCommandError = async (output, context) =
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ResourceInUseException":
         case "com.amazonaws.appmesh#ResourceInUseException":
-            response = {
-                ...(await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DeleteRouteCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -8791,75 +8546,34 @@ const deserializeAws_restJson1DeleteRouteCommandError = async (output, context) 
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ResourceInUseException":
         case "com.amazonaws.appmesh#ResourceInUseException":
-            response = {
-                ...(await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DeleteVirtualGatewayCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -8885,75 +8599,34 @@ const deserializeAws_restJson1DeleteVirtualGatewayCommandError = async (output, 
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ResourceInUseException":
         case "com.amazonaws.appmesh#ResourceInUseException":
-            response = {
-                ...(await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DeleteVirtualNodeCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -8979,75 +8652,34 @@ const deserializeAws_restJson1DeleteVirtualNodeCommandError = async (output, con
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ResourceInUseException":
         case "com.amazonaws.appmesh#ResourceInUseException":
-            response = {
-                ...(await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DeleteVirtualRouterCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -9073,75 +8705,34 @@ const deserializeAws_restJson1DeleteVirtualRouterCommandError = async (output, c
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ResourceInUseException":
         case "com.amazonaws.appmesh#ResourceInUseException":
-            response = {
-                ...(await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DeleteVirtualServiceCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -9167,75 +8758,34 @@ const deserializeAws_restJson1DeleteVirtualServiceCommandError = async (output, 
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ResourceInUseException":
         case "com.amazonaws.appmesh#ResourceInUseException":
-            response = {
-                ...(await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ResourceInUseExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DescribeGatewayRouteCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -9261,67 +8811,31 @@ const deserializeAws_restJson1DescribeGatewayRouteCommandError = async (output, 
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DescribeMeshCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -9347,67 +8861,31 @@ const deserializeAws_restJson1DescribeMeshCommandError = async (output, context)
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DescribeRouteCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -9433,67 +8911,31 @@ const deserializeAws_restJson1DescribeRouteCommandError = async (output, context
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DescribeVirtualGatewayCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -9519,67 +8961,31 @@ const deserializeAws_restJson1DescribeVirtualGatewayCommandError = async (output
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DescribeVirtualNodeCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -9605,67 +9011,31 @@ const deserializeAws_restJson1DescribeVirtualNodeCommandError = async (output, c
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DescribeVirtualRouterCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -9691,67 +9061,31 @@ const deserializeAws_restJson1DescribeVirtualRouterCommandError = async (output,
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1DescribeVirtualServiceCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -9777,67 +9111,31 @@ const deserializeAws_restJson1DescribeVirtualServiceCommandError = async (output
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1ListGatewayRoutesCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -9869,67 +9167,31 @@ const deserializeAws_restJson1ListGatewayRoutesCommandError = async (output, con
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1ListMeshesCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -9961,67 +9223,31 @@ const deserializeAws_restJson1ListMeshesCommandError = async (output, context) =
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1ListRoutesCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -10053,67 +9279,31 @@ const deserializeAws_restJson1ListRoutesCommandError = async (output, context) =
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1ListTagsForResourceCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -10145,67 +9335,31 @@ const deserializeAws_restJson1ListTagsForResourceCommandError = async (output, c
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1ListVirtualGatewaysCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -10237,67 +9391,31 @@ const deserializeAws_restJson1ListVirtualGatewaysCommandError = async (output, c
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1ListVirtualNodesCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -10329,67 +9447,31 @@ const deserializeAws_restJson1ListVirtualNodesCommandError = async (output, cont
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1ListVirtualRoutersCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -10421,67 +9503,31 @@ const deserializeAws_restJson1ListVirtualRoutersCommandError = async (output, co
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1ListVirtualServicesCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -10513,67 +9559,31 @@ const deserializeAws_restJson1ListVirtualServicesCommandError = async (output, c
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1TagResourceCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -10597,75 +9607,34 @@ const deserializeAws_restJson1TagResourceCommandError = async (output, context) 
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         case "TooManyTagsException":
         case "com.amazonaws.appmesh#TooManyTagsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyTagsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyTagsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1UntagResourceCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -10689,67 +9658,31 @@ const deserializeAws_restJson1UntagResourceCommandError = async (output, context
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1UpdateGatewayRouteCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -10775,83 +9708,37 @@ const deserializeAws_restJson1UpdateGatewayRouteCommandError = async (output, co
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1UpdateMeshCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -10877,75 +9764,34 @@ const deserializeAws_restJson1UpdateMeshCommandError = async (output, context) =
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1UpdateRouteCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -10971,83 +9817,37 @@ const deserializeAws_restJson1UpdateRouteCommandError = async (output, context) 
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1UpdateVirtualGatewayCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -11073,83 +9873,37 @@ const deserializeAws_restJson1UpdateVirtualGatewayCommandError = async (output, 
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1UpdateVirtualNodeCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -11175,83 +9929,37 @@ const deserializeAws_restJson1UpdateVirtualNodeCommandError = async (output, con
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1UpdateVirtualRouterCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -11277,83 +9985,37 @@ const deserializeAws_restJson1UpdateVirtualRouterCommandError = async (output, c
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1UpdateVirtualServiceCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -11379,218 +10041,157 @@ const deserializeAws_restJson1UpdateVirtualServiceCommandError = async (output, 
     switch (errorCode) {
         case "BadRequestException":
         case "com.amazonaws.appmesh#BadRequestException":
-            response = {
-                ...(await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1BadRequestExceptionResponse(parsedOutput, context);
         case "ConflictException":
         case "com.amazonaws.appmesh#ConflictException":
-            response = {
-                ...(await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ConflictExceptionResponse(parsedOutput, context);
         case "ForbiddenException":
         case "com.amazonaws.appmesh#ForbiddenException":
-            response = {
-                ...(await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ForbiddenExceptionResponse(parsedOutput, context);
         case "InternalServerErrorException":
         case "com.amazonaws.appmesh#InternalServerErrorException":
-            response = {
-                ...(await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InternalServerErrorExceptionResponse(parsedOutput, context);
         case "LimitExceededException":
         case "com.amazonaws.appmesh#LimitExceededException":
-            response = {
-                ...(await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1LimitExceededExceptionResponse(parsedOutput, context);
         case "NotFoundException":
         case "com.amazonaws.appmesh#NotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1NotFoundExceptionResponse(parsedOutput, context);
         case "ServiceUnavailableException":
         case "com.amazonaws.appmesh#ServiceUnavailableException":
-            response = {
-                ...(await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ServiceUnavailableExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.appmesh#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new AppMeshServiceException_1.AppMeshServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1BadRequestExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "BadRequestException",
-        $fault: "client",
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.BadRequestException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1ConflictExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "ConflictException",
-        $fault: "client",
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.ConflictException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1ForbiddenExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "ForbiddenException",
-        $fault: "client",
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.ForbiddenException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1InternalServerErrorExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "InternalServerErrorException",
-        $fault: "server",
-        $retryable: {},
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.InternalServerErrorException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1LimitExceededExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "LimitExceededException",
-        $fault: "client",
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.LimitExceededException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1NotFoundExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "NotFoundException",
-        $fault: "client",
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.NotFoundException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1ResourceInUseExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "ResourceInUseException",
-        $fault: "client",
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.ResourceInUseException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1ServiceUnavailableExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "ServiceUnavailableException",
-        $fault: "server",
-        $retryable: {},
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.ServiceUnavailableException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1TooManyRequestsExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "TooManyRequestsException",
-        $fault: "client",
-        $retryable: {
-            throttling: true,
-        },
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.TooManyRequestsException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1TooManyTagsExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "TooManyTagsException",
-        $fault: "client",
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.TooManyTagsException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const serializeAws_restJson1AccessLog = (input, context) => {
     return models_0_1.AccessLog.visit(input, {
@@ -12789,7 +11390,7 @@ const deserializeAws_restJson1AwsCloudMapInstanceAttribute = (output, context) =
     };
 };
 const deserializeAws_restJson1AwsCloudMapInstanceAttributes = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -12797,6 +11398,7 @@ const deserializeAws_restJson1AwsCloudMapInstanceAttributes = (output, context) 
         }
         return deserializeAws_restJson1AwsCloudMapInstanceAttribute(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1AwsCloudMapServiceDiscovery = (output, context) => {
     return {
@@ -12823,7 +11425,7 @@ const deserializeAws_restJson1BackendDefaults = (output, context) => {
     };
 };
 const deserializeAws_restJson1Backends = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -12831,9 +11433,10 @@ const deserializeAws_restJson1Backends = (output, context) => {
         }
         return deserializeAws_restJson1Backend(smithy_client_1.expectUnion(entry), context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1CertificateAuthorityArns = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -12841,6 +11444,7 @@ const deserializeAws_restJson1CertificateAuthorityArns = (output, context) => {
         }
         return smithy_client_1.expectString(entry);
     });
+    return retVal;
 };
 const deserializeAws_restJson1ClientPolicy = (output, context) => {
     return {
@@ -12926,7 +11530,7 @@ const deserializeAws_restJson1GatewayRouteHostnameRewrite = (output, context) =>
     };
 };
 const deserializeAws_restJson1GatewayRouteList = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -12934,6 +11538,7 @@ const deserializeAws_restJson1GatewayRouteList = (output, context) => {
         }
         return deserializeAws_restJson1GatewayRouteRef(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1GatewayRouteRef = (output, context) => {
     return {
@@ -13024,7 +11629,7 @@ const deserializeAws_restJson1GrpcGatewayRouteMetadata = (output, context) => {
     };
 };
 const deserializeAws_restJson1GrpcGatewayRouteMetadataList = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13032,6 +11637,7 @@ const deserializeAws_restJson1GrpcGatewayRouteMetadataList = (output, context) =
         }
         return deserializeAws_restJson1GrpcGatewayRouteMetadata(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1GrpcGatewayRouteRewrite = (output, context) => {
     return {
@@ -13078,7 +11684,7 @@ const deserializeAws_restJson1GrpcRetryPolicy = (output, context) => {
     };
 };
 const deserializeAws_restJson1GrpcRetryPolicyEvents = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13086,6 +11692,7 @@ const deserializeAws_restJson1GrpcRetryPolicyEvents = (output, context) => {
         }
         return smithy_client_1.expectString(entry);
     });
+    return retVal;
 };
 const deserializeAws_restJson1GrpcRoute = (output, context) => {
     return {
@@ -13129,7 +11736,7 @@ const deserializeAws_restJson1GrpcRouteMetadata = (output, context) => {
     };
 };
 const deserializeAws_restJson1GrpcRouteMetadataList = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13137,6 +11744,7 @@ const deserializeAws_restJson1GrpcRouteMetadataList = (output, context) => {
         }
         return deserializeAws_restJson1GrpcRouteMetadata(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1GrpcRouteMetadataMatchMethod = (output, context) => {
     if (smithy_client_1.expectString(output.exact) !== undefined) {
@@ -13229,7 +11837,7 @@ const deserializeAws_restJson1HttpGatewayRouteHeader = (output, context) => {
     };
 };
 const deserializeAws_restJson1HttpGatewayRouteHeaders = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13237,6 +11845,7 @@ const deserializeAws_restJson1HttpGatewayRouteHeaders = (output, context) => {
         }
         return deserializeAws_restJson1HttpGatewayRouteHeader(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1HttpGatewayRouteMatch = (output, context) => {
     return {
@@ -13295,7 +11904,7 @@ const deserializeAws_restJson1HttpQueryParameter = (output, context) => {
     };
 };
 const deserializeAws_restJson1HttpQueryParameters = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13303,6 +11912,7 @@ const deserializeAws_restJson1HttpQueryParameters = (output, context) => {
         }
         return deserializeAws_restJson1HttpQueryParameter(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1HttpRetryPolicy = (output, context) => {
     return {
@@ -13319,7 +11929,7 @@ const deserializeAws_restJson1HttpRetryPolicy = (output, context) => {
     };
 };
 const deserializeAws_restJson1HttpRetryPolicyEvents = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13327,6 +11937,7 @@ const deserializeAws_restJson1HttpRetryPolicyEvents = (output, context) => {
         }
         return smithy_client_1.expectString(entry);
     });
+    return retVal;
 };
 const deserializeAws_restJson1HttpRoute = (output, context) => {
     return {
@@ -13361,7 +11972,7 @@ const deserializeAws_restJson1HttpRouteHeader = (output, context) => {
     };
 };
 const deserializeAws_restJson1HttpRouteHeaders = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13369,6 +11980,7 @@ const deserializeAws_restJson1HttpRouteHeaders = (output, context) => {
         }
         return deserializeAws_restJson1HttpRouteHeader(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1HttpRouteMatch = (output, context) => {
     return {
@@ -13419,7 +12031,7 @@ const deserializeAws_restJson1Listener = (output, context) => {
     };
 };
 const deserializeAws_restJson1Listeners = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13427,6 +12039,7 @@ const deserializeAws_restJson1Listeners = (output, context) => {
         }
         return deserializeAws_restJson1Listener(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1ListenerTimeout = (output, context) => {
     if (output.grpc !== undefined && output.grpc !== null) {
@@ -13547,7 +12160,7 @@ const deserializeAws_restJson1MeshData = (output, context) => {
     };
 };
 const deserializeAws_restJson1MeshList = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13555,6 +12168,7 @@ const deserializeAws_restJson1MeshList = (output, context) => {
         }
         return deserializeAws_restJson1MeshRef(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1MeshRef = (output, context) => {
     return {
@@ -13602,22 +12216,15 @@ const deserializeAws_restJson1PortMapping = (output, context) => {
     };
 };
 const deserializeAws_restJson1PortSet = (output, context) => {
-    const uniqueValues = new Set();
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
             return null;
         }
-        const parsedEntry = smithy_client_1.expectInt32(entry);
-        if (uniqueValues.has(parsedEntry)) {
-            throw new TypeError('All elements of the set "com.amazonaws.appmesh#PortSet" must be unique.');
-        }
-        else {
-            uniqueValues.add(parsedEntry);
-            return parsedEntry;
-        }
+        return smithy_client_1.expectInt32(entry);
     });
+    return retVal;
 };
 const deserializeAws_restJson1QueryParameterMatch = (output, context) => {
     return {
@@ -13656,7 +12263,7 @@ const deserializeAws_restJson1RouteData = (output, context) => {
     };
 };
 const deserializeAws_restJson1RouteList = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13664,6 +12271,7 @@ const deserializeAws_restJson1RouteList = (output, context) => {
         }
         return deserializeAws_restJson1RouteRef(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1RouteRef = (output, context) => {
     return {
@@ -13718,7 +12326,7 @@ const deserializeAws_restJson1ServiceDiscovery = (output, context) => {
     return { $unknown: Object.entries(output)[0] };
 };
 const deserializeAws_restJson1SubjectAlternativeNameList = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13726,6 +12334,7 @@ const deserializeAws_restJson1SubjectAlternativeNameList = (output, context) => 
         }
         return smithy_client_1.expectString(entry);
     });
+    return retVal;
 };
 const deserializeAws_restJson1SubjectAlternativeNameMatchers = (output, context) => {
     return {
@@ -13742,7 +12351,7 @@ const deserializeAws_restJson1SubjectAlternativeNames = (output, context) => {
     };
 };
 const deserializeAws_restJson1TagList = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13750,6 +12359,7 @@ const deserializeAws_restJson1TagList = (output, context) => {
         }
         return deserializeAws_restJson1TagRef(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1TagRef = (output, context) => {
     return {
@@ -13758,7 +12368,7 @@ const deserializeAws_restJson1TagRef = (output, context) => {
     };
 };
 const deserializeAws_restJson1TcpRetryPolicyEvents = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13766,6 +12376,7 @@ const deserializeAws_restJson1TcpRetryPolicyEvents = (output, context) => {
         }
         return smithy_client_1.expectString(entry);
     });
+    return retVal;
 };
 const deserializeAws_restJson1TcpRoute = (output, context) => {
     return {
@@ -13852,7 +12463,7 @@ const deserializeAws_restJson1VirtualGatewayBackendDefaults = (output, context) 
     };
 };
 const deserializeAws_restJson1VirtualGatewayCertificateAuthorityArns = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13860,6 +12471,7 @@ const deserializeAws_restJson1VirtualGatewayCertificateAuthorityArns = (output, 
         }
         return smithy_client_1.expectString(entry);
     });
+    return retVal;
 };
 const deserializeAws_restJson1VirtualGatewayClientPolicy = (output, context) => {
     return {
@@ -13961,7 +12573,7 @@ const deserializeAws_restJson1VirtualGatewayHttpConnectionPool = (output, contex
     };
 };
 const deserializeAws_restJson1VirtualGatewayList = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13969,6 +12581,7 @@ const deserializeAws_restJson1VirtualGatewayList = (output, context) => {
         }
         return deserializeAws_restJson1VirtualGatewayRef(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1VirtualGatewayListener = (output, context) => {
     return {
@@ -13987,7 +12600,7 @@ const deserializeAws_restJson1VirtualGatewayListener = (output, context) => {
     };
 };
 const deserializeAws_restJson1VirtualGatewayListeners = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -13995,6 +12608,7 @@ const deserializeAws_restJson1VirtualGatewayListeners = (output, context) => {
         }
         return deserializeAws_restJson1VirtualGatewayListener(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1VirtualGatewayListenerTls = (output, context) => {
     return {
@@ -14211,7 +12825,7 @@ const deserializeAws_restJson1VirtualNodeHttpConnectionPool = (output, context) 
     };
 };
 const deserializeAws_restJson1VirtualNodeList = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -14219,6 +12833,7 @@ const deserializeAws_restJson1VirtualNodeList = (output, context) => {
         }
         return deserializeAws_restJson1VirtualNodeRef(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1VirtualNodeRef = (output, context) => {
     return {
@@ -14286,7 +12901,7 @@ const deserializeAws_restJson1VirtualRouterData = (output, context) => {
     };
 };
 const deserializeAws_restJson1VirtualRouterList = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -14294,6 +12909,7 @@ const deserializeAws_restJson1VirtualRouterList = (output, context) => {
         }
         return deserializeAws_restJson1VirtualRouterRef(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1VirtualRouterListener = (output, context) => {
     return {
@@ -14303,7 +12919,7 @@ const deserializeAws_restJson1VirtualRouterListener = (output, context) => {
     };
 };
 const deserializeAws_restJson1VirtualRouterListeners = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -14311,6 +12927,7 @@ const deserializeAws_restJson1VirtualRouterListeners = (output, context) => {
         }
         return deserializeAws_restJson1VirtualRouterListener(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1VirtualRouterRef = (output, context) => {
     return {
@@ -14369,7 +12986,7 @@ const deserializeAws_restJson1VirtualServiceData = (output, context) => {
     };
 };
 const deserializeAws_restJson1VirtualServiceList = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -14377,6 +12994,7 @@ const deserializeAws_restJson1VirtualServiceList = (output, context) => {
         }
         return deserializeAws_restJson1VirtualServiceRef(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1VirtualServiceProvider = (output, context) => {
     if (output.virtualNode !== undefined && output.virtualNode !== null) {
@@ -14426,7 +13044,7 @@ const deserializeAws_restJson1WeightedTarget = (output, context) => {
     };
 };
 const deserializeAws_restJson1WeightedTargets = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -14434,6 +13052,7 @@ const deserializeAws_restJson1WeightedTargets = (output, context) => {
         }
         return deserializeAws_restJson1WeightedTarget(entry, context);
     });
+    return retVal;
 };
 const deserializeMetadata = (output) => {
     var _a;
@@ -15178,12 +13797,34 @@ exports.defaultRegionInfoProvider = defaultRegionInfoProvider;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.SSOServiceException = void 0;
 const tslib_1 = __nccwpck_require__(4351);
 tslib_1.__exportStar(__nccwpck_require__(9838), exports);
 tslib_1.__exportStar(__nccwpck_require__(1057), exports);
 tslib_1.__exportStar(__nccwpck_require__(5706), exports);
 tslib_1.__exportStar(__nccwpck_require__(4952), exports);
 tslib_1.__exportStar(__nccwpck_require__(6773), exports);
+var SSOServiceException_1 = __nccwpck_require__(1517);
+Object.defineProperty(exports, "SSOServiceException", ({ enumerable: true, get: function () { return SSOServiceException_1.SSOServiceException; } }));
+
+
+/***/ }),
+
+/***/ 1517:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.SSOServiceException = void 0;
+const smithy_client_1 = __nccwpck_require__(4963);
+class SSOServiceException extends smithy_client_1.ServiceException {
+    constructor(options) {
+        super(options);
+        Object.setPrototypeOf(this, SSOServiceException.prototype);
+    }
+}
+exports.SSOServiceException = SSOServiceException;
 
 
 /***/ }),
@@ -15206,8 +13847,9 @@ tslib_1.__exportStar(__nccwpck_require__(6390), exports);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.LogoutRequest = exports.ListAccountsResponse = exports.ListAccountsRequest = exports.ListAccountRolesResponse = exports.RoleInfo = exports.ListAccountRolesRequest = exports.GetRoleCredentialsResponse = exports.RoleCredentials = exports.GetRoleCredentialsRequest = exports.AccountInfo = void 0;
+exports.LogoutRequest = exports.ListAccountsResponse = exports.ListAccountsRequest = exports.ListAccountRolesResponse = exports.RoleInfo = exports.ListAccountRolesRequest = exports.UnauthorizedException = exports.TooManyRequestsException = exports.ResourceNotFoundException = exports.InvalidRequestException = exports.GetRoleCredentialsResponse = exports.RoleCredentials = exports.GetRoleCredentialsRequest = exports.AccountInfo = void 0;
 const smithy_client_1 = __nccwpck_require__(4963);
+const SSOServiceException_1 = __nccwpck_require__(1517);
 var AccountInfo;
 (function (AccountInfo) {
     AccountInfo.filterSensitiveLog = (obj) => ({
@@ -15236,6 +13878,58 @@ var GetRoleCredentialsResponse;
         ...(obj.roleCredentials && { roleCredentials: RoleCredentials.filterSensitiveLog(obj.roleCredentials) }),
     });
 })(GetRoleCredentialsResponse = exports.GetRoleCredentialsResponse || (exports.GetRoleCredentialsResponse = {}));
+class InvalidRequestException extends SSOServiceException_1.SSOServiceException {
+    constructor(opts) {
+        super({
+            name: "InvalidRequestException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "InvalidRequestException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, InvalidRequestException.prototype);
+    }
+}
+exports.InvalidRequestException = InvalidRequestException;
+class ResourceNotFoundException extends SSOServiceException_1.SSOServiceException {
+    constructor(opts) {
+        super({
+            name: "ResourceNotFoundException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "ResourceNotFoundException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, ResourceNotFoundException.prototype);
+    }
+}
+exports.ResourceNotFoundException = ResourceNotFoundException;
+class TooManyRequestsException extends SSOServiceException_1.SSOServiceException {
+    constructor(opts) {
+        super({
+            name: "TooManyRequestsException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "TooManyRequestsException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, TooManyRequestsException.prototype);
+    }
+}
+exports.TooManyRequestsException = TooManyRequestsException;
+class UnauthorizedException extends SSOServiceException_1.SSOServiceException {
+    constructor(opts) {
+        super({
+            name: "UnauthorizedException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "UnauthorizedException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, UnauthorizedException.prototype);
+    }
+}
+exports.UnauthorizedException = UnauthorizedException;
 var ListAccountRolesRequest;
 (function (ListAccountRolesRequest) {
     ListAccountRolesRequest.filterSensitiveLog = (obj) => ({
@@ -15398,6 +14092,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.deserializeAws_restJson1LogoutCommand = exports.deserializeAws_restJson1ListAccountsCommand = exports.deserializeAws_restJson1ListAccountRolesCommand = exports.deserializeAws_restJson1GetRoleCredentialsCommand = exports.serializeAws_restJson1LogoutCommand = exports.serializeAws_restJson1ListAccountsCommand = exports.serializeAws_restJson1ListAccountRolesCommand = exports.serializeAws_restJson1GetRoleCredentialsCommand = void 0;
 const protocol_http_1 = __nccwpck_require__(223);
 const smithy_client_1 = __nccwpck_require__(4963);
+const models_0_1 = __nccwpck_require__(6390);
+const SSOServiceException_1 = __nccwpck_require__(1517);
 const serializeAws_restJson1GetRoleCredentialsCommand = async (input, context) => {
     const { hostname, protocol = "https", port, path: basePath } = await context.endpoint();
     const headers = {
@@ -15512,51 +14208,25 @@ const deserializeAws_restJson1GetRoleCredentialsCommandError = async (output, co
     switch (errorCode) {
         case "InvalidRequestException":
         case "com.amazonaws.sso#InvalidRequestException":
-            response = {
-                ...(await deserializeAws_restJson1InvalidRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InvalidRequestExceptionResponse(parsedOutput, context);
         case "ResourceNotFoundException":
         case "com.amazonaws.sso#ResourceNotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1ResourceNotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ResourceNotFoundExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.sso#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         case "UnauthorizedException":
         case "com.amazonaws.sso#UnauthorizedException":
-            response = {
-                ...(await deserializeAws_restJson1UnauthorizedExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1UnauthorizedExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new SSOServiceException_1.SSOServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1ListAccountRolesCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -15588,51 +14258,25 @@ const deserializeAws_restJson1ListAccountRolesCommandError = async (output, cont
     switch (errorCode) {
         case "InvalidRequestException":
         case "com.amazonaws.sso#InvalidRequestException":
-            response = {
-                ...(await deserializeAws_restJson1InvalidRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InvalidRequestExceptionResponse(parsedOutput, context);
         case "ResourceNotFoundException":
         case "com.amazonaws.sso#ResourceNotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1ResourceNotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ResourceNotFoundExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.sso#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         case "UnauthorizedException":
         case "com.amazonaws.sso#UnauthorizedException":
-            response = {
-                ...(await deserializeAws_restJson1UnauthorizedExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1UnauthorizedExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new SSOServiceException_1.SSOServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1ListAccountsCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -15664,51 +14308,25 @@ const deserializeAws_restJson1ListAccountsCommandError = async (output, context)
     switch (errorCode) {
         case "InvalidRequestException":
         case "com.amazonaws.sso#InvalidRequestException":
-            response = {
-                ...(await deserializeAws_restJson1InvalidRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InvalidRequestExceptionResponse(parsedOutput, context);
         case "ResourceNotFoundException":
         case "com.amazonaws.sso#ResourceNotFoundException":
-            response = {
-                ...(await deserializeAws_restJson1ResourceNotFoundExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1ResourceNotFoundExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.sso#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         case "UnauthorizedException":
         case "com.amazonaws.sso#UnauthorizedException":
-            response = {
-                ...(await deserializeAws_restJson1UnauthorizedExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1UnauthorizedExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new SSOServiceException_1.SSOServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1LogoutCommand = async (output, context) => {
     if (output.statusCode !== 200 && output.statusCode >= 300) {
@@ -15732,95 +14350,70 @@ const deserializeAws_restJson1LogoutCommandError = async (output, context) => {
     switch (errorCode) {
         case "InvalidRequestException":
         case "com.amazonaws.sso#InvalidRequestException":
-            response = {
-                ...(await deserializeAws_restJson1InvalidRequestExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1InvalidRequestExceptionResponse(parsedOutput, context);
         case "TooManyRequestsException":
         case "com.amazonaws.sso#TooManyRequestsException":
-            response = {
-                ...(await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1TooManyRequestsExceptionResponse(parsedOutput, context);
         case "UnauthorizedException":
         case "com.amazonaws.sso#UnauthorizedException":
-            response = {
-                ...(await deserializeAws_restJson1UnauthorizedExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_restJson1UnauthorizedExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.code || parsedBody.Code || errorCode;
-            response = {
-                ...parsedBody,
-                name: `${errorCode}`,
-                message: parsedBody.message || parsedBody.Message || errorCode,
+            response = new SSOServiceException_1.SSOServiceException({
+                name: parsedBody.code || parsedBody.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_restJson1InvalidRequestExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "InvalidRequestException",
-        $fault: "client",
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.InvalidRequestException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1ResourceNotFoundExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "ResourceNotFoundException",
-        $fault: "client",
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.ResourceNotFoundException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1TooManyRequestsExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "TooManyRequestsException",
-        $fault: "client",
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.TooManyRequestsException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1UnauthorizedExceptionResponse = async (parsedOutput, context) => {
-    const contents = {
-        name: "UnauthorizedException",
-        $fault: "client",
-        $metadata: deserializeMetadata(parsedOutput),
-        message: undefined,
-    };
+    const contents = {};
     const data = parsedOutput.body;
     if (data.message !== undefined && data.message !== null) {
         contents.message = smithy_client_1.expectString(data.message);
     }
-    return contents;
+    const exception = new models_0_1.UnauthorizedException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents,
+    });
+    return smithy_client_1.decorateServiceException(exception, parsedOutput.body);
 };
 const deserializeAws_restJson1AccountInfo = (output, context) => {
     return {
@@ -15830,7 +14423,7 @@ const deserializeAws_restJson1AccountInfo = (output, context) => {
     };
 };
 const deserializeAws_restJson1AccountListType = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -15838,6 +14431,7 @@ const deserializeAws_restJson1AccountListType = (output, context) => {
         }
         return deserializeAws_restJson1AccountInfo(entry, context);
     });
+    return retVal;
 };
 const deserializeAws_restJson1RoleCredentials = (output, context) => {
     return {
@@ -15854,7 +14448,7 @@ const deserializeAws_restJson1RoleInfo = (output, context) => {
     };
 };
 const deserializeAws_restJson1RoleListType = (output, context) => {
-    return (output || [])
+    const retVal = (output || [])
         .filter((e) => e != null)
         .map((entry) => {
         if (entry === null) {
@@ -15862,6 +14456,7 @@ const deserializeAws_restJson1RoleListType = (output, context) => {
         }
         return deserializeAws_restJson1RoleInfo(entry, context);
     });
+    return retVal;
 };
 const deserializeMetadata = (output) => {
     var _a;
@@ -16873,12 +15468,34 @@ exports.defaultRegionInfoProvider = defaultRegionInfoProvider;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.STSServiceException = void 0;
 const tslib_1 = __nccwpck_require__(4351);
 tslib_1.__exportStar(__nccwpck_require__(2605), exports);
 tslib_1.__exportStar(__nccwpck_require__(4195), exports);
 tslib_1.__exportStar(__nccwpck_require__(5716), exports);
 tslib_1.__exportStar(__nccwpck_require__(8028), exports);
 tslib_1.__exportStar(__nccwpck_require__(106), exports);
+var STSServiceException_1 = __nccwpck_require__(6450);
+Object.defineProperty(exports, "STSServiceException", ({ enumerable: true, get: function () { return STSServiceException_1.STSServiceException; } }));
+
+
+/***/ }),
+
+/***/ 6450:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.STSServiceException = void 0;
+const smithy_client_1 = __nccwpck_require__(4963);
+class STSServiceException extends smithy_client_1.ServiceException {
+    constructor(options) {
+        super(options);
+        Object.setPrototypeOf(this, STSServiceException.prototype);
+    }
+}
+exports.STSServiceException = STSServiceException;
 
 
 /***/ }),
@@ -16896,12 +15513,13 @@ tslib_1.__exportStar(__nccwpck_require__(1780), exports);
 /***/ }),
 
 /***/ 1780:
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.GetSessionTokenResponse = exports.GetSessionTokenRequest = exports.GetFederationTokenResponse = exports.FederatedUser = exports.GetFederationTokenRequest = exports.GetCallerIdentityResponse = exports.GetCallerIdentityRequest = exports.GetAccessKeyInfoResponse = exports.GetAccessKeyInfoRequest = exports.DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageRequest = exports.AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityRequest = exports.AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLRequest = exports.AssumeRoleResponse = exports.Credentials = exports.AssumeRoleRequest = exports.Tag = exports.PolicyDescriptorType = exports.AssumedRoleUser = void 0;
+exports.GetSessionTokenResponse = exports.GetSessionTokenRequest = exports.GetFederationTokenResponse = exports.FederatedUser = exports.GetFederationTokenRequest = exports.GetCallerIdentityResponse = exports.GetCallerIdentityRequest = exports.GetAccessKeyInfoResponse = exports.GetAccessKeyInfoRequest = exports.InvalidAuthorizationMessageException = exports.DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageRequest = exports.IDPCommunicationErrorException = exports.AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityRequest = exports.InvalidIdentityTokenException = exports.IDPRejectedClaimException = exports.AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLRequest = exports.RegionDisabledException = exports.PackedPolicyTooLargeException = exports.MalformedPolicyDocumentException = exports.ExpiredTokenException = exports.AssumeRoleResponse = exports.Credentials = exports.AssumeRoleRequest = exports.Tag = exports.PolicyDescriptorType = exports.AssumedRoleUser = void 0;
+const STSServiceException_1 = __nccwpck_require__(6450);
 var AssumedRoleUser;
 (function (AssumedRoleUser) {
     AssumedRoleUser.filterSensitiveLog = (obj) => ({
@@ -16938,6 +15556,58 @@ var AssumeRoleResponse;
         ...obj,
     });
 })(AssumeRoleResponse = exports.AssumeRoleResponse || (exports.AssumeRoleResponse = {}));
+class ExpiredTokenException extends STSServiceException_1.STSServiceException {
+    constructor(opts) {
+        super({
+            name: "ExpiredTokenException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "ExpiredTokenException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, ExpiredTokenException.prototype);
+    }
+}
+exports.ExpiredTokenException = ExpiredTokenException;
+class MalformedPolicyDocumentException extends STSServiceException_1.STSServiceException {
+    constructor(opts) {
+        super({
+            name: "MalformedPolicyDocumentException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "MalformedPolicyDocumentException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, MalformedPolicyDocumentException.prototype);
+    }
+}
+exports.MalformedPolicyDocumentException = MalformedPolicyDocumentException;
+class PackedPolicyTooLargeException extends STSServiceException_1.STSServiceException {
+    constructor(opts) {
+        super({
+            name: "PackedPolicyTooLargeException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "PackedPolicyTooLargeException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, PackedPolicyTooLargeException.prototype);
+    }
+}
+exports.PackedPolicyTooLargeException = PackedPolicyTooLargeException;
+class RegionDisabledException extends STSServiceException_1.STSServiceException {
+    constructor(opts) {
+        super({
+            name: "RegionDisabledException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "RegionDisabledException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, RegionDisabledException.prototype);
+    }
+}
+exports.RegionDisabledException = RegionDisabledException;
 var AssumeRoleWithSAMLRequest;
 (function (AssumeRoleWithSAMLRequest) {
     AssumeRoleWithSAMLRequest.filterSensitiveLog = (obj) => ({
@@ -16950,6 +15620,32 @@ var AssumeRoleWithSAMLResponse;
         ...obj,
     });
 })(AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLResponse || (exports.AssumeRoleWithSAMLResponse = {}));
+class IDPRejectedClaimException extends STSServiceException_1.STSServiceException {
+    constructor(opts) {
+        super({
+            name: "IDPRejectedClaimException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "IDPRejectedClaimException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, IDPRejectedClaimException.prototype);
+    }
+}
+exports.IDPRejectedClaimException = IDPRejectedClaimException;
+class InvalidIdentityTokenException extends STSServiceException_1.STSServiceException {
+    constructor(opts) {
+        super({
+            name: "InvalidIdentityTokenException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "InvalidIdentityTokenException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, InvalidIdentityTokenException.prototype);
+    }
+}
+exports.InvalidIdentityTokenException = InvalidIdentityTokenException;
 var AssumeRoleWithWebIdentityRequest;
 (function (AssumeRoleWithWebIdentityRequest) {
     AssumeRoleWithWebIdentityRequest.filterSensitiveLog = (obj) => ({
@@ -16962,6 +15658,19 @@ var AssumeRoleWithWebIdentityResponse;
         ...obj,
     });
 })(AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityResponse || (exports.AssumeRoleWithWebIdentityResponse = {}));
+class IDPCommunicationErrorException extends STSServiceException_1.STSServiceException {
+    constructor(opts) {
+        super({
+            name: "IDPCommunicationErrorException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "IDPCommunicationErrorException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, IDPCommunicationErrorException.prototype);
+    }
+}
+exports.IDPCommunicationErrorException = IDPCommunicationErrorException;
 var DecodeAuthorizationMessageRequest;
 (function (DecodeAuthorizationMessageRequest) {
     DecodeAuthorizationMessageRequest.filterSensitiveLog = (obj) => ({
@@ -16974,6 +15683,19 @@ var DecodeAuthorizationMessageResponse;
         ...obj,
     });
 })(DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageResponse || (exports.DecodeAuthorizationMessageResponse = {}));
+class InvalidAuthorizationMessageException extends STSServiceException_1.STSServiceException {
+    constructor(opts) {
+        super({
+            name: "InvalidAuthorizationMessageException",
+            $fault: "client",
+            ...opts,
+        });
+        this.name = "InvalidAuthorizationMessageException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, InvalidAuthorizationMessageException.prototype);
+    }
+}
+exports.InvalidAuthorizationMessageException = InvalidAuthorizationMessageException;
 var GetAccessKeyInfoRequest;
 (function (GetAccessKeyInfoRequest) {
     GetAccessKeyInfoRequest.filterSensitiveLog = (obj) => ({
@@ -17043,6 +15765,8 @@ const protocol_http_1 = __nccwpck_require__(223);
 const smithy_client_1 = __nccwpck_require__(4963);
 const entities_1 = __nccwpck_require__(3000);
 const fast_xml_parser_1 = __nccwpck_require__(7448);
+const models_0_1 = __nccwpck_require__(1780);
+const STSServiceException_1 = __nccwpck_require__(6450);
 const serializeAws_queryAssumeRoleCommand = async (input, context) => {
     const headers = {
         "content-type": "application/x-www-form-urlencoded",
@@ -17172,51 +15896,25 @@ const deserializeAws_queryAssumeRoleCommandError = async (output, context) => {
     switch (errorCode) {
         case "ExpiredTokenException":
         case "com.amazonaws.sts#ExpiredTokenException":
-            response = {
-                ...(await deserializeAws_queryExpiredTokenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryExpiredTokenExceptionResponse(parsedOutput, context);
         case "MalformedPolicyDocumentException":
         case "com.amazonaws.sts#MalformedPolicyDocumentException":
-            response = {
-                ...(await deserializeAws_queryMalformedPolicyDocumentExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryMalformedPolicyDocumentExceptionResponse(parsedOutput, context);
         case "PackedPolicyTooLargeException":
         case "com.amazonaws.sts#PackedPolicyTooLargeException":
-            response = {
-                ...(await deserializeAws_queryPackedPolicyTooLargeExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryPackedPolicyTooLargeExceptionResponse(parsedOutput, context);
         case "RegionDisabledException":
         case "com.amazonaws.sts#RegionDisabledException":
-            response = {
-                ...(await deserializeAws_queryRegionDisabledExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryRegionDisabledExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.Error.code || parsedBody.Error.Code || errorCode;
-            response = {
-                ...parsedBody.Error,
-                name: `${errorCode}`,
-                message: parsedBody.Error.message || parsedBody.Error.Message || errorCode,
+            response = new STSServiceException_1.STSServiceException({
+                name: parsedBody.Error.code || parsedBody.Error.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody.Error);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_queryAssumeRoleWithSAMLCommand = async (output, context) => {
     if (output.statusCode >= 300) {
@@ -17243,67 +15941,31 @@ const deserializeAws_queryAssumeRoleWithSAMLCommandError = async (output, contex
     switch (errorCode) {
         case "ExpiredTokenException":
         case "com.amazonaws.sts#ExpiredTokenException":
-            response = {
-                ...(await deserializeAws_queryExpiredTokenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryExpiredTokenExceptionResponse(parsedOutput, context);
         case "IDPRejectedClaimException":
         case "com.amazonaws.sts#IDPRejectedClaimException":
-            response = {
-                ...(await deserializeAws_queryIDPRejectedClaimExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryIDPRejectedClaimExceptionResponse(parsedOutput, context);
         case "InvalidIdentityTokenException":
         case "com.amazonaws.sts#InvalidIdentityTokenException":
-            response = {
-                ...(await deserializeAws_queryInvalidIdentityTokenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryInvalidIdentityTokenExceptionResponse(parsedOutput, context);
         case "MalformedPolicyDocumentException":
         case "com.amazonaws.sts#MalformedPolicyDocumentException":
-            response = {
-                ...(await deserializeAws_queryMalformedPolicyDocumentExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryMalformedPolicyDocumentExceptionResponse(parsedOutput, context);
         case "PackedPolicyTooLargeException":
         case "com.amazonaws.sts#PackedPolicyTooLargeException":
-            response = {
-                ...(await deserializeAws_queryPackedPolicyTooLargeExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryPackedPolicyTooLargeExceptionResponse(parsedOutput, context);
         case "RegionDisabledException":
         case "com.amazonaws.sts#RegionDisabledException":
-            response = {
-                ...(await deserializeAws_queryRegionDisabledExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryRegionDisabledExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.Error.code || parsedBody.Error.Code || errorCode;
-            response = {
-                ...parsedBody.Error,
-                name: `${errorCode}`,
-                message: parsedBody.Error.message || parsedBody.Error.Message || errorCode,
+            response = new STSServiceException_1.STSServiceException({
+                name: parsedBody.Error.code || parsedBody.Error.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody.Error);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_queryAssumeRoleWithWebIdentityCommand = async (output, context) => {
     if (output.statusCode >= 300) {
@@ -17330,75 +15992,34 @@ const deserializeAws_queryAssumeRoleWithWebIdentityCommandError = async (output,
     switch (errorCode) {
         case "ExpiredTokenException":
         case "com.amazonaws.sts#ExpiredTokenException":
-            response = {
-                ...(await deserializeAws_queryExpiredTokenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryExpiredTokenExceptionResponse(parsedOutput, context);
         case "IDPCommunicationErrorException":
         case "com.amazonaws.sts#IDPCommunicationErrorException":
-            response = {
-                ...(await deserializeAws_queryIDPCommunicationErrorExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryIDPCommunicationErrorExceptionResponse(parsedOutput, context);
         case "IDPRejectedClaimException":
         case "com.amazonaws.sts#IDPRejectedClaimException":
-            response = {
-                ...(await deserializeAws_queryIDPRejectedClaimExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryIDPRejectedClaimExceptionResponse(parsedOutput, context);
         case "InvalidIdentityTokenException":
         case "com.amazonaws.sts#InvalidIdentityTokenException":
-            response = {
-                ...(await deserializeAws_queryInvalidIdentityTokenExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryInvalidIdentityTokenExceptionResponse(parsedOutput, context);
         case "MalformedPolicyDocumentException":
         case "com.amazonaws.sts#MalformedPolicyDocumentException":
-            response = {
-                ...(await deserializeAws_queryMalformedPolicyDocumentExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryMalformedPolicyDocumentExceptionResponse(parsedOutput, context);
         case "PackedPolicyTooLargeException":
         case "com.amazonaws.sts#PackedPolicyTooLargeException":
-            response = {
-                ...(await deserializeAws_queryPackedPolicyTooLargeExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryPackedPolicyTooLargeExceptionResponse(parsedOutput, context);
         case "RegionDisabledException":
         case "com.amazonaws.sts#RegionDisabledException":
-            response = {
-                ...(await deserializeAws_queryRegionDisabledExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryRegionDisabledExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.Error.code || parsedBody.Error.Code || errorCode;
-            response = {
-                ...parsedBody.Error,
-                name: `${errorCode}`,
-                message: parsedBody.Error.message || parsedBody.Error.Message || errorCode,
+            response = new STSServiceException_1.STSServiceException({
+                name: parsedBody.Error.code || parsedBody.Error.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody.Error);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_queryDecodeAuthorizationMessageCommand = async (output, context) => {
     if (output.statusCode >= 300) {
@@ -17425,27 +16046,16 @@ const deserializeAws_queryDecodeAuthorizationMessageCommandError = async (output
     switch (errorCode) {
         case "InvalidAuthorizationMessageException":
         case "com.amazonaws.sts#InvalidAuthorizationMessageException":
-            response = {
-                ...(await deserializeAws_queryInvalidAuthorizationMessageExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryInvalidAuthorizationMessageExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.Error.code || parsedBody.Error.Code || errorCode;
-            response = {
-                ...parsedBody.Error,
-                name: `${errorCode}`,
-                message: parsedBody.Error.message || parsedBody.Error.Message || errorCode,
+            response = new STSServiceException_1.STSServiceException({
+                name: parsedBody.Error.code || parsedBody.Error.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody.Error);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_queryGetAccessKeyInfoCommand = async (output, context) => {
     if (output.statusCode >= 300) {
@@ -17472,19 +16082,13 @@ const deserializeAws_queryGetAccessKeyInfoCommandError = async (output, context)
     switch (errorCode) {
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.Error.code || parsedBody.Error.Code || errorCode;
-            response = {
-                ...parsedBody.Error,
-                name: `${errorCode}`,
-                message: parsedBody.Error.message || parsedBody.Error.Message || errorCode,
+            response = new STSServiceException_1.STSServiceException({
+                name: parsedBody.Error.code || parsedBody.Error.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody.Error);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_queryGetCallerIdentityCommand = async (output, context) => {
     if (output.statusCode >= 300) {
@@ -17511,19 +16115,13 @@ const deserializeAws_queryGetCallerIdentityCommandError = async (output, context
     switch (errorCode) {
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.Error.code || parsedBody.Error.Code || errorCode;
-            response = {
-                ...parsedBody.Error,
-                name: `${errorCode}`,
-                message: parsedBody.Error.message || parsedBody.Error.Message || errorCode,
+            response = new STSServiceException_1.STSServiceException({
+                name: parsedBody.Error.code || parsedBody.Error.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody.Error);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_queryGetFederationTokenCommand = async (output, context) => {
     if (output.statusCode >= 300) {
@@ -17550,43 +16148,22 @@ const deserializeAws_queryGetFederationTokenCommandError = async (output, contex
     switch (errorCode) {
         case "MalformedPolicyDocumentException":
         case "com.amazonaws.sts#MalformedPolicyDocumentException":
-            response = {
-                ...(await deserializeAws_queryMalformedPolicyDocumentExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryMalformedPolicyDocumentExceptionResponse(parsedOutput, context);
         case "PackedPolicyTooLargeException":
         case "com.amazonaws.sts#PackedPolicyTooLargeException":
-            response = {
-                ...(await deserializeAws_queryPackedPolicyTooLargeExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryPackedPolicyTooLargeExceptionResponse(parsedOutput, context);
         case "RegionDisabledException":
         case "com.amazonaws.sts#RegionDisabledException":
-            response = {
-                ...(await deserializeAws_queryRegionDisabledExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryRegionDisabledExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.Error.code || parsedBody.Error.Code || errorCode;
-            response = {
-                ...parsedBody.Error,
-                name: `${errorCode}`,
-                message: parsedBody.Error.message || parsedBody.Error.Message || errorCode,
+            response = new STSServiceException_1.STSServiceException({
+                name: parsedBody.Error.code || parsedBody.Error.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody.Error);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_queryGetSessionTokenCommand = async (output, context) => {
     if (output.statusCode >= 300) {
@@ -17613,115 +16190,88 @@ const deserializeAws_queryGetSessionTokenCommandError = async (output, context) 
     switch (errorCode) {
         case "RegionDisabledException":
         case "com.amazonaws.sts#RegionDisabledException":
-            response = {
-                ...(await deserializeAws_queryRegionDisabledExceptionResponse(parsedOutput, context)),
-                name: errorCode,
-                $metadata: deserializeMetadata(output),
-            };
-            break;
+            throw await deserializeAws_queryRegionDisabledExceptionResponse(parsedOutput, context);
         default:
             const parsedBody = parsedOutput.body;
-            errorCode = parsedBody.Error.code || parsedBody.Error.Code || errorCode;
-            response = {
-                ...parsedBody.Error,
-                name: `${errorCode}`,
-                message: parsedBody.Error.message || parsedBody.Error.Message || errorCode,
+            response = new STSServiceException_1.STSServiceException({
+                name: parsedBody.Error.code || parsedBody.Error.Code || errorCode,
                 $fault: "client",
                 $metadata: deserializeMetadata(output),
-            };
+            });
+            throw smithy_client_1.decorateServiceException(response, parsedBody.Error);
     }
-    const message = response.message || response.Message || errorCode;
-    response.message = message;
-    delete response.Message;
-    return Promise.reject(Object.assign(new Error(message), response));
 };
 const deserializeAws_queryExpiredTokenExceptionResponse = async (parsedOutput, context) => {
     const body = parsedOutput.body;
     const deserialized = deserializeAws_queryExpiredTokenException(body.Error, context);
-    const contents = {
-        name: "ExpiredTokenException",
-        $fault: "client",
+    const exception = new models_0_1.ExpiredTokenException({
         $metadata: deserializeMetadata(parsedOutput),
         ...deserialized,
-    };
-    return contents;
+    });
+    return smithy_client_1.decorateServiceException(exception, body);
 };
 const deserializeAws_queryIDPCommunicationErrorExceptionResponse = async (parsedOutput, context) => {
     const body = parsedOutput.body;
     const deserialized = deserializeAws_queryIDPCommunicationErrorException(body.Error, context);
-    const contents = {
-        name: "IDPCommunicationErrorException",
-        $fault: "client",
+    const exception = new models_0_1.IDPCommunicationErrorException({
         $metadata: deserializeMetadata(parsedOutput),
         ...deserialized,
-    };
-    return contents;
+    });
+    return smithy_client_1.decorateServiceException(exception, body);
 };
 const deserializeAws_queryIDPRejectedClaimExceptionResponse = async (parsedOutput, context) => {
     const body = parsedOutput.body;
     const deserialized = deserializeAws_queryIDPRejectedClaimException(body.Error, context);
-    const contents = {
-        name: "IDPRejectedClaimException",
-        $fault: "client",
+    const exception = new models_0_1.IDPRejectedClaimException({
         $metadata: deserializeMetadata(parsedOutput),
         ...deserialized,
-    };
-    return contents;
+    });
+    return smithy_client_1.decorateServiceException(exception, body);
 };
 const deserializeAws_queryInvalidAuthorizationMessageExceptionResponse = async (parsedOutput, context) => {
     const body = parsedOutput.body;
     const deserialized = deserializeAws_queryInvalidAuthorizationMessageException(body.Error, context);
-    const contents = {
-        name: "InvalidAuthorizationMessageException",
-        $fault: "client",
+    const exception = new models_0_1.InvalidAuthorizationMessageException({
         $metadata: deserializeMetadata(parsedOutput),
         ...deserialized,
-    };
-    return contents;
+    });
+    return smithy_client_1.decorateServiceException(exception, body);
 };
 const deserializeAws_queryInvalidIdentityTokenExceptionResponse = async (parsedOutput, context) => {
     const body = parsedOutput.body;
     const deserialized = deserializeAws_queryInvalidIdentityTokenException(body.Error, context);
-    const contents = {
-        name: "InvalidIdentityTokenException",
-        $fault: "client",
+    const exception = new models_0_1.InvalidIdentityTokenException({
         $metadata: deserializeMetadata(parsedOutput),
         ...deserialized,
-    };
-    return contents;
+    });
+    return smithy_client_1.decorateServiceException(exception, body);
 };
 const deserializeAws_queryMalformedPolicyDocumentExceptionResponse = async (parsedOutput, context) => {
     const body = parsedOutput.body;
     const deserialized = deserializeAws_queryMalformedPolicyDocumentException(body.Error, context);
-    const contents = {
-        name: "MalformedPolicyDocumentException",
-        $fault: "client",
+    const exception = new models_0_1.MalformedPolicyDocumentException({
         $metadata: deserializeMetadata(parsedOutput),
         ...deserialized,
-    };
-    return contents;
+    });
+    return smithy_client_1.decorateServiceException(exception, body);
 };
 const deserializeAws_queryPackedPolicyTooLargeExceptionResponse = async (parsedOutput, context) => {
     const body = parsedOutput.body;
     const deserialized = deserializeAws_queryPackedPolicyTooLargeException(body.Error, context);
-    const contents = {
-        name: "PackedPolicyTooLargeException",
-        $fault: "client",
+    const exception = new models_0_1.PackedPolicyTooLargeException({
         $metadata: deserializeMetadata(parsedOutput),
         ...deserialized,
-    };
-    return contents;
+    });
+    return smithy_client_1.decorateServiceException(exception, body);
 };
 const deserializeAws_queryRegionDisabledExceptionResponse = async (parsedOutput, context) => {
     const body = parsedOutput.body;
     const deserialized = deserializeAws_queryRegionDisabledException(body.Error, context);
-    const contents = {
-        name: "RegionDisabledException",
-        $fault: "client",
+    const exception = new models_0_1.RegionDisabledException({
         $metadata: deserializeMetadata(parsedOutput),
         ...deserialized,
-    };
-    return contents;
+    });
+    return smithy_client_1.decorateServiceException(exception, body);
 };
 const serializeAws_queryAssumeRoleRequest = (input, context) => {
     const entries = {};
@@ -18814,7 +17364,7 @@ tslib_1.__exportStar(__nccwpck_require__(6167), exports);
 
 /***/ }),
 
-/***/ 5972:
+/***/ 255:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -18826,23 +17376,34 @@ exports.ENV_KEY = "AWS_ACCESS_KEY_ID";
 exports.ENV_SECRET = "AWS_SECRET_ACCESS_KEY";
 exports.ENV_SESSION = "AWS_SESSION_TOKEN";
 exports.ENV_EXPIRATION = "AWS_CREDENTIAL_EXPIRATION";
-function fromEnv() {
-    return () => {
-        const accessKeyId = process.env[exports.ENV_KEY];
-        const secretAccessKey = process.env[exports.ENV_SECRET];
-        const expiry = process.env[exports.ENV_EXPIRATION];
-        if (accessKeyId && secretAccessKey) {
-            return Promise.resolve({
-                accessKeyId,
-                secretAccessKey,
-                sessionToken: process.env[exports.ENV_SESSION],
-                expiration: expiry ? new Date(expiry) : undefined,
-            });
-        }
-        return Promise.reject(new property_provider_1.CredentialsProviderError("Unable to find environment variable credentials."));
-    };
-}
+const fromEnv = () => async () => {
+    const accessKeyId = process.env[exports.ENV_KEY];
+    const secretAccessKey = process.env[exports.ENV_SECRET];
+    const sessionToken = process.env[exports.ENV_SESSION];
+    const expiry = process.env[exports.ENV_EXPIRATION];
+    if (accessKeyId && secretAccessKey) {
+        return {
+            accessKeyId,
+            secretAccessKey,
+            ...(sessionToken && { sessionToken }),
+            ...(expiry && { expiration: new Date(expiry) }),
+        };
+    }
+    throw new property_provider_1.CredentialsProviderError("Unable to find environment variable credentials.");
+};
 exports.fromEnv = fromEnv;
+
+
+/***/ }),
+
+/***/ 5972:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(255), exports);
 
 
 /***/ }),
@@ -19253,90 +17814,105 @@ const getFromEndpointModeConfig = async () => {
 
 /***/ }),
 
-/***/ 4203:
+/***/ 5442:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.fromIni = void 0;
-const credential_provider_env_1 = __nccwpck_require__(5972);
-const credential_provider_imds_1 = __nccwpck_require__(5898);
-const credential_provider_sso_1 = __nccwpck_require__(6414);
-const credential_provider_web_identity_1 = __nccwpck_require__(5646);
+const util_credentials_1 = __nccwpck_require__(8598);
+const resolveProfileData_1 = __nccwpck_require__(5653);
+const fromIni = (init = {}) => async () => {
+    const profiles = await util_credentials_1.parseKnownFiles(init);
+    return resolveProfileData_1.resolveProfileData(util_credentials_1.getMasterProfileName(init), profiles, init);
+};
+exports.fromIni = fromIni;
+
+
+/***/ }),
+
+/***/ 4203:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(5442), exports);
+
+
+/***/ }),
+
+/***/ 853:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.resolveAssumeRoleCredentials = exports.isAssumeRoleProfile = void 0;
 const property_provider_1 = __nccwpck_require__(4462);
 const util_credentials_1 = __nccwpck_require__(8598);
-const isStaticCredsProfile = (arg) => Boolean(arg) &&
-    typeof arg === "object" &&
-    typeof arg.aws_access_key_id === "string" &&
-    typeof arg.aws_secret_access_key === "string" &&
-    ["undefined", "string"].indexOf(typeof arg.aws_session_token) > -1;
-const isWebIdentityProfile = (arg) => Boolean(arg) &&
-    typeof arg === "object" &&
-    typeof arg.web_identity_token_file === "string" &&
-    typeof arg.role_arn === "string" &&
-    ["undefined", "string"].indexOf(typeof arg.role_session_name) > -1;
+const resolveCredentialSource_1 = __nccwpck_require__(2458);
+const resolveProfileData_1 = __nccwpck_require__(5653);
 const isAssumeRoleProfile = (arg) => Boolean(arg) &&
     typeof arg === "object" &&
     typeof arg.role_arn === "string" &&
     ["undefined", "string"].indexOf(typeof arg.role_session_name) > -1 &&
     ["undefined", "string"].indexOf(typeof arg.external_id) > -1 &&
-    ["undefined", "string"].indexOf(typeof arg.mfa_serial) > -1;
-const isAssumeRoleWithSourceProfile = (arg) => isAssumeRoleProfile(arg) && typeof arg.source_profile === "string" && typeof arg.credential_source === "undefined";
-const isAssumeRoleWithProviderProfile = (arg) => isAssumeRoleProfile(arg) && typeof arg.credential_source === "string" && typeof arg.source_profile === "undefined";
-const fromIni = (init = {}) => async () => {
-    const profiles = await util_credentials_1.parseKnownFiles(init);
-    return resolveProfileData(util_credentials_1.getMasterProfileName(init), profiles, init);
-};
-exports.fromIni = fromIni;
-const resolveProfileData = async (profileName, profiles, options, visitedProfiles = {}) => {
+    ["undefined", "string"].indexOf(typeof arg.mfa_serial) > -1 &&
+    (isAssumeRoleWithSourceProfile(arg) || isAssumeRoleWithProviderProfile(arg));
+exports.isAssumeRoleProfile = isAssumeRoleProfile;
+const isAssumeRoleWithSourceProfile = (arg) => typeof arg.source_profile === "string" && typeof arg.credential_source === "undefined";
+const isAssumeRoleWithProviderProfile = (arg) => typeof arg.credential_source === "string" && typeof arg.source_profile === "undefined";
+const resolveAssumeRoleCredentials = async (profileName, profiles, options, visitedProfiles = {}) => {
     const data = profiles[profileName];
-    if (Object.keys(visitedProfiles).length > 0 && isStaticCredsProfile(data)) {
-        return resolveStaticCredentials(data);
+    if (!options.roleAssumer) {
+        throw new property_provider_1.CredentialsProviderError(`Profile ${profileName} requires a role to be assumed, but no role assumption callback was provided.`, false);
     }
-    if (isAssumeRoleWithSourceProfile(data) || isAssumeRoleWithProviderProfile(data)) {
-        const { external_id: ExternalId, mfa_serial, role_arn: RoleArn, role_session_name: RoleSessionName = "aws-sdk-js-" + Date.now(), source_profile, credential_source, } = data;
-        if (!options.roleAssumer) {
-            throw new property_provider_1.CredentialsProviderError(`Profile ${profileName} requires a role to be assumed, but no` + ` role assumption callback was provided.`, false);
+    const { source_profile } = data;
+    if (source_profile && source_profile in visitedProfiles) {
+        throw new property_provider_1.CredentialsProviderError(`Detected a cycle attempting to resolve credentials for profile` +
+            ` ${util_credentials_1.getMasterProfileName(options)}. Profiles visited: ` +
+            Object.keys(visitedProfiles).join(", "), false);
+    }
+    const sourceCredsProvider = source_profile
+        ? resolveProfileData_1.resolveProfileData(source_profile, profiles, options, {
+            ...visitedProfiles,
+            [source_profile]: true,
+        })
+        : resolveCredentialSource_1.resolveCredentialSource(data.credential_source, profileName)();
+    const params = {
+        RoleArn: data.role_arn,
+        RoleSessionName: data.role_session_name || `aws-sdk-js-${Date.now()}`,
+        ExternalId: data.external_id,
+    };
+    const { mfa_serial } = data;
+    if (mfa_serial) {
+        if (!options.mfaCodeProvider) {
+            throw new property_provider_1.CredentialsProviderError(`Profile ${profileName} requires multi-factor authentication, but no MFA code callback was provided.`, false);
         }
-        if (source_profile && source_profile in visitedProfiles) {
-            throw new property_provider_1.CredentialsProviderError(`Detected a cycle attempting to resolve credentials for profile` +
-                ` ${util_credentials_1.getMasterProfileName(options)}. Profiles visited: ` +
-                Object.keys(visitedProfiles).join(", "), false);
-        }
-        const sourceCreds = source_profile
-            ? resolveProfileData(source_profile, profiles, options, {
-                ...visitedProfiles,
-                [source_profile]: true,
-            })
-            : resolveCredentialSource(credential_source, profileName)();
-        const params = { RoleArn, RoleSessionName, ExternalId };
-        if (mfa_serial) {
-            if (!options.mfaCodeProvider) {
-                throw new property_provider_1.CredentialsProviderError(`Profile ${profileName} requires multi-factor authentication,` + ` but no MFA code callback was provided.`, false);
-            }
-            params.SerialNumber = mfa_serial;
-            params.TokenCode = await options.mfaCodeProvider(mfa_serial);
-        }
-        return options.roleAssumer(await sourceCreds, params);
+        params.SerialNumber = mfa_serial;
+        params.TokenCode = await options.mfaCodeProvider(mfa_serial);
     }
-    if (isStaticCredsProfile(data)) {
-        return resolveStaticCredentials(data);
-    }
-    if (isWebIdentityProfile(data)) {
-        return resolveWebIdentityCredentials(data, options);
-    }
-    if (credential_provider_sso_1.isSsoProfile(data)) {
-        const { sso_start_url, sso_account_id, sso_region, sso_role_name } = credential_provider_sso_1.validateSsoProfile(data);
-        return credential_provider_sso_1.fromSSO({
-            ssoStartUrl: sso_start_url,
-            ssoAccountId: sso_account_id,
-            ssoRegion: sso_region,
-            ssoRoleName: sso_role_name,
-        })();
-    }
-    throw new property_provider_1.CredentialsProviderError(`Profile ${profileName} could not be found or parsed in shared` + ` credentials file.`);
+    const sourceCreds = await sourceCredsProvider;
+    return options.roleAssumer(sourceCreds, params);
 };
+exports.resolveAssumeRoleCredentials = resolveAssumeRoleCredentials;
+
+
+/***/ }),
+
+/***/ 2458:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.resolveCredentialSource = void 0;
+const credential_provider_env_1 = __nccwpck_require__(5972);
+const credential_provider_imds_1 = __nccwpck_require__(5898);
+const property_provider_1 = __nccwpck_require__(4462);
 const resolveCredentialSource = (credentialSource, profileName) => {
     const sourceProvidersMap = {
         EcsContainer: credential_provider_imds_1.fromContainerMetadata,
@@ -19351,17 +17927,147 @@ const resolveCredentialSource = (credentialSource, profileName) => {
             `expected EcsContainer or Ec2InstanceMetadata or Environment.`);
     }
 };
+exports.resolveCredentialSource = resolveCredentialSource;
+
+
+/***/ }),
+
+/***/ 5653:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.resolveProfileData = void 0;
+const property_provider_1 = __nccwpck_require__(4462);
+const resolveAssumeRoleCredentials_1 = __nccwpck_require__(853);
+const resolveSsoCredentials_1 = __nccwpck_require__(9867);
+const resolveStaticCredentials_1 = __nccwpck_require__(3071);
+const resolveWebIdentityCredentials_1 = __nccwpck_require__(8342);
+const resolveProfileData = async (profileName, profiles, options, visitedProfiles = {}) => {
+    const data = profiles[profileName];
+    if (Object.keys(visitedProfiles).length > 0 && resolveStaticCredentials_1.isStaticCredsProfile(data)) {
+        return resolveStaticCredentials_1.resolveStaticCredentials(data);
+    }
+    if (resolveAssumeRoleCredentials_1.isAssumeRoleProfile(data)) {
+        return resolveAssumeRoleCredentials_1.resolveAssumeRoleCredentials(profileName, profiles, options, visitedProfiles);
+    }
+    if (resolveStaticCredentials_1.isStaticCredsProfile(data)) {
+        return resolveStaticCredentials_1.resolveStaticCredentials(data);
+    }
+    if (resolveWebIdentityCredentials_1.isWebIdentityProfile(data)) {
+        return resolveWebIdentityCredentials_1.resolveWebIdentityCredentials(data, options);
+    }
+    if (resolveSsoCredentials_1.isSsoProfile(data)) {
+        return resolveSsoCredentials_1.resolveSsoCredentials(data);
+    }
+    throw new property_provider_1.CredentialsProviderError(`Profile ${profileName} could not be found or parsed in shared credentials file.`);
+};
+exports.resolveProfileData = resolveProfileData;
+
+
+/***/ }),
+
+/***/ 9867:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.resolveSsoCredentials = exports.isSsoProfile = void 0;
+const credential_provider_sso_1 = __nccwpck_require__(6414);
+var credential_provider_sso_2 = __nccwpck_require__(6414);
+Object.defineProperty(exports, "isSsoProfile", ({ enumerable: true, get: function () { return credential_provider_sso_2.isSsoProfile; } }));
+const resolveSsoCredentials = (data) => {
+    const { sso_start_url, sso_account_id, sso_region, sso_role_name } = credential_provider_sso_1.validateSsoProfile(data);
+    return credential_provider_sso_1.fromSSO({
+        ssoStartUrl: sso_start_url,
+        ssoAccountId: sso_account_id,
+        ssoRegion: sso_region,
+        ssoRoleName: sso_role_name,
+    })();
+};
+exports.resolveSsoCredentials = resolveSsoCredentials;
+
+
+/***/ }),
+
+/***/ 3071:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.resolveStaticCredentials = exports.isStaticCredsProfile = void 0;
+const isStaticCredsProfile = (arg) => Boolean(arg) &&
+    typeof arg === "object" &&
+    typeof arg.aws_access_key_id === "string" &&
+    typeof arg.aws_secret_access_key === "string" &&
+    ["undefined", "string"].indexOf(typeof arg.aws_session_token) > -1;
+exports.isStaticCredsProfile = isStaticCredsProfile;
 const resolveStaticCredentials = (profile) => Promise.resolve({
     accessKeyId: profile.aws_access_key_id,
     secretAccessKey: profile.aws_secret_access_key,
     sessionToken: profile.aws_session_token,
 });
+exports.resolveStaticCredentials = resolveStaticCredentials;
+
+
+/***/ }),
+
+/***/ 8342:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.resolveWebIdentityCredentials = exports.isWebIdentityProfile = void 0;
+const credential_provider_web_identity_1 = __nccwpck_require__(5646);
+const isWebIdentityProfile = (arg) => Boolean(arg) &&
+    typeof arg === "object" &&
+    typeof arg.web_identity_token_file === "string" &&
+    typeof arg.role_arn === "string" &&
+    ["undefined", "string"].indexOf(typeof arg.role_session_name) > -1;
+exports.isWebIdentityProfile = isWebIdentityProfile;
 const resolveWebIdentityCredentials = async (profile, options) => credential_provider_web_identity_1.fromTokenFile({
     webIdentityTokenFile: profile.web_identity_token_file,
     roleArn: profile.role_arn,
     roleSessionName: profile.role_session_name,
     roleAssumerWithWebIdentity: options.roleAssumerWithWebIdentity,
 })();
+exports.resolveWebIdentityCredentials = resolveWebIdentityCredentials;
+
+
+/***/ }),
+
+/***/ 5560:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.defaultProvider = void 0;
+const credential_provider_env_1 = __nccwpck_require__(5972);
+const credential_provider_ini_1 = __nccwpck_require__(4203);
+const credential_provider_process_1 = __nccwpck_require__(9969);
+const credential_provider_sso_1 = __nccwpck_require__(6414);
+const credential_provider_web_identity_1 = __nccwpck_require__(5646);
+const property_provider_1 = __nccwpck_require__(4462);
+const shared_ini_file_loader_1 = __nccwpck_require__(7387);
+const util_credentials_1 = __nccwpck_require__(8598);
+const remoteProvider_1 = __nccwpck_require__(626);
+const defaultProvider = (init = {}) => {
+    const options = {
+        profile: process.env[util_credentials_1.ENV_PROFILE],
+        ...init,
+        ...(!init.loadedConfig && { loadedConfig: shared_ini_file_loader_1.loadSharedConfigFiles(init) }),
+    };
+    const providerChain = property_provider_1.chain(...(options.profile ? [] : [credential_provider_env_1.fromEnv()]), credential_provider_sso_1.fromSSO(options), credential_provider_ini_1.fromIni(options), credential_provider_process_1.fromProcess(options), credential_provider_web_identity_1.fromTokenFile(options), remoteProvider_1.remoteProvider(options), async () => {
+        throw new property_provider_1.CredentialsProviderError("Could not load credentials from any providers", false);
+    });
+    return property_provider_1.memoize(providerChain, (credentials) => credentials.expiration !== undefined && credentials.expiration.getTime() - Date.now() < 300000, (credentials) => credentials.expiration !== undefined);
+};
+exports.defaultProvider = defaultProvider;
 
 
 /***/ }),
@@ -19372,46 +18078,85 @@ const resolveWebIdentityCredentials = async (profile, options) => credential_pro
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.defaultProvider = exports.ENV_IMDS_DISABLED = void 0;
-const credential_provider_env_1 = __nccwpck_require__(5972);
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(5560), exports);
+
+
+/***/ }),
+
+/***/ 626:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.remoteProvider = exports.ENV_IMDS_DISABLED = void 0;
 const credential_provider_imds_1 = __nccwpck_require__(5898);
-const credential_provider_ini_1 = __nccwpck_require__(4203);
-const credential_provider_process_1 = __nccwpck_require__(9969);
-const credential_provider_sso_1 = __nccwpck_require__(6414);
-const credential_provider_web_identity_1 = __nccwpck_require__(5646);
 const property_provider_1 = __nccwpck_require__(4462);
-const shared_ini_file_loader_1 = __nccwpck_require__(7387);
-const util_credentials_1 = __nccwpck_require__(8598);
 exports.ENV_IMDS_DISABLED = "AWS_EC2_METADATA_DISABLED";
-const defaultProvider = (init = {}) => {
-    const options = { profile: process.env[util_credentials_1.ENV_PROFILE], ...init };
-    if (!options.loadedConfig)
-        options.loadedConfig = shared_ini_file_loader_1.loadSharedConfigFiles(init);
-    const providers = [
-        credential_provider_sso_1.fromSSO(options),
-        credential_provider_ini_1.fromIni(options),
-        credential_provider_process_1.fromProcess(options),
-        credential_provider_web_identity_1.fromTokenFile(options),
-        remoteProvider(options),
-        async () => {
-            throw new property_provider_1.CredentialsProviderError("Could not load credentials from any providers", false);
-        },
-    ];
-    if (!options.profile)
-        providers.unshift(credential_provider_env_1.fromEnv());
-    const providerChain = property_provider_1.chain(...providers);
-    return property_provider_1.memoize(providerChain, (credentials) => credentials.expiration !== undefined && credentials.expiration.getTime() - Date.now() < 300000, (credentials) => credentials.expiration !== undefined);
-};
-exports.defaultProvider = defaultProvider;
 const remoteProvider = (init) => {
     if (process.env[credential_provider_imds_1.ENV_CMDS_RELATIVE_URI] || process.env[credential_provider_imds_1.ENV_CMDS_FULL_URI]) {
         return credential_provider_imds_1.fromContainerMetadata(init);
     }
     if (process.env[exports.ENV_IMDS_DISABLED]) {
-        return () => Promise.reject(new property_provider_1.CredentialsProviderError("EC2 Instance Metadata Service access disabled"));
+        return async () => {
+            throw new property_provider_1.CredentialsProviderError("EC2 Instance Metadata Service access disabled");
+        };
     }
     return credential_provider_imds_1.fromInstanceMetadata(init);
 };
+exports.remoteProvider = remoteProvider;
+
+
+/***/ }),
+
+/***/ 2650:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.fromProcess = void 0;
+const util_credentials_1 = __nccwpck_require__(8598);
+const resolveProcessCredentials_1 = __nccwpck_require__(4926);
+const fromProcess = (init = {}) => async () => {
+    const profiles = await util_credentials_1.parseKnownFiles(init);
+    return resolveProcessCredentials_1.resolveProcessCredentials(util_credentials_1.getMasterProfileName(init), profiles);
+};
+exports.fromProcess = fromProcess;
+
+
+/***/ }),
+
+/***/ 1104:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getValidatedProcessCredentials = void 0;
+const getValidatedProcessCredentials = (profileName, data) => {
+    if (data.Version !== 1) {
+        throw Error(`Profile ${profileName} credential_process did not return Version 1.`);
+    }
+    if (data.AccessKeyId === undefined || data.SecretAccessKey === undefined) {
+        throw Error(`Profile ${profileName} credential_process returned invalid credentials.`);
+    }
+    if (data.Expiration) {
+        const currentTime = new Date();
+        const expireTime = new Date(data.Expiration);
+        if (expireTime < currentTime) {
+            throw Error(`Profile ${profileName} credential_process returned expired credentials.`);
+        }
+    }
+    return {
+        accessKeyId: data.AccessKeyId,
+        secretAccessKey: data.SecretAccessKey,
+        ...(data.SessionToken && { sessionToken: data.SessionToken }),
+        ...(data.Expiration && { expiration: new Date(data.Expiration) }),
+    };
+};
+exports.getValidatedProcessCredentials = getValidatedProcessCredentials;
 
 
 /***/ }),
@@ -19422,56 +18167,43 @@ const remoteProvider = (init) => {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.fromProcess = exports.ENV_PROFILE = void 0;
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(2650), exports);
+
+
+/***/ }),
+
+/***/ 4926:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.resolveProcessCredentials = void 0;
 const property_provider_1 = __nccwpck_require__(4462);
-const util_credentials_1 = __nccwpck_require__(8598);
 const child_process_1 = __nccwpck_require__(2081);
-exports.ENV_PROFILE = "AWS_PROFILE";
-const fromProcess = (init = {}) => async () => {
-    const profiles = await util_credentials_1.parseKnownFiles(init);
-    return resolveProcessCredentials(util_credentials_1.getMasterProfileName(init), profiles);
-};
-exports.fromProcess = fromProcess;
+const util_1 = __nccwpck_require__(3837);
+const getValidatedProcessCredentials_1 = __nccwpck_require__(1104);
 const resolveProcessCredentials = async (profileName, profiles) => {
     const profile = profiles[profileName];
     if (profiles[profileName]) {
         const credentialProcess = profile["credential_process"];
         if (credentialProcess !== undefined) {
-            return await execPromise(credentialProcess)
-                .then((processResult) => {
+            const execPromise = util_1.promisify(child_process_1.exec);
+            try {
+                const { stdout } = await execPromise(credentialProcess);
                 let data;
                 try {
-                    data = JSON.parse(processResult);
+                    data = JSON.parse(stdout.trim());
                 }
                 catch (_a) {
                     throw Error(`Profile ${profileName} credential_process returned invalid JSON.`);
                 }
-                const { Version: version, AccessKeyId: accessKeyId, SecretAccessKey: secretAccessKey, SessionToken: sessionToken, Expiration: expiration, } = data;
-                if (version !== 1) {
-                    throw Error(`Profile ${profileName} credential_process did not return Version 1.`);
-                }
-                if (accessKeyId === undefined || secretAccessKey === undefined) {
-                    throw Error(`Profile ${profileName} credential_process returned invalid credentials.`);
-                }
-                let expirationUnix;
-                if (expiration) {
-                    const currentTime = new Date();
-                    const expireTime = new Date(expiration);
-                    if (expireTime < currentTime) {
-                        throw Error(`Profile ${profileName} credential_process returned expired credentials.`);
-                    }
-                    expirationUnix = Math.floor(new Date(expiration).valueOf() / 1000);
-                }
-                return {
-                    accessKeyId,
-                    secretAccessKey,
-                    sessionToken,
-                    expirationUnix,
-                };
-            })
-                .catch((error) => {
+                return getValidatedProcessCredentials_1.getValidatedProcessCredentials(profileName, data);
+            }
+            catch (error) {
                 throw new property_provider_1.CredentialsProviderError(error.message);
-            });
+            }
         }
         else {
             throw new property_provider_1.CredentialsProviderError(`Profile ${profileName} did not contain credential_process.`);
@@ -19481,46 +18213,34 @@ const resolveProcessCredentials = async (profileName, profiles) => {
         throw new property_provider_1.CredentialsProviderError(`Profile ${profileName} could not be found in shared credentials file.`);
     }
 };
-const execPromise = (command) => new Promise(function (resolve, reject) {
-    child_process_1.exec(command, (error, stdout) => {
-        if (error) {
-            reject(error);
-            return;
-        }
-        resolve(stdout.trim());
-    });
-});
+exports.resolveProcessCredentials = resolveProcessCredentials;
 
 
 /***/ }),
 
-/***/ 6414:
+/***/ 5184:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.isSsoProfile = exports.validateSsoProfile = exports.fromSSO = exports.EXPIRE_WINDOW_MS = void 0;
-const client_sso_1 = __nccwpck_require__(2666);
+exports.fromSSO = void 0;
 const property_provider_1 = __nccwpck_require__(4462);
-const shared_ini_file_loader_1 = __nccwpck_require__(7387);
 const util_credentials_1 = __nccwpck_require__(8598);
-const crypto_1 = __nccwpck_require__(6113);
-const fs_1 = __nccwpck_require__(7147);
-const path_1 = __nccwpck_require__(1017);
-exports.EXPIRE_WINDOW_MS = 15 * 60 * 1000;
-const SHOULD_FAIL_CREDENTIAL_CHAIN = false;
+const isSsoProfile_1 = __nccwpck_require__(2572);
+const resolveSSOCredentials_1 = __nccwpck_require__(4729);
+const validateSsoProfile_1 = __nccwpck_require__(8098);
 const fromSSO = (init = {}) => async () => {
     const { ssoStartUrl, ssoAccountId, ssoRegion, ssoRoleName, ssoClient } = init;
     if (!ssoStartUrl && !ssoAccountId && !ssoRegion && !ssoRoleName) {
         const profiles = await util_credentials_1.parseKnownFiles(init);
         const profileName = util_credentials_1.getMasterProfileName(init);
         const profile = profiles[profileName];
-        if (!exports.isSsoProfile(profile)) {
+        if (!isSsoProfile_1.isSsoProfile(profile)) {
             throw new property_provider_1.CredentialsProviderError(`Profile ${profileName} is not configured with SSO credentials.`);
         }
-        const { sso_start_url, sso_account_id, sso_region, sso_role_name } = exports.validateSsoProfile(profile);
-        return resolveSSOCredentials({
+        const { sso_start_url, sso_account_id, sso_region, sso_role_name } = validateSsoProfile_1.validateSsoProfile(profile);
+        return resolveSSOCredentials_1.resolveSSOCredentials({
             ssoStartUrl: sso_start_url,
             ssoAccountId: sso_account_id,
             ssoRegion: sso_region,
@@ -19533,24 +18253,76 @@ const fromSSO = (init = {}) => async () => {
             ' "ssoAccountId", "ssoRegion", "ssoRoleName"');
     }
     else {
-        return resolveSSOCredentials({ ssoStartUrl, ssoAccountId, ssoRegion, ssoRoleName, ssoClient });
+        return resolveSSOCredentials_1.resolveSSOCredentials({ ssoStartUrl, ssoAccountId, ssoRegion, ssoRoleName, ssoClient });
     }
 };
 exports.fromSSO = fromSSO;
+
+
+/***/ }),
+
+/***/ 6414:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(5184), exports);
+tslib_1.__exportStar(__nccwpck_require__(2572), exports);
+tslib_1.__exportStar(__nccwpck_require__(6623), exports);
+tslib_1.__exportStar(__nccwpck_require__(8098), exports);
+
+
+/***/ }),
+
+/***/ 2572:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.isSsoProfile = void 0;
+const isSsoProfile = (arg) => arg &&
+    (typeof arg.sso_start_url === "string" ||
+        typeof arg.sso_account_id === "string" ||
+        typeof arg.sso_region === "string" ||
+        typeof arg.sso_role_name === "string");
+exports.isSsoProfile = isSsoProfile;
+
+
+/***/ }),
+
+/***/ 4729:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.resolveSSOCredentials = void 0;
+const client_sso_1 = __nccwpck_require__(2666);
+const property_provider_1 = __nccwpck_require__(4462);
+const shared_ini_file_loader_1 = __nccwpck_require__(7387);
+const crypto_1 = __nccwpck_require__(6113);
+const fs_1 = __nccwpck_require__(7147);
+const path_1 = __nccwpck_require__(1017);
+const EXPIRE_WINDOW_MS = 15 * 60 * 1000;
+const SHOULD_FAIL_CREDENTIAL_CHAIN = false;
+const { readFile } = fs_1.promises;
 const resolveSSOCredentials = async ({ ssoStartUrl, ssoAccountId, ssoRegion, ssoRoleName, ssoClient, }) => {
     const hasher = crypto_1.createHash("sha1");
     const cacheName = hasher.update(ssoStartUrl).digest("hex");
     const tokenFile = path_1.join(shared_ini_file_loader_1.getHomeDir(), ".aws", "sso", "cache", `${cacheName}.json`);
     let token;
+    const refreshMessage = `To refresh this SSO session run aws sso login with the corresponding profile.`;
     try {
-        token = JSON.parse(fs_1.readFileSync(tokenFile, { encoding: "utf-8" }));
-        if (new Date(token.expiresAt).getTime() - Date.now() <= exports.EXPIRE_WINDOW_MS) {
-            throw new Error("SSO token is expired.");
-        }
+        token = JSON.parse(await readFile(tokenFile, "utf8"));
     }
     catch (e) {
-        throw new property_provider_1.CredentialsProviderError(`The SSO session associated with this profile has expired or is otherwise invalid. To refresh this SSO session ` +
-            `run aws sso login with the corresponding profile.`, SHOULD_FAIL_CREDENTIAL_CHAIN);
+        throw new property_provider_1.CredentialsProviderError(`The SSO session associated with this profile is invalid. ${refreshMessage}`, SHOULD_FAIL_CREDENTIAL_CHAIN);
+    }
+    if (new Date(token.expiresAt).getTime() - Date.now() <= EXPIRE_WINDOW_MS) {
+        throw new property_provider_1.CredentialsProviderError(`The SSO session associated with this profile has expired. ${refreshMessage}`, SHOULD_FAIL_CREDENTIAL_CHAIN);
     }
     const { accessToken } = token;
     const sso = ssoClient || new client_sso_1.SSOClient({ region: ssoRegion });
@@ -19571,21 +18343,38 @@ const resolveSSOCredentials = async ({ ssoStartUrl, ssoAccountId, ssoRegion, sso
     }
     return { accessKeyId, secretAccessKey, sessionToken, expiration: new Date(expiration) };
 };
+exports.resolveSSOCredentials = resolveSSOCredentials;
+
+
+/***/ }),
+
+/***/ 6623:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+
+
+/***/ }),
+
+/***/ 8098:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.validateSsoProfile = void 0;
+const property_provider_1 = __nccwpck_require__(4462);
 const validateSsoProfile = (profile) => {
     const { sso_start_url, sso_account_id, sso_region, sso_role_name } = profile;
     if (!sso_start_url || !sso_account_id || !sso_region || !sso_role_name) {
         throw new property_provider_1.CredentialsProviderError(`Profile is configured with invalid SSO credentials. Required parameters "sso_account_id", "sso_region", ` +
-            `"sso_role_name", "sso_start_url". Got ${Object.keys(profile).join(", ")}\nReference: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html`, SHOULD_FAIL_CREDENTIAL_CHAIN);
+            `"sso_role_name", "sso_start_url". Got ${Object.keys(profile).join(", ")}\nReference: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html`, false);
     }
     return profile;
 };
 exports.validateSsoProfile = validateSsoProfile;
-const isSsoProfile = (arg) => arg &&
-    (typeof arg.sso_start_url === "string" ||
-        typeof arg.sso_account_id === "string" ||
-        typeof arg.sso_region === "string" ||
-        typeof arg.sso_role_name === "string");
-exports.isSsoProfile = isSsoProfile;
 
 
 /***/ }),
@@ -22005,33 +20794,82 @@ exports.isTransientError = isTransientError;
 
 /***/ }),
 
+/***/ 7363:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getHomeDir = void 0;
+const os_1 = __nccwpck_require__(2037);
+const path_1 = __nccwpck_require__(1017);
+const getHomeDir = () => {
+    const { HOME, USERPROFILE, HOMEPATH, HOMEDRIVE = `C:${path_1.sep}` } = process.env;
+    if (HOME)
+        return HOME;
+    if (USERPROFILE)
+        return USERPROFILE;
+    if (HOMEPATH)
+        return `${HOMEDRIVE}${HOMEPATH}`;
+    return os_1.homedir();
+};
+exports.getHomeDir = getHomeDir;
+
+
+/***/ }),
+
 /***/ 7387:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.getHomeDir = exports.loadSharedConfigFiles = exports.ENV_CONFIG_PATH = exports.ENV_CREDENTIALS_PATH = void 0;
-const fs_1 = __nccwpck_require__(7147);
-const os_1 = __nccwpck_require__(2037);
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(7363), exports);
+tslib_1.__exportStar(__nccwpck_require__(7871), exports);
+tslib_1.__exportStar(__nccwpck_require__(4105), exports);
+
+
+/***/ }),
+
+/***/ 7871:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.loadSharedConfigFiles = exports.ENV_CONFIG_PATH = exports.ENV_CREDENTIALS_PATH = void 0;
 const path_1 = __nccwpck_require__(1017);
+const getHomeDir_1 = __nccwpck_require__(7363);
+const normalizeConfigFile_1 = __nccwpck_require__(9307);
+const parseIni_1 = __nccwpck_require__(2806);
+const slurpFile_1 = __nccwpck_require__(9242);
 exports.ENV_CREDENTIALS_PATH = "AWS_SHARED_CREDENTIALS_FILE";
 exports.ENV_CONFIG_PATH = "AWS_CONFIG_FILE";
 const swallowError = () => ({});
-const loadSharedConfigFiles = (init = {}) => {
-    const { filepath = process.env[exports.ENV_CREDENTIALS_PATH] || path_1.join(exports.getHomeDir(), ".aws", "credentials"), configFilepath = process.env[exports.ENV_CONFIG_PATH] || path_1.join(exports.getHomeDir(), ".aws", "config"), } = init;
-    return Promise.all([
-        slurpFile(configFilepath).then(parseIni).then(normalizeConfigFile).catch(swallowError),
-        slurpFile(filepath).then(parseIni).catch(swallowError),
-    ]).then((parsedFiles) => {
-        const [configFile, credentialsFile] = parsedFiles;
-        return {
-            configFile,
-            credentialsFile,
-        };
-    });
+const loadSharedConfigFiles = async (init = {}) => {
+    const { filepath = process.env[exports.ENV_CREDENTIALS_PATH] || path_1.join(getHomeDir_1.getHomeDir(), ".aws", "credentials"), configFilepath = process.env[exports.ENV_CONFIG_PATH] || path_1.join(getHomeDir_1.getHomeDir(), ".aws", "config"), } = init;
+    const parsedFiles = await Promise.all([
+        slurpFile_1.slurpFile(configFilepath).then(parseIni_1.parseIni).then(normalizeConfigFile_1.normalizeConfigFile).catch(swallowError),
+        slurpFile_1.slurpFile(filepath).then(parseIni_1.parseIni).catch(swallowError),
+    ]);
+    return {
+        configFile: parsedFiles[0],
+        credentialsFile: parsedFiles[1],
+    };
 };
 exports.loadSharedConfigFiles = loadSharedConfigFiles;
+
+
+/***/ }),
+
+/***/ 9307:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.normalizeConfigFile = void 0;
 const profileKeyRegex = /^profile\s(["'])?([^\1]+)\1$/;
 const normalizeConfigFile = (data) => {
     const map = {};
@@ -22049,6 +20887,18 @@ const normalizeConfigFile = (data) => {
     }
     return map;
 };
+exports.normalizeConfigFile = normalizeConfigFile;
+
+
+/***/ }),
+
+/***/ 2806:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.parseIni = void 0;
 const profileNameBlockList = ["__proto__", "profile __proto__"];
 const parseIni = (iniData) => {
     const map = {};
@@ -22072,27 +20922,62 @@ const parseIni = (iniData) => {
     }
     return map;
 };
+exports.parseIni = parseIni;
+
+
+/***/ }),
+
+/***/ 9242:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.slurpFile = void 0;
+const fs_1 = __nccwpck_require__(7147);
+const { readFile } = fs_1.promises;
+const fileStatusHash = {};
 const slurpFile = (path) => new Promise((resolve, reject) => {
-    fs_1.readFile(path, "utf8", (err, data) => {
-        if (err) {
-            reject(err);
-        }
-        else {
-            resolve(data);
-        }
-    });
+    if (!fileStatusHash[path]) {
+        fileStatusHash[path] = { isReading: true, contents: "", requestQueue: [] };
+        fileStatusHash[path].requestQueue.push({ resolve, reject });
+        readFile(path, "utf8")
+            .then((data) => {
+            fileStatusHash[path].isReading = false;
+            fileStatusHash[path].contents = data;
+            const { requestQueue } = fileStatusHash[path];
+            while (requestQueue.length) {
+                const { resolve } = requestQueue.pop();
+                resolve(data);
+            }
+        })
+            .catch((err) => {
+            fileStatusHash[path].isReading = false;
+            const { requestQueue } = fileStatusHash[path];
+            while (requestQueue.length) {
+                const { reject } = requestQueue.pop();
+                reject(err);
+            }
+        });
+    }
+    else if (fileStatusHash[path].isReading) {
+        fileStatusHash[path].requestQueue.push({ resolve, reject });
+    }
+    else {
+        resolve(fileStatusHash[path].contents);
+    }
 });
-const getHomeDir = () => {
-    const { HOME, USERPROFILE, HOMEPATH, HOMEDRIVE = `C:${path_1.sep}` } = process.env;
-    if (HOME)
-        return HOME;
-    if (USERPROFILE)
-        return USERPROFILE;
-    if (HOMEPATH)
-        return `${HOMEDRIVE}${HOMEPATH}`;
-    return os_1.homedir();
-};
-exports.getHomeDir = getHomeDir;
+exports.slurpFile = slurpFile;
+
+
+/***/ }),
+
+/***/ 4105:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 
 /***/ }),
@@ -22969,7 +21854,9 @@ const decorateServiceException = (exception, additions = {}) => {
     Object.entries(additions)
         .filter(([, v]) => v !== undefined)
         .forEach(([k, v]) => {
-        exception[k] = v;
+        if (exception[k] == undefined || exception[k] === "") {
+            exception[k] = v;
+        }
     });
     const message = exception.message || exception.Message || "UnknownError";
     exception.message = message;
@@ -23534,16 +22421,42 @@ tslib_1.__exportStar(__nccwpck_require__(9509), exports);
 
 /***/ }),
 
+/***/ 9349:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getMasterProfileName = exports.DEFAULT_PROFILE = exports.ENV_PROFILE = void 0;
+exports.ENV_PROFILE = "AWS_PROFILE";
+exports.DEFAULT_PROFILE = "default";
+const getMasterProfileName = (init) => init.profile || process.env[exports.ENV_PROFILE] || exports.DEFAULT_PROFILE;
+exports.getMasterProfileName = getMasterProfileName;
+
+
+/***/ }),
+
 /***/ 8598:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.getMasterProfileName = exports.parseKnownFiles = exports.DEFAULT_PROFILE = exports.ENV_PROFILE = void 0;
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(9349), exports);
+tslib_1.__exportStar(__nccwpck_require__(6329), exports);
+
+
+/***/ }),
+
+/***/ 6329:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.parseKnownFiles = void 0;
 const shared_ini_file_loader_1 = __nccwpck_require__(7387);
-exports.ENV_PROFILE = "AWS_PROFILE";
-exports.DEFAULT_PROFILE = "default";
 const parseKnownFiles = async (init) => {
     const { loadedConfig = shared_ini_file_loader_1.loadSharedConfigFiles(init) } = init;
     const parsedFiles = await loadedConfig;
@@ -23553,8 +22466,6 @@ const parseKnownFiles = async (init) => {
     };
 };
 exports.parseKnownFiles = parseKnownFiles;
-const getMasterProfileName = (init) => init.profile || process.env[exports.ENV_PROFILE] || exports.DEFAULT_PROFILE;
-exports.getMasterProfileName = getMasterProfileName;
 
 
 /***/ }),
@@ -44485,7 +43396,7 @@ module.exports = require("util");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.50.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-*"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/client-sts":"3.50.0","@aws-sdk/config-resolver":"3.50.0","@aws-sdk/credential-provider-node":"3.50.0","@aws-sdk/fetch-http-handler":"3.50.0","@aws-sdk/hash-node":"3.50.0","@aws-sdk/invalid-dependency":"3.50.0","@aws-sdk/middleware-content-length":"3.50.0","@aws-sdk/middleware-host-header":"3.50.0","@aws-sdk/middleware-logger":"3.50.0","@aws-sdk/middleware-retry":"3.50.0","@aws-sdk/middleware-serde":"3.50.0","@aws-sdk/middleware-signing":"3.50.0","@aws-sdk/middleware-stack":"3.50.0","@aws-sdk/middleware-user-agent":"3.50.0","@aws-sdk/node-config-provider":"3.50.0","@aws-sdk/node-http-handler":"3.50.0","@aws-sdk/protocol-http":"3.50.0","@aws-sdk/smithy-client":"3.50.0","@aws-sdk/types":"3.50.0","@aws-sdk/url-parser":"3.50.0","@aws-sdk/util-base64-browser":"3.49.0","@aws-sdk/util-base64-node":"3.49.0","@aws-sdk/util-body-length-browser":"3.49.0","@aws-sdk/util-body-length-node":"3.49.0","@aws-sdk/util-defaults-mode-browser":"3.50.0","@aws-sdk/util-defaults-mode-node":"3.50.0","@aws-sdk/util-user-agent-browser":"3.50.0","@aws-sdk/util-user-agent-node":"3.50.0","@aws-sdk/util-utf8-browser":"3.49.0","@aws-sdk/util-utf8-node":"3.49.0","tslib":"^2.3.0","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.49.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","@types/uuid":"^8.3.0","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.53.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/client-sts":"3.53.0","@aws-sdk/config-resolver":"3.53.0","@aws-sdk/credential-provider-node":"3.53.0","@aws-sdk/fetch-http-handler":"3.53.0","@aws-sdk/hash-node":"3.53.0","@aws-sdk/invalid-dependency":"3.53.0","@aws-sdk/middleware-content-length":"3.53.0","@aws-sdk/middleware-host-header":"3.53.0","@aws-sdk/middleware-logger":"3.53.0","@aws-sdk/middleware-retry":"3.53.0","@aws-sdk/middleware-serde":"3.53.0","@aws-sdk/middleware-signing":"3.53.0","@aws-sdk/middleware-stack":"3.53.0","@aws-sdk/middleware-user-agent":"3.53.0","@aws-sdk/node-config-provider":"3.53.0","@aws-sdk/node-http-handler":"3.53.0","@aws-sdk/protocol-http":"3.53.0","@aws-sdk/smithy-client":"3.53.0","@aws-sdk/types":"3.53.0","@aws-sdk/url-parser":"3.53.0","@aws-sdk/util-base64-browser":"3.52.0","@aws-sdk/util-base64-node":"3.52.0","@aws-sdk/util-body-length-browser":"3.52.0","@aws-sdk/util-body-length-node":"3.52.0","@aws-sdk/util-defaults-mode-browser":"3.53.0","@aws-sdk/util-defaults-mode-node":"3.53.0","@aws-sdk/util-user-agent-browser":"3.53.0","@aws-sdk/util-user-agent-node":"3.53.0","@aws-sdk/util-utf8-browser":"3.52.0","@aws-sdk/util-utf8-node":"3.52.0","tslib":"^2.3.0","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.52.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","@types/uuid":"^8.3.0","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
 
 /***/ }),
 
@@ -44493,7 +43404,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"A
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.50.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-*"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.50.0","@aws-sdk/fetch-http-handler":"3.50.0","@aws-sdk/hash-node":"3.50.0","@aws-sdk/invalid-dependency":"3.50.0","@aws-sdk/middleware-content-length":"3.50.0","@aws-sdk/middleware-host-header":"3.50.0","@aws-sdk/middleware-logger":"3.50.0","@aws-sdk/middleware-retry":"3.50.0","@aws-sdk/middleware-serde":"3.50.0","@aws-sdk/middleware-stack":"3.50.0","@aws-sdk/middleware-user-agent":"3.50.0","@aws-sdk/node-config-provider":"3.50.0","@aws-sdk/node-http-handler":"3.50.0","@aws-sdk/protocol-http":"3.50.0","@aws-sdk/smithy-client":"3.50.0","@aws-sdk/types":"3.50.0","@aws-sdk/url-parser":"3.50.0","@aws-sdk/util-base64-browser":"3.49.0","@aws-sdk/util-base64-node":"3.49.0","@aws-sdk/util-body-length-browser":"3.49.0","@aws-sdk/util-body-length-node":"3.49.0","@aws-sdk/util-defaults-mode-browser":"3.50.0","@aws-sdk/util-defaults-mode-node":"3.50.0","@aws-sdk/util-user-agent-browser":"3.50.0","@aws-sdk/util-user-agent-node":"3.50.0","@aws-sdk/util-utf8-browser":"3.49.0","@aws-sdk/util-utf8-node":"3.49.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.49.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.53.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.53.0","@aws-sdk/fetch-http-handler":"3.53.0","@aws-sdk/hash-node":"3.53.0","@aws-sdk/invalid-dependency":"3.53.0","@aws-sdk/middleware-content-length":"3.53.0","@aws-sdk/middleware-host-header":"3.53.0","@aws-sdk/middleware-logger":"3.53.0","@aws-sdk/middleware-retry":"3.53.0","@aws-sdk/middleware-serde":"3.53.0","@aws-sdk/middleware-stack":"3.53.0","@aws-sdk/middleware-user-agent":"3.53.0","@aws-sdk/node-config-provider":"3.53.0","@aws-sdk/node-http-handler":"3.53.0","@aws-sdk/protocol-http":"3.53.0","@aws-sdk/smithy-client":"3.53.0","@aws-sdk/types":"3.53.0","@aws-sdk/url-parser":"3.53.0","@aws-sdk/util-base64-browser":"3.52.0","@aws-sdk/util-base64-node":"3.52.0","@aws-sdk/util-body-length-browser":"3.52.0","@aws-sdk/util-body-length-node":"3.52.0","@aws-sdk/util-defaults-mode-browser":"3.53.0","@aws-sdk/util-defaults-mode-node":"3.53.0","@aws-sdk/util-user-agent-browser":"3.53.0","@aws-sdk/util-user-agent-node":"3.53.0","@aws-sdk/util-utf8-browser":"3.52.0","@aws-sdk/util-utf8-node":"3.52.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.52.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
 
 /***/ }),
 
@@ -44501,7 +43412,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SD
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.50.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-*"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.50.0","@aws-sdk/credential-provider-node":"3.50.0","@aws-sdk/fetch-http-handler":"3.50.0","@aws-sdk/hash-node":"3.50.0","@aws-sdk/invalid-dependency":"3.50.0","@aws-sdk/middleware-content-length":"3.50.0","@aws-sdk/middleware-host-header":"3.50.0","@aws-sdk/middleware-logger":"3.50.0","@aws-sdk/middleware-retry":"3.50.0","@aws-sdk/middleware-sdk-sts":"3.50.0","@aws-sdk/middleware-serde":"3.50.0","@aws-sdk/middleware-signing":"3.50.0","@aws-sdk/middleware-stack":"3.50.0","@aws-sdk/middleware-user-agent":"3.50.0","@aws-sdk/node-config-provider":"3.50.0","@aws-sdk/node-http-handler":"3.50.0","@aws-sdk/protocol-http":"3.50.0","@aws-sdk/smithy-client":"3.50.0","@aws-sdk/types":"3.50.0","@aws-sdk/url-parser":"3.50.0","@aws-sdk/util-base64-browser":"3.49.0","@aws-sdk/util-base64-node":"3.49.0","@aws-sdk/util-body-length-browser":"3.49.0","@aws-sdk/util-body-length-node":"3.49.0","@aws-sdk/util-defaults-mode-browser":"3.50.0","@aws-sdk/util-defaults-mode-node":"3.50.0","@aws-sdk/util-user-agent-browser":"3.50.0","@aws-sdk/util-user-agent-node":"3.50.0","@aws-sdk/util-utf8-browser":"3.49.0","@aws-sdk/util-utf8-node":"3.49.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.49.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.53.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.53.0","@aws-sdk/credential-provider-node":"3.53.0","@aws-sdk/fetch-http-handler":"3.53.0","@aws-sdk/hash-node":"3.53.0","@aws-sdk/invalid-dependency":"3.53.0","@aws-sdk/middleware-content-length":"3.53.0","@aws-sdk/middleware-host-header":"3.53.0","@aws-sdk/middleware-logger":"3.53.0","@aws-sdk/middleware-retry":"3.53.0","@aws-sdk/middleware-sdk-sts":"3.53.0","@aws-sdk/middleware-serde":"3.53.0","@aws-sdk/middleware-signing":"3.53.0","@aws-sdk/middleware-stack":"3.53.0","@aws-sdk/middleware-user-agent":"3.53.0","@aws-sdk/node-config-provider":"3.53.0","@aws-sdk/node-http-handler":"3.53.0","@aws-sdk/protocol-http":"3.53.0","@aws-sdk/smithy-client":"3.53.0","@aws-sdk/types":"3.53.0","@aws-sdk/url-parser":"3.53.0","@aws-sdk/util-base64-browser":"3.52.0","@aws-sdk/util-base64-node":"3.52.0","@aws-sdk/util-body-length-browser":"3.52.0","@aws-sdk/util-body-length-node":"3.52.0","@aws-sdk/util-defaults-mode-browser":"3.53.0","@aws-sdk/util-defaults-mode-node":"3.53.0","@aws-sdk/util-user-agent-browser":"3.53.0","@aws-sdk/util-user-agent-node":"3.53.0","@aws-sdk/util-utf8-browser":"3.52.0","@aws-sdk/util-utf8-node":"3.52.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.52.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
 
 /***/ }),
 
