@@ -1,3 +1,10 @@
+## [1.0.35-alpha.1](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.34...v1.0.35-alpha.1) (2022-03-29)
+
+
+### Bug Fixes
+
+* **deps:** yarn upgrade 2022-03-29 ([a0a0b49](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/a0a0b493f6fc5ead657af78e3e2e1f962a5ec8fd))
+
 ## [1.0.34](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.33...v1.0.34) (2022-03-29)
 
 
