@@ -29,7 +29,7 @@
     "@aws-sdk/client-app-mesh": "^3.50.0",
     "@aws-sdk/util-waiter": "^3.50.0",
     "lodash": "^4.17.21",
-    "yaml": "^1.10.2"
+    "yaml": "^2.0.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.33.0",
