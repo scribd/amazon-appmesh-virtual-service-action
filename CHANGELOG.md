@@ -1,3 +1,10 @@
+## [1.0.36](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.35...v1.0.36) (2022-04-06)
+
+
+### Bug Fixes
+
+* **deps:** bump yaml from 1.10.2 to 2.0.0 ([0243863](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/0243863fc01f1654676a2ff210a3ee2e3d1f3569))
+
 ## [1.0.35](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.34...v1.0.35) (2022-03-30)
 
 
