@@ -79,6 +79,14 @@
     "@aws-sdk/util-utf8-browser" "^3.0.0"
     tslib "^1.11.1"
 
+"@aws-sdk/abort-controller@3.109.0":
+  version "3.109.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/abort-controller/-/abort-controller-3.109.0.tgz#82fe232f224c358325068fba372e9fa3fe6186ee"
+  integrity sha512-XrSg755WHpl7aLsxJTo0hE2r6gv5h1z4YGVZxQ6bzbl59kqaVvsPUALsG9WaooSJ2KTgNdQnR74Mk5jRqVSuxg==
+  dependencies:
+    "@aws-sdk/types" "3.109.0"
+    tslib "^2.3.1"
+
 "@aws-sdk/abort-controller@3.78.0":
   version "3.78.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/abort-controller/-/abort-controller-3.78.0.tgz#f2b0f8d63954afe51136254f389a18dd24a8f6f3"
@@ -502,7 +510,12 @@
     "@aws-sdk/types" "3.78.0"
     tslib "^2.3.1"
 
-"@aws-sdk/types@3.78.0", "@aws-sdk/types@^3.1.0":
+"@aws-sdk/types@3.109.0", "@aws-sdk/types@^3.1.0":
+  version "3.109.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.109.0.tgz#c5518a327ed2c83c80507b6d908255cb96106c1f"
+  integrity sha512-d8B4SjYeORln0ETvlYY5DLYQw39AU1Q6Qhe0VMEUak/CpTfBMrfxfE/IkEDGFEc7IiF5PAaHVgpzWPy6SLqV1g==
+
+"@aws-sdk/types@3.78.0":
   version "3.78.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.78.0.tgz#51dc80b2142ee20821fb9f476bdca6e541021443"
   integrity sha512-I9PTlVNSbwhIgMfmDM5as1tqRIkVZunjVmfogb2WVVPp4CaX0Ll01S0FSMSLL9k6tcQLXqh45pFRjrxCl9WKdQ==
@@ -643,13 +656,13 @@
     "@aws-sdk/util-buffer-from" "3.55.0"
     tslib "^2.3.1"
 
-"@aws-sdk/util-waiter@^3.50.0":
-  version "3.78.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/util-waiter/-/util-waiter-3.78.0.tgz#5886f3e06ae6df9a12ef7079a6e75c76921ea4da"
-  integrity sha512-8pWd0XiNOS8AkWQyac8VNEI+gz/cGWlC2TAE2CJp0rOK5XhvlcNBINai4D6TxQ+9foyJXLOI1b8nuXemekoG8A==
+"@aws-sdk/util-waiter@^3.109.0":
+  version "3.109.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/util-waiter/-/util-waiter-3.109.0.tgz#0816061ef6d4202a03bbc5d136f55233b3ede963"
+  integrity sha512-Nvky7QZvojfDEYIsuTyacgB9t5B4vFFE1SLV7vZF5Fxpa/QONYvaW9mbQBFGE88910rX21S4caMCQWf9HadxYg==
   dependencies:
-    "@aws-sdk/abort-controller" "3.78.0"
-    "@aws-sdk/types" "3.78.0"
+    "@aws-sdk/abort-controller" "3.109.0"
+    "@aws-sdk/types" "3.109.0"
     tslib "^2.3.1"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.7":
