@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/scribd/amazon-appmesh-virtual-service-action#readme",
   "dependencies": {
-    "@actions/core": "^1.6.0",
-    "@aws-sdk/client-app-mesh": "^3.50.0",
-    "@aws-sdk/util-waiter": "^3.50.0",
+    "@actions/core": "^1.9.0",
+    "@aws-sdk/client-app-mesh": "^3.131.0",
+    "@aws-sdk/util-waiter": "^3.127.0",
     "lodash": "^4.17.21",
     "yaml": "^2.0.0"
   },
