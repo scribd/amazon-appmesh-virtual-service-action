@@ -1,3 +1,12 @@
+## [1.0.49](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.48...v1.0.49) (2022-07-25)
+
+
+### Bug Fixes
+
+* **deps:** update to client 0.131.0 ([db73b12](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/db73b121fc9f14e16f2a384c1a5058b73df64398))
+* **deps:** yarn upgrade 20220722 ([6b2a4d7](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/6b2a4d75269122c6673fa92e0d780e48a0dd0002))
+* **deps:** yarn upgrade vercel 0.34.0 ([7222c42](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/7222c42d05e74bc2cd6c67b2b568b980e5543b52))
+
 ## [1.0.48](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.47...v1.0.48) (2022-07-22)
 
 
