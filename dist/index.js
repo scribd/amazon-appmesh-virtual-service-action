@@ -2763,8 +2763,8 @@ class CreateGatewayRouteCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.CreateGatewayRouteInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.CreateGatewayRouteOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.CreateGatewayRouteInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.CreateGatewayRouteOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -2807,8 +2807,8 @@ class CreateMeshCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.CreateMeshInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.CreateMeshOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.CreateMeshInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.CreateMeshOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -2851,8 +2851,8 @@ class CreateRouteCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.CreateRouteInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.CreateRouteOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.CreateRouteInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.CreateRouteOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -2895,8 +2895,8 @@ class CreateVirtualGatewayCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.CreateVirtualGatewayInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.CreateVirtualGatewayOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.CreateVirtualGatewayInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.CreateVirtualGatewayOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -2939,8 +2939,8 @@ class CreateVirtualNodeCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.CreateVirtualNodeInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.CreateVirtualNodeOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.CreateVirtualNodeInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.CreateVirtualNodeOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -2983,8 +2983,8 @@ class CreateVirtualRouterCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.CreateVirtualRouterInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.CreateVirtualRouterOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.CreateVirtualRouterInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.CreateVirtualRouterOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3027,8 +3027,8 @@ class CreateVirtualServiceCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.CreateVirtualServiceInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.CreateVirtualServiceOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.CreateVirtualServiceInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.CreateVirtualServiceOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3071,8 +3071,8 @@ class DeleteGatewayRouteCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DeleteGatewayRouteInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DeleteGatewayRouteOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DeleteGatewayRouteInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DeleteGatewayRouteOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3115,8 +3115,8 @@ class DeleteMeshCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DeleteMeshInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DeleteMeshOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DeleteMeshInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DeleteMeshOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3159,8 +3159,8 @@ class DeleteRouteCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DeleteRouteInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DeleteRouteOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DeleteRouteInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DeleteRouteOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3203,8 +3203,8 @@ class DeleteVirtualGatewayCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DeleteVirtualGatewayInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DeleteVirtualGatewayOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DeleteVirtualGatewayInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DeleteVirtualGatewayOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3247,8 +3247,8 @@ class DeleteVirtualNodeCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DeleteVirtualNodeInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DeleteVirtualNodeOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DeleteVirtualNodeInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DeleteVirtualNodeOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3291,8 +3291,8 @@ class DeleteVirtualRouterCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DeleteVirtualRouterInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DeleteVirtualRouterOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DeleteVirtualRouterInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DeleteVirtualRouterOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3335,8 +3335,8 @@ class DeleteVirtualServiceCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DeleteVirtualServiceInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DeleteVirtualServiceOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DeleteVirtualServiceInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DeleteVirtualServiceOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3379,8 +3379,8 @@ class DescribeGatewayRouteCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DescribeGatewayRouteInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DescribeGatewayRouteOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DescribeGatewayRouteInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DescribeGatewayRouteOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3423,8 +3423,8 @@ class DescribeMeshCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DescribeMeshInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DescribeMeshOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DescribeMeshInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DescribeMeshOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3467,8 +3467,8 @@ class DescribeRouteCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DescribeRouteInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DescribeRouteOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DescribeRouteInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DescribeRouteOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3511,8 +3511,8 @@ class DescribeVirtualGatewayCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DescribeVirtualGatewayInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DescribeVirtualGatewayOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DescribeVirtualGatewayInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DescribeVirtualGatewayOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3555,8 +3555,8 @@ class DescribeVirtualNodeCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DescribeVirtualNodeInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DescribeVirtualNodeOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DescribeVirtualNodeInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DescribeVirtualNodeOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3599,8 +3599,8 @@ class DescribeVirtualRouterCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DescribeVirtualRouterInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DescribeVirtualRouterOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DescribeVirtualRouterInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DescribeVirtualRouterOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3643,8 +3643,8 @@ class DescribeVirtualServiceCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DescribeVirtualServiceInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DescribeVirtualServiceOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DescribeVirtualServiceInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DescribeVirtualServiceOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3687,8 +3687,8 @@ class ListGatewayRoutesCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.ListGatewayRoutesInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.ListGatewayRoutesOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.ListGatewayRoutesInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.ListGatewayRoutesOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3731,8 +3731,8 @@ class ListMeshesCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.ListMeshesInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.ListMeshesOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.ListMeshesInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.ListMeshesOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3775,8 +3775,8 @@ class ListRoutesCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.ListRoutesInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.ListRoutesOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.ListRoutesInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.ListRoutesOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3819,8 +3819,8 @@ class ListTagsForResourceCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.ListTagsForResourceInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.ListTagsForResourceOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.ListTagsForResourceInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.ListTagsForResourceOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3863,8 +3863,8 @@ class ListVirtualGatewaysCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.ListVirtualGatewaysInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.ListVirtualGatewaysOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.ListVirtualGatewaysInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.ListVirtualGatewaysOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3907,8 +3907,8 @@ class ListVirtualNodesCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.ListVirtualNodesInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.ListVirtualNodesOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.ListVirtualNodesInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.ListVirtualNodesOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3951,8 +3951,8 @@ class ListVirtualRoutersCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.ListVirtualRoutersInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.ListVirtualRoutersOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.ListVirtualRoutersInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.ListVirtualRoutersOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -3995,8 +3995,8 @@ class ListVirtualServicesCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.ListVirtualServicesInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.ListVirtualServicesOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.ListVirtualServicesInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.ListVirtualServicesOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -4039,8 +4039,8 @@ class TagResourceCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.TagResourceInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.TagResourceOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.TagResourceInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.TagResourceOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -4083,8 +4083,8 @@ class UntagResourceCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.UntagResourceInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.UntagResourceOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.UntagResourceInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.UntagResourceOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -4127,8 +4127,8 @@ class UpdateGatewayRouteCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.UpdateGatewayRouteInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.UpdateGatewayRouteOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.UpdateGatewayRouteInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.UpdateGatewayRouteOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -4171,8 +4171,8 @@ class UpdateMeshCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.UpdateMeshInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.UpdateMeshOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.UpdateMeshInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.UpdateMeshOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -4215,8 +4215,8 @@ class UpdateRouteCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.UpdateRouteInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.UpdateRouteOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.UpdateRouteInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.UpdateRouteOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -4259,8 +4259,8 @@ class UpdateVirtualGatewayCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.UpdateVirtualGatewayInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.UpdateVirtualGatewayOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.UpdateVirtualGatewayInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.UpdateVirtualGatewayOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -4303,8 +4303,8 @@ class UpdateVirtualNodeCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.UpdateVirtualNodeInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.UpdateVirtualNodeOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.UpdateVirtualNodeInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.UpdateVirtualNodeOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -4347,8 +4347,8 @@ class UpdateVirtualRouterCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.UpdateVirtualRouterInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.UpdateVirtualRouterOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.UpdateVirtualRouterInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.UpdateVirtualRouterOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -4391,8 +4391,8 @@ class UpdateVirtualServiceCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.UpdateVirtualServiceInput.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.UpdateVirtualServiceOutput.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.UpdateVirtualServiceInputFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.UpdateVirtualServiceOutputFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -4830,30 +4830,19 @@ tslib_1.__exportStar(__nccwpck_require__(1156), exports);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.VirtualGatewayHttp2ConnectionPool = exports.VirtualGatewayHttpConnectionPool = exports.VirtualGatewayGrpcConnectionPool = exports.VirtualGatewayBackendDefaults = exports.VirtualGatewayClientPolicy = exports.VirtualGatewayClientPolicyTls = exports.VirtualGatewayTlsValidationContext = exports.VirtualGatewayTlsValidationContextTrust = exports.VirtualGatewayTlsValidationContextSdsTrust = exports.VirtualGatewayTlsValidationContextFileTrust = exports.VirtualGatewayTlsValidationContextAcmTrust = exports.SubjectAlternativeNames = exports.SubjectAlternativeNameMatchers = exports.VirtualGatewayClientTlsCertificate = exports.VirtualGatewayListenerTlsSdsCertificate = exports.VirtualGatewayListenerTlsFileCertificate = exports.UpdateMeshOutput = exports.UpdateMeshInput = exports.ListMeshesOutput = exports.MeshRef = exports.ListMeshesInput = exports.DescribeMeshOutput = exports.DescribeMeshInput = exports.ResourceInUseException = exports.DeleteMeshOutput = exports.DeleteMeshInput = exports.LimitExceededException = exports.CreateMeshOutput = exports.MeshData = exports.MeshStatus = exports.MeshStatusCode = exports.ResourceMetadata = exports.CreateMeshInput = exports.MeshSpec = exports.MeshServiceDiscovery = exports.IpPreference = exports.EgressFilter = exports.EgressFilterType = exports.ConflictException = exports.TooManyRequestsException = exports.ServiceUnavailableException = exports.NotFoundException = exports.ListTagsForResourceOutput = exports.TagRef = exports.ListTagsForResourceInput = exports.InternalServerErrorException = exports.ForbiddenException = exports.BadRequestException = exports.AccessLog = exports.FileAccessLog = void 0;
-exports.CreateGatewayRouteInput = exports.GatewayRouteSpec = exports.HttpGatewayRoute = exports.HttpGatewayRouteMatch = exports.HttpQueryParameter = exports.QueryParameterMatch = exports.HttpPathMatch = exports.HttpMethod = exports.HttpGatewayRouteHeader = exports.HeaderMatchMethod = exports.HttpGatewayRouteAction = exports.HttpGatewayRouteRewrite = exports.HttpGatewayRoutePrefixRewrite = exports.HttpGatewayRoutePathRewrite = exports.GrpcGatewayRoute = exports.GrpcGatewayRouteMatch = exports.GrpcGatewayRouteMetadata = exports.GrpcMetadataMatchMethod = exports.MatchRange = exports.GatewayRouteHostnameMatch = exports.GrpcGatewayRouteAction = exports.GatewayRouteTarget = exports.GatewayRouteVirtualService = exports.GrpcGatewayRouteRewrite = exports.GatewayRouteHostnameRewrite = exports.DefaultGatewayRouteRewrite = exports.DescribeVirtualGatewayOutput = exports.DescribeVirtualGatewayInput = exports.DeleteVirtualGatewayOutput = exports.DeleteVirtualGatewayInput = exports.CreateVirtualGatewayOutput = exports.VirtualGatewayData = exports.VirtualGatewayStatus = exports.VirtualGatewayStatusCode = exports.CreateVirtualGatewayInput = exports.VirtualGatewaySpec = exports.VirtualGatewayLogging = exports.VirtualGatewayAccessLog = exports.VirtualGatewayFileAccessLog = exports.VirtualGatewayListener = exports.VirtualGatewayListenerTls = exports.VirtualGatewayListenerTlsValidationContext = exports.VirtualGatewayListenerTlsValidationContextTrust = exports.VirtualGatewayListenerTlsMode = exports.VirtualGatewayListenerTlsCertificate = exports.VirtualGatewayListenerTlsAcmCertificate = exports.VirtualGatewayPortMapping = exports.VirtualGatewayHealthCheckPolicy = exports.VirtualGatewayPortProtocol = exports.VirtualGatewayConnectionPool = void 0;
-exports.ListenerTlsValidationContextTrust = exports.ListenerTlsMode = exports.ListenerTlsCertificate = exports.ListenerTlsAcmCertificate = exports.ListenerTimeout = exports.TcpTimeout = exports.HttpTimeout = exports.GrpcTimeout = exports.PortMapping = exports.OutlierDetection = exports.Duration = exports.DurationUnit = exports.HealthCheckPolicy = exports.PortProtocol = exports.VirtualNodeConnectionPool = exports.VirtualNodeTcpConnectionPool = exports.VirtualNodeHttp2ConnectionPool = exports.VirtualNodeHttpConnectionPool = exports.VirtualNodeGrpcConnectionPool = exports.Backend = exports.VirtualServiceBackend = exports.BackendDefaults = exports.ClientPolicy = exports.ClientPolicyTls = exports.TlsValidationContext = exports.TlsValidationContextTrust = exports.TlsValidationContextSdsTrust = exports.TlsValidationContextFileTrust = exports.TlsValidationContextAcmTrust = exports.ClientTlsCertificate = exports.ListenerTlsSdsCertificate = exports.ListenerTlsFileCertificate = exports.UpdateVirtualGatewayOutput = exports.UpdateVirtualGatewayInput = exports.ListVirtualGatewaysOutput = exports.VirtualGatewayRef = exports.ListVirtualGatewaysInput = exports.UpdateGatewayRouteOutput = exports.UpdateGatewayRouteInput = exports.ListGatewayRoutesOutput = exports.GatewayRouteRef = exports.ListGatewayRoutesInput = exports.DescribeGatewayRouteOutput = exports.DescribeGatewayRouteInput = exports.DeleteGatewayRouteOutput = exports.DeleteGatewayRouteInput = exports.CreateGatewayRouteOutput = exports.GatewayRouteData = exports.GatewayRouteStatus = exports.GatewayRouteStatusCode = void 0;
-exports.HttpScheme = exports.HttpRouteHeader = exports.HttpRouteAction = exports.GrpcRoute = exports.GrpcRetryPolicy = exports.TcpRetryPolicyEvent = exports.GrpcRetryPolicyEvent = exports.GrpcRouteMatch = exports.GrpcRouteMetadata = exports.GrpcRouteMetadataMatchMethod = exports.GrpcRouteAction = exports.WeightedTarget = exports.ListVirtualRoutersOutput = exports.VirtualRouterRef = exports.ListVirtualRoutersInput = exports.DescribeVirtualRouterOutput = exports.DescribeVirtualRouterInput = exports.DeleteVirtualRouterOutput = exports.DeleteVirtualRouterInput = exports.CreateVirtualRouterOutput = exports.VirtualRouterData = exports.VirtualRouterStatus = exports.VirtualRouterStatusCode = exports.CreateVirtualRouterInput = exports.VirtualRouterSpec = exports.VirtualRouterListener = exports.UpdateVirtualNodeOutput = exports.UpdateVirtualNodeInput = exports.ListVirtualNodesOutput = exports.VirtualNodeRef = exports.ListVirtualNodesInput = exports.DescribeVirtualNodeOutput = exports.DescribeVirtualNodeInput = exports.DeleteVirtualNodeOutput = exports.DeleteVirtualNodeInput = exports.CreateVirtualNodeOutput = exports.VirtualNodeData = exports.VirtualNodeStatus = exports.VirtualNodeStatusCode = exports.CreateVirtualNodeInput = exports.VirtualNodeSpec = exports.ServiceDiscovery = exports.DnsServiceDiscovery = exports.DnsResponseType = exports.AwsCloudMapServiceDiscovery = exports.AwsCloudMapInstanceAttribute = exports.Logging = exports.Listener = exports.ListenerTls = exports.ListenerTlsValidationContext = void 0;
-exports.UntagResourceOutput = exports.UntagResourceInput = exports.TooManyTagsException = exports.TagResourceOutput = exports.TagResourceInput = exports.UpdateVirtualServiceOutput = exports.UpdateVirtualServiceInput = exports.ListVirtualServicesOutput = exports.VirtualServiceRef = exports.ListVirtualServicesInput = exports.DescribeVirtualServiceOutput = exports.DescribeVirtualServiceInput = exports.DeleteVirtualServiceOutput = exports.DeleteVirtualServiceInput = exports.CreateVirtualServiceOutput = exports.VirtualServiceData = exports.VirtualServiceStatus = exports.VirtualServiceStatusCode = exports.CreateVirtualServiceInput = exports.VirtualServiceSpec = exports.VirtualServiceProvider = exports.VirtualRouterServiceProvider = exports.VirtualNodeServiceProvider = exports.UpdateVirtualRouterOutput = exports.UpdateVirtualRouterInput = exports.UpdateRouteOutput = exports.UpdateRouteInput = exports.ListRoutesOutput = exports.RouteRef = exports.ListRoutesInput = exports.DescribeRouteOutput = exports.DescribeRouteInput = exports.DeleteRouteOutput = exports.DeleteRouteInput = exports.CreateRouteOutput = exports.RouteData = exports.RouteStatus = exports.RouteStatusCode = exports.CreateRouteInput = exports.RouteSpec = exports.TcpRoute = exports.TcpRouteAction = exports.HttpRoute = exports.HttpRetryPolicy = exports.HttpRouteMatch = void 0;
+exports.FileAccessLogFilterSensitiveLog = exports.TooManyTagsException = exports.VirtualServiceStatusCode = exports.VirtualServiceProvider = exports.RouteStatusCode = exports.HttpScheme = exports.TcpRetryPolicyEvent = exports.GrpcRetryPolicyEvent = exports.GrpcRouteMetadataMatchMethod = exports.VirtualRouterStatusCode = exports.VirtualNodeStatusCode = exports.ServiceDiscovery = exports.DnsResponseType = exports.ListenerTlsValidationContextTrust = exports.ListenerTlsMode = exports.ListenerTlsCertificate = exports.ListenerTimeout = exports.DurationUnit = exports.PortProtocol = exports.VirtualNodeConnectionPool = exports.Backend = exports.TlsValidationContextTrust = exports.ClientTlsCertificate = exports.GatewayRouteStatusCode = exports.HttpMethod = exports.HeaderMatchMethod = exports.GrpcMetadataMatchMethod = exports.DefaultGatewayRouteRewrite = exports.VirtualGatewayStatusCode = exports.VirtualGatewayAccessLog = exports.VirtualGatewayListenerTlsValidationContextTrust = exports.VirtualGatewayListenerTlsMode = exports.VirtualGatewayListenerTlsCertificate = exports.VirtualGatewayPortProtocol = exports.VirtualGatewayConnectionPool = exports.VirtualGatewayTlsValidationContextTrust = exports.VirtualGatewayClientTlsCertificate = exports.ResourceInUseException = exports.LimitExceededException = exports.MeshStatusCode = exports.IpPreference = exports.EgressFilterType = exports.ConflictException = exports.TooManyRequestsException = exports.ServiceUnavailableException = exports.NotFoundException = exports.InternalServerErrorException = exports.ForbiddenException = exports.BadRequestException = exports.AccessLog = void 0;
+exports.VirtualGatewaySpecFilterSensitiveLog = exports.VirtualGatewayLoggingFilterSensitiveLog = exports.VirtualGatewayAccessLogFilterSensitiveLog = exports.VirtualGatewayFileAccessLogFilterSensitiveLog = exports.VirtualGatewayListenerFilterSensitiveLog = exports.VirtualGatewayListenerTlsFilterSensitiveLog = exports.VirtualGatewayListenerTlsValidationContextFilterSensitiveLog = exports.VirtualGatewayListenerTlsValidationContextTrustFilterSensitiveLog = exports.VirtualGatewayListenerTlsCertificateFilterSensitiveLog = exports.VirtualGatewayListenerTlsAcmCertificateFilterSensitiveLog = exports.VirtualGatewayPortMappingFilterSensitiveLog = exports.VirtualGatewayHealthCheckPolicyFilterSensitiveLog = exports.VirtualGatewayConnectionPoolFilterSensitiveLog = exports.VirtualGatewayHttp2ConnectionPoolFilterSensitiveLog = exports.VirtualGatewayHttpConnectionPoolFilterSensitiveLog = exports.VirtualGatewayGrpcConnectionPoolFilterSensitiveLog = exports.VirtualGatewayBackendDefaultsFilterSensitiveLog = exports.VirtualGatewayClientPolicyFilterSensitiveLog = exports.VirtualGatewayClientPolicyTlsFilterSensitiveLog = exports.VirtualGatewayTlsValidationContextFilterSensitiveLog = exports.VirtualGatewayTlsValidationContextTrustFilterSensitiveLog = exports.VirtualGatewayTlsValidationContextSdsTrustFilterSensitiveLog = exports.VirtualGatewayTlsValidationContextFileTrustFilterSensitiveLog = exports.VirtualGatewayTlsValidationContextAcmTrustFilterSensitiveLog = exports.SubjectAlternativeNamesFilterSensitiveLog = exports.SubjectAlternativeNameMatchersFilterSensitiveLog = exports.VirtualGatewayClientTlsCertificateFilterSensitiveLog = exports.VirtualGatewayListenerTlsSdsCertificateFilterSensitiveLog = exports.VirtualGatewayListenerTlsFileCertificateFilterSensitiveLog = exports.UpdateMeshOutputFilterSensitiveLog = exports.UpdateMeshInputFilterSensitiveLog = exports.ListMeshesOutputFilterSensitiveLog = exports.MeshRefFilterSensitiveLog = exports.ListMeshesInputFilterSensitiveLog = exports.DescribeMeshOutputFilterSensitiveLog = exports.DescribeMeshInputFilterSensitiveLog = exports.DeleteMeshOutputFilterSensitiveLog = exports.DeleteMeshInputFilterSensitiveLog = exports.CreateMeshOutputFilterSensitiveLog = exports.MeshDataFilterSensitiveLog = exports.MeshStatusFilterSensitiveLog = exports.ResourceMetadataFilterSensitiveLog = exports.CreateMeshInputFilterSensitiveLog = exports.MeshSpecFilterSensitiveLog = exports.MeshServiceDiscoveryFilterSensitiveLog = exports.EgressFilterFilterSensitiveLog = exports.ListTagsForResourceOutputFilterSensitiveLog = exports.TagRefFilterSensitiveLog = exports.ListTagsForResourceInputFilterSensitiveLog = exports.AccessLogFilterSensitiveLog = void 0;
+exports.ListenerTlsFileCertificateFilterSensitiveLog = exports.UpdateVirtualGatewayOutputFilterSensitiveLog = exports.UpdateVirtualGatewayInputFilterSensitiveLog = exports.ListVirtualGatewaysOutputFilterSensitiveLog = exports.VirtualGatewayRefFilterSensitiveLog = exports.ListVirtualGatewaysInputFilterSensitiveLog = exports.UpdateGatewayRouteOutputFilterSensitiveLog = exports.UpdateGatewayRouteInputFilterSensitiveLog = exports.ListGatewayRoutesOutputFilterSensitiveLog = exports.GatewayRouteRefFilterSensitiveLog = exports.ListGatewayRoutesInputFilterSensitiveLog = exports.DescribeGatewayRouteOutputFilterSensitiveLog = exports.DescribeGatewayRouteInputFilterSensitiveLog = exports.DeleteGatewayRouteOutputFilterSensitiveLog = exports.DeleteGatewayRouteInputFilterSensitiveLog = exports.CreateGatewayRouteOutputFilterSensitiveLog = exports.GatewayRouteDataFilterSensitiveLog = exports.GatewayRouteStatusFilterSensitiveLog = exports.CreateGatewayRouteInputFilterSensitiveLog = exports.GatewayRouteSpecFilterSensitiveLog = exports.HttpGatewayRouteFilterSensitiveLog = exports.HttpGatewayRouteMatchFilterSensitiveLog = exports.HttpQueryParameterFilterSensitiveLog = exports.QueryParameterMatchFilterSensitiveLog = exports.HttpPathMatchFilterSensitiveLog = exports.HttpGatewayRouteHeaderFilterSensitiveLog = exports.HeaderMatchMethodFilterSensitiveLog = exports.HttpGatewayRouteActionFilterSensitiveLog = exports.HttpGatewayRouteRewriteFilterSensitiveLog = exports.HttpGatewayRoutePrefixRewriteFilterSensitiveLog = exports.HttpGatewayRoutePathRewriteFilterSensitiveLog = exports.GrpcGatewayRouteFilterSensitiveLog = exports.GrpcGatewayRouteMatchFilterSensitiveLog = exports.GrpcGatewayRouteMetadataFilterSensitiveLog = exports.GrpcMetadataMatchMethodFilterSensitiveLog = exports.MatchRangeFilterSensitiveLog = exports.GatewayRouteHostnameMatchFilterSensitiveLog = exports.GrpcGatewayRouteActionFilterSensitiveLog = exports.GatewayRouteTargetFilterSensitiveLog = exports.GatewayRouteVirtualServiceFilterSensitiveLog = exports.GrpcGatewayRouteRewriteFilterSensitiveLog = exports.GatewayRouteHostnameRewriteFilterSensitiveLog = exports.DescribeVirtualGatewayOutputFilterSensitiveLog = exports.DescribeVirtualGatewayInputFilterSensitiveLog = exports.DeleteVirtualGatewayOutputFilterSensitiveLog = exports.DeleteVirtualGatewayInputFilterSensitiveLog = exports.CreateVirtualGatewayOutputFilterSensitiveLog = exports.VirtualGatewayDataFilterSensitiveLog = exports.VirtualGatewayStatusFilterSensitiveLog = exports.CreateVirtualGatewayInputFilterSensitiveLog = void 0;
+exports.UpdateVirtualNodeOutputFilterSensitiveLog = exports.UpdateVirtualNodeInputFilterSensitiveLog = exports.ListVirtualNodesOutputFilterSensitiveLog = exports.VirtualNodeRefFilterSensitiveLog = exports.ListVirtualNodesInputFilterSensitiveLog = exports.DescribeVirtualNodeOutputFilterSensitiveLog = exports.DescribeVirtualNodeInputFilterSensitiveLog = exports.DeleteVirtualNodeOutputFilterSensitiveLog = exports.DeleteVirtualNodeInputFilterSensitiveLog = exports.CreateVirtualNodeOutputFilterSensitiveLog = exports.VirtualNodeDataFilterSensitiveLog = exports.VirtualNodeStatusFilterSensitiveLog = exports.CreateVirtualNodeInputFilterSensitiveLog = exports.VirtualNodeSpecFilterSensitiveLog = exports.ServiceDiscoveryFilterSensitiveLog = exports.DnsServiceDiscoveryFilterSensitiveLog = exports.AwsCloudMapServiceDiscoveryFilterSensitiveLog = exports.AwsCloudMapInstanceAttributeFilterSensitiveLog = exports.LoggingFilterSensitiveLog = exports.ListenerFilterSensitiveLog = exports.ListenerTlsFilterSensitiveLog = exports.ListenerTlsValidationContextFilterSensitiveLog = exports.ListenerTlsValidationContextTrustFilterSensitiveLog = exports.ListenerTlsCertificateFilterSensitiveLog = exports.ListenerTlsAcmCertificateFilterSensitiveLog = exports.ListenerTimeoutFilterSensitiveLog = exports.TcpTimeoutFilterSensitiveLog = exports.HttpTimeoutFilterSensitiveLog = exports.GrpcTimeoutFilterSensitiveLog = exports.PortMappingFilterSensitiveLog = exports.OutlierDetectionFilterSensitiveLog = exports.DurationFilterSensitiveLog = exports.HealthCheckPolicyFilterSensitiveLog = exports.VirtualNodeConnectionPoolFilterSensitiveLog = exports.VirtualNodeTcpConnectionPoolFilterSensitiveLog = exports.VirtualNodeHttp2ConnectionPoolFilterSensitiveLog = exports.VirtualNodeHttpConnectionPoolFilterSensitiveLog = exports.VirtualNodeGrpcConnectionPoolFilterSensitiveLog = exports.BackendFilterSensitiveLog = exports.VirtualServiceBackendFilterSensitiveLog = exports.BackendDefaultsFilterSensitiveLog = exports.ClientPolicyFilterSensitiveLog = exports.ClientPolicyTlsFilterSensitiveLog = exports.TlsValidationContextFilterSensitiveLog = exports.TlsValidationContextTrustFilterSensitiveLog = exports.TlsValidationContextSdsTrustFilterSensitiveLog = exports.TlsValidationContextFileTrustFilterSensitiveLog = exports.TlsValidationContextAcmTrustFilterSensitiveLog = exports.ClientTlsCertificateFilterSensitiveLog = exports.ListenerTlsSdsCertificateFilterSensitiveLog = void 0;
+exports.VirtualServiceDataFilterSensitiveLog = exports.VirtualServiceStatusFilterSensitiveLog = exports.CreateVirtualServiceInputFilterSensitiveLog = exports.VirtualServiceSpecFilterSensitiveLog = exports.VirtualServiceProviderFilterSensitiveLog = exports.VirtualRouterServiceProviderFilterSensitiveLog = exports.VirtualNodeServiceProviderFilterSensitiveLog = exports.UpdateVirtualRouterOutputFilterSensitiveLog = exports.UpdateVirtualRouterInputFilterSensitiveLog = exports.UpdateRouteOutputFilterSensitiveLog = exports.UpdateRouteInputFilterSensitiveLog = exports.ListRoutesOutputFilterSensitiveLog = exports.RouteRefFilterSensitiveLog = exports.ListRoutesInputFilterSensitiveLog = exports.DescribeRouteOutputFilterSensitiveLog = exports.DescribeRouteInputFilterSensitiveLog = exports.DeleteRouteOutputFilterSensitiveLog = exports.DeleteRouteInputFilterSensitiveLog = exports.CreateRouteOutputFilterSensitiveLog = exports.RouteDataFilterSensitiveLog = exports.RouteStatusFilterSensitiveLog = exports.CreateRouteInputFilterSensitiveLog = exports.RouteSpecFilterSensitiveLog = exports.TcpRouteFilterSensitiveLog = exports.TcpRouteActionFilterSensitiveLog = exports.HttpRouteFilterSensitiveLog = exports.HttpRetryPolicyFilterSensitiveLog = exports.HttpRouteMatchFilterSensitiveLog = exports.HttpRouteHeaderFilterSensitiveLog = exports.HttpRouteActionFilterSensitiveLog = exports.GrpcRouteFilterSensitiveLog = exports.GrpcRetryPolicyFilterSensitiveLog = exports.GrpcRouteMatchFilterSensitiveLog = exports.GrpcRouteMetadataFilterSensitiveLog = exports.GrpcRouteMetadataMatchMethodFilterSensitiveLog = exports.GrpcRouteActionFilterSensitiveLog = exports.WeightedTargetFilterSensitiveLog = exports.ListVirtualRoutersOutputFilterSensitiveLog = exports.VirtualRouterRefFilterSensitiveLog = exports.ListVirtualRoutersInputFilterSensitiveLog = exports.DescribeVirtualRouterOutputFilterSensitiveLog = exports.DescribeVirtualRouterInputFilterSensitiveLog = exports.DeleteVirtualRouterOutputFilterSensitiveLog = exports.DeleteVirtualRouterInputFilterSensitiveLog = exports.CreateVirtualRouterOutputFilterSensitiveLog = exports.VirtualRouterDataFilterSensitiveLog = exports.VirtualRouterStatusFilterSensitiveLog = exports.CreateVirtualRouterInputFilterSensitiveLog = exports.VirtualRouterSpecFilterSensitiveLog = exports.VirtualRouterListenerFilterSensitiveLog = void 0;
+exports.UntagResourceOutputFilterSensitiveLog = exports.UntagResourceInputFilterSensitiveLog = exports.TagResourceOutputFilterSensitiveLog = exports.TagResourceInputFilterSensitiveLog = exports.UpdateVirtualServiceOutputFilterSensitiveLog = exports.UpdateVirtualServiceInputFilterSensitiveLog = exports.ListVirtualServicesOutputFilterSensitiveLog = exports.VirtualServiceRefFilterSensitiveLog = exports.ListVirtualServicesInputFilterSensitiveLog = exports.DescribeVirtualServiceOutputFilterSensitiveLog = exports.DescribeVirtualServiceInputFilterSensitiveLog = exports.DeleteVirtualServiceOutputFilterSensitiveLog = exports.DeleteVirtualServiceInputFilterSensitiveLog = exports.CreateVirtualServiceOutputFilterSensitiveLog = void 0;
 const AppMeshServiceException_1 = __nccwpck_require__(5222);
-var FileAccessLog;
-(function (FileAccessLog) {
-    FileAccessLog.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(FileAccessLog = exports.FileAccessLog || (exports.FileAccessLog = {}));
 var AccessLog;
 (function (AccessLog) {
     AccessLog.visit = (value, visitor) => {
         if (value.file !== undefined)
             return visitor.file(value.file);
         return visitor._(value.$unknown[0], value.$unknown[1]);
-    };
-    AccessLog.filterSensitiveLog = (obj) => {
-        if (obj.file !== undefined)
-            return { file: FileAccessLog.filterSensitiveLog(obj.file) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
     };
 })(AccessLog = exports.AccessLog || (exports.AccessLog = {}));
 class BadRequestException extends AppMeshServiceException_1.AppMeshServiceException {
@@ -4896,24 +4885,6 @@ class InternalServerErrorException extends AppMeshServiceException_1.AppMeshServ
     }
 }
 exports.InternalServerErrorException = InternalServerErrorException;
-var ListTagsForResourceInput;
-(function (ListTagsForResourceInput) {
-    ListTagsForResourceInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListTagsForResourceInput = exports.ListTagsForResourceInput || (exports.ListTagsForResourceInput = {}));
-var TagRef;
-(function (TagRef) {
-    TagRef.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TagRef = exports.TagRef || (exports.TagRef = {}));
-var ListTagsForResourceOutput;
-(function (ListTagsForResourceOutput) {
-    ListTagsForResourceOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListTagsForResourceOutput = exports.ListTagsForResourceOutput || (exports.ListTagsForResourceOutput = {}));
 class NotFoundException extends AppMeshServiceException_1.AppMeshServiceException {
     constructor(opts) {
         super({
@@ -4975,12 +4946,6 @@ var EgressFilterType;
     EgressFilterType["ALLOW_ALL"] = "ALLOW_ALL";
     EgressFilterType["DROP_ALL"] = "DROP_ALL";
 })(EgressFilterType = exports.EgressFilterType || (exports.EgressFilterType = {}));
-var EgressFilter;
-(function (EgressFilter) {
-    EgressFilter.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(EgressFilter = exports.EgressFilter || (exports.EgressFilter = {}));
 var IpPreference;
 (function (IpPreference) {
     IpPreference["IPv4_ONLY"] = "IPv4_ONLY";
@@ -4988,54 +4953,12 @@ var IpPreference;
     IpPreference["IPv6_ONLY"] = "IPv6_ONLY";
     IpPreference["IPv6_PREFERRED"] = "IPv6_PREFERRED";
 })(IpPreference = exports.IpPreference || (exports.IpPreference = {}));
-var MeshServiceDiscovery;
-(function (MeshServiceDiscovery) {
-    MeshServiceDiscovery.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(MeshServiceDiscovery = exports.MeshServiceDiscovery || (exports.MeshServiceDiscovery = {}));
-var MeshSpec;
-(function (MeshSpec) {
-    MeshSpec.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(MeshSpec = exports.MeshSpec || (exports.MeshSpec = {}));
-var CreateMeshInput;
-(function (CreateMeshInput) {
-    CreateMeshInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(CreateMeshInput = exports.CreateMeshInput || (exports.CreateMeshInput = {}));
-var ResourceMetadata;
-(function (ResourceMetadata) {
-    ResourceMetadata.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ResourceMetadata = exports.ResourceMetadata || (exports.ResourceMetadata = {}));
 var MeshStatusCode;
 (function (MeshStatusCode) {
     MeshStatusCode["ACTIVE"] = "ACTIVE";
     MeshStatusCode["DELETED"] = "DELETED";
     MeshStatusCode["INACTIVE"] = "INACTIVE";
 })(MeshStatusCode = exports.MeshStatusCode || (exports.MeshStatusCode = {}));
-var MeshStatus;
-(function (MeshStatus) {
-    MeshStatus.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(MeshStatus = exports.MeshStatus || (exports.MeshStatus = {}));
-var MeshData;
-(function (MeshData) {
-    MeshData.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(MeshData = exports.MeshData || (exports.MeshData = {}));
-var CreateMeshOutput;
-(function (CreateMeshOutput) {
-    CreateMeshOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(CreateMeshOutput = exports.CreateMeshOutput || (exports.CreateMeshOutput = {}));
 class LimitExceededException extends AppMeshServiceException_1.AppMeshServiceException {
     constructor(opts) {
         super({
@@ -5049,18 +4972,6 @@ class LimitExceededException extends AppMeshServiceException_1.AppMeshServiceExc
     }
 }
 exports.LimitExceededException = LimitExceededException;
-var DeleteMeshInput;
-(function (DeleteMeshInput) {
-    DeleteMeshInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DeleteMeshInput = exports.DeleteMeshInput || (exports.DeleteMeshInput = {}));
-var DeleteMeshOutput;
-(function (DeleteMeshOutput) {
-    DeleteMeshOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DeleteMeshOutput = exports.DeleteMeshOutput || (exports.DeleteMeshOutput = {}));
 class ResourceInUseException extends AppMeshServiceException_1.AppMeshServiceException {
     constructor(opts) {
         super({
@@ -5074,60 +4985,6 @@ class ResourceInUseException extends AppMeshServiceException_1.AppMeshServiceExc
     }
 }
 exports.ResourceInUseException = ResourceInUseException;
-var DescribeMeshInput;
-(function (DescribeMeshInput) {
-    DescribeMeshInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DescribeMeshInput = exports.DescribeMeshInput || (exports.DescribeMeshInput = {}));
-var DescribeMeshOutput;
-(function (DescribeMeshOutput) {
-    DescribeMeshOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DescribeMeshOutput = exports.DescribeMeshOutput || (exports.DescribeMeshOutput = {}));
-var ListMeshesInput;
-(function (ListMeshesInput) {
-    ListMeshesInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListMeshesInput = exports.ListMeshesInput || (exports.ListMeshesInput = {}));
-var MeshRef;
-(function (MeshRef) {
-    MeshRef.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(MeshRef = exports.MeshRef || (exports.MeshRef = {}));
-var ListMeshesOutput;
-(function (ListMeshesOutput) {
-    ListMeshesOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListMeshesOutput = exports.ListMeshesOutput || (exports.ListMeshesOutput = {}));
-var UpdateMeshInput;
-(function (UpdateMeshInput) {
-    UpdateMeshInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UpdateMeshInput = exports.UpdateMeshInput || (exports.UpdateMeshInput = {}));
-var UpdateMeshOutput;
-(function (UpdateMeshOutput) {
-    UpdateMeshOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UpdateMeshOutput = exports.UpdateMeshOutput || (exports.UpdateMeshOutput = {}));
-var VirtualGatewayListenerTlsFileCertificate;
-(function (VirtualGatewayListenerTlsFileCertificate) {
-    VirtualGatewayListenerTlsFileCertificate.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayListenerTlsFileCertificate = exports.VirtualGatewayListenerTlsFileCertificate || (exports.VirtualGatewayListenerTlsFileCertificate = {}));
-var VirtualGatewayListenerTlsSdsCertificate;
-(function (VirtualGatewayListenerTlsSdsCertificate) {
-    VirtualGatewayListenerTlsSdsCertificate.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayListenerTlsSdsCertificate = exports.VirtualGatewayListenerTlsSdsCertificate || (exports.VirtualGatewayListenerTlsSdsCertificate = {}));
 var VirtualGatewayClientTlsCertificate;
 (function (VirtualGatewayClientTlsCertificate) {
     VirtualGatewayClientTlsCertificate.visit = (value, visitor) => {
@@ -5137,45 +4994,7 @@ var VirtualGatewayClientTlsCertificate;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    VirtualGatewayClientTlsCertificate.filterSensitiveLog = (obj) => {
-        if (obj.file !== undefined)
-            return { file: VirtualGatewayListenerTlsFileCertificate.filterSensitiveLog(obj.file) };
-        if (obj.sds !== undefined)
-            return { sds: VirtualGatewayListenerTlsSdsCertificate.filterSensitiveLog(obj.sds) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(VirtualGatewayClientTlsCertificate = exports.VirtualGatewayClientTlsCertificate || (exports.VirtualGatewayClientTlsCertificate = {}));
-var SubjectAlternativeNameMatchers;
-(function (SubjectAlternativeNameMatchers) {
-    SubjectAlternativeNameMatchers.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(SubjectAlternativeNameMatchers = exports.SubjectAlternativeNameMatchers || (exports.SubjectAlternativeNameMatchers = {}));
-var SubjectAlternativeNames;
-(function (SubjectAlternativeNames) {
-    SubjectAlternativeNames.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(SubjectAlternativeNames = exports.SubjectAlternativeNames || (exports.SubjectAlternativeNames = {}));
-var VirtualGatewayTlsValidationContextAcmTrust;
-(function (VirtualGatewayTlsValidationContextAcmTrust) {
-    VirtualGatewayTlsValidationContextAcmTrust.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayTlsValidationContextAcmTrust = exports.VirtualGatewayTlsValidationContextAcmTrust || (exports.VirtualGatewayTlsValidationContextAcmTrust = {}));
-var VirtualGatewayTlsValidationContextFileTrust;
-(function (VirtualGatewayTlsValidationContextFileTrust) {
-    VirtualGatewayTlsValidationContextFileTrust.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayTlsValidationContextFileTrust = exports.VirtualGatewayTlsValidationContextFileTrust || (exports.VirtualGatewayTlsValidationContextFileTrust = {}));
-var VirtualGatewayTlsValidationContextSdsTrust;
-(function (VirtualGatewayTlsValidationContextSdsTrust) {
-    VirtualGatewayTlsValidationContextSdsTrust.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayTlsValidationContextSdsTrust = exports.VirtualGatewayTlsValidationContextSdsTrust || (exports.VirtualGatewayTlsValidationContextSdsTrust = {}));
 var VirtualGatewayTlsValidationContextTrust;
 (function (VirtualGatewayTlsValidationContextTrust) {
     VirtualGatewayTlsValidationContextTrust.visit = (value, visitor) => {
@@ -5187,64 +5006,7 @@ var VirtualGatewayTlsValidationContextTrust;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    VirtualGatewayTlsValidationContextTrust.filterSensitiveLog = (obj) => {
-        if (obj.acm !== undefined)
-            return { acm: VirtualGatewayTlsValidationContextAcmTrust.filterSensitiveLog(obj.acm) };
-        if (obj.file !== undefined)
-            return { file: VirtualGatewayTlsValidationContextFileTrust.filterSensitiveLog(obj.file) };
-        if (obj.sds !== undefined)
-            return { sds: VirtualGatewayTlsValidationContextSdsTrust.filterSensitiveLog(obj.sds) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(VirtualGatewayTlsValidationContextTrust = exports.VirtualGatewayTlsValidationContextTrust || (exports.VirtualGatewayTlsValidationContextTrust = {}));
-var VirtualGatewayTlsValidationContext;
-(function (VirtualGatewayTlsValidationContext) {
-    VirtualGatewayTlsValidationContext.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.trust && { trust: VirtualGatewayTlsValidationContextTrust.filterSensitiveLog(obj.trust) }),
-    });
-})(VirtualGatewayTlsValidationContext = exports.VirtualGatewayTlsValidationContext || (exports.VirtualGatewayTlsValidationContext = {}));
-var VirtualGatewayClientPolicyTls;
-(function (VirtualGatewayClientPolicyTls) {
-    VirtualGatewayClientPolicyTls.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.certificate && { certificate: VirtualGatewayClientTlsCertificate.filterSensitiveLog(obj.certificate) }),
-        ...(obj.validation && { validation: VirtualGatewayTlsValidationContext.filterSensitiveLog(obj.validation) }),
-    });
-})(VirtualGatewayClientPolicyTls = exports.VirtualGatewayClientPolicyTls || (exports.VirtualGatewayClientPolicyTls = {}));
-var VirtualGatewayClientPolicy;
-(function (VirtualGatewayClientPolicy) {
-    VirtualGatewayClientPolicy.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.tls && { tls: VirtualGatewayClientPolicyTls.filterSensitiveLog(obj.tls) }),
-    });
-})(VirtualGatewayClientPolicy = exports.VirtualGatewayClientPolicy || (exports.VirtualGatewayClientPolicy = {}));
-var VirtualGatewayBackendDefaults;
-(function (VirtualGatewayBackendDefaults) {
-    VirtualGatewayBackendDefaults.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.clientPolicy && { clientPolicy: VirtualGatewayClientPolicy.filterSensitiveLog(obj.clientPolicy) }),
-    });
-})(VirtualGatewayBackendDefaults = exports.VirtualGatewayBackendDefaults || (exports.VirtualGatewayBackendDefaults = {}));
-var VirtualGatewayGrpcConnectionPool;
-(function (VirtualGatewayGrpcConnectionPool) {
-    VirtualGatewayGrpcConnectionPool.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayGrpcConnectionPool = exports.VirtualGatewayGrpcConnectionPool || (exports.VirtualGatewayGrpcConnectionPool = {}));
-var VirtualGatewayHttpConnectionPool;
-(function (VirtualGatewayHttpConnectionPool) {
-    VirtualGatewayHttpConnectionPool.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayHttpConnectionPool = exports.VirtualGatewayHttpConnectionPool || (exports.VirtualGatewayHttpConnectionPool = {}));
-var VirtualGatewayHttp2ConnectionPool;
-(function (VirtualGatewayHttp2ConnectionPool) {
-    VirtualGatewayHttp2ConnectionPool.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayHttp2ConnectionPool = exports.VirtualGatewayHttp2ConnectionPool || (exports.VirtualGatewayHttp2ConnectionPool = {}));
 var VirtualGatewayConnectionPool;
 (function (VirtualGatewayConnectionPool) {
     VirtualGatewayConnectionPool.visit = (value, visitor) => {
@@ -5256,16 +5018,6 @@ var VirtualGatewayConnectionPool;
             return visitor.grpc(value.grpc);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    VirtualGatewayConnectionPool.filterSensitiveLog = (obj) => {
-        if (obj.http !== undefined)
-            return { http: VirtualGatewayHttpConnectionPool.filterSensitiveLog(obj.http) };
-        if (obj.http2 !== undefined)
-            return { http2: VirtualGatewayHttp2ConnectionPool.filterSensitiveLog(obj.http2) };
-        if (obj.grpc !== undefined)
-            return { grpc: VirtualGatewayGrpcConnectionPool.filterSensitiveLog(obj.grpc) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(VirtualGatewayConnectionPool = exports.VirtualGatewayConnectionPool || (exports.VirtualGatewayConnectionPool = {}));
 var VirtualGatewayPortProtocol;
 (function (VirtualGatewayPortProtocol) {
@@ -5273,24 +5025,6 @@ var VirtualGatewayPortProtocol;
     VirtualGatewayPortProtocol["HTTP"] = "http";
     VirtualGatewayPortProtocol["HTTP2"] = "http2";
 })(VirtualGatewayPortProtocol = exports.VirtualGatewayPortProtocol || (exports.VirtualGatewayPortProtocol = {}));
-var VirtualGatewayHealthCheckPolicy;
-(function (VirtualGatewayHealthCheckPolicy) {
-    VirtualGatewayHealthCheckPolicy.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayHealthCheckPolicy = exports.VirtualGatewayHealthCheckPolicy || (exports.VirtualGatewayHealthCheckPolicy = {}));
-var VirtualGatewayPortMapping;
-(function (VirtualGatewayPortMapping) {
-    VirtualGatewayPortMapping.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayPortMapping = exports.VirtualGatewayPortMapping || (exports.VirtualGatewayPortMapping = {}));
-var VirtualGatewayListenerTlsAcmCertificate;
-(function (VirtualGatewayListenerTlsAcmCertificate) {
-    VirtualGatewayListenerTlsAcmCertificate.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayListenerTlsAcmCertificate = exports.VirtualGatewayListenerTlsAcmCertificate || (exports.VirtualGatewayListenerTlsAcmCertificate = {}));
 var VirtualGatewayListenerTlsCertificate;
 (function (VirtualGatewayListenerTlsCertificate) {
     VirtualGatewayListenerTlsCertificate.visit = (value, visitor) => {
@@ -5301,16 +5035,6 @@ var VirtualGatewayListenerTlsCertificate;
         if (value.sds !== undefined)
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
-    };
-    VirtualGatewayListenerTlsCertificate.filterSensitiveLog = (obj) => {
-        if (obj.acm !== undefined)
-            return { acm: VirtualGatewayListenerTlsAcmCertificate.filterSensitiveLog(obj.acm) };
-        if (obj.file !== undefined)
-            return { file: VirtualGatewayListenerTlsFileCertificate.filterSensitiveLog(obj.file) };
-        if (obj.sds !== undefined)
-            return { sds: VirtualGatewayListenerTlsSdsCertificate.filterSensitiveLog(obj.sds) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
     };
 })(VirtualGatewayListenerTlsCertificate = exports.VirtualGatewayListenerTlsCertificate || (exports.VirtualGatewayListenerTlsCertificate = {}));
 var VirtualGatewayListenerTlsMode;
@@ -5328,46 +5052,7 @@ var VirtualGatewayListenerTlsValidationContextTrust;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    VirtualGatewayListenerTlsValidationContextTrust.filterSensitiveLog = (obj) => {
-        if (obj.file !== undefined)
-            return { file: VirtualGatewayTlsValidationContextFileTrust.filterSensitiveLog(obj.file) };
-        if (obj.sds !== undefined)
-            return { sds: VirtualGatewayTlsValidationContextSdsTrust.filterSensitiveLog(obj.sds) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(VirtualGatewayListenerTlsValidationContextTrust = exports.VirtualGatewayListenerTlsValidationContextTrust || (exports.VirtualGatewayListenerTlsValidationContextTrust = {}));
-var VirtualGatewayListenerTlsValidationContext;
-(function (VirtualGatewayListenerTlsValidationContext) {
-    VirtualGatewayListenerTlsValidationContext.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.trust && { trust: VirtualGatewayListenerTlsValidationContextTrust.filterSensitiveLog(obj.trust) }),
-    });
-})(VirtualGatewayListenerTlsValidationContext = exports.VirtualGatewayListenerTlsValidationContext || (exports.VirtualGatewayListenerTlsValidationContext = {}));
-var VirtualGatewayListenerTls;
-(function (VirtualGatewayListenerTls) {
-    VirtualGatewayListenerTls.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.validation && {
-            validation: VirtualGatewayListenerTlsValidationContext.filterSensitiveLog(obj.validation),
-        }),
-        ...(obj.certificate && { certificate: VirtualGatewayListenerTlsCertificate.filterSensitiveLog(obj.certificate) }),
-    });
-})(VirtualGatewayListenerTls = exports.VirtualGatewayListenerTls || (exports.VirtualGatewayListenerTls = {}));
-var VirtualGatewayListener;
-(function (VirtualGatewayListener) {
-    VirtualGatewayListener.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.tls && { tls: VirtualGatewayListenerTls.filterSensitiveLog(obj.tls) }),
-        ...(obj.connectionPool && { connectionPool: VirtualGatewayConnectionPool.filterSensitiveLog(obj.connectionPool) }),
-    });
-})(VirtualGatewayListener = exports.VirtualGatewayListener || (exports.VirtualGatewayListener = {}));
-var VirtualGatewayFileAccessLog;
-(function (VirtualGatewayFileAccessLog) {
-    VirtualGatewayFileAccessLog.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayFileAccessLog = exports.VirtualGatewayFileAccessLog || (exports.VirtualGatewayFileAccessLog = {}));
 var VirtualGatewayAccessLog;
 (function (VirtualGatewayAccessLog) {
     VirtualGatewayAccessLog.visit = (value, visitor) => {
@@ -5375,137 +5060,18 @@ var VirtualGatewayAccessLog;
             return visitor.file(value.file);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    VirtualGatewayAccessLog.filterSensitiveLog = (obj) => {
-        if (obj.file !== undefined)
-            return { file: VirtualGatewayFileAccessLog.filterSensitiveLog(obj.file) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(VirtualGatewayAccessLog = exports.VirtualGatewayAccessLog || (exports.VirtualGatewayAccessLog = {}));
-var VirtualGatewayLogging;
-(function (VirtualGatewayLogging) {
-    VirtualGatewayLogging.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.accessLog && { accessLog: VirtualGatewayAccessLog.filterSensitiveLog(obj.accessLog) }),
-    });
-})(VirtualGatewayLogging = exports.VirtualGatewayLogging || (exports.VirtualGatewayLogging = {}));
-var VirtualGatewaySpec;
-(function (VirtualGatewaySpec) {
-    VirtualGatewaySpec.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.backendDefaults && {
-            backendDefaults: VirtualGatewayBackendDefaults.filterSensitiveLog(obj.backendDefaults),
-        }),
-        ...(obj.listeners && { listeners: obj.listeners.map((item) => VirtualGatewayListener.filterSensitiveLog(item)) }),
-        ...(obj.logging && { logging: VirtualGatewayLogging.filterSensitiveLog(obj.logging) }),
-    });
-})(VirtualGatewaySpec = exports.VirtualGatewaySpec || (exports.VirtualGatewaySpec = {}));
-var CreateVirtualGatewayInput;
-(function (CreateVirtualGatewayInput) {
-    CreateVirtualGatewayInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.spec && { spec: VirtualGatewaySpec.filterSensitiveLog(obj.spec) }),
-    });
-})(CreateVirtualGatewayInput = exports.CreateVirtualGatewayInput || (exports.CreateVirtualGatewayInput = {}));
 var VirtualGatewayStatusCode;
 (function (VirtualGatewayStatusCode) {
     VirtualGatewayStatusCode["ACTIVE"] = "ACTIVE";
     VirtualGatewayStatusCode["DELETED"] = "DELETED";
     VirtualGatewayStatusCode["INACTIVE"] = "INACTIVE";
 })(VirtualGatewayStatusCode = exports.VirtualGatewayStatusCode || (exports.VirtualGatewayStatusCode = {}));
-var VirtualGatewayStatus;
-(function (VirtualGatewayStatus) {
-    VirtualGatewayStatus.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayStatus = exports.VirtualGatewayStatus || (exports.VirtualGatewayStatus = {}));
-var VirtualGatewayData;
-(function (VirtualGatewayData) {
-    VirtualGatewayData.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.spec && { spec: VirtualGatewaySpec.filterSensitiveLog(obj.spec) }),
-    });
-})(VirtualGatewayData = exports.VirtualGatewayData || (exports.VirtualGatewayData = {}));
-var CreateVirtualGatewayOutput;
-(function (CreateVirtualGatewayOutput) {
-    CreateVirtualGatewayOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualGateway && { virtualGateway: VirtualGatewayData.filterSensitiveLog(obj.virtualGateway) }),
-    });
-})(CreateVirtualGatewayOutput = exports.CreateVirtualGatewayOutput || (exports.CreateVirtualGatewayOutput = {}));
-var DeleteVirtualGatewayInput;
-(function (DeleteVirtualGatewayInput) {
-    DeleteVirtualGatewayInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DeleteVirtualGatewayInput = exports.DeleteVirtualGatewayInput || (exports.DeleteVirtualGatewayInput = {}));
-var DeleteVirtualGatewayOutput;
-(function (DeleteVirtualGatewayOutput) {
-    DeleteVirtualGatewayOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualGateway && { virtualGateway: VirtualGatewayData.filterSensitiveLog(obj.virtualGateway) }),
-    });
-})(DeleteVirtualGatewayOutput = exports.DeleteVirtualGatewayOutput || (exports.DeleteVirtualGatewayOutput = {}));
-var DescribeVirtualGatewayInput;
-(function (DescribeVirtualGatewayInput) {
-    DescribeVirtualGatewayInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DescribeVirtualGatewayInput = exports.DescribeVirtualGatewayInput || (exports.DescribeVirtualGatewayInput = {}));
-var DescribeVirtualGatewayOutput;
-(function (DescribeVirtualGatewayOutput) {
-    DescribeVirtualGatewayOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualGateway && { virtualGateway: VirtualGatewayData.filterSensitiveLog(obj.virtualGateway) }),
-    });
-})(DescribeVirtualGatewayOutput = exports.DescribeVirtualGatewayOutput || (exports.DescribeVirtualGatewayOutput = {}));
 var DefaultGatewayRouteRewrite;
 (function (DefaultGatewayRouteRewrite) {
     DefaultGatewayRouteRewrite["DISABLED"] = "DISABLED";
     DefaultGatewayRouteRewrite["ENABLED"] = "ENABLED";
 })(DefaultGatewayRouteRewrite = exports.DefaultGatewayRouteRewrite || (exports.DefaultGatewayRouteRewrite = {}));
-var GatewayRouteHostnameRewrite;
-(function (GatewayRouteHostnameRewrite) {
-    GatewayRouteHostnameRewrite.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GatewayRouteHostnameRewrite = exports.GatewayRouteHostnameRewrite || (exports.GatewayRouteHostnameRewrite = {}));
-var GrpcGatewayRouteRewrite;
-(function (GrpcGatewayRouteRewrite) {
-    GrpcGatewayRouteRewrite.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GrpcGatewayRouteRewrite = exports.GrpcGatewayRouteRewrite || (exports.GrpcGatewayRouteRewrite = {}));
-var GatewayRouteVirtualService;
-(function (GatewayRouteVirtualService) {
-    GatewayRouteVirtualService.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GatewayRouteVirtualService = exports.GatewayRouteVirtualService || (exports.GatewayRouteVirtualService = {}));
-var GatewayRouteTarget;
-(function (GatewayRouteTarget) {
-    GatewayRouteTarget.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GatewayRouteTarget = exports.GatewayRouteTarget || (exports.GatewayRouteTarget = {}));
-var GrpcGatewayRouteAction;
-(function (GrpcGatewayRouteAction) {
-    GrpcGatewayRouteAction.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GrpcGatewayRouteAction = exports.GrpcGatewayRouteAction || (exports.GrpcGatewayRouteAction = {}));
-var GatewayRouteHostnameMatch;
-(function (GatewayRouteHostnameMatch) {
-    GatewayRouteHostnameMatch.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GatewayRouteHostnameMatch = exports.GatewayRouteHostnameMatch || (exports.GatewayRouteHostnameMatch = {}));
-var MatchRange;
-(function (MatchRange) {
-    MatchRange.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(MatchRange = exports.MatchRange || (exports.MatchRange = {}));
 var GrpcMetadataMatchMethod;
 (function (GrpcMetadataMatchMethod) {
     GrpcMetadataMatchMethod.visit = (value, visitor) => {
@@ -5521,65 +5087,7 @@ var GrpcMetadataMatchMethod;
             return visitor.suffix(value.suffix);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    GrpcMetadataMatchMethod.filterSensitiveLog = (obj) => {
-        if (obj.exact !== undefined)
-            return { exact: obj.exact };
-        if (obj.regex !== undefined)
-            return { regex: obj.regex };
-        if (obj.range !== undefined)
-            return { range: MatchRange.filterSensitiveLog(obj.range) };
-        if (obj.prefix !== undefined)
-            return { prefix: obj.prefix };
-        if (obj.suffix !== undefined)
-            return { suffix: obj.suffix };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(GrpcMetadataMatchMethod = exports.GrpcMetadataMatchMethod || (exports.GrpcMetadataMatchMethod = {}));
-var GrpcGatewayRouteMetadata;
-(function (GrpcGatewayRouteMetadata) {
-    GrpcGatewayRouteMetadata.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.match && { match: GrpcMetadataMatchMethod.filterSensitiveLog(obj.match) }),
-    });
-})(GrpcGatewayRouteMetadata = exports.GrpcGatewayRouteMetadata || (exports.GrpcGatewayRouteMetadata = {}));
-var GrpcGatewayRouteMatch;
-(function (GrpcGatewayRouteMatch) {
-    GrpcGatewayRouteMatch.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.metadata && { metadata: obj.metadata.map((item) => GrpcGatewayRouteMetadata.filterSensitiveLog(item)) }),
-    });
-})(GrpcGatewayRouteMatch = exports.GrpcGatewayRouteMatch || (exports.GrpcGatewayRouteMatch = {}));
-var GrpcGatewayRoute;
-(function (GrpcGatewayRoute) {
-    GrpcGatewayRoute.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GrpcGatewayRoute = exports.GrpcGatewayRoute || (exports.GrpcGatewayRoute = {}));
-var HttpGatewayRoutePathRewrite;
-(function (HttpGatewayRoutePathRewrite) {
-    HttpGatewayRoutePathRewrite.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HttpGatewayRoutePathRewrite = exports.HttpGatewayRoutePathRewrite || (exports.HttpGatewayRoutePathRewrite = {}));
-var HttpGatewayRoutePrefixRewrite;
-(function (HttpGatewayRoutePrefixRewrite) {
-    HttpGatewayRoutePrefixRewrite.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HttpGatewayRoutePrefixRewrite = exports.HttpGatewayRoutePrefixRewrite || (exports.HttpGatewayRoutePrefixRewrite = {}));
-var HttpGatewayRouteRewrite;
-(function (HttpGatewayRouteRewrite) {
-    HttpGatewayRouteRewrite.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HttpGatewayRouteRewrite = exports.HttpGatewayRouteRewrite || (exports.HttpGatewayRouteRewrite = {}));
-var HttpGatewayRouteAction;
-(function (HttpGatewayRouteAction) {
-    HttpGatewayRouteAction.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HttpGatewayRouteAction = exports.HttpGatewayRouteAction || (exports.HttpGatewayRouteAction = {}));
 var HeaderMatchMethod;
 (function (HeaderMatchMethod) {
     HeaderMatchMethod.visit = (value, visitor) => {
@@ -5595,28 +5103,7 @@ var HeaderMatchMethod;
             return visitor.suffix(value.suffix);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    HeaderMatchMethod.filterSensitiveLog = (obj) => {
-        if (obj.exact !== undefined)
-            return { exact: obj.exact };
-        if (obj.regex !== undefined)
-            return { regex: obj.regex };
-        if (obj.range !== undefined)
-            return { range: MatchRange.filterSensitiveLog(obj.range) };
-        if (obj.prefix !== undefined)
-            return { prefix: obj.prefix };
-        if (obj.suffix !== undefined)
-            return { suffix: obj.suffix };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(HeaderMatchMethod = exports.HeaderMatchMethod || (exports.HeaderMatchMethod = {}));
-var HttpGatewayRouteHeader;
-(function (HttpGatewayRouteHeader) {
-    HttpGatewayRouteHeader.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.match && { match: HeaderMatchMethod.filterSensitiveLog(obj.match) }),
-    });
-})(HttpGatewayRouteHeader = exports.HttpGatewayRouteHeader || (exports.HttpGatewayRouteHeader = {}));
 var HttpMethod;
 (function (HttpMethod) {
     HttpMethod["CONNECT"] = "CONNECT";
@@ -5629,171 +5116,12 @@ var HttpMethod;
     HttpMethod["PUT"] = "PUT";
     HttpMethod["TRACE"] = "TRACE";
 })(HttpMethod = exports.HttpMethod || (exports.HttpMethod = {}));
-var HttpPathMatch;
-(function (HttpPathMatch) {
-    HttpPathMatch.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HttpPathMatch = exports.HttpPathMatch || (exports.HttpPathMatch = {}));
-var QueryParameterMatch;
-(function (QueryParameterMatch) {
-    QueryParameterMatch.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(QueryParameterMatch = exports.QueryParameterMatch || (exports.QueryParameterMatch = {}));
-var HttpQueryParameter;
-(function (HttpQueryParameter) {
-    HttpQueryParameter.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HttpQueryParameter = exports.HttpQueryParameter || (exports.HttpQueryParameter = {}));
-var HttpGatewayRouteMatch;
-(function (HttpGatewayRouteMatch) {
-    HttpGatewayRouteMatch.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.headers && { headers: obj.headers.map((item) => HttpGatewayRouteHeader.filterSensitiveLog(item)) }),
-    });
-})(HttpGatewayRouteMatch = exports.HttpGatewayRouteMatch || (exports.HttpGatewayRouteMatch = {}));
-var HttpGatewayRoute;
-(function (HttpGatewayRoute) {
-    HttpGatewayRoute.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HttpGatewayRoute = exports.HttpGatewayRoute || (exports.HttpGatewayRoute = {}));
-var GatewayRouteSpec;
-(function (GatewayRouteSpec) {
-    GatewayRouteSpec.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GatewayRouteSpec = exports.GatewayRouteSpec || (exports.GatewayRouteSpec = {}));
-var CreateGatewayRouteInput;
-(function (CreateGatewayRouteInput) {
-    CreateGatewayRouteInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(CreateGatewayRouteInput = exports.CreateGatewayRouteInput || (exports.CreateGatewayRouteInput = {}));
 var GatewayRouteStatusCode;
 (function (GatewayRouteStatusCode) {
     GatewayRouteStatusCode["ACTIVE"] = "ACTIVE";
     GatewayRouteStatusCode["DELETED"] = "DELETED";
     GatewayRouteStatusCode["INACTIVE"] = "INACTIVE";
 })(GatewayRouteStatusCode = exports.GatewayRouteStatusCode || (exports.GatewayRouteStatusCode = {}));
-var GatewayRouteStatus;
-(function (GatewayRouteStatus) {
-    GatewayRouteStatus.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GatewayRouteStatus = exports.GatewayRouteStatus || (exports.GatewayRouteStatus = {}));
-var GatewayRouteData;
-(function (GatewayRouteData) {
-    GatewayRouteData.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GatewayRouteData = exports.GatewayRouteData || (exports.GatewayRouteData = {}));
-var CreateGatewayRouteOutput;
-(function (CreateGatewayRouteOutput) {
-    CreateGatewayRouteOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(CreateGatewayRouteOutput = exports.CreateGatewayRouteOutput || (exports.CreateGatewayRouteOutput = {}));
-var DeleteGatewayRouteInput;
-(function (DeleteGatewayRouteInput) {
-    DeleteGatewayRouteInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DeleteGatewayRouteInput = exports.DeleteGatewayRouteInput || (exports.DeleteGatewayRouteInput = {}));
-var DeleteGatewayRouteOutput;
-(function (DeleteGatewayRouteOutput) {
-    DeleteGatewayRouteOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DeleteGatewayRouteOutput = exports.DeleteGatewayRouteOutput || (exports.DeleteGatewayRouteOutput = {}));
-var DescribeGatewayRouteInput;
-(function (DescribeGatewayRouteInput) {
-    DescribeGatewayRouteInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DescribeGatewayRouteInput = exports.DescribeGatewayRouteInput || (exports.DescribeGatewayRouteInput = {}));
-var DescribeGatewayRouteOutput;
-(function (DescribeGatewayRouteOutput) {
-    DescribeGatewayRouteOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DescribeGatewayRouteOutput = exports.DescribeGatewayRouteOutput || (exports.DescribeGatewayRouteOutput = {}));
-var ListGatewayRoutesInput;
-(function (ListGatewayRoutesInput) {
-    ListGatewayRoutesInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListGatewayRoutesInput = exports.ListGatewayRoutesInput || (exports.ListGatewayRoutesInput = {}));
-var GatewayRouteRef;
-(function (GatewayRouteRef) {
-    GatewayRouteRef.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GatewayRouteRef = exports.GatewayRouteRef || (exports.GatewayRouteRef = {}));
-var ListGatewayRoutesOutput;
-(function (ListGatewayRoutesOutput) {
-    ListGatewayRoutesOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListGatewayRoutesOutput = exports.ListGatewayRoutesOutput || (exports.ListGatewayRoutesOutput = {}));
-var UpdateGatewayRouteInput;
-(function (UpdateGatewayRouteInput) {
-    UpdateGatewayRouteInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UpdateGatewayRouteInput = exports.UpdateGatewayRouteInput || (exports.UpdateGatewayRouteInput = {}));
-var UpdateGatewayRouteOutput;
-(function (UpdateGatewayRouteOutput) {
-    UpdateGatewayRouteOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UpdateGatewayRouteOutput = exports.UpdateGatewayRouteOutput || (exports.UpdateGatewayRouteOutput = {}));
-var ListVirtualGatewaysInput;
-(function (ListVirtualGatewaysInput) {
-    ListVirtualGatewaysInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListVirtualGatewaysInput = exports.ListVirtualGatewaysInput || (exports.ListVirtualGatewaysInput = {}));
-var VirtualGatewayRef;
-(function (VirtualGatewayRef) {
-    VirtualGatewayRef.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualGatewayRef = exports.VirtualGatewayRef || (exports.VirtualGatewayRef = {}));
-var ListVirtualGatewaysOutput;
-(function (ListVirtualGatewaysOutput) {
-    ListVirtualGatewaysOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListVirtualGatewaysOutput = exports.ListVirtualGatewaysOutput || (exports.ListVirtualGatewaysOutput = {}));
-var UpdateVirtualGatewayInput;
-(function (UpdateVirtualGatewayInput) {
-    UpdateVirtualGatewayInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.spec && { spec: VirtualGatewaySpec.filterSensitiveLog(obj.spec) }),
-    });
-})(UpdateVirtualGatewayInput = exports.UpdateVirtualGatewayInput || (exports.UpdateVirtualGatewayInput = {}));
-var UpdateVirtualGatewayOutput;
-(function (UpdateVirtualGatewayOutput) {
-    UpdateVirtualGatewayOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualGateway && { virtualGateway: VirtualGatewayData.filterSensitiveLog(obj.virtualGateway) }),
-    });
-})(UpdateVirtualGatewayOutput = exports.UpdateVirtualGatewayOutput || (exports.UpdateVirtualGatewayOutput = {}));
-var ListenerTlsFileCertificate;
-(function (ListenerTlsFileCertificate) {
-    ListenerTlsFileCertificate.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListenerTlsFileCertificate = exports.ListenerTlsFileCertificate || (exports.ListenerTlsFileCertificate = {}));
-var ListenerTlsSdsCertificate;
-(function (ListenerTlsSdsCertificate) {
-    ListenerTlsSdsCertificate.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListenerTlsSdsCertificate = exports.ListenerTlsSdsCertificate || (exports.ListenerTlsSdsCertificate = {}));
 var ClientTlsCertificate;
 (function (ClientTlsCertificate) {
     ClientTlsCertificate.visit = (value, visitor) => {
@@ -5803,33 +5131,7 @@ var ClientTlsCertificate;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    ClientTlsCertificate.filterSensitiveLog = (obj) => {
-        if (obj.file !== undefined)
-            return { file: ListenerTlsFileCertificate.filterSensitiveLog(obj.file) };
-        if (obj.sds !== undefined)
-            return { sds: ListenerTlsSdsCertificate.filterSensitiveLog(obj.sds) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(ClientTlsCertificate = exports.ClientTlsCertificate || (exports.ClientTlsCertificate = {}));
-var TlsValidationContextAcmTrust;
-(function (TlsValidationContextAcmTrust) {
-    TlsValidationContextAcmTrust.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TlsValidationContextAcmTrust = exports.TlsValidationContextAcmTrust || (exports.TlsValidationContextAcmTrust = {}));
-var TlsValidationContextFileTrust;
-(function (TlsValidationContextFileTrust) {
-    TlsValidationContextFileTrust.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TlsValidationContextFileTrust = exports.TlsValidationContextFileTrust || (exports.TlsValidationContextFileTrust = {}));
-var TlsValidationContextSdsTrust;
-(function (TlsValidationContextSdsTrust) {
-    TlsValidationContextSdsTrust.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TlsValidationContextSdsTrust = exports.TlsValidationContextSdsTrust || (exports.TlsValidationContextSdsTrust = {}));
 var TlsValidationContextTrust;
 (function (TlsValidationContextTrust) {
     TlsValidationContextTrust.visit = (value, visitor) => {
@@ -5841,53 +5143,7 @@ var TlsValidationContextTrust;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    TlsValidationContextTrust.filterSensitiveLog = (obj) => {
-        if (obj.acm !== undefined)
-            return { acm: TlsValidationContextAcmTrust.filterSensitiveLog(obj.acm) };
-        if (obj.file !== undefined)
-            return { file: TlsValidationContextFileTrust.filterSensitiveLog(obj.file) };
-        if (obj.sds !== undefined)
-            return { sds: TlsValidationContextSdsTrust.filterSensitiveLog(obj.sds) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(TlsValidationContextTrust = exports.TlsValidationContextTrust || (exports.TlsValidationContextTrust = {}));
-var TlsValidationContext;
-(function (TlsValidationContext) {
-    TlsValidationContext.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.trust && { trust: TlsValidationContextTrust.filterSensitiveLog(obj.trust) }),
-    });
-})(TlsValidationContext = exports.TlsValidationContext || (exports.TlsValidationContext = {}));
-var ClientPolicyTls;
-(function (ClientPolicyTls) {
-    ClientPolicyTls.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.certificate && { certificate: ClientTlsCertificate.filterSensitiveLog(obj.certificate) }),
-        ...(obj.validation && { validation: TlsValidationContext.filterSensitiveLog(obj.validation) }),
-    });
-})(ClientPolicyTls = exports.ClientPolicyTls || (exports.ClientPolicyTls = {}));
-var ClientPolicy;
-(function (ClientPolicy) {
-    ClientPolicy.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.tls && { tls: ClientPolicyTls.filterSensitiveLog(obj.tls) }),
-    });
-})(ClientPolicy = exports.ClientPolicy || (exports.ClientPolicy = {}));
-var BackendDefaults;
-(function (BackendDefaults) {
-    BackendDefaults.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.clientPolicy && { clientPolicy: ClientPolicy.filterSensitiveLog(obj.clientPolicy) }),
-    });
-})(BackendDefaults = exports.BackendDefaults || (exports.BackendDefaults = {}));
-var VirtualServiceBackend;
-(function (VirtualServiceBackend) {
-    VirtualServiceBackend.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.clientPolicy && { clientPolicy: ClientPolicy.filterSensitiveLog(obj.clientPolicy) }),
-    });
-})(VirtualServiceBackend = exports.VirtualServiceBackend || (exports.VirtualServiceBackend = {}));
 var Backend;
 (function (Backend) {
     Backend.visit = (value, visitor) => {
@@ -5895,37 +5151,7 @@ var Backend;
             return visitor.virtualService(value.virtualService);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    Backend.filterSensitiveLog = (obj) => {
-        if (obj.virtualService !== undefined)
-            return { virtualService: VirtualServiceBackend.filterSensitiveLog(obj.virtualService) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(Backend = exports.Backend || (exports.Backend = {}));
-var VirtualNodeGrpcConnectionPool;
-(function (VirtualNodeGrpcConnectionPool) {
-    VirtualNodeGrpcConnectionPool.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualNodeGrpcConnectionPool = exports.VirtualNodeGrpcConnectionPool || (exports.VirtualNodeGrpcConnectionPool = {}));
-var VirtualNodeHttpConnectionPool;
-(function (VirtualNodeHttpConnectionPool) {
-    VirtualNodeHttpConnectionPool.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualNodeHttpConnectionPool = exports.VirtualNodeHttpConnectionPool || (exports.VirtualNodeHttpConnectionPool = {}));
-var VirtualNodeHttp2ConnectionPool;
-(function (VirtualNodeHttp2ConnectionPool) {
-    VirtualNodeHttp2ConnectionPool.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualNodeHttp2ConnectionPool = exports.VirtualNodeHttp2ConnectionPool || (exports.VirtualNodeHttp2ConnectionPool = {}));
-var VirtualNodeTcpConnectionPool;
-(function (VirtualNodeTcpConnectionPool) {
-    VirtualNodeTcpConnectionPool.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualNodeTcpConnectionPool = exports.VirtualNodeTcpConnectionPool || (exports.VirtualNodeTcpConnectionPool = {}));
 var VirtualNodeConnectionPool;
 (function (VirtualNodeConnectionPool) {
     VirtualNodeConnectionPool.visit = (value, visitor) => {
@@ -5939,18 +5165,6 @@ var VirtualNodeConnectionPool;
             return visitor.grpc(value.grpc);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    VirtualNodeConnectionPool.filterSensitiveLog = (obj) => {
-        if (obj.tcp !== undefined)
-            return { tcp: VirtualNodeTcpConnectionPool.filterSensitiveLog(obj.tcp) };
-        if (obj.http !== undefined)
-            return { http: VirtualNodeHttpConnectionPool.filterSensitiveLog(obj.http) };
-        if (obj.http2 !== undefined)
-            return { http2: VirtualNodeHttp2ConnectionPool.filterSensitiveLog(obj.http2) };
-        if (obj.grpc !== undefined)
-            return { grpc: VirtualNodeGrpcConnectionPool.filterSensitiveLog(obj.grpc) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(VirtualNodeConnectionPool = exports.VirtualNodeConnectionPool || (exports.VirtualNodeConnectionPool = {}));
 var PortProtocol;
 (function (PortProtocol) {
@@ -5959,53 +5173,11 @@ var PortProtocol;
     PortProtocol["HTTP2"] = "http2";
     PortProtocol["TCP"] = "tcp";
 })(PortProtocol = exports.PortProtocol || (exports.PortProtocol = {}));
-var HealthCheckPolicy;
-(function (HealthCheckPolicy) {
-    HealthCheckPolicy.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HealthCheckPolicy = exports.HealthCheckPolicy || (exports.HealthCheckPolicy = {}));
 var DurationUnit;
 (function (DurationUnit) {
     DurationUnit["MS"] = "ms";
     DurationUnit["S"] = "s";
 })(DurationUnit = exports.DurationUnit || (exports.DurationUnit = {}));
-var Duration;
-(function (Duration) {
-    Duration.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(Duration = exports.Duration || (exports.Duration = {}));
-var OutlierDetection;
-(function (OutlierDetection) {
-    OutlierDetection.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(OutlierDetection = exports.OutlierDetection || (exports.OutlierDetection = {}));
-var PortMapping;
-(function (PortMapping) {
-    PortMapping.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(PortMapping = exports.PortMapping || (exports.PortMapping = {}));
-var GrpcTimeout;
-(function (GrpcTimeout) {
-    GrpcTimeout.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GrpcTimeout = exports.GrpcTimeout || (exports.GrpcTimeout = {}));
-var HttpTimeout;
-(function (HttpTimeout) {
-    HttpTimeout.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HttpTimeout = exports.HttpTimeout || (exports.HttpTimeout = {}));
-var TcpTimeout;
-(function (TcpTimeout) {
-    TcpTimeout.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TcpTimeout = exports.TcpTimeout || (exports.TcpTimeout = {}));
 var ListenerTimeout;
 (function (ListenerTimeout) {
     ListenerTimeout.visit = (value, visitor) => {
@@ -6019,25 +5191,7 @@ var ListenerTimeout;
             return visitor.grpc(value.grpc);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    ListenerTimeout.filterSensitiveLog = (obj) => {
-        if (obj.tcp !== undefined)
-            return { tcp: TcpTimeout.filterSensitiveLog(obj.tcp) };
-        if (obj.http !== undefined)
-            return { http: HttpTimeout.filterSensitiveLog(obj.http) };
-        if (obj.http2 !== undefined)
-            return { http2: HttpTimeout.filterSensitiveLog(obj.http2) };
-        if (obj.grpc !== undefined)
-            return { grpc: GrpcTimeout.filterSensitiveLog(obj.grpc) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(ListenerTimeout = exports.ListenerTimeout || (exports.ListenerTimeout = {}));
-var ListenerTlsAcmCertificate;
-(function (ListenerTlsAcmCertificate) {
-    ListenerTlsAcmCertificate.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListenerTlsAcmCertificate = exports.ListenerTlsAcmCertificate || (exports.ListenerTlsAcmCertificate = {}));
 var ListenerTlsCertificate;
 (function (ListenerTlsCertificate) {
     ListenerTlsCertificate.visit = (value, visitor) => {
@@ -6048,16 +5202,6 @@ var ListenerTlsCertificate;
         if (value.sds !== undefined)
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
-    };
-    ListenerTlsCertificate.filterSensitiveLog = (obj) => {
-        if (obj.acm !== undefined)
-            return { acm: ListenerTlsAcmCertificate.filterSensitiveLog(obj.acm) };
-        if (obj.file !== undefined)
-            return { file: ListenerTlsFileCertificate.filterSensitiveLog(obj.file) };
-        if (obj.sds !== undefined)
-            return { sds: ListenerTlsSdsCertificate.filterSensitiveLog(obj.sds) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
     };
 })(ListenerTlsCertificate = exports.ListenerTlsCertificate || (exports.ListenerTlsCertificate = {}));
 var ListenerTlsMode;
@@ -6075,69 +5219,12 @@ var ListenerTlsValidationContextTrust;
             return visitor.sds(value.sds);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    ListenerTlsValidationContextTrust.filterSensitiveLog = (obj) => {
-        if (obj.file !== undefined)
-            return { file: TlsValidationContextFileTrust.filterSensitiveLog(obj.file) };
-        if (obj.sds !== undefined)
-            return { sds: TlsValidationContextSdsTrust.filterSensitiveLog(obj.sds) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(ListenerTlsValidationContextTrust = exports.ListenerTlsValidationContextTrust || (exports.ListenerTlsValidationContextTrust = {}));
-var ListenerTlsValidationContext;
-(function (ListenerTlsValidationContext) {
-    ListenerTlsValidationContext.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.trust && { trust: ListenerTlsValidationContextTrust.filterSensitiveLog(obj.trust) }),
-    });
-})(ListenerTlsValidationContext = exports.ListenerTlsValidationContext || (exports.ListenerTlsValidationContext = {}));
-var ListenerTls;
-(function (ListenerTls) {
-    ListenerTls.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.certificate && { certificate: ListenerTlsCertificate.filterSensitiveLog(obj.certificate) }),
-        ...(obj.validation && { validation: ListenerTlsValidationContext.filterSensitiveLog(obj.validation) }),
-    });
-})(ListenerTls = exports.ListenerTls || (exports.ListenerTls = {}));
-var Listener;
-(function (Listener) {
-    Listener.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.tls && { tls: ListenerTls.filterSensitiveLog(obj.tls) }),
-        ...(obj.timeout && { timeout: ListenerTimeout.filterSensitiveLog(obj.timeout) }),
-        ...(obj.connectionPool && { connectionPool: VirtualNodeConnectionPool.filterSensitiveLog(obj.connectionPool) }),
-    });
-})(Listener = exports.Listener || (exports.Listener = {}));
-var Logging;
-(function (Logging) {
-    Logging.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.accessLog && { accessLog: AccessLog.filterSensitiveLog(obj.accessLog) }),
-    });
-})(Logging = exports.Logging || (exports.Logging = {}));
-var AwsCloudMapInstanceAttribute;
-(function (AwsCloudMapInstanceAttribute) {
-    AwsCloudMapInstanceAttribute.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AwsCloudMapInstanceAttribute = exports.AwsCloudMapInstanceAttribute || (exports.AwsCloudMapInstanceAttribute = {}));
-var AwsCloudMapServiceDiscovery;
-(function (AwsCloudMapServiceDiscovery) {
-    AwsCloudMapServiceDiscovery.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AwsCloudMapServiceDiscovery = exports.AwsCloudMapServiceDiscovery || (exports.AwsCloudMapServiceDiscovery = {}));
 var DnsResponseType;
 (function (DnsResponseType) {
     DnsResponseType["ENDPOINTS"] = "ENDPOINTS";
     DnsResponseType["LOADBALANCER"] = "LOADBALANCER";
 })(DnsResponseType = exports.DnsResponseType || (exports.DnsResponseType = {}));
-var DnsServiceDiscovery;
-(function (DnsServiceDiscovery) {
-    DnsServiceDiscovery.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DnsServiceDiscovery = exports.DnsServiceDiscovery || (exports.DnsServiceDiscovery = {}));
 var ServiceDiscovery;
 (function (ServiceDiscovery) {
     ServiceDiscovery.visit = (value, visitor) => {
@@ -6147,213 +5234,19 @@ var ServiceDiscovery;
             return visitor.awsCloudMap(value.awsCloudMap);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    ServiceDiscovery.filterSensitiveLog = (obj) => {
-        if (obj.dns !== undefined)
-            return { dns: DnsServiceDiscovery.filterSensitiveLog(obj.dns) };
-        if (obj.awsCloudMap !== undefined)
-            return { awsCloudMap: AwsCloudMapServiceDiscovery.filterSensitiveLog(obj.awsCloudMap) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(ServiceDiscovery = exports.ServiceDiscovery || (exports.ServiceDiscovery = {}));
-var VirtualNodeSpec;
-(function (VirtualNodeSpec) {
-    VirtualNodeSpec.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.serviceDiscovery && { serviceDiscovery: ServiceDiscovery.filterSensitiveLog(obj.serviceDiscovery) }),
-        ...(obj.listeners && { listeners: obj.listeners.map((item) => Listener.filterSensitiveLog(item)) }),
-        ...(obj.backends && { backends: obj.backends.map((item) => Backend.filterSensitiveLog(item)) }),
-        ...(obj.backendDefaults && { backendDefaults: BackendDefaults.filterSensitiveLog(obj.backendDefaults) }),
-        ...(obj.logging && { logging: Logging.filterSensitiveLog(obj.logging) }),
-    });
-})(VirtualNodeSpec = exports.VirtualNodeSpec || (exports.VirtualNodeSpec = {}));
-var CreateVirtualNodeInput;
-(function (CreateVirtualNodeInput) {
-    CreateVirtualNodeInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.spec && { spec: VirtualNodeSpec.filterSensitiveLog(obj.spec) }),
-    });
-})(CreateVirtualNodeInput = exports.CreateVirtualNodeInput || (exports.CreateVirtualNodeInput = {}));
 var VirtualNodeStatusCode;
 (function (VirtualNodeStatusCode) {
     VirtualNodeStatusCode["ACTIVE"] = "ACTIVE";
     VirtualNodeStatusCode["DELETED"] = "DELETED";
     VirtualNodeStatusCode["INACTIVE"] = "INACTIVE";
 })(VirtualNodeStatusCode = exports.VirtualNodeStatusCode || (exports.VirtualNodeStatusCode = {}));
-var VirtualNodeStatus;
-(function (VirtualNodeStatus) {
-    VirtualNodeStatus.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualNodeStatus = exports.VirtualNodeStatus || (exports.VirtualNodeStatus = {}));
-var VirtualNodeData;
-(function (VirtualNodeData) {
-    VirtualNodeData.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.spec && { spec: VirtualNodeSpec.filterSensitiveLog(obj.spec) }),
-    });
-})(VirtualNodeData = exports.VirtualNodeData || (exports.VirtualNodeData = {}));
-var CreateVirtualNodeOutput;
-(function (CreateVirtualNodeOutput) {
-    CreateVirtualNodeOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualNode && { virtualNode: VirtualNodeData.filterSensitiveLog(obj.virtualNode) }),
-    });
-})(CreateVirtualNodeOutput = exports.CreateVirtualNodeOutput || (exports.CreateVirtualNodeOutput = {}));
-var DeleteVirtualNodeInput;
-(function (DeleteVirtualNodeInput) {
-    DeleteVirtualNodeInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DeleteVirtualNodeInput = exports.DeleteVirtualNodeInput || (exports.DeleteVirtualNodeInput = {}));
-var DeleteVirtualNodeOutput;
-(function (DeleteVirtualNodeOutput) {
-    DeleteVirtualNodeOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualNode && { virtualNode: VirtualNodeData.filterSensitiveLog(obj.virtualNode) }),
-    });
-})(DeleteVirtualNodeOutput = exports.DeleteVirtualNodeOutput || (exports.DeleteVirtualNodeOutput = {}));
-var DescribeVirtualNodeInput;
-(function (DescribeVirtualNodeInput) {
-    DescribeVirtualNodeInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DescribeVirtualNodeInput = exports.DescribeVirtualNodeInput || (exports.DescribeVirtualNodeInput = {}));
-var DescribeVirtualNodeOutput;
-(function (DescribeVirtualNodeOutput) {
-    DescribeVirtualNodeOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualNode && { virtualNode: VirtualNodeData.filterSensitiveLog(obj.virtualNode) }),
-    });
-})(DescribeVirtualNodeOutput = exports.DescribeVirtualNodeOutput || (exports.DescribeVirtualNodeOutput = {}));
-var ListVirtualNodesInput;
-(function (ListVirtualNodesInput) {
-    ListVirtualNodesInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListVirtualNodesInput = exports.ListVirtualNodesInput || (exports.ListVirtualNodesInput = {}));
-var VirtualNodeRef;
-(function (VirtualNodeRef) {
-    VirtualNodeRef.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualNodeRef = exports.VirtualNodeRef || (exports.VirtualNodeRef = {}));
-var ListVirtualNodesOutput;
-(function (ListVirtualNodesOutput) {
-    ListVirtualNodesOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListVirtualNodesOutput = exports.ListVirtualNodesOutput || (exports.ListVirtualNodesOutput = {}));
-var UpdateVirtualNodeInput;
-(function (UpdateVirtualNodeInput) {
-    UpdateVirtualNodeInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.spec && { spec: VirtualNodeSpec.filterSensitiveLog(obj.spec) }),
-    });
-})(UpdateVirtualNodeInput = exports.UpdateVirtualNodeInput || (exports.UpdateVirtualNodeInput = {}));
-var UpdateVirtualNodeOutput;
-(function (UpdateVirtualNodeOutput) {
-    UpdateVirtualNodeOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualNode && { virtualNode: VirtualNodeData.filterSensitiveLog(obj.virtualNode) }),
-    });
-})(UpdateVirtualNodeOutput = exports.UpdateVirtualNodeOutput || (exports.UpdateVirtualNodeOutput = {}));
-var VirtualRouterListener;
-(function (VirtualRouterListener) {
-    VirtualRouterListener.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualRouterListener = exports.VirtualRouterListener || (exports.VirtualRouterListener = {}));
-var VirtualRouterSpec;
-(function (VirtualRouterSpec) {
-    VirtualRouterSpec.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualRouterSpec = exports.VirtualRouterSpec || (exports.VirtualRouterSpec = {}));
-var CreateVirtualRouterInput;
-(function (CreateVirtualRouterInput) {
-    CreateVirtualRouterInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(CreateVirtualRouterInput = exports.CreateVirtualRouterInput || (exports.CreateVirtualRouterInput = {}));
 var VirtualRouterStatusCode;
 (function (VirtualRouterStatusCode) {
     VirtualRouterStatusCode["ACTIVE"] = "ACTIVE";
     VirtualRouterStatusCode["DELETED"] = "DELETED";
     VirtualRouterStatusCode["INACTIVE"] = "INACTIVE";
 })(VirtualRouterStatusCode = exports.VirtualRouterStatusCode || (exports.VirtualRouterStatusCode = {}));
-var VirtualRouterStatus;
-(function (VirtualRouterStatus) {
-    VirtualRouterStatus.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualRouterStatus = exports.VirtualRouterStatus || (exports.VirtualRouterStatus = {}));
-var VirtualRouterData;
-(function (VirtualRouterData) {
-    VirtualRouterData.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualRouterData = exports.VirtualRouterData || (exports.VirtualRouterData = {}));
-var CreateVirtualRouterOutput;
-(function (CreateVirtualRouterOutput) {
-    CreateVirtualRouterOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(CreateVirtualRouterOutput = exports.CreateVirtualRouterOutput || (exports.CreateVirtualRouterOutput = {}));
-var DeleteVirtualRouterInput;
-(function (DeleteVirtualRouterInput) {
-    DeleteVirtualRouterInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DeleteVirtualRouterInput = exports.DeleteVirtualRouterInput || (exports.DeleteVirtualRouterInput = {}));
-var DeleteVirtualRouterOutput;
-(function (DeleteVirtualRouterOutput) {
-    DeleteVirtualRouterOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DeleteVirtualRouterOutput = exports.DeleteVirtualRouterOutput || (exports.DeleteVirtualRouterOutput = {}));
-var DescribeVirtualRouterInput;
-(function (DescribeVirtualRouterInput) {
-    DescribeVirtualRouterInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DescribeVirtualRouterInput = exports.DescribeVirtualRouterInput || (exports.DescribeVirtualRouterInput = {}));
-var DescribeVirtualRouterOutput;
-(function (DescribeVirtualRouterOutput) {
-    DescribeVirtualRouterOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DescribeVirtualRouterOutput = exports.DescribeVirtualRouterOutput || (exports.DescribeVirtualRouterOutput = {}));
-var ListVirtualRoutersInput;
-(function (ListVirtualRoutersInput) {
-    ListVirtualRoutersInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListVirtualRoutersInput = exports.ListVirtualRoutersInput || (exports.ListVirtualRoutersInput = {}));
-var VirtualRouterRef;
-(function (VirtualRouterRef) {
-    VirtualRouterRef.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualRouterRef = exports.VirtualRouterRef || (exports.VirtualRouterRef = {}));
-var ListVirtualRoutersOutput;
-(function (ListVirtualRoutersOutput) {
-    ListVirtualRoutersOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListVirtualRoutersOutput = exports.ListVirtualRoutersOutput || (exports.ListVirtualRoutersOutput = {}));
-var WeightedTarget;
-(function (WeightedTarget) {
-    WeightedTarget.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(WeightedTarget = exports.WeightedTarget || (exports.WeightedTarget = {}));
-var GrpcRouteAction;
-(function (GrpcRouteAction) {
-    GrpcRouteAction.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GrpcRouteAction = exports.GrpcRouteAction || (exports.GrpcRouteAction = {}));
 var GrpcRouteMetadataMatchMethod;
 (function (GrpcRouteMetadataMatchMethod) {
     GrpcRouteMetadataMatchMethod.visit = (value, visitor) => {
@@ -6369,35 +5262,7 @@ var GrpcRouteMetadataMatchMethod;
             return visitor.suffix(value.suffix);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    GrpcRouteMetadataMatchMethod.filterSensitiveLog = (obj) => {
-        if (obj.exact !== undefined)
-            return { exact: obj.exact };
-        if (obj.regex !== undefined)
-            return { regex: obj.regex };
-        if (obj.range !== undefined)
-            return { range: MatchRange.filterSensitiveLog(obj.range) };
-        if (obj.prefix !== undefined)
-            return { prefix: obj.prefix };
-        if (obj.suffix !== undefined)
-            return { suffix: obj.suffix };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(GrpcRouteMetadataMatchMethod = exports.GrpcRouteMetadataMatchMethod || (exports.GrpcRouteMetadataMatchMethod = {}));
-var GrpcRouteMetadata;
-(function (GrpcRouteMetadata) {
-    GrpcRouteMetadata.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.match && { match: GrpcRouteMetadataMatchMethod.filterSensitiveLog(obj.match) }),
-    });
-})(GrpcRouteMetadata = exports.GrpcRouteMetadata || (exports.GrpcRouteMetadata = {}));
-var GrpcRouteMatch;
-(function (GrpcRouteMatch) {
-    GrpcRouteMatch.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.metadata && { metadata: obj.metadata.map((item) => GrpcRouteMetadata.filterSensitiveLog(item)) }),
-    });
-})(GrpcRouteMatch = exports.GrpcRouteMatch || (exports.GrpcRouteMatch = {}));
 var GrpcRetryPolicyEvent;
 (function (GrpcRetryPolicyEvent) {
     GrpcRetryPolicyEvent["CANCELLED"] = "cancelled";
@@ -6410,181 +5275,17 @@ var TcpRetryPolicyEvent;
 (function (TcpRetryPolicyEvent) {
     TcpRetryPolicyEvent["CONNECTION_ERROR"] = "connection-error";
 })(TcpRetryPolicyEvent = exports.TcpRetryPolicyEvent || (exports.TcpRetryPolicyEvent = {}));
-var GrpcRetryPolicy;
-(function (GrpcRetryPolicy) {
-    GrpcRetryPolicy.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GrpcRetryPolicy = exports.GrpcRetryPolicy || (exports.GrpcRetryPolicy = {}));
-var GrpcRoute;
-(function (GrpcRoute) {
-    GrpcRoute.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GrpcRoute = exports.GrpcRoute || (exports.GrpcRoute = {}));
-var HttpRouteAction;
-(function (HttpRouteAction) {
-    HttpRouteAction.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HttpRouteAction = exports.HttpRouteAction || (exports.HttpRouteAction = {}));
-var HttpRouteHeader;
-(function (HttpRouteHeader) {
-    HttpRouteHeader.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.match && { match: HeaderMatchMethod.filterSensitiveLog(obj.match) }),
-    });
-})(HttpRouteHeader = exports.HttpRouteHeader || (exports.HttpRouteHeader = {}));
 var HttpScheme;
 (function (HttpScheme) {
     HttpScheme["HTTP"] = "http";
     HttpScheme["HTTPS"] = "https";
 })(HttpScheme = exports.HttpScheme || (exports.HttpScheme = {}));
-var HttpRouteMatch;
-(function (HttpRouteMatch) {
-    HttpRouteMatch.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.headers && { headers: obj.headers.map((item) => HttpRouteHeader.filterSensitiveLog(item)) }),
-    });
-})(HttpRouteMatch = exports.HttpRouteMatch || (exports.HttpRouteMatch = {}));
-var HttpRetryPolicy;
-(function (HttpRetryPolicy) {
-    HttpRetryPolicy.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HttpRetryPolicy = exports.HttpRetryPolicy || (exports.HttpRetryPolicy = {}));
-var HttpRoute;
-(function (HttpRoute) {
-    HttpRoute.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(HttpRoute = exports.HttpRoute || (exports.HttpRoute = {}));
-var TcpRouteAction;
-(function (TcpRouteAction) {
-    TcpRouteAction.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TcpRouteAction = exports.TcpRouteAction || (exports.TcpRouteAction = {}));
-var TcpRoute;
-(function (TcpRoute) {
-    TcpRoute.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TcpRoute = exports.TcpRoute || (exports.TcpRoute = {}));
-var RouteSpec;
-(function (RouteSpec) {
-    RouteSpec.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(RouteSpec = exports.RouteSpec || (exports.RouteSpec = {}));
-var CreateRouteInput;
-(function (CreateRouteInput) {
-    CreateRouteInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(CreateRouteInput = exports.CreateRouteInput || (exports.CreateRouteInput = {}));
 var RouteStatusCode;
 (function (RouteStatusCode) {
     RouteStatusCode["ACTIVE"] = "ACTIVE";
     RouteStatusCode["DELETED"] = "DELETED";
     RouteStatusCode["INACTIVE"] = "INACTIVE";
 })(RouteStatusCode = exports.RouteStatusCode || (exports.RouteStatusCode = {}));
-var RouteStatus;
-(function (RouteStatus) {
-    RouteStatus.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(RouteStatus = exports.RouteStatus || (exports.RouteStatus = {}));
-var RouteData;
-(function (RouteData) {
-    RouteData.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(RouteData = exports.RouteData || (exports.RouteData = {}));
-var CreateRouteOutput;
-(function (CreateRouteOutput) {
-    CreateRouteOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(CreateRouteOutput = exports.CreateRouteOutput || (exports.CreateRouteOutput = {}));
-var DeleteRouteInput;
-(function (DeleteRouteInput) {
-    DeleteRouteInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DeleteRouteInput = exports.DeleteRouteInput || (exports.DeleteRouteInput = {}));
-var DeleteRouteOutput;
-(function (DeleteRouteOutput) {
-    DeleteRouteOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DeleteRouteOutput = exports.DeleteRouteOutput || (exports.DeleteRouteOutput = {}));
-var DescribeRouteInput;
-(function (DescribeRouteInput) {
-    DescribeRouteInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DescribeRouteInput = exports.DescribeRouteInput || (exports.DescribeRouteInput = {}));
-var DescribeRouteOutput;
-(function (DescribeRouteOutput) {
-    DescribeRouteOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DescribeRouteOutput = exports.DescribeRouteOutput || (exports.DescribeRouteOutput = {}));
-var ListRoutesInput;
-(function (ListRoutesInput) {
-    ListRoutesInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListRoutesInput = exports.ListRoutesInput || (exports.ListRoutesInput = {}));
-var RouteRef;
-(function (RouteRef) {
-    RouteRef.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(RouteRef = exports.RouteRef || (exports.RouteRef = {}));
-var ListRoutesOutput;
-(function (ListRoutesOutput) {
-    ListRoutesOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListRoutesOutput = exports.ListRoutesOutput || (exports.ListRoutesOutput = {}));
-var UpdateRouteInput;
-(function (UpdateRouteInput) {
-    UpdateRouteInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UpdateRouteInput = exports.UpdateRouteInput || (exports.UpdateRouteInput = {}));
-var UpdateRouteOutput;
-(function (UpdateRouteOutput) {
-    UpdateRouteOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UpdateRouteOutput = exports.UpdateRouteOutput || (exports.UpdateRouteOutput = {}));
-var UpdateVirtualRouterInput;
-(function (UpdateVirtualRouterInput) {
-    UpdateVirtualRouterInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UpdateVirtualRouterInput = exports.UpdateVirtualRouterInput || (exports.UpdateVirtualRouterInput = {}));
-var UpdateVirtualRouterOutput;
-(function (UpdateVirtualRouterOutput) {
-    UpdateVirtualRouterOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UpdateVirtualRouterOutput = exports.UpdateVirtualRouterOutput || (exports.UpdateVirtualRouterOutput = {}));
-var VirtualNodeServiceProvider;
-(function (VirtualNodeServiceProvider) {
-    VirtualNodeServiceProvider.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualNodeServiceProvider = exports.VirtualNodeServiceProvider || (exports.VirtualNodeServiceProvider = {}));
-var VirtualRouterServiceProvider;
-(function (VirtualRouterServiceProvider) {
-    VirtualRouterServiceProvider.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualRouterServiceProvider = exports.VirtualRouterServiceProvider || (exports.VirtualRouterServiceProvider = {}));
 var VirtualServiceProvider;
 (function (VirtualServiceProvider) {
     VirtualServiceProvider.visit = (value, visitor) => {
@@ -6594,125 +5295,13 @@ var VirtualServiceProvider;
             return visitor.virtualRouter(value.virtualRouter);
         return visitor._(value.$unknown[0], value.$unknown[1]);
     };
-    VirtualServiceProvider.filterSensitiveLog = (obj) => {
-        if (obj.virtualNode !== undefined)
-            return { virtualNode: VirtualNodeServiceProvider.filterSensitiveLog(obj.virtualNode) };
-        if (obj.virtualRouter !== undefined)
-            return { virtualRouter: VirtualRouterServiceProvider.filterSensitiveLog(obj.virtualRouter) };
-        if (obj.$unknown !== undefined)
-            return { [obj.$unknown[0]]: "UNKNOWN" };
-    };
 })(VirtualServiceProvider = exports.VirtualServiceProvider || (exports.VirtualServiceProvider = {}));
-var VirtualServiceSpec;
-(function (VirtualServiceSpec) {
-    VirtualServiceSpec.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.provider && { provider: VirtualServiceProvider.filterSensitiveLog(obj.provider) }),
-    });
-})(VirtualServiceSpec = exports.VirtualServiceSpec || (exports.VirtualServiceSpec = {}));
-var CreateVirtualServiceInput;
-(function (CreateVirtualServiceInput) {
-    CreateVirtualServiceInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.spec && { spec: VirtualServiceSpec.filterSensitiveLog(obj.spec) }),
-    });
-})(CreateVirtualServiceInput = exports.CreateVirtualServiceInput || (exports.CreateVirtualServiceInput = {}));
 var VirtualServiceStatusCode;
 (function (VirtualServiceStatusCode) {
     VirtualServiceStatusCode["ACTIVE"] = "ACTIVE";
     VirtualServiceStatusCode["DELETED"] = "DELETED";
     VirtualServiceStatusCode["INACTIVE"] = "INACTIVE";
 })(VirtualServiceStatusCode = exports.VirtualServiceStatusCode || (exports.VirtualServiceStatusCode = {}));
-var VirtualServiceStatus;
-(function (VirtualServiceStatus) {
-    VirtualServiceStatus.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualServiceStatus = exports.VirtualServiceStatus || (exports.VirtualServiceStatus = {}));
-var VirtualServiceData;
-(function (VirtualServiceData) {
-    VirtualServiceData.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.spec && { spec: VirtualServiceSpec.filterSensitiveLog(obj.spec) }),
-    });
-})(VirtualServiceData = exports.VirtualServiceData || (exports.VirtualServiceData = {}));
-var CreateVirtualServiceOutput;
-(function (CreateVirtualServiceOutput) {
-    CreateVirtualServiceOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualService && { virtualService: VirtualServiceData.filterSensitiveLog(obj.virtualService) }),
-    });
-})(CreateVirtualServiceOutput = exports.CreateVirtualServiceOutput || (exports.CreateVirtualServiceOutput = {}));
-var DeleteVirtualServiceInput;
-(function (DeleteVirtualServiceInput) {
-    DeleteVirtualServiceInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DeleteVirtualServiceInput = exports.DeleteVirtualServiceInput || (exports.DeleteVirtualServiceInput = {}));
-var DeleteVirtualServiceOutput;
-(function (DeleteVirtualServiceOutput) {
-    DeleteVirtualServiceOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualService && { virtualService: VirtualServiceData.filterSensitiveLog(obj.virtualService) }),
-    });
-})(DeleteVirtualServiceOutput = exports.DeleteVirtualServiceOutput || (exports.DeleteVirtualServiceOutput = {}));
-var DescribeVirtualServiceInput;
-(function (DescribeVirtualServiceInput) {
-    DescribeVirtualServiceInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DescribeVirtualServiceInput = exports.DescribeVirtualServiceInput || (exports.DescribeVirtualServiceInput = {}));
-var DescribeVirtualServiceOutput;
-(function (DescribeVirtualServiceOutput) {
-    DescribeVirtualServiceOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualService && { virtualService: VirtualServiceData.filterSensitiveLog(obj.virtualService) }),
-    });
-})(DescribeVirtualServiceOutput = exports.DescribeVirtualServiceOutput || (exports.DescribeVirtualServiceOutput = {}));
-var ListVirtualServicesInput;
-(function (ListVirtualServicesInput) {
-    ListVirtualServicesInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListVirtualServicesInput = exports.ListVirtualServicesInput || (exports.ListVirtualServicesInput = {}));
-var VirtualServiceRef;
-(function (VirtualServiceRef) {
-    VirtualServiceRef.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(VirtualServiceRef = exports.VirtualServiceRef || (exports.VirtualServiceRef = {}));
-var ListVirtualServicesOutput;
-(function (ListVirtualServicesOutput) {
-    ListVirtualServicesOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListVirtualServicesOutput = exports.ListVirtualServicesOutput || (exports.ListVirtualServicesOutput = {}));
-var UpdateVirtualServiceInput;
-(function (UpdateVirtualServiceInput) {
-    UpdateVirtualServiceInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.spec && { spec: VirtualServiceSpec.filterSensitiveLog(obj.spec) }),
-    });
-})(UpdateVirtualServiceInput = exports.UpdateVirtualServiceInput || (exports.UpdateVirtualServiceInput = {}));
-var UpdateVirtualServiceOutput;
-(function (UpdateVirtualServiceOutput) {
-    UpdateVirtualServiceOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.virtualService && { virtualService: VirtualServiceData.filterSensitiveLog(obj.virtualService) }),
-    });
-})(UpdateVirtualServiceOutput = exports.UpdateVirtualServiceOutput || (exports.UpdateVirtualServiceOutput = {}));
-var TagResourceInput;
-(function (TagResourceInput) {
-    TagResourceInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TagResourceInput = exports.TagResourceInput || (exports.TagResourceInput = {}));
-var TagResourceOutput;
-(function (TagResourceOutput) {
-    TagResourceOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TagResourceOutput = exports.TagResourceOutput || (exports.TagResourceOutput = {}));
 class TooManyTagsException extends AppMeshServiceException_1.AppMeshServiceException {
     constructor(opts) {
         super({
@@ -6726,18 +5315,1053 @@ class TooManyTagsException extends AppMeshServiceException_1.AppMeshServiceExcep
     }
 }
 exports.TooManyTagsException = TooManyTagsException;
-var UntagResourceInput;
-(function (UntagResourceInput) {
-    UntagResourceInput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UntagResourceInput = exports.UntagResourceInput || (exports.UntagResourceInput = {}));
-var UntagResourceOutput;
-(function (UntagResourceOutput) {
-    UntagResourceOutput.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UntagResourceOutput = exports.UntagResourceOutput || (exports.UntagResourceOutput = {}));
+const FileAccessLogFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.FileAccessLogFilterSensitiveLog = FileAccessLogFilterSensitiveLog;
+const AccessLogFilterSensitiveLog = (obj) => {
+    if (obj.file !== undefined)
+        return { file: (0, exports.FileAccessLogFilterSensitiveLog)(obj.file) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.AccessLogFilterSensitiveLog = AccessLogFilterSensitiveLog;
+const ListTagsForResourceInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListTagsForResourceInputFilterSensitiveLog = ListTagsForResourceInputFilterSensitiveLog;
+const TagRefFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.TagRefFilterSensitiveLog = TagRefFilterSensitiveLog;
+const ListTagsForResourceOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListTagsForResourceOutputFilterSensitiveLog = ListTagsForResourceOutputFilterSensitiveLog;
+const EgressFilterFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.EgressFilterFilterSensitiveLog = EgressFilterFilterSensitiveLog;
+const MeshServiceDiscoveryFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.MeshServiceDiscoveryFilterSensitiveLog = MeshServiceDiscoveryFilterSensitiveLog;
+const MeshSpecFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.MeshSpecFilterSensitiveLog = MeshSpecFilterSensitiveLog;
+const CreateMeshInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.CreateMeshInputFilterSensitiveLog = CreateMeshInputFilterSensitiveLog;
+const ResourceMetadataFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ResourceMetadataFilterSensitiveLog = ResourceMetadataFilterSensitiveLog;
+const MeshStatusFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.MeshStatusFilterSensitiveLog = MeshStatusFilterSensitiveLog;
+const MeshDataFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.MeshDataFilterSensitiveLog = MeshDataFilterSensitiveLog;
+const CreateMeshOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.CreateMeshOutputFilterSensitiveLog = CreateMeshOutputFilterSensitiveLog;
+const DeleteMeshInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DeleteMeshInputFilterSensitiveLog = DeleteMeshInputFilterSensitiveLog;
+const DeleteMeshOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DeleteMeshOutputFilterSensitiveLog = DeleteMeshOutputFilterSensitiveLog;
+const DescribeMeshInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DescribeMeshInputFilterSensitiveLog = DescribeMeshInputFilterSensitiveLog;
+const DescribeMeshOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DescribeMeshOutputFilterSensitiveLog = DescribeMeshOutputFilterSensitiveLog;
+const ListMeshesInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListMeshesInputFilterSensitiveLog = ListMeshesInputFilterSensitiveLog;
+const MeshRefFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.MeshRefFilterSensitiveLog = MeshRefFilterSensitiveLog;
+const ListMeshesOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListMeshesOutputFilterSensitiveLog = ListMeshesOutputFilterSensitiveLog;
+const UpdateMeshInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.UpdateMeshInputFilterSensitiveLog = UpdateMeshInputFilterSensitiveLog;
+const UpdateMeshOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.UpdateMeshOutputFilterSensitiveLog = UpdateMeshOutputFilterSensitiveLog;
+const VirtualGatewayListenerTlsFileCertificateFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayListenerTlsFileCertificateFilterSensitiveLog = VirtualGatewayListenerTlsFileCertificateFilterSensitiveLog;
+const VirtualGatewayListenerTlsSdsCertificateFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayListenerTlsSdsCertificateFilterSensitiveLog = VirtualGatewayListenerTlsSdsCertificateFilterSensitiveLog;
+const VirtualGatewayClientTlsCertificateFilterSensitiveLog = (obj) => {
+    if (obj.file !== undefined)
+        return { file: (0, exports.VirtualGatewayListenerTlsFileCertificateFilterSensitiveLog)(obj.file) };
+    if (obj.sds !== undefined)
+        return { sds: (0, exports.VirtualGatewayListenerTlsSdsCertificateFilterSensitiveLog)(obj.sds) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.VirtualGatewayClientTlsCertificateFilterSensitiveLog = VirtualGatewayClientTlsCertificateFilterSensitiveLog;
+const SubjectAlternativeNameMatchersFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.SubjectAlternativeNameMatchersFilterSensitiveLog = SubjectAlternativeNameMatchersFilterSensitiveLog;
+const SubjectAlternativeNamesFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.SubjectAlternativeNamesFilterSensitiveLog = SubjectAlternativeNamesFilterSensitiveLog;
+const VirtualGatewayTlsValidationContextAcmTrustFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayTlsValidationContextAcmTrustFilterSensitiveLog = VirtualGatewayTlsValidationContextAcmTrustFilterSensitiveLog;
+const VirtualGatewayTlsValidationContextFileTrustFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayTlsValidationContextFileTrustFilterSensitiveLog = VirtualGatewayTlsValidationContextFileTrustFilterSensitiveLog;
+const VirtualGatewayTlsValidationContextSdsTrustFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayTlsValidationContextSdsTrustFilterSensitiveLog = VirtualGatewayTlsValidationContextSdsTrustFilterSensitiveLog;
+const VirtualGatewayTlsValidationContextTrustFilterSensitiveLog = (obj) => {
+    if (obj.acm !== undefined)
+        return { acm: (0, exports.VirtualGatewayTlsValidationContextAcmTrustFilterSensitiveLog)(obj.acm) };
+    if (obj.file !== undefined)
+        return { file: (0, exports.VirtualGatewayTlsValidationContextFileTrustFilterSensitiveLog)(obj.file) };
+    if (obj.sds !== undefined)
+        return { sds: (0, exports.VirtualGatewayTlsValidationContextSdsTrustFilterSensitiveLog)(obj.sds) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.VirtualGatewayTlsValidationContextTrustFilterSensitiveLog = VirtualGatewayTlsValidationContextTrustFilterSensitiveLog;
+const VirtualGatewayTlsValidationContextFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.trust && { trust: (0, exports.VirtualGatewayTlsValidationContextTrustFilterSensitiveLog)(obj.trust) }),
+});
+exports.VirtualGatewayTlsValidationContextFilterSensitiveLog = VirtualGatewayTlsValidationContextFilterSensitiveLog;
+const VirtualGatewayClientPolicyTlsFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.certificate && { certificate: (0, exports.VirtualGatewayClientTlsCertificateFilterSensitiveLog)(obj.certificate) }),
+    ...(obj.validation && { validation: (0, exports.VirtualGatewayTlsValidationContextFilterSensitiveLog)(obj.validation) }),
+});
+exports.VirtualGatewayClientPolicyTlsFilterSensitiveLog = VirtualGatewayClientPolicyTlsFilterSensitiveLog;
+const VirtualGatewayClientPolicyFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.tls && { tls: (0, exports.VirtualGatewayClientPolicyTlsFilterSensitiveLog)(obj.tls) }),
+});
+exports.VirtualGatewayClientPolicyFilterSensitiveLog = VirtualGatewayClientPolicyFilterSensitiveLog;
+const VirtualGatewayBackendDefaultsFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.clientPolicy && { clientPolicy: (0, exports.VirtualGatewayClientPolicyFilterSensitiveLog)(obj.clientPolicy) }),
+});
+exports.VirtualGatewayBackendDefaultsFilterSensitiveLog = VirtualGatewayBackendDefaultsFilterSensitiveLog;
+const VirtualGatewayGrpcConnectionPoolFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayGrpcConnectionPoolFilterSensitiveLog = VirtualGatewayGrpcConnectionPoolFilterSensitiveLog;
+const VirtualGatewayHttpConnectionPoolFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayHttpConnectionPoolFilterSensitiveLog = VirtualGatewayHttpConnectionPoolFilterSensitiveLog;
+const VirtualGatewayHttp2ConnectionPoolFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayHttp2ConnectionPoolFilterSensitiveLog = VirtualGatewayHttp2ConnectionPoolFilterSensitiveLog;
+const VirtualGatewayConnectionPoolFilterSensitiveLog = (obj) => {
+    if (obj.http !== undefined)
+        return { http: (0, exports.VirtualGatewayHttpConnectionPoolFilterSensitiveLog)(obj.http) };
+    if (obj.http2 !== undefined)
+        return { http2: (0, exports.VirtualGatewayHttp2ConnectionPoolFilterSensitiveLog)(obj.http2) };
+    if (obj.grpc !== undefined)
+        return { grpc: (0, exports.VirtualGatewayGrpcConnectionPoolFilterSensitiveLog)(obj.grpc) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.VirtualGatewayConnectionPoolFilterSensitiveLog = VirtualGatewayConnectionPoolFilterSensitiveLog;
+const VirtualGatewayHealthCheckPolicyFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayHealthCheckPolicyFilterSensitiveLog = VirtualGatewayHealthCheckPolicyFilterSensitiveLog;
+const VirtualGatewayPortMappingFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayPortMappingFilterSensitiveLog = VirtualGatewayPortMappingFilterSensitiveLog;
+const VirtualGatewayListenerTlsAcmCertificateFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayListenerTlsAcmCertificateFilterSensitiveLog = VirtualGatewayListenerTlsAcmCertificateFilterSensitiveLog;
+const VirtualGatewayListenerTlsCertificateFilterSensitiveLog = (obj) => {
+    if (obj.acm !== undefined)
+        return { acm: (0, exports.VirtualGatewayListenerTlsAcmCertificateFilterSensitiveLog)(obj.acm) };
+    if (obj.file !== undefined)
+        return { file: (0, exports.VirtualGatewayListenerTlsFileCertificateFilterSensitiveLog)(obj.file) };
+    if (obj.sds !== undefined)
+        return { sds: (0, exports.VirtualGatewayListenerTlsSdsCertificateFilterSensitiveLog)(obj.sds) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.VirtualGatewayListenerTlsCertificateFilterSensitiveLog = VirtualGatewayListenerTlsCertificateFilterSensitiveLog;
+const VirtualGatewayListenerTlsValidationContextTrustFilterSensitiveLog = (obj) => {
+    if (obj.file !== undefined)
+        return { file: (0, exports.VirtualGatewayTlsValidationContextFileTrustFilterSensitiveLog)(obj.file) };
+    if (obj.sds !== undefined)
+        return { sds: (0, exports.VirtualGatewayTlsValidationContextSdsTrustFilterSensitiveLog)(obj.sds) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.VirtualGatewayListenerTlsValidationContextTrustFilterSensitiveLog = VirtualGatewayListenerTlsValidationContextTrustFilterSensitiveLog;
+const VirtualGatewayListenerTlsValidationContextFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.trust && { trust: (0, exports.VirtualGatewayListenerTlsValidationContextTrustFilterSensitiveLog)(obj.trust) }),
+});
+exports.VirtualGatewayListenerTlsValidationContextFilterSensitiveLog = VirtualGatewayListenerTlsValidationContextFilterSensitiveLog;
+const VirtualGatewayListenerTlsFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.validation && { validation: (0, exports.VirtualGatewayListenerTlsValidationContextFilterSensitiveLog)(obj.validation) }),
+    ...(obj.certificate && { certificate: (0, exports.VirtualGatewayListenerTlsCertificateFilterSensitiveLog)(obj.certificate) }),
+});
+exports.VirtualGatewayListenerTlsFilterSensitiveLog = VirtualGatewayListenerTlsFilterSensitiveLog;
+const VirtualGatewayListenerFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.tls && { tls: (0, exports.VirtualGatewayListenerTlsFilterSensitiveLog)(obj.tls) }),
+    ...(obj.connectionPool && { connectionPool: (0, exports.VirtualGatewayConnectionPoolFilterSensitiveLog)(obj.connectionPool) }),
+});
+exports.VirtualGatewayListenerFilterSensitiveLog = VirtualGatewayListenerFilterSensitiveLog;
+const VirtualGatewayFileAccessLogFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayFileAccessLogFilterSensitiveLog = VirtualGatewayFileAccessLogFilterSensitiveLog;
+const VirtualGatewayAccessLogFilterSensitiveLog = (obj) => {
+    if (obj.file !== undefined)
+        return { file: (0, exports.VirtualGatewayFileAccessLogFilterSensitiveLog)(obj.file) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.VirtualGatewayAccessLogFilterSensitiveLog = VirtualGatewayAccessLogFilterSensitiveLog;
+const VirtualGatewayLoggingFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.accessLog && { accessLog: (0, exports.VirtualGatewayAccessLogFilterSensitiveLog)(obj.accessLog) }),
+});
+exports.VirtualGatewayLoggingFilterSensitiveLog = VirtualGatewayLoggingFilterSensitiveLog;
+const VirtualGatewaySpecFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.backendDefaults && { backendDefaults: (0, exports.VirtualGatewayBackendDefaultsFilterSensitiveLog)(obj.backendDefaults) }),
+    ...(obj.listeners && { listeners: obj.listeners.map((item) => (0, exports.VirtualGatewayListenerFilterSensitiveLog)(item)) }),
+    ...(obj.logging && { logging: (0, exports.VirtualGatewayLoggingFilterSensitiveLog)(obj.logging) }),
+});
+exports.VirtualGatewaySpecFilterSensitiveLog = VirtualGatewaySpecFilterSensitiveLog;
+const CreateVirtualGatewayInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.spec && { spec: (0, exports.VirtualGatewaySpecFilterSensitiveLog)(obj.spec) }),
+});
+exports.CreateVirtualGatewayInputFilterSensitiveLog = CreateVirtualGatewayInputFilterSensitiveLog;
+const VirtualGatewayStatusFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayStatusFilterSensitiveLog = VirtualGatewayStatusFilterSensitiveLog;
+const VirtualGatewayDataFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.spec && { spec: (0, exports.VirtualGatewaySpecFilterSensitiveLog)(obj.spec) }),
+});
+exports.VirtualGatewayDataFilterSensitiveLog = VirtualGatewayDataFilterSensitiveLog;
+const CreateVirtualGatewayOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualGateway && { virtualGateway: (0, exports.VirtualGatewayDataFilterSensitiveLog)(obj.virtualGateway) }),
+});
+exports.CreateVirtualGatewayOutputFilterSensitiveLog = CreateVirtualGatewayOutputFilterSensitiveLog;
+const DeleteVirtualGatewayInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DeleteVirtualGatewayInputFilterSensitiveLog = DeleteVirtualGatewayInputFilterSensitiveLog;
+const DeleteVirtualGatewayOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualGateway && { virtualGateway: (0, exports.VirtualGatewayDataFilterSensitiveLog)(obj.virtualGateway) }),
+});
+exports.DeleteVirtualGatewayOutputFilterSensitiveLog = DeleteVirtualGatewayOutputFilterSensitiveLog;
+const DescribeVirtualGatewayInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DescribeVirtualGatewayInputFilterSensitiveLog = DescribeVirtualGatewayInputFilterSensitiveLog;
+const DescribeVirtualGatewayOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualGateway && { virtualGateway: (0, exports.VirtualGatewayDataFilterSensitiveLog)(obj.virtualGateway) }),
+});
+exports.DescribeVirtualGatewayOutputFilterSensitiveLog = DescribeVirtualGatewayOutputFilterSensitiveLog;
+const GatewayRouteHostnameRewriteFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GatewayRouteHostnameRewriteFilterSensitiveLog = GatewayRouteHostnameRewriteFilterSensitiveLog;
+const GrpcGatewayRouteRewriteFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GrpcGatewayRouteRewriteFilterSensitiveLog = GrpcGatewayRouteRewriteFilterSensitiveLog;
+const GatewayRouteVirtualServiceFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GatewayRouteVirtualServiceFilterSensitiveLog = GatewayRouteVirtualServiceFilterSensitiveLog;
+const GatewayRouteTargetFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GatewayRouteTargetFilterSensitiveLog = GatewayRouteTargetFilterSensitiveLog;
+const GrpcGatewayRouteActionFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GrpcGatewayRouteActionFilterSensitiveLog = GrpcGatewayRouteActionFilterSensitiveLog;
+const GatewayRouteHostnameMatchFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GatewayRouteHostnameMatchFilterSensitiveLog = GatewayRouteHostnameMatchFilterSensitiveLog;
+const MatchRangeFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.MatchRangeFilterSensitiveLog = MatchRangeFilterSensitiveLog;
+const GrpcMetadataMatchMethodFilterSensitiveLog = (obj) => {
+    if (obj.exact !== undefined)
+        return { exact: obj.exact };
+    if (obj.regex !== undefined)
+        return { regex: obj.regex };
+    if (obj.range !== undefined)
+        return { range: (0, exports.MatchRangeFilterSensitiveLog)(obj.range) };
+    if (obj.prefix !== undefined)
+        return { prefix: obj.prefix };
+    if (obj.suffix !== undefined)
+        return { suffix: obj.suffix };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.GrpcMetadataMatchMethodFilterSensitiveLog = GrpcMetadataMatchMethodFilterSensitiveLog;
+const GrpcGatewayRouteMetadataFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.match && { match: (0, exports.GrpcMetadataMatchMethodFilterSensitiveLog)(obj.match) }),
+});
+exports.GrpcGatewayRouteMetadataFilterSensitiveLog = GrpcGatewayRouteMetadataFilterSensitiveLog;
+const GrpcGatewayRouteMatchFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.metadata && { metadata: obj.metadata.map((item) => (0, exports.GrpcGatewayRouteMetadataFilterSensitiveLog)(item)) }),
+});
+exports.GrpcGatewayRouteMatchFilterSensitiveLog = GrpcGatewayRouteMatchFilterSensitiveLog;
+const GrpcGatewayRouteFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GrpcGatewayRouteFilterSensitiveLog = GrpcGatewayRouteFilterSensitiveLog;
+const HttpGatewayRoutePathRewriteFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HttpGatewayRoutePathRewriteFilterSensitiveLog = HttpGatewayRoutePathRewriteFilterSensitiveLog;
+const HttpGatewayRoutePrefixRewriteFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HttpGatewayRoutePrefixRewriteFilterSensitiveLog = HttpGatewayRoutePrefixRewriteFilterSensitiveLog;
+const HttpGatewayRouteRewriteFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HttpGatewayRouteRewriteFilterSensitiveLog = HttpGatewayRouteRewriteFilterSensitiveLog;
+const HttpGatewayRouteActionFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HttpGatewayRouteActionFilterSensitiveLog = HttpGatewayRouteActionFilterSensitiveLog;
+const HeaderMatchMethodFilterSensitiveLog = (obj) => {
+    if (obj.exact !== undefined)
+        return { exact: obj.exact };
+    if (obj.regex !== undefined)
+        return { regex: obj.regex };
+    if (obj.range !== undefined)
+        return { range: (0, exports.MatchRangeFilterSensitiveLog)(obj.range) };
+    if (obj.prefix !== undefined)
+        return { prefix: obj.prefix };
+    if (obj.suffix !== undefined)
+        return { suffix: obj.suffix };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.HeaderMatchMethodFilterSensitiveLog = HeaderMatchMethodFilterSensitiveLog;
+const HttpGatewayRouteHeaderFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.match && { match: (0, exports.HeaderMatchMethodFilterSensitiveLog)(obj.match) }),
+});
+exports.HttpGatewayRouteHeaderFilterSensitiveLog = HttpGatewayRouteHeaderFilterSensitiveLog;
+const HttpPathMatchFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HttpPathMatchFilterSensitiveLog = HttpPathMatchFilterSensitiveLog;
+const QueryParameterMatchFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.QueryParameterMatchFilterSensitiveLog = QueryParameterMatchFilterSensitiveLog;
+const HttpQueryParameterFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HttpQueryParameterFilterSensitiveLog = HttpQueryParameterFilterSensitiveLog;
+const HttpGatewayRouteMatchFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.headers && { headers: obj.headers.map((item) => (0, exports.HttpGatewayRouteHeaderFilterSensitiveLog)(item)) }),
+});
+exports.HttpGatewayRouteMatchFilterSensitiveLog = HttpGatewayRouteMatchFilterSensitiveLog;
+const HttpGatewayRouteFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HttpGatewayRouteFilterSensitiveLog = HttpGatewayRouteFilterSensitiveLog;
+const GatewayRouteSpecFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GatewayRouteSpecFilterSensitiveLog = GatewayRouteSpecFilterSensitiveLog;
+const CreateGatewayRouteInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.CreateGatewayRouteInputFilterSensitiveLog = CreateGatewayRouteInputFilterSensitiveLog;
+const GatewayRouteStatusFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GatewayRouteStatusFilterSensitiveLog = GatewayRouteStatusFilterSensitiveLog;
+const GatewayRouteDataFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GatewayRouteDataFilterSensitiveLog = GatewayRouteDataFilterSensitiveLog;
+const CreateGatewayRouteOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.CreateGatewayRouteOutputFilterSensitiveLog = CreateGatewayRouteOutputFilterSensitiveLog;
+const DeleteGatewayRouteInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DeleteGatewayRouteInputFilterSensitiveLog = DeleteGatewayRouteInputFilterSensitiveLog;
+const DeleteGatewayRouteOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DeleteGatewayRouteOutputFilterSensitiveLog = DeleteGatewayRouteOutputFilterSensitiveLog;
+const DescribeGatewayRouteInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DescribeGatewayRouteInputFilterSensitiveLog = DescribeGatewayRouteInputFilterSensitiveLog;
+const DescribeGatewayRouteOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DescribeGatewayRouteOutputFilterSensitiveLog = DescribeGatewayRouteOutputFilterSensitiveLog;
+const ListGatewayRoutesInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListGatewayRoutesInputFilterSensitiveLog = ListGatewayRoutesInputFilterSensitiveLog;
+const GatewayRouteRefFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GatewayRouteRefFilterSensitiveLog = GatewayRouteRefFilterSensitiveLog;
+const ListGatewayRoutesOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListGatewayRoutesOutputFilterSensitiveLog = ListGatewayRoutesOutputFilterSensitiveLog;
+const UpdateGatewayRouteInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.UpdateGatewayRouteInputFilterSensitiveLog = UpdateGatewayRouteInputFilterSensitiveLog;
+const UpdateGatewayRouteOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.UpdateGatewayRouteOutputFilterSensitiveLog = UpdateGatewayRouteOutputFilterSensitiveLog;
+const ListVirtualGatewaysInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListVirtualGatewaysInputFilterSensitiveLog = ListVirtualGatewaysInputFilterSensitiveLog;
+const VirtualGatewayRefFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualGatewayRefFilterSensitiveLog = VirtualGatewayRefFilterSensitiveLog;
+const ListVirtualGatewaysOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListVirtualGatewaysOutputFilterSensitiveLog = ListVirtualGatewaysOutputFilterSensitiveLog;
+const UpdateVirtualGatewayInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.spec && { spec: (0, exports.VirtualGatewaySpecFilterSensitiveLog)(obj.spec) }),
+});
+exports.UpdateVirtualGatewayInputFilterSensitiveLog = UpdateVirtualGatewayInputFilterSensitiveLog;
+const UpdateVirtualGatewayOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualGateway && { virtualGateway: (0, exports.VirtualGatewayDataFilterSensitiveLog)(obj.virtualGateway) }),
+});
+exports.UpdateVirtualGatewayOutputFilterSensitiveLog = UpdateVirtualGatewayOutputFilterSensitiveLog;
+const ListenerTlsFileCertificateFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListenerTlsFileCertificateFilterSensitiveLog = ListenerTlsFileCertificateFilterSensitiveLog;
+const ListenerTlsSdsCertificateFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListenerTlsSdsCertificateFilterSensitiveLog = ListenerTlsSdsCertificateFilterSensitiveLog;
+const ClientTlsCertificateFilterSensitiveLog = (obj) => {
+    if (obj.file !== undefined)
+        return { file: (0, exports.ListenerTlsFileCertificateFilterSensitiveLog)(obj.file) };
+    if (obj.sds !== undefined)
+        return { sds: (0, exports.ListenerTlsSdsCertificateFilterSensitiveLog)(obj.sds) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.ClientTlsCertificateFilterSensitiveLog = ClientTlsCertificateFilterSensitiveLog;
+const TlsValidationContextAcmTrustFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.TlsValidationContextAcmTrustFilterSensitiveLog = TlsValidationContextAcmTrustFilterSensitiveLog;
+const TlsValidationContextFileTrustFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.TlsValidationContextFileTrustFilterSensitiveLog = TlsValidationContextFileTrustFilterSensitiveLog;
+const TlsValidationContextSdsTrustFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.TlsValidationContextSdsTrustFilterSensitiveLog = TlsValidationContextSdsTrustFilterSensitiveLog;
+const TlsValidationContextTrustFilterSensitiveLog = (obj) => {
+    if (obj.acm !== undefined)
+        return { acm: (0, exports.TlsValidationContextAcmTrustFilterSensitiveLog)(obj.acm) };
+    if (obj.file !== undefined)
+        return { file: (0, exports.TlsValidationContextFileTrustFilterSensitiveLog)(obj.file) };
+    if (obj.sds !== undefined)
+        return { sds: (0, exports.TlsValidationContextSdsTrustFilterSensitiveLog)(obj.sds) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.TlsValidationContextTrustFilterSensitiveLog = TlsValidationContextTrustFilterSensitiveLog;
+const TlsValidationContextFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.trust && { trust: (0, exports.TlsValidationContextTrustFilterSensitiveLog)(obj.trust) }),
+});
+exports.TlsValidationContextFilterSensitiveLog = TlsValidationContextFilterSensitiveLog;
+const ClientPolicyTlsFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.certificate && { certificate: (0, exports.ClientTlsCertificateFilterSensitiveLog)(obj.certificate) }),
+    ...(obj.validation && { validation: (0, exports.TlsValidationContextFilterSensitiveLog)(obj.validation) }),
+});
+exports.ClientPolicyTlsFilterSensitiveLog = ClientPolicyTlsFilterSensitiveLog;
+const ClientPolicyFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.tls && { tls: (0, exports.ClientPolicyTlsFilterSensitiveLog)(obj.tls) }),
+});
+exports.ClientPolicyFilterSensitiveLog = ClientPolicyFilterSensitiveLog;
+const BackendDefaultsFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.clientPolicy && { clientPolicy: (0, exports.ClientPolicyFilterSensitiveLog)(obj.clientPolicy) }),
+});
+exports.BackendDefaultsFilterSensitiveLog = BackendDefaultsFilterSensitiveLog;
+const VirtualServiceBackendFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.clientPolicy && { clientPolicy: (0, exports.ClientPolicyFilterSensitiveLog)(obj.clientPolicy) }),
+});
+exports.VirtualServiceBackendFilterSensitiveLog = VirtualServiceBackendFilterSensitiveLog;
+const BackendFilterSensitiveLog = (obj) => {
+    if (obj.virtualService !== undefined)
+        return { virtualService: (0, exports.VirtualServiceBackendFilterSensitiveLog)(obj.virtualService) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.BackendFilterSensitiveLog = BackendFilterSensitiveLog;
+const VirtualNodeGrpcConnectionPoolFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualNodeGrpcConnectionPoolFilterSensitiveLog = VirtualNodeGrpcConnectionPoolFilterSensitiveLog;
+const VirtualNodeHttpConnectionPoolFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualNodeHttpConnectionPoolFilterSensitiveLog = VirtualNodeHttpConnectionPoolFilterSensitiveLog;
+const VirtualNodeHttp2ConnectionPoolFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualNodeHttp2ConnectionPoolFilterSensitiveLog = VirtualNodeHttp2ConnectionPoolFilterSensitiveLog;
+const VirtualNodeTcpConnectionPoolFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualNodeTcpConnectionPoolFilterSensitiveLog = VirtualNodeTcpConnectionPoolFilterSensitiveLog;
+const VirtualNodeConnectionPoolFilterSensitiveLog = (obj) => {
+    if (obj.tcp !== undefined)
+        return { tcp: (0, exports.VirtualNodeTcpConnectionPoolFilterSensitiveLog)(obj.tcp) };
+    if (obj.http !== undefined)
+        return { http: (0, exports.VirtualNodeHttpConnectionPoolFilterSensitiveLog)(obj.http) };
+    if (obj.http2 !== undefined)
+        return { http2: (0, exports.VirtualNodeHttp2ConnectionPoolFilterSensitiveLog)(obj.http2) };
+    if (obj.grpc !== undefined)
+        return { grpc: (0, exports.VirtualNodeGrpcConnectionPoolFilterSensitiveLog)(obj.grpc) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.VirtualNodeConnectionPoolFilterSensitiveLog = VirtualNodeConnectionPoolFilterSensitiveLog;
+const HealthCheckPolicyFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HealthCheckPolicyFilterSensitiveLog = HealthCheckPolicyFilterSensitiveLog;
+const DurationFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DurationFilterSensitiveLog = DurationFilterSensitiveLog;
+const OutlierDetectionFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.OutlierDetectionFilterSensitiveLog = OutlierDetectionFilterSensitiveLog;
+const PortMappingFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.PortMappingFilterSensitiveLog = PortMappingFilterSensitiveLog;
+const GrpcTimeoutFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GrpcTimeoutFilterSensitiveLog = GrpcTimeoutFilterSensitiveLog;
+const HttpTimeoutFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HttpTimeoutFilterSensitiveLog = HttpTimeoutFilterSensitiveLog;
+const TcpTimeoutFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.TcpTimeoutFilterSensitiveLog = TcpTimeoutFilterSensitiveLog;
+const ListenerTimeoutFilterSensitiveLog = (obj) => {
+    if (obj.tcp !== undefined)
+        return { tcp: (0, exports.TcpTimeoutFilterSensitiveLog)(obj.tcp) };
+    if (obj.http !== undefined)
+        return { http: (0, exports.HttpTimeoutFilterSensitiveLog)(obj.http) };
+    if (obj.http2 !== undefined)
+        return { http2: (0, exports.HttpTimeoutFilterSensitiveLog)(obj.http2) };
+    if (obj.grpc !== undefined)
+        return { grpc: (0, exports.GrpcTimeoutFilterSensitiveLog)(obj.grpc) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.ListenerTimeoutFilterSensitiveLog = ListenerTimeoutFilterSensitiveLog;
+const ListenerTlsAcmCertificateFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListenerTlsAcmCertificateFilterSensitiveLog = ListenerTlsAcmCertificateFilterSensitiveLog;
+const ListenerTlsCertificateFilterSensitiveLog = (obj) => {
+    if (obj.acm !== undefined)
+        return { acm: (0, exports.ListenerTlsAcmCertificateFilterSensitiveLog)(obj.acm) };
+    if (obj.file !== undefined)
+        return { file: (0, exports.ListenerTlsFileCertificateFilterSensitiveLog)(obj.file) };
+    if (obj.sds !== undefined)
+        return { sds: (0, exports.ListenerTlsSdsCertificateFilterSensitiveLog)(obj.sds) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.ListenerTlsCertificateFilterSensitiveLog = ListenerTlsCertificateFilterSensitiveLog;
+const ListenerTlsValidationContextTrustFilterSensitiveLog = (obj) => {
+    if (obj.file !== undefined)
+        return { file: (0, exports.TlsValidationContextFileTrustFilterSensitiveLog)(obj.file) };
+    if (obj.sds !== undefined)
+        return { sds: (0, exports.TlsValidationContextSdsTrustFilterSensitiveLog)(obj.sds) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.ListenerTlsValidationContextTrustFilterSensitiveLog = ListenerTlsValidationContextTrustFilterSensitiveLog;
+const ListenerTlsValidationContextFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.trust && { trust: (0, exports.ListenerTlsValidationContextTrustFilterSensitiveLog)(obj.trust) }),
+});
+exports.ListenerTlsValidationContextFilterSensitiveLog = ListenerTlsValidationContextFilterSensitiveLog;
+const ListenerTlsFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.certificate && { certificate: (0, exports.ListenerTlsCertificateFilterSensitiveLog)(obj.certificate) }),
+    ...(obj.validation && { validation: (0, exports.ListenerTlsValidationContextFilterSensitiveLog)(obj.validation) }),
+});
+exports.ListenerTlsFilterSensitiveLog = ListenerTlsFilterSensitiveLog;
+const ListenerFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.tls && { tls: (0, exports.ListenerTlsFilterSensitiveLog)(obj.tls) }),
+    ...(obj.timeout && { timeout: (0, exports.ListenerTimeoutFilterSensitiveLog)(obj.timeout) }),
+    ...(obj.connectionPool && { connectionPool: (0, exports.VirtualNodeConnectionPoolFilterSensitiveLog)(obj.connectionPool) }),
+});
+exports.ListenerFilterSensitiveLog = ListenerFilterSensitiveLog;
+const LoggingFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.accessLog && { accessLog: (0, exports.AccessLogFilterSensitiveLog)(obj.accessLog) }),
+});
+exports.LoggingFilterSensitiveLog = LoggingFilterSensitiveLog;
+const AwsCloudMapInstanceAttributeFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.AwsCloudMapInstanceAttributeFilterSensitiveLog = AwsCloudMapInstanceAttributeFilterSensitiveLog;
+const AwsCloudMapServiceDiscoveryFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.AwsCloudMapServiceDiscoveryFilterSensitiveLog = AwsCloudMapServiceDiscoveryFilterSensitiveLog;
+const DnsServiceDiscoveryFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DnsServiceDiscoveryFilterSensitiveLog = DnsServiceDiscoveryFilterSensitiveLog;
+const ServiceDiscoveryFilterSensitiveLog = (obj) => {
+    if (obj.dns !== undefined)
+        return { dns: (0, exports.DnsServiceDiscoveryFilterSensitiveLog)(obj.dns) };
+    if (obj.awsCloudMap !== undefined)
+        return { awsCloudMap: (0, exports.AwsCloudMapServiceDiscoveryFilterSensitiveLog)(obj.awsCloudMap) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.ServiceDiscoveryFilterSensitiveLog = ServiceDiscoveryFilterSensitiveLog;
+const VirtualNodeSpecFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.serviceDiscovery && { serviceDiscovery: (0, exports.ServiceDiscoveryFilterSensitiveLog)(obj.serviceDiscovery) }),
+    ...(obj.listeners && { listeners: obj.listeners.map((item) => (0, exports.ListenerFilterSensitiveLog)(item)) }),
+    ...(obj.backends && { backends: obj.backends.map((item) => (0, exports.BackendFilterSensitiveLog)(item)) }),
+    ...(obj.backendDefaults && { backendDefaults: (0, exports.BackendDefaultsFilterSensitiveLog)(obj.backendDefaults) }),
+    ...(obj.logging && { logging: (0, exports.LoggingFilterSensitiveLog)(obj.logging) }),
+});
+exports.VirtualNodeSpecFilterSensitiveLog = VirtualNodeSpecFilterSensitiveLog;
+const CreateVirtualNodeInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.spec && { spec: (0, exports.VirtualNodeSpecFilterSensitiveLog)(obj.spec) }),
+});
+exports.CreateVirtualNodeInputFilterSensitiveLog = CreateVirtualNodeInputFilterSensitiveLog;
+const VirtualNodeStatusFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualNodeStatusFilterSensitiveLog = VirtualNodeStatusFilterSensitiveLog;
+const VirtualNodeDataFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.spec && { spec: (0, exports.VirtualNodeSpecFilterSensitiveLog)(obj.spec) }),
+});
+exports.VirtualNodeDataFilterSensitiveLog = VirtualNodeDataFilterSensitiveLog;
+const CreateVirtualNodeOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualNode && { virtualNode: (0, exports.VirtualNodeDataFilterSensitiveLog)(obj.virtualNode) }),
+});
+exports.CreateVirtualNodeOutputFilterSensitiveLog = CreateVirtualNodeOutputFilterSensitiveLog;
+const DeleteVirtualNodeInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DeleteVirtualNodeInputFilterSensitiveLog = DeleteVirtualNodeInputFilterSensitiveLog;
+const DeleteVirtualNodeOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualNode && { virtualNode: (0, exports.VirtualNodeDataFilterSensitiveLog)(obj.virtualNode) }),
+});
+exports.DeleteVirtualNodeOutputFilterSensitiveLog = DeleteVirtualNodeOutputFilterSensitiveLog;
+const DescribeVirtualNodeInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DescribeVirtualNodeInputFilterSensitiveLog = DescribeVirtualNodeInputFilterSensitiveLog;
+const DescribeVirtualNodeOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualNode && { virtualNode: (0, exports.VirtualNodeDataFilterSensitiveLog)(obj.virtualNode) }),
+});
+exports.DescribeVirtualNodeOutputFilterSensitiveLog = DescribeVirtualNodeOutputFilterSensitiveLog;
+const ListVirtualNodesInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListVirtualNodesInputFilterSensitiveLog = ListVirtualNodesInputFilterSensitiveLog;
+const VirtualNodeRefFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualNodeRefFilterSensitiveLog = VirtualNodeRefFilterSensitiveLog;
+const ListVirtualNodesOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListVirtualNodesOutputFilterSensitiveLog = ListVirtualNodesOutputFilterSensitiveLog;
+const UpdateVirtualNodeInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.spec && { spec: (0, exports.VirtualNodeSpecFilterSensitiveLog)(obj.spec) }),
+});
+exports.UpdateVirtualNodeInputFilterSensitiveLog = UpdateVirtualNodeInputFilterSensitiveLog;
+const UpdateVirtualNodeOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualNode && { virtualNode: (0, exports.VirtualNodeDataFilterSensitiveLog)(obj.virtualNode) }),
+});
+exports.UpdateVirtualNodeOutputFilterSensitiveLog = UpdateVirtualNodeOutputFilterSensitiveLog;
+const VirtualRouterListenerFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualRouterListenerFilterSensitiveLog = VirtualRouterListenerFilterSensitiveLog;
+const VirtualRouterSpecFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualRouterSpecFilterSensitiveLog = VirtualRouterSpecFilterSensitiveLog;
+const CreateVirtualRouterInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.CreateVirtualRouterInputFilterSensitiveLog = CreateVirtualRouterInputFilterSensitiveLog;
+const VirtualRouterStatusFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualRouterStatusFilterSensitiveLog = VirtualRouterStatusFilterSensitiveLog;
+const VirtualRouterDataFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualRouterDataFilterSensitiveLog = VirtualRouterDataFilterSensitiveLog;
+const CreateVirtualRouterOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.CreateVirtualRouterOutputFilterSensitiveLog = CreateVirtualRouterOutputFilterSensitiveLog;
+const DeleteVirtualRouterInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DeleteVirtualRouterInputFilterSensitiveLog = DeleteVirtualRouterInputFilterSensitiveLog;
+const DeleteVirtualRouterOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DeleteVirtualRouterOutputFilterSensitiveLog = DeleteVirtualRouterOutputFilterSensitiveLog;
+const DescribeVirtualRouterInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DescribeVirtualRouterInputFilterSensitiveLog = DescribeVirtualRouterInputFilterSensitiveLog;
+const DescribeVirtualRouterOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DescribeVirtualRouterOutputFilterSensitiveLog = DescribeVirtualRouterOutputFilterSensitiveLog;
+const ListVirtualRoutersInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListVirtualRoutersInputFilterSensitiveLog = ListVirtualRoutersInputFilterSensitiveLog;
+const VirtualRouterRefFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualRouterRefFilterSensitiveLog = VirtualRouterRefFilterSensitiveLog;
+const ListVirtualRoutersOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListVirtualRoutersOutputFilterSensitiveLog = ListVirtualRoutersOutputFilterSensitiveLog;
+const WeightedTargetFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.WeightedTargetFilterSensitiveLog = WeightedTargetFilterSensitiveLog;
+const GrpcRouteActionFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GrpcRouteActionFilterSensitiveLog = GrpcRouteActionFilterSensitiveLog;
+const GrpcRouteMetadataMatchMethodFilterSensitiveLog = (obj) => {
+    if (obj.exact !== undefined)
+        return { exact: obj.exact };
+    if (obj.regex !== undefined)
+        return { regex: obj.regex };
+    if (obj.range !== undefined)
+        return { range: (0, exports.MatchRangeFilterSensitiveLog)(obj.range) };
+    if (obj.prefix !== undefined)
+        return { prefix: obj.prefix };
+    if (obj.suffix !== undefined)
+        return { suffix: obj.suffix };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.GrpcRouteMetadataMatchMethodFilterSensitiveLog = GrpcRouteMetadataMatchMethodFilterSensitiveLog;
+const GrpcRouteMetadataFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.match && { match: (0, exports.GrpcRouteMetadataMatchMethodFilterSensitiveLog)(obj.match) }),
+});
+exports.GrpcRouteMetadataFilterSensitiveLog = GrpcRouteMetadataFilterSensitiveLog;
+const GrpcRouteMatchFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.metadata && { metadata: obj.metadata.map((item) => (0, exports.GrpcRouteMetadataFilterSensitiveLog)(item)) }),
+});
+exports.GrpcRouteMatchFilterSensitiveLog = GrpcRouteMatchFilterSensitiveLog;
+const GrpcRetryPolicyFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GrpcRetryPolicyFilterSensitiveLog = GrpcRetryPolicyFilterSensitiveLog;
+const GrpcRouteFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GrpcRouteFilterSensitiveLog = GrpcRouteFilterSensitiveLog;
+const HttpRouteActionFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HttpRouteActionFilterSensitiveLog = HttpRouteActionFilterSensitiveLog;
+const HttpRouteHeaderFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.match && { match: (0, exports.HeaderMatchMethodFilterSensitiveLog)(obj.match) }),
+});
+exports.HttpRouteHeaderFilterSensitiveLog = HttpRouteHeaderFilterSensitiveLog;
+const HttpRouteMatchFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.headers && { headers: obj.headers.map((item) => (0, exports.HttpRouteHeaderFilterSensitiveLog)(item)) }),
+});
+exports.HttpRouteMatchFilterSensitiveLog = HttpRouteMatchFilterSensitiveLog;
+const HttpRetryPolicyFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HttpRetryPolicyFilterSensitiveLog = HttpRetryPolicyFilterSensitiveLog;
+const HttpRouteFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.HttpRouteFilterSensitiveLog = HttpRouteFilterSensitiveLog;
+const TcpRouteActionFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.TcpRouteActionFilterSensitiveLog = TcpRouteActionFilterSensitiveLog;
+const TcpRouteFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.TcpRouteFilterSensitiveLog = TcpRouteFilterSensitiveLog;
+const RouteSpecFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.RouteSpecFilterSensitiveLog = RouteSpecFilterSensitiveLog;
+const CreateRouteInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.CreateRouteInputFilterSensitiveLog = CreateRouteInputFilterSensitiveLog;
+const RouteStatusFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.RouteStatusFilterSensitiveLog = RouteStatusFilterSensitiveLog;
+const RouteDataFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.RouteDataFilterSensitiveLog = RouteDataFilterSensitiveLog;
+const CreateRouteOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.CreateRouteOutputFilterSensitiveLog = CreateRouteOutputFilterSensitiveLog;
+const DeleteRouteInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DeleteRouteInputFilterSensitiveLog = DeleteRouteInputFilterSensitiveLog;
+const DeleteRouteOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DeleteRouteOutputFilterSensitiveLog = DeleteRouteOutputFilterSensitiveLog;
+const DescribeRouteInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DescribeRouteInputFilterSensitiveLog = DescribeRouteInputFilterSensitiveLog;
+const DescribeRouteOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DescribeRouteOutputFilterSensitiveLog = DescribeRouteOutputFilterSensitiveLog;
+const ListRoutesInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListRoutesInputFilterSensitiveLog = ListRoutesInputFilterSensitiveLog;
+const RouteRefFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.RouteRefFilterSensitiveLog = RouteRefFilterSensitiveLog;
+const ListRoutesOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListRoutesOutputFilterSensitiveLog = ListRoutesOutputFilterSensitiveLog;
+const UpdateRouteInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.UpdateRouteInputFilterSensitiveLog = UpdateRouteInputFilterSensitiveLog;
+const UpdateRouteOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.UpdateRouteOutputFilterSensitiveLog = UpdateRouteOutputFilterSensitiveLog;
+const UpdateVirtualRouterInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.UpdateVirtualRouterInputFilterSensitiveLog = UpdateVirtualRouterInputFilterSensitiveLog;
+const UpdateVirtualRouterOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.UpdateVirtualRouterOutputFilterSensitiveLog = UpdateVirtualRouterOutputFilterSensitiveLog;
+const VirtualNodeServiceProviderFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualNodeServiceProviderFilterSensitiveLog = VirtualNodeServiceProviderFilterSensitiveLog;
+const VirtualRouterServiceProviderFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualRouterServiceProviderFilterSensitiveLog = VirtualRouterServiceProviderFilterSensitiveLog;
+const VirtualServiceProviderFilterSensitiveLog = (obj) => {
+    if (obj.virtualNode !== undefined)
+        return { virtualNode: (0, exports.VirtualNodeServiceProviderFilterSensitiveLog)(obj.virtualNode) };
+    if (obj.virtualRouter !== undefined)
+        return { virtualRouter: (0, exports.VirtualRouterServiceProviderFilterSensitiveLog)(obj.virtualRouter) };
+    if (obj.$unknown !== undefined)
+        return { [obj.$unknown[0]]: "UNKNOWN" };
+};
+exports.VirtualServiceProviderFilterSensitiveLog = VirtualServiceProviderFilterSensitiveLog;
+const VirtualServiceSpecFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.provider && { provider: (0, exports.VirtualServiceProviderFilterSensitiveLog)(obj.provider) }),
+});
+exports.VirtualServiceSpecFilterSensitiveLog = VirtualServiceSpecFilterSensitiveLog;
+const CreateVirtualServiceInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.spec && { spec: (0, exports.VirtualServiceSpecFilterSensitiveLog)(obj.spec) }),
+});
+exports.CreateVirtualServiceInputFilterSensitiveLog = CreateVirtualServiceInputFilterSensitiveLog;
+const VirtualServiceStatusFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualServiceStatusFilterSensitiveLog = VirtualServiceStatusFilterSensitiveLog;
+const VirtualServiceDataFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.spec && { spec: (0, exports.VirtualServiceSpecFilterSensitiveLog)(obj.spec) }),
+});
+exports.VirtualServiceDataFilterSensitiveLog = VirtualServiceDataFilterSensitiveLog;
+const CreateVirtualServiceOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualService && { virtualService: (0, exports.VirtualServiceDataFilterSensitiveLog)(obj.virtualService) }),
+});
+exports.CreateVirtualServiceOutputFilterSensitiveLog = CreateVirtualServiceOutputFilterSensitiveLog;
+const DeleteVirtualServiceInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DeleteVirtualServiceInputFilterSensitiveLog = DeleteVirtualServiceInputFilterSensitiveLog;
+const DeleteVirtualServiceOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualService && { virtualService: (0, exports.VirtualServiceDataFilterSensitiveLog)(obj.virtualService) }),
+});
+exports.DeleteVirtualServiceOutputFilterSensitiveLog = DeleteVirtualServiceOutputFilterSensitiveLog;
+const DescribeVirtualServiceInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DescribeVirtualServiceInputFilterSensitiveLog = DescribeVirtualServiceInputFilterSensitiveLog;
+const DescribeVirtualServiceOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualService && { virtualService: (0, exports.VirtualServiceDataFilterSensitiveLog)(obj.virtualService) }),
+});
+exports.DescribeVirtualServiceOutputFilterSensitiveLog = DescribeVirtualServiceOutputFilterSensitiveLog;
+const ListVirtualServicesInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListVirtualServicesInputFilterSensitiveLog = ListVirtualServicesInputFilterSensitiveLog;
+const VirtualServiceRefFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.VirtualServiceRefFilterSensitiveLog = VirtualServiceRefFilterSensitiveLog;
+const ListVirtualServicesOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListVirtualServicesOutputFilterSensitiveLog = ListVirtualServicesOutputFilterSensitiveLog;
+const UpdateVirtualServiceInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.spec && { spec: (0, exports.VirtualServiceSpecFilterSensitiveLog)(obj.spec) }),
+});
+exports.UpdateVirtualServiceInputFilterSensitiveLog = UpdateVirtualServiceInputFilterSensitiveLog;
+const UpdateVirtualServiceOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.virtualService && { virtualService: (0, exports.VirtualServiceDataFilterSensitiveLog)(obj.virtualService) }),
+});
+exports.UpdateVirtualServiceOutputFilterSensitiveLog = UpdateVirtualServiceOutputFilterSensitiveLog;
+const TagResourceInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.TagResourceInputFilterSensitiveLog = TagResourceInputFilterSensitiveLog;
+const TagResourceOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.TagResourceOutputFilterSensitiveLog = TagResourceOutputFilterSensitiveLog;
+const UntagResourceInputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.UntagResourceInputFilterSensitiveLog = UntagResourceInputFilterSensitiveLog;
+const UntagResourceOutputFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.UntagResourceOutputFilterSensitiveLog = UntagResourceOutputFilterSensitiveLog;
 
 
 /***/ }),
@@ -13721,8 +13345,8 @@ class GetRoleCredentialsCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.GetRoleCredentialsRequest.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.GetRoleCredentialsResponse.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.GetRoleCredentialsRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.GetRoleCredentialsResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -13765,8 +13389,8 @@ class ListAccountRolesCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.ListAccountRolesRequest.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.ListAccountRolesResponse.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.ListAccountRolesRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.ListAccountRolesResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -13809,8 +13433,8 @@ class ListAccountsCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.ListAccountsRequest.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.ListAccountsResponse.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.ListAccountsRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.ListAccountsResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -13853,7 +13477,7 @@ class LogoutCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.LogoutRequest.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.LogoutRequestFilterSensitiveLog,
             outputFilterSensitiveLog: (output) => output,
         };
         const { requestHandler } = configuration;
@@ -14271,37 +13895,9 @@ tslib_1.__exportStar(__nccwpck_require__(6390), exports);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.LogoutRequest = exports.ListAccountsResponse = exports.ListAccountsRequest = exports.ListAccountRolesResponse = exports.RoleInfo = exports.ListAccountRolesRequest = exports.UnauthorizedException = exports.TooManyRequestsException = exports.ResourceNotFoundException = exports.InvalidRequestException = exports.GetRoleCredentialsResponse = exports.RoleCredentials = exports.GetRoleCredentialsRequest = exports.AccountInfo = void 0;
+exports.LogoutRequestFilterSensitiveLog = exports.ListAccountsResponseFilterSensitiveLog = exports.ListAccountsRequestFilterSensitiveLog = exports.ListAccountRolesResponseFilterSensitiveLog = exports.RoleInfoFilterSensitiveLog = exports.ListAccountRolesRequestFilterSensitiveLog = exports.GetRoleCredentialsResponseFilterSensitiveLog = exports.RoleCredentialsFilterSensitiveLog = exports.GetRoleCredentialsRequestFilterSensitiveLog = exports.AccountInfoFilterSensitiveLog = exports.UnauthorizedException = exports.TooManyRequestsException = exports.ResourceNotFoundException = exports.InvalidRequestException = void 0;
 const smithy_client_1 = __nccwpck_require__(4963);
 const SSOServiceException_1 = __nccwpck_require__(1517);
-var AccountInfo;
-(function (AccountInfo) {
-    AccountInfo.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AccountInfo = exports.AccountInfo || (exports.AccountInfo = {}));
-var GetRoleCredentialsRequest;
-(function (GetRoleCredentialsRequest) {
-    GetRoleCredentialsRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
-    });
-})(GetRoleCredentialsRequest = exports.GetRoleCredentialsRequest || (exports.GetRoleCredentialsRequest = {}));
-var RoleCredentials;
-(function (RoleCredentials) {
-    RoleCredentials.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.secretAccessKey && { secretAccessKey: smithy_client_1.SENSITIVE_STRING }),
-        ...(obj.sessionToken && { sessionToken: smithy_client_1.SENSITIVE_STRING }),
-    });
-})(RoleCredentials = exports.RoleCredentials || (exports.RoleCredentials = {}));
-var GetRoleCredentialsResponse;
-(function (GetRoleCredentialsResponse) {
-    GetRoleCredentialsResponse.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.roleCredentials && { roleCredentials: RoleCredentials.filterSensitiveLog(obj.roleCredentials) }),
-    });
-})(GetRoleCredentialsResponse = exports.GetRoleCredentialsResponse || (exports.GetRoleCredentialsResponse = {}));
 class InvalidRequestException extends SSOServiceException_1.SSOServiceException {
     constructor(opts) {
         super({
@@ -14354,45 +13950,53 @@ class UnauthorizedException extends SSOServiceException_1.SSOServiceException {
     }
 }
 exports.UnauthorizedException = UnauthorizedException;
-var ListAccountRolesRequest;
-(function (ListAccountRolesRequest) {
-    ListAccountRolesRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
-    });
-})(ListAccountRolesRequest = exports.ListAccountRolesRequest || (exports.ListAccountRolesRequest = {}));
-var RoleInfo;
-(function (RoleInfo) {
-    RoleInfo.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(RoleInfo = exports.RoleInfo || (exports.RoleInfo = {}));
-var ListAccountRolesResponse;
-(function (ListAccountRolesResponse) {
-    ListAccountRolesResponse.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListAccountRolesResponse = exports.ListAccountRolesResponse || (exports.ListAccountRolesResponse = {}));
-var ListAccountsRequest;
-(function (ListAccountsRequest) {
-    ListAccountsRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
-    });
-})(ListAccountsRequest = exports.ListAccountsRequest || (exports.ListAccountsRequest = {}));
-var ListAccountsResponse;
-(function (ListAccountsResponse) {
-    ListAccountsResponse.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ListAccountsResponse = exports.ListAccountsResponse || (exports.ListAccountsResponse = {}));
-var LogoutRequest;
-(function (LogoutRequest) {
-    LogoutRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-        ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
-    });
-})(LogoutRequest = exports.LogoutRequest || (exports.LogoutRequest = {}));
+const AccountInfoFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.AccountInfoFilterSensitiveLog = AccountInfoFilterSensitiveLog;
+const GetRoleCredentialsRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
+});
+exports.GetRoleCredentialsRequestFilterSensitiveLog = GetRoleCredentialsRequestFilterSensitiveLog;
+const RoleCredentialsFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.secretAccessKey && { secretAccessKey: smithy_client_1.SENSITIVE_STRING }),
+    ...(obj.sessionToken && { sessionToken: smithy_client_1.SENSITIVE_STRING }),
+});
+exports.RoleCredentialsFilterSensitiveLog = RoleCredentialsFilterSensitiveLog;
+const GetRoleCredentialsResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.roleCredentials && { roleCredentials: (0, exports.RoleCredentialsFilterSensitiveLog)(obj.roleCredentials) }),
+});
+exports.GetRoleCredentialsResponseFilterSensitiveLog = GetRoleCredentialsResponseFilterSensitiveLog;
+const ListAccountRolesRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
+});
+exports.ListAccountRolesRequestFilterSensitiveLog = ListAccountRolesRequestFilterSensitiveLog;
+const RoleInfoFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.RoleInfoFilterSensitiveLog = RoleInfoFilterSensitiveLog;
+const ListAccountRolesResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListAccountRolesResponseFilterSensitiveLog = ListAccountRolesResponseFilterSensitiveLog;
+const ListAccountsRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
+});
+exports.ListAccountsRequestFilterSensitiveLog = ListAccountsRequestFilterSensitiveLog;
+const ListAccountsResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.ListAccountsResponseFilterSensitiveLog = ListAccountsResponseFilterSensitiveLog;
+const LogoutRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.accessToken && { accessToken: smithy_client_1.SENSITIVE_STRING }),
+});
+exports.LogoutRequestFilterSensitiveLog = LogoutRequestFilterSensitiveLog;
 
 
 /***/ }),
@@ -15234,8 +14838,8 @@ class AssumeRoleCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.AssumeRoleRequest.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.AssumeRoleResponse.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.AssumeRoleRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.AssumeRoleResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -15278,8 +14882,8 @@ class AssumeRoleWithSAMLCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.AssumeRoleWithSAMLRequest.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.AssumeRoleWithSAMLResponse.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.AssumeRoleWithSAMLRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.AssumeRoleWithSAMLResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -15322,8 +14926,8 @@ class AssumeRoleWithWebIdentityCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.AssumeRoleWithWebIdentityRequest.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.AssumeRoleWithWebIdentityResponse.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.AssumeRoleWithWebIdentityRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.AssumeRoleWithWebIdentityResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -15368,8 +14972,8 @@ class DecodeAuthorizationMessageCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.DecodeAuthorizationMessageRequest.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.DecodeAuthorizationMessageResponse.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.DecodeAuthorizationMessageRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.DecodeAuthorizationMessageResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -15414,8 +15018,8 @@ class GetAccessKeyInfoCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.GetAccessKeyInfoRequest.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.GetAccessKeyInfoResponse.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.GetAccessKeyInfoRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.GetAccessKeyInfoResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -15460,8 +15064,8 @@ class GetCallerIdentityCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.GetCallerIdentityRequest.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.GetCallerIdentityResponse.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.GetCallerIdentityRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.GetCallerIdentityResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -15506,8 +15110,8 @@ class GetFederationTokenCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.GetFederationTokenRequest.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.GetFederationTokenResponse.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.GetFederationTokenRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.GetFederationTokenResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -15552,8 +15156,8 @@ class GetSessionTokenCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: models_0_1.GetSessionTokenRequest.filterSensitiveLog,
-            outputFilterSensitiveLog: models_0_1.GetSessionTokenResponse.filterSensitiveLog,
+            inputFilterSensitiveLog: models_0_1.GetSessionTokenRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.GetSessionTokenResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -15954,44 +15558,8 @@ tslib_1.__exportStar(__nccwpck_require__(1780), exports);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.GetSessionTokenResponse = exports.GetSessionTokenRequest = exports.GetFederationTokenResponse = exports.FederatedUser = exports.GetFederationTokenRequest = exports.GetCallerIdentityResponse = exports.GetCallerIdentityRequest = exports.GetAccessKeyInfoResponse = exports.GetAccessKeyInfoRequest = exports.InvalidAuthorizationMessageException = exports.DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageRequest = exports.IDPCommunicationErrorException = exports.AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityRequest = exports.InvalidIdentityTokenException = exports.IDPRejectedClaimException = exports.AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLRequest = exports.RegionDisabledException = exports.PackedPolicyTooLargeException = exports.MalformedPolicyDocumentException = exports.ExpiredTokenException = exports.AssumeRoleResponse = exports.Credentials = exports.AssumeRoleRequest = exports.Tag = exports.PolicyDescriptorType = exports.AssumedRoleUser = void 0;
+exports.GetSessionTokenResponseFilterSensitiveLog = exports.GetSessionTokenRequestFilterSensitiveLog = exports.GetFederationTokenResponseFilterSensitiveLog = exports.FederatedUserFilterSensitiveLog = exports.GetFederationTokenRequestFilterSensitiveLog = exports.GetCallerIdentityResponseFilterSensitiveLog = exports.GetCallerIdentityRequestFilterSensitiveLog = exports.GetAccessKeyInfoResponseFilterSensitiveLog = exports.GetAccessKeyInfoRequestFilterSensitiveLog = exports.DecodeAuthorizationMessageResponseFilterSensitiveLog = exports.DecodeAuthorizationMessageRequestFilterSensitiveLog = exports.AssumeRoleWithWebIdentityResponseFilterSensitiveLog = exports.AssumeRoleWithWebIdentityRequestFilterSensitiveLog = exports.AssumeRoleWithSAMLResponseFilterSensitiveLog = exports.AssumeRoleWithSAMLRequestFilterSensitiveLog = exports.AssumeRoleResponseFilterSensitiveLog = exports.CredentialsFilterSensitiveLog = exports.AssumeRoleRequestFilterSensitiveLog = exports.TagFilterSensitiveLog = exports.PolicyDescriptorTypeFilterSensitiveLog = exports.AssumedRoleUserFilterSensitiveLog = exports.InvalidAuthorizationMessageException = exports.IDPCommunicationErrorException = exports.InvalidIdentityTokenException = exports.IDPRejectedClaimException = exports.RegionDisabledException = exports.PackedPolicyTooLargeException = exports.MalformedPolicyDocumentException = exports.ExpiredTokenException = void 0;
 const STSServiceException_1 = __nccwpck_require__(6450);
-var AssumedRoleUser;
-(function (AssumedRoleUser) {
-    AssumedRoleUser.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AssumedRoleUser = exports.AssumedRoleUser || (exports.AssumedRoleUser = {}));
-var PolicyDescriptorType;
-(function (PolicyDescriptorType) {
-    PolicyDescriptorType.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(PolicyDescriptorType = exports.PolicyDescriptorType || (exports.PolicyDescriptorType = {}));
-var Tag;
-(function (Tag) {
-    Tag.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(Tag = exports.Tag || (exports.Tag = {}));
-var AssumeRoleRequest;
-(function (AssumeRoleRequest) {
-    AssumeRoleRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AssumeRoleRequest = exports.AssumeRoleRequest || (exports.AssumeRoleRequest = {}));
-var Credentials;
-(function (Credentials) {
-    Credentials.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(Credentials = exports.Credentials || (exports.Credentials = {}));
-var AssumeRoleResponse;
-(function (AssumeRoleResponse) {
-    AssumeRoleResponse.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AssumeRoleResponse = exports.AssumeRoleResponse || (exports.AssumeRoleResponse = {}));
 class ExpiredTokenException extends STSServiceException_1.STSServiceException {
     constructor(opts) {
         super({
@@ -16044,18 +15612,6 @@ class RegionDisabledException extends STSServiceException_1.STSServiceException 
     }
 }
 exports.RegionDisabledException = RegionDisabledException;
-var AssumeRoleWithSAMLRequest;
-(function (AssumeRoleWithSAMLRequest) {
-    AssumeRoleWithSAMLRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AssumeRoleWithSAMLRequest = exports.AssumeRoleWithSAMLRequest || (exports.AssumeRoleWithSAMLRequest = {}));
-var AssumeRoleWithSAMLResponse;
-(function (AssumeRoleWithSAMLResponse) {
-    AssumeRoleWithSAMLResponse.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLResponse || (exports.AssumeRoleWithSAMLResponse = {}));
 class IDPRejectedClaimException extends STSServiceException_1.STSServiceException {
     constructor(opts) {
         super({
@@ -16082,18 +15638,6 @@ class InvalidIdentityTokenException extends STSServiceException_1.STSServiceExce
     }
 }
 exports.InvalidIdentityTokenException = InvalidIdentityTokenException;
-var AssumeRoleWithWebIdentityRequest;
-(function (AssumeRoleWithWebIdentityRequest) {
-    AssumeRoleWithWebIdentityRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AssumeRoleWithWebIdentityRequest = exports.AssumeRoleWithWebIdentityRequest || (exports.AssumeRoleWithWebIdentityRequest = {}));
-var AssumeRoleWithWebIdentityResponse;
-(function (AssumeRoleWithWebIdentityResponse) {
-    AssumeRoleWithWebIdentityResponse.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityResponse || (exports.AssumeRoleWithWebIdentityResponse = {}));
 class IDPCommunicationErrorException extends STSServiceException_1.STSServiceException {
     constructor(opts) {
         super({
@@ -16107,18 +15651,6 @@ class IDPCommunicationErrorException extends STSServiceException_1.STSServiceExc
     }
 }
 exports.IDPCommunicationErrorException = IDPCommunicationErrorException;
-var DecodeAuthorizationMessageRequest;
-(function (DecodeAuthorizationMessageRequest) {
-    DecodeAuthorizationMessageRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DecodeAuthorizationMessageRequest = exports.DecodeAuthorizationMessageRequest || (exports.DecodeAuthorizationMessageRequest = {}));
-var DecodeAuthorizationMessageResponse;
-(function (DecodeAuthorizationMessageResponse) {
-    DecodeAuthorizationMessageResponse.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageResponse || (exports.DecodeAuthorizationMessageResponse = {}));
 class InvalidAuthorizationMessageException extends STSServiceException_1.STSServiceException {
     constructor(opts) {
         super({
@@ -16132,60 +15664,90 @@ class InvalidAuthorizationMessageException extends STSServiceException_1.STSServ
     }
 }
 exports.InvalidAuthorizationMessageException = InvalidAuthorizationMessageException;
-var GetAccessKeyInfoRequest;
-(function (GetAccessKeyInfoRequest) {
-    GetAccessKeyInfoRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GetAccessKeyInfoRequest = exports.GetAccessKeyInfoRequest || (exports.GetAccessKeyInfoRequest = {}));
-var GetAccessKeyInfoResponse;
-(function (GetAccessKeyInfoResponse) {
-    GetAccessKeyInfoResponse.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GetAccessKeyInfoResponse = exports.GetAccessKeyInfoResponse || (exports.GetAccessKeyInfoResponse = {}));
-var GetCallerIdentityRequest;
-(function (GetCallerIdentityRequest) {
-    GetCallerIdentityRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GetCallerIdentityRequest = exports.GetCallerIdentityRequest || (exports.GetCallerIdentityRequest = {}));
-var GetCallerIdentityResponse;
-(function (GetCallerIdentityResponse) {
-    GetCallerIdentityResponse.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GetCallerIdentityResponse = exports.GetCallerIdentityResponse || (exports.GetCallerIdentityResponse = {}));
-var GetFederationTokenRequest;
-(function (GetFederationTokenRequest) {
-    GetFederationTokenRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GetFederationTokenRequest = exports.GetFederationTokenRequest || (exports.GetFederationTokenRequest = {}));
-var FederatedUser;
-(function (FederatedUser) {
-    FederatedUser.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(FederatedUser = exports.FederatedUser || (exports.FederatedUser = {}));
-var GetFederationTokenResponse;
-(function (GetFederationTokenResponse) {
-    GetFederationTokenResponse.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GetFederationTokenResponse = exports.GetFederationTokenResponse || (exports.GetFederationTokenResponse = {}));
-var GetSessionTokenRequest;
-(function (GetSessionTokenRequest) {
-    GetSessionTokenRequest.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GetSessionTokenRequest = exports.GetSessionTokenRequest || (exports.GetSessionTokenRequest = {}));
-var GetSessionTokenResponse;
-(function (GetSessionTokenResponse) {
-    GetSessionTokenResponse.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(GetSessionTokenResponse = exports.GetSessionTokenResponse || (exports.GetSessionTokenResponse = {}));
+const AssumedRoleUserFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.AssumedRoleUserFilterSensitiveLog = AssumedRoleUserFilterSensitiveLog;
+const PolicyDescriptorTypeFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.PolicyDescriptorTypeFilterSensitiveLog = PolicyDescriptorTypeFilterSensitiveLog;
+const TagFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.TagFilterSensitiveLog = TagFilterSensitiveLog;
+const AssumeRoleRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.AssumeRoleRequestFilterSensitiveLog = AssumeRoleRequestFilterSensitiveLog;
+const CredentialsFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.CredentialsFilterSensitiveLog = CredentialsFilterSensitiveLog;
+const AssumeRoleResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.AssumeRoleResponseFilterSensitiveLog = AssumeRoleResponseFilterSensitiveLog;
+const AssumeRoleWithSAMLRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.AssumeRoleWithSAMLRequestFilterSensitiveLog = AssumeRoleWithSAMLRequestFilterSensitiveLog;
+const AssumeRoleWithSAMLResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.AssumeRoleWithSAMLResponseFilterSensitiveLog = AssumeRoleWithSAMLResponseFilterSensitiveLog;
+const AssumeRoleWithWebIdentityRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.AssumeRoleWithWebIdentityRequestFilterSensitiveLog = AssumeRoleWithWebIdentityRequestFilterSensitiveLog;
+const AssumeRoleWithWebIdentityResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.AssumeRoleWithWebIdentityResponseFilterSensitiveLog = AssumeRoleWithWebIdentityResponseFilterSensitiveLog;
+const DecodeAuthorizationMessageRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DecodeAuthorizationMessageRequestFilterSensitiveLog = DecodeAuthorizationMessageRequestFilterSensitiveLog;
+const DecodeAuthorizationMessageResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.DecodeAuthorizationMessageResponseFilterSensitiveLog = DecodeAuthorizationMessageResponseFilterSensitiveLog;
+const GetAccessKeyInfoRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GetAccessKeyInfoRequestFilterSensitiveLog = GetAccessKeyInfoRequestFilterSensitiveLog;
+const GetAccessKeyInfoResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GetAccessKeyInfoResponseFilterSensitiveLog = GetAccessKeyInfoResponseFilterSensitiveLog;
+const GetCallerIdentityRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GetCallerIdentityRequestFilterSensitiveLog = GetCallerIdentityRequestFilterSensitiveLog;
+const GetCallerIdentityResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GetCallerIdentityResponseFilterSensitiveLog = GetCallerIdentityResponseFilterSensitiveLog;
+const GetFederationTokenRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GetFederationTokenRequestFilterSensitiveLog = GetFederationTokenRequestFilterSensitiveLog;
+const FederatedUserFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.FederatedUserFilterSensitiveLog = FederatedUserFilterSensitiveLog;
+const GetFederationTokenResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GetFederationTokenResponseFilterSensitiveLog = GetFederationTokenResponseFilterSensitiveLog;
+const GetSessionTokenRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GetSessionTokenRequestFilterSensitiveLog = GetSessionTokenRequestFilterSensitiveLog;
+const GetSessionTokenResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+});
+exports.GetSessionTokenResponseFilterSensitiveLog = GetSessionTokenResponseFilterSensitiveLog;
 
 
 /***/ }),
@@ -22243,9 +21805,9 @@ const parseRfc3339DateTime = (value) => {
     return buildDate(year, month, day, { hours, minutes, seconds, fractionalMilliseconds });
 };
 exports.parseRfc3339DateTime = parseRfc3339DateTime;
-const IMF_FIXDATE = new RegExp(/^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun), (\d{2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4}) (\d{2}):(\d{2}):(\d{2})(?:\.(\d+))? GMT$/);
-const RFC_850_DATE = new RegExp(/^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), (\d{2})-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)-(\d{2}) (\d{2}):(\d{2}):(\d{2})(?:\.(\d+))? GMT$/);
-const ASC_TIME = new RegExp(/^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) ( [1-9]|\d{2}) (\d{2}):(\d{2}):(\d{2})(?:\.(\d+))? (\d{4})$/);
+const IMF_FIXDATE = new RegExp(/^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun), (\d{2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4}) (\d{1,2}):(\d{2}):(\d{2})(?:\.(\d+))? GMT$/);
+const RFC_850_DATE = new RegExp(/^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), (\d{2})-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)-(\d{2}) (\d{1,2}):(\d{2}):(\d{2})(?:\.(\d+))? GMT$/);
+const ASC_TIME = new RegExp(/^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) ( [1-9]|\d{2}) (\d{1,2}):(\d{2}):(\d{2})(?:\.(\d+))? (\d{4})$/);
 const parseRfc7231DateTime = (value) => {
     if (value === null || value === undefined) {
         return undefined;
@@ -43995,7 +43557,7 @@ module.exports = require("util");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.131.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/client-sts":"3.131.0","@aws-sdk/config-resolver":"3.130.0","@aws-sdk/credential-provider-node":"3.131.0","@aws-sdk/fetch-http-handler":"3.131.0","@aws-sdk/hash-node":"3.127.0","@aws-sdk/invalid-dependency":"3.127.0","@aws-sdk/middleware-content-length":"3.127.0","@aws-sdk/middleware-host-header":"3.127.0","@aws-sdk/middleware-logger":"3.127.0","@aws-sdk/middleware-recursion-detection":"3.127.0","@aws-sdk/middleware-retry":"3.127.0","@aws-sdk/middleware-serde":"3.127.0","@aws-sdk/middleware-signing":"3.130.0","@aws-sdk/middleware-stack":"3.127.0","@aws-sdk/middleware-user-agent":"3.127.0","@aws-sdk/node-config-provider":"3.127.0","@aws-sdk/node-http-handler":"3.127.0","@aws-sdk/protocol-http":"3.127.0","@aws-sdk/smithy-client":"3.127.0","@aws-sdk/types":"3.127.0","@aws-sdk/url-parser":"3.127.0","@aws-sdk/util-base64-browser":"3.109.0","@aws-sdk/util-base64-node":"3.55.0","@aws-sdk/util-body-length-browser":"3.55.0","@aws-sdk/util-body-length-node":"3.55.0","@aws-sdk/util-defaults-mode-browser":"3.127.0","@aws-sdk/util-defaults-mode-node":"3.130.0","@aws-sdk/util-user-agent-browser":"3.127.0","@aws-sdk/util-user-agent-node":"3.127.0","@aws-sdk/util-utf8-browser":"3.109.0","@aws-sdk/util-utf8-node":"3.109.0","tslib":"^2.3.1","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.58.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","@types/uuid":"^8.3.0","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.6.2"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"AWS SDK for JavaScript App Mesh Client for Node.js, Browser and React Native","version":"3.137.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/client-sts":"3.137.0","@aws-sdk/config-resolver":"3.130.0","@aws-sdk/credential-provider-node":"3.137.0","@aws-sdk/fetch-http-handler":"3.131.0","@aws-sdk/hash-node":"3.127.0","@aws-sdk/invalid-dependency":"3.127.0","@aws-sdk/middleware-content-length":"3.127.0","@aws-sdk/middleware-host-header":"3.127.0","@aws-sdk/middleware-logger":"3.127.0","@aws-sdk/middleware-recursion-detection":"3.127.0","@aws-sdk/middleware-retry":"3.127.0","@aws-sdk/middleware-serde":"3.127.0","@aws-sdk/middleware-signing":"3.130.0","@aws-sdk/middleware-stack":"3.127.0","@aws-sdk/middleware-user-agent":"3.127.0","@aws-sdk/node-config-provider":"3.127.0","@aws-sdk/node-http-handler":"3.127.0","@aws-sdk/protocol-http":"3.127.0","@aws-sdk/smithy-client":"3.137.0","@aws-sdk/types":"3.127.0","@aws-sdk/url-parser":"3.127.0","@aws-sdk/util-base64-browser":"3.109.0","@aws-sdk/util-base64-node":"3.55.0","@aws-sdk/util-body-length-browser":"3.55.0","@aws-sdk/util-body-length-node":"3.55.0","@aws-sdk/util-defaults-mode-browser":"3.137.0","@aws-sdk/util-defaults-mode-node":"3.137.0","@aws-sdk/util-user-agent-browser":"3.127.0","@aws-sdk/util-user-agent-node":"3.127.0","@aws-sdk/util-utf8-browser":"3.109.0","@aws-sdk/util-utf8-node":"3.109.0","tslib":"^2.3.1","uuid":"^8.3.2"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.58.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","@types/uuid":"^8.3.0","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.6.2"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-app-mesh","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-app-mesh"}}');
 
 /***/ }),
 
@@ -44003,7 +43565,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-app-mesh","description":"A
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.131.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.130.0","@aws-sdk/fetch-http-handler":"3.131.0","@aws-sdk/hash-node":"3.127.0","@aws-sdk/invalid-dependency":"3.127.0","@aws-sdk/middleware-content-length":"3.127.0","@aws-sdk/middleware-host-header":"3.127.0","@aws-sdk/middleware-logger":"3.127.0","@aws-sdk/middleware-recursion-detection":"3.127.0","@aws-sdk/middleware-retry":"3.127.0","@aws-sdk/middleware-serde":"3.127.0","@aws-sdk/middleware-stack":"3.127.0","@aws-sdk/middleware-user-agent":"3.127.0","@aws-sdk/node-config-provider":"3.127.0","@aws-sdk/node-http-handler":"3.127.0","@aws-sdk/protocol-http":"3.127.0","@aws-sdk/smithy-client":"3.127.0","@aws-sdk/types":"3.127.0","@aws-sdk/url-parser":"3.127.0","@aws-sdk/util-base64-browser":"3.109.0","@aws-sdk/util-base64-node":"3.55.0","@aws-sdk/util-body-length-browser":"3.55.0","@aws-sdk/util-body-length-node":"3.55.0","@aws-sdk/util-defaults-mode-browser":"3.127.0","@aws-sdk/util-defaults-mode-node":"3.130.0","@aws-sdk/util-user-agent-browser":"3.127.0","@aws-sdk/util-user-agent-node":"3.127.0","@aws-sdk/util-utf8-browser":"3.109.0","@aws-sdk/util-utf8-node":"3.109.0","tslib":"^2.3.1"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.58.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.6.2"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.137.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.130.0","@aws-sdk/fetch-http-handler":"3.131.0","@aws-sdk/hash-node":"3.127.0","@aws-sdk/invalid-dependency":"3.127.0","@aws-sdk/middleware-content-length":"3.127.0","@aws-sdk/middleware-host-header":"3.127.0","@aws-sdk/middleware-logger":"3.127.0","@aws-sdk/middleware-recursion-detection":"3.127.0","@aws-sdk/middleware-retry":"3.127.0","@aws-sdk/middleware-serde":"3.127.0","@aws-sdk/middleware-stack":"3.127.0","@aws-sdk/middleware-user-agent":"3.127.0","@aws-sdk/node-config-provider":"3.127.0","@aws-sdk/node-http-handler":"3.127.0","@aws-sdk/protocol-http":"3.127.0","@aws-sdk/smithy-client":"3.137.0","@aws-sdk/types":"3.127.0","@aws-sdk/url-parser":"3.127.0","@aws-sdk/util-base64-browser":"3.109.0","@aws-sdk/util-base64-node":"3.55.0","@aws-sdk/util-body-length-browser":"3.55.0","@aws-sdk/util-body-length-node":"3.55.0","@aws-sdk/util-defaults-mode-browser":"3.137.0","@aws-sdk/util-defaults-mode-node":"3.137.0","@aws-sdk/util-user-agent-browser":"3.127.0","@aws-sdk/util-user-agent-node":"3.127.0","@aws-sdk/util-utf8-browser":"3.109.0","@aws-sdk/util-utf8-node":"3.109.0","tslib":"^2.3.1"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.58.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.6.2"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
 
 /***/ }),
 
@@ -44011,7 +43573,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SD
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.131.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.130.0","@aws-sdk/credential-provider-node":"3.131.0","@aws-sdk/fetch-http-handler":"3.131.0","@aws-sdk/hash-node":"3.127.0","@aws-sdk/invalid-dependency":"3.127.0","@aws-sdk/middleware-content-length":"3.127.0","@aws-sdk/middleware-host-header":"3.127.0","@aws-sdk/middleware-logger":"3.127.0","@aws-sdk/middleware-recursion-detection":"3.127.0","@aws-sdk/middleware-retry":"3.127.0","@aws-sdk/middleware-sdk-sts":"3.130.0","@aws-sdk/middleware-serde":"3.127.0","@aws-sdk/middleware-signing":"3.130.0","@aws-sdk/middleware-stack":"3.127.0","@aws-sdk/middleware-user-agent":"3.127.0","@aws-sdk/node-config-provider":"3.127.0","@aws-sdk/node-http-handler":"3.127.0","@aws-sdk/protocol-http":"3.127.0","@aws-sdk/smithy-client":"3.127.0","@aws-sdk/types":"3.127.0","@aws-sdk/url-parser":"3.127.0","@aws-sdk/util-base64-browser":"3.109.0","@aws-sdk/util-base64-node":"3.55.0","@aws-sdk/util-body-length-browser":"3.55.0","@aws-sdk/util-body-length-node":"3.55.0","@aws-sdk/util-defaults-mode-browser":"3.127.0","@aws-sdk/util-defaults-mode-node":"3.130.0","@aws-sdk/util-user-agent-browser":"3.127.0","@aws-sdk/util-user-agent-node":"3.127.0","@aws-sdk/util-utf8-browser":"3.109.0","@aws-sdk/util-utf8-node":"3.109.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.1"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.58.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.6.2"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.137.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.130.0","@aws-sdk/credential-provider-node":"3.137.0","@aws-sdk/fetch-http-handler":"3.131.0","@aws-sdk/hash-node":"3.127.0","@aws-sdk/invalid-dependency":"3.127.0","@aws-sdk/middleware-content-length":"3.127.0","@aws-sdk/middleware-host-header":"3.127.0","@aws-sdk/middleware-logger":"3.127.0","@aws-sdk/middleware-recursion-detection":"3.127.0","@aws-sdk/middleware-retry":"3.127.0","@aws-sdk/middleware-sdk-sts":"3.130.0","@aws-sdk/middleware-serde":"3.127.0","@aws-sdk/middleware-signing":"3.130.0","@aws-sdk/middleware-stack":"3.127.0","@aws-sdk/middleware-user-agent":"3.127.0","@aws-sdk/node-config-provider":"3.127.0","@aws-sdk/node-http-handler":"3.127.0","@aws-sdk/protocol-http":"3.127.0","@aws-sdk/smithy-client":"3.137.0","@aws-sdk/types":"3.127.0","@aws-sdk/url-parser":"3.127.0","@aws-sdk/util-base64-browser":"3.109.0","@aws-sdk/util-base64-node":"3.55.0","@aws-sdk/util-body-length-browser":"3.55.0","@aws-sdk/util-body-length-node":"3.55.0","@aws-sdk/util-defaults-mode-browser":"3.137.0","@aws-sdk/util-defaults-mode-node":"3.137.0","@aws-sdk/util-user-agent-browser":"3.127.0","@aws-sdk/util-user-agent-node":"3.127.0","@aws-sdk/util-utf8-browser":"3.109.0","@aws-sdk/util-utf8-node":"3.109.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.1"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.58.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.6.2"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
 
 /***/ }),
 
