@@ -1,3 +1,12 @@
+## [1.0.58](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.57...v1.0.58) (2023-03-30)
+
+
+### Bug Fixes
+
+* **deps:** pnpm update 2023-03-30 ([55e42a9](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/55e42a9d6ff2ee3e131fb9cf6156c40a8b1e44c7))
+* **deps:** yarn update 20221021 ([b79a56f](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/b79a56fd39f623b226c06a51070827e6aeccb355))
+* use node 16 ([65fb09c](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/65fb09c4aaeb77334a446033d3444a4145ad3bfd))
+
 ## [1.0.58-alpha.1](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.57...v1.0.58-alpha.1) (2022-10-21)
 
 
