@@ -28,5 +28,5 @@ outputs:
   response:
     description: 'The final response of the AWS API.'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
