@@ -1,3 +1,10 @@
+## [1.0.59](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.58...v1.0.59) (2025-03-25)
+
+
+### Bug Fixes
+
+* DEVPLAT-3294 Update github actions due to ubuntu-20.04 deprecation ([a9de1cc](https://github.com/scribd/amazon-appmesh-virtual-service-action/commit/a9de1cc16dd9e66730a09b7b8c2eb0d82a3d4ff9))
+
 ## [1.0.58](https://github.com/scribd/amazon-appmesh-virtual-service-action/compare/v1.0.57...v1.0.58) (2023-03-30)
 
 
