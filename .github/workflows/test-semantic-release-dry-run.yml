@@ -1,0 +1,30 @@
+name: Test semantic-release dry run
+on:
+  workflow_dispatch:
+jobs:
+  dry-run:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v5
+        with:
+          version: 7.6.0
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '16'
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm package
+      - name: Semantic Release (dry run)
+        uses: cycjimmy/semantic-release-action@v5
+        with:
+          dry_run: true
+          semantic_version: 24
+          extra_plugins: |
+            @semantic-release/changelog@6.0.3
+            @semantic-release/git@10.0.1
+            @semantic-release/github@12.0.6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
