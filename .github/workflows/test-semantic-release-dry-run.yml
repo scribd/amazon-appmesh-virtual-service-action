@@ -1,6 +1,6 @@
 name: Test semantic-release dry run
 on:
-  workflow_dispatch:
+  push:
 jobs:
   dry-run:
     runs-on: ubuntu-22.04
